@@ -1,0 +1,207 @@
+* {
+	margin:0;
+	padding:0;
+	
+}/*quitarmargenes*/
+
+@media screen and (max-width:800px ) {
+	
+	header nav {
+		right: -100%;
+		width:60%;
+		height:100%;
+		margin:0;
+		position: fixed;
+		top: 100px;
+        background-color: rgb(49, 49, 49);
+		
+		/*left:-100%;*/
+		
+	}
+		
+	
+header nav ul{
+	padding: 0;
+	list-style:none
+}
+   .navpie01{
+		
+		display:block;
+		float:none;
+		border-bottom:1px solid white;
+		text-align: right;
+		color: white;
+		font-style: normal;
+		text-decoration: none;
+		height: auto;
+		padding: 15px 40px 15px 40px;
+		
+	}
+	.iconosredes{
+		display:flex;/*justificar ancho*/
+		justify-content: space-around;;/*justificar ancho*/
+		align-items: center;/*justificar alto*/
+		padding: 100px 5px 15px 5px;
+	}
+	.iconosredes li{
+		
+		display:block;
+		float:left;
+		
+
+	}
+	.navpie1  {
+		text-decoration: none;
+		padding:2px 2px;
+		color:white;
+		font-size: 30px;
+		
+	}
+	
+  
+
+	.BarraM {
+		position: fixed;
+		top: 0;
+	
+		display:block;
+		width:100%;
+		background:black;
+		display:flex;/*justificar ancho*/
+		justify-content: space-between;/*justificar ancho*/
+		align-items: center;/*justificar alto*/
+	}
+
+	 .BarraMbotonmenu  {
+		
+		padding:20px 10px;
+		background:black;
+		color:#fff;
+		text-decoration:none;
+		
+		height: auto;
+		width: auto;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing:border-box;
+	}
+	
+.BarraMimagen{
+
+    height: 60px;
+    padding:0px 0px 0px 10px;
+   
+}
+h1{
+
+    font-family: serif;
+	color:white;
+	font-size:30px;
+    margin: auto;
+	font-style: italic;
+}
+
+	.BarraM span {
+		float:right;
+		font-size:40px;
+		
+	}
+
+.divisor{
+	height: 20px;
+	background-color: brown;
+}
+
+
+	main{overflow: auto;
+		position: absolute;
+		background-color: teal;
+		width: 100%;
+		left: 0;
+		top: 0;
+		z-index: -1;
+	}
+	main h1{
+
+		font-family: serif;
+		color:white;
+		font-size:18px;
+		margin: auto;
+				font-style: italic;
+	}
+	
+
+	.boton{
+		width: 60%;
+		display:block;
+		padding:20px;
+		background:black;
+		color:#fff;
+		text-decoration:none;
+		font-weight: bold;
+		font-size:15px;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing:border-box;
+		position: relative;
+		
+		margin: auto;
+		border-radius: 5px 5px 5px 5px;
+			}
+	.inicio1 .boton{
+		top: 70%;
+			}
+	#iniciodiv1{
+		position: static;
+		text-align: center;
+		width: 100%;
+		height: 600px;
+		display: block;
+		background-image: url(media/sudadera.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	
+	#tituloinicio1{	
+	position:relative;	
+    top: 50%;
+    	}
+	.inicio2 .boton{
+			top: 50%;
+				}
+	#iniciodiv2{
+		position: static;
+		text-align: center;
+		width: 100%;
+		height: 300px;
+		display: block;
+		background-image: url(media/escuelas.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+	
+	#tituloinicio2{	
+	position:relative;	
+    top: 30%;
+    	}
+	.inicio3 .boton{
+			top: 40%;
+				}
+	#iniciodiv3{
+		position: static;
+		text-align: center;
+		width: 100%;
+		height: 300px;
+		display: block;
+		background-image: url(media/equipos.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+	
+	#tituloinicio3{	
+	position:relative;	
+    top: 50%;
+    	}
+}
