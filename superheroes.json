@@ -1,40 +1,40 @@
 {
-  "squadName": "Escuadrón de superhéroes",
-  "homeTown": "Metro City",
-  "formado": 2016,
-  "secretBase": "Super torre",
-  "activo": verdadero,
-  "miembros": [
+  "squadName" : "Super Hero Squad",
+  "homeTown" : "Metro City",
+  "formed" : 2016,
+  "secretBase" : "Super tower",
+  "active" : true,
+  "members" : [
     {
-      "name": "Hombre Molécula",
-      "edad": 29,
-      "secretIdentity": "Dan Jukes",
-      "poderes": [
-        "Resistencia a la radiación",
-        "Volviéndose diminuto",
-        "Explosión de radiación"
+      "name" : "Molecule Man",
+      "age" : 29,
+      "secretIdentity" : "Dan Jukes",
+      "powers" : [
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
       ]
     },
     {
-      "name": "Madame Uppercut",
-      "edad": 39,
-      "secretIdentity": "Jane Wilson",
-      "poderes": [
-        "Millones de toneladas de ponche",
-        "Resistencia al daño",
-        "Reflejos sobrehumanos"
+      "name" : "Madame Uppercut",
+      "age" : 39,
+      "secretIdentity" : "Jane Wilson",
+      "powers" : [
+        "Million tonne punch",
+        "Damage resistance",
+        "Superhuman reflexes"
       ]
     },
     {
-      "name": "Llama eterna",
-      "edad": 1000000,
-      "secretIdentity": "Desconocido",
-      "poderes": [
-        "Inmortalidad",
-        "Inmunidad al calor",
-        "Infierno",
-        "Teletransportación",
-        "Viajes interdimensionales"
+      "name" : "Eternal Flame",
+      "age" : 1000000,
+      "secretIdentity" : "Unknown",
+      "powers" : [
+        "Immortality",
+        "Heat Immunity",
+        "Inferno",
+        "Teleportation",
+        "Interdimensional travel"
       ]
     }
   ]
