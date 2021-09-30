@@ -7,7 +7,7 @@
   "members" : [
     {
       "name" : "Molecule Man",
-      "age" : 29,
+      "age" : 99,
       "secretIdentity" : "Dan Jukes",
       "powers" : [
         "Radiation resistance",
@@ -27,7 +27,7 @@
     },
     {
       "name" : "Eternal Flame",
-      "age" : 1000000,
+      "age" : 10,
       "secretIdentity" : "Unknown",
       "powers" : [
         "Immortality",
