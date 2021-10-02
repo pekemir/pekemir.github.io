@@ -6,7 +6,7 @@
   "active" : true,
   "members" : [
     {
-      "name" : "Molecule Man1",
+      "name" : "Molecule Man",
       "age" : 99,
       "secretIdentity" : "Dan Jukes",
       "powers" : [
@@ -15,153 +15,107 @@
         "Radiation blast"
       ]
     },
-    {
-      "name" : "Madame Uppercu2",
-      "age" : 39,
-      "secretIdentity" : "Jane Wilson",
+	{
+      "name" : "Molecule Man",
+      "age" : 99,
+      "secretIdentity" : "Dan Jukes",
       "powers" : [
-        "Million tonne punch",
-        "Damage resistance",
-        "Superhuman reflexes"
-      ]
-    },
-    {
-      "name" : "Eternal Fla3",
-      "age" : 10,
-      "secretIdentity" : "Unknown",
-      "powers" : [
-        "Immortality",
-        "Heat Immunity",
-        "Inferno",
-        "Teleportation",
-        "Interdimensional travel"
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
       ]
     },{
-      "name" : "Molecule4",
+      "name" : "Molecule Man",
       "age" : 99,
       "secretIdentity" : "Dan Jukes",
       "powers" : [
         "Radiation resistance",
         "Turning tiny",
         "Radiation blast"
-      ]
-    },
-    {
-      "name" : "Madame Upperc5",
-      "age" : 39,
-      "secretIdentity" : "Jane Wilson",
-      "powers" : [
-        "Million tonne punch",
-        "Damage resistance",
-        "Superhuman reflexes"
-      ]
-    },
-    {
-      "name" : "Eternal Fla6",
-      "age" : 10,
-      "secretIdentity" : "Unknown",
-      "powers" : [
-        "Immortality",
-        "Heat Immunity",
-        "Inferno",
-        "Teleportation",
-        "Interdimensional travel"
       ]
     },{
-      "name" : "Molecule 7",
+      "name" : "Molecule Man",
       "age" : 99,
       "secretIdentity" : "Dan Jukes",
       "powers" : [
         "Radiation resistance",
         "Turning tiny",
         "Radiation blast"
-      ]
-    },
-    {
-      "name" : "Madame Uppercu8",
-      "age" : 39,
-      "secretIdentity" : "Jane Wilson",
-      "powers" : [
-        "Million tonne punch",
-        "Damage resistance",
-        "Superhuman reflexes"
-      ]
-    },
-    {
-      "name" : "Eternal Fla9",
-      "age" : 10,
-      "secretIdentity" : "Unknown",
-      "powers" : [
-        "Immortality",
-        "Heat Immunity",
-        "Inferno",
-        "Teleportation",
-        "Interdimensional travel"
       ]
     },{
-      "name" : "Molecule 10",
+      "name" : "Molecule Man",
       "age" : 99,
       "secretIdentity" : "Dan Jukes",
       "powers" : [
         "Radiation resistance",
         "Turning tiny",
         "Radiation blast"
-      ]
-    },
-    {
-      "name" : "Madame Uppercu11",
-      "age" : 39,
-      "secretIdentity" : "Jane Wilson",
-      "powers" : [
-        "Million tonne punch",
-        "Damage resistance",
-        "Superhuman reflexes"
-      ]
-    },
-    {
-      "name" : "Eternal Fla12me",
-      "age" : 10,
-      "secretIdentity" : "Unknown",
-      "powers" : [
-        "Immortality",
-        "Heat Immunity",
-        "Inferno",
-        "Teleportation",
-        "Interdimensional travel"
       ]
     },{
-      "name" : "Molecule Man13",
+      "name" : "Molecule Man",
       "age" : 99,
       "secretIdentity" : "Dan Jukes",
       "powers" : [
         "Radiation resistance",
         "Turning tiny",
         "Radiation blast"
-      ]
-    },
-    {
-      "name" : "Madame Uppercu14",
-      "age" : 39,
-      "secretIdentity" : "Jane Wilson",
-      "powers" : [
-        "Million tonne punch",
-        "Damage resistance",
-        "Superhuman reflexes"
-      ]
-    },
-    {
-      "name" : "Eternal Fla15",
-      "age" : 10,
-      "secretIdentity" : "Unknown",
-      "powers" : [
-        "Immortality",
-        "Heat Immunity",
-        "Inferno",
-        "Teleportation",
-        "Interdimensional travel"
       ]
     },{
-      "name" : "Molecule 16",
+      "name" : "Molecule Man",
+      "age" : 99,
+      "secretIdentity" : "Dan Jukes",
+      "powers" : [
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
+      ]
+    },{
+      "name" : "Molecule Man",
+      "age" : 99,
+      "secretIdentity" : "Dan Jukes",
+      "powers" : [
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
+      ]
+    },{
+      "name" : "Molecule Man",
+      "age" : 99,
+      "secretIdentity" : "Dan Jukes",
+      "powers" : [
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
+      ]
+    },{
+      "name" : "Molecule Man",
+      "age" : 99,
+      "secretIdentity" : "Dan Jukes",
+      "powers" : [
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
+      ]
+    },{
+      "name" : "Molecule Man",
+      "age" : 99,
+      "secretIdentity" : "Dan Jukes",
+      "powers" : [
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
+      ]
+    },{
+      "name" : "Molecule Man",
+      "age" : 99,
+      "secretIdentity" : "Dan Jukes",
+      "powers" : [
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
+      ]
+    },{
+      "name" : "Molecule Man",
       "age" : 99,
       "secretIdentity" : "Dan Jukes",
       "powers" : [
@@ -171,7 +125,7 @@
       ]
     },
     {
-      "name" : "Madame Uppercu17",
+      "name" : "Madame Uppercut",
       "age" : 39,
       "secretIdentity" : "Jane Wilson",
       "powers" : [
@@ -181,7 +135,7 @@
       ]
     },
     {
-      "name" : "Eternal Fla18",
+      "name" : "Eternal Flame",
       "age" : 10,
       "secretIdentity" : "Unknown",
       "powers" : [
@@ -191,6 +145,6 @@
         "Teleportation",
         "Interdimensional travel"
       ]
-    },
+    }
   ]
 }
