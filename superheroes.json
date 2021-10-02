@@ -6,7 +6,7 @@
   "active" : true,
   "members" : [
     {
-      "name" : "Molecule Man",
+      "name" : "Molecule Man1",
       "age" : 99,
       "secretIdentity" : "Dan Jukes",
       "powers" : [
@@ -16,7 +16,7 @@
       ]
     },
     {
-      "name" : "Madame Uppercu1t",
+      "name" : "Madame Uppercu2",
       "age" : 39,
       "secretIdentity" : "Jane Wilson",
       "powers" : [
@@ -26,7 +26,7 @@
       ]
     },
     {
-      "name" : "Eternal Fla2me",
+      "name" : "Eternal Fla3",
       "age" : 10,
       "secretIdentity" : "Unknown",
       "powers" : [
@@ -37,253 +37,160 @@
         "Interdimensional travel"
       ]
     },{
-      " name " : " Hombre Molécul3a " ,
-      " edad " : 99 ,
-      " secretIdentity " : " Dan Jukes " ,
-      " poderes " : [
-        " Resistencia a la radiación " ,
-        " Volviéndose diminuto " ,
-        " Explosión de radiación "
+      "name" : "Molecule4",
+      "age" : 99,
+      "secretIdentity" : "Dan Jukes",
+      "powers" : [
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
       ]
     },
     {
-      " name " : " Madame Upperc4ut " ,
-      " edad " : 39 ,
-      " secretIdentity " : " Jane Wilson " ,
-      " poderes " : [
-        " Millones de toneladas de ponche " ,
-        " Resistencia al daño " ,
-        " Reflejos sobrehumanos "
+      "name" : "Madame Upperc5",
+      "age" : 39,
+      "secretIdentity" : "Jane Wilson",
+      "powers" : [
+        "Million tonne punch",
+        "Damage resistance",
+        "Superhuman reflexes"
       ]
     },
     {
-      " name " : " Llama etern5a " ,
-      " edad " : 10 ,
-      " secretIdentity " : " Desconocido " ,
-      " poderes " : [
-        " Inmortalidad " ,
-        " Inmunidad al calor " ,
-        " Inferno " ,
-        " Teletransportación " ,
-        " Viajes interdimensionales "
+      "name" : "Eternal Fla6",
+      "age" : 10,
+      "secretIdentity" : "Unknown",
+      "powers" : [
+        "Immortality",
+        "Heat Immunity",
+        "Inferno",
+        "Teleportation",
+        "Interdimensional travel"
       ]
     },{
-      " name " : " Hombre Molécu6la " ,
-      " edad " : 99 ,
-      " secretIdentity " : " Dan Jukes " ,
-      " poderes " : [
-        " Resistencia a la radiación " ,
-        " Volviéndose diminuto " ,
-        " Explosión de radiación "
+      "name" : "Molecule 7",
+      "age" : 99,
+      "secretIdentity" : "Dan Jukes",
+      "powers" : [
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
       ]
     },
     {
-      " name " : " Madame Upperc7ut " ,
-      " edad " : 39 ,
-      " secretIdentity " : " Jane Wilson " ,
-      " poderes " : [
-        " Millones de toneladas de ponche " ,
-        " Resistencia al daño " ,
-        " Reflejos sobrehumanos "
+      "name" : "Madame Uppercu8",
+      "age" : 39,
+      "secretIdentity" : "Jane Wilson",
+      "powers" : [
+        "Million tonne punch",
+        "Damage resistance",
+        "Superhuman reflexes"
       ]
     },
     {
-      " name " : " Llama eter8na " ,
-      " edad " : 10 ,
-      " secretIdentity " : " Desconocido " ,
-      " poderes " : [
-        " Inmortalidad " ,
-        " Inmunidad al calor " ,
-        " Inferno " ,
-        " Teletransportación " ,
-        " Viajes interdimensionales "
+      "name" : "Eternal Fla9",
+      "age" : 10,
+      "secretIdentity" : "Unknown",
+      "powers" : [
+        "Immortality",
+        "Heat Immunity",
+        "Inferno",
+        "Teleportation",
+        "Interdimensional travel"
       ]
     },{
-      " name " : " Hombre Molécul9a " ,
-      " edad " : 99 ,
-      " secretIdentity " : " Dan Jukes " ,
-      " poderes " : [
-        " Resistencia a la radiación " ,
-        " Volviéndose diminuto " ,
-        " Explosión de radiación "
+      "name" : "Molecule 10",
+      "age" : 99,
+      "secretIdentity" : "Dan Jukes",
+      "powers" : [
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
       ]
     },
     {
-      " name " : " Madame Upp10ercut " ,
-      " edad " : 39 ,
-      " secretIdentity " : " Jane Wilson " ,
-      " poderes " : [
-        " Millones de toneladas de ponche " ,
-        " Resistencia al daño " ,
-        " Reflejos sobrehumanos "
+      "name" : "Madame Uppercu11",
+      "age" : 39,
+      "secretIdentity" : "Jane Wilson",
+      "powers" : [
+        "Million tonne punch",
+        "Damage resistance",
+        "Superhuman reflexes"
       ]
     },
     {
-      " name " : " Llama eterna11 " ,
-      " edad " : 10 ,
-      " secretIdentity " : " Desconocido " ,
-      " poderes " : [
-        " Inmortalidad " ,
-        " Inmunidad al calor " ,
-        " Inferno " ,
-        " Teletransportación " ,
-        " Viajes interdimensionales "
+      "name" : "Eternal Fla12me",
+      "age" : 10,
+      "secretIdentity" : "Unknown",
+      "powers" : [
+        "Immortality",
+        "Heat Immunity",
+        "Inferno",
+        "Teleportation",
+        "Interdimensional travel"
       ]
     },{
-      " name " : " Hombre Molécula12 " ,
-      " edad " : 99 ,
-      " secretIdentity " : " Dan Jukes " ,
-      " poderes " : [
-        " Resistencia a la radiación " ,
-        " Volviéndose diminuto " ,
-        " Explosión de radiación "
+      "name" : "Molecule Man13",
+      "age" : 99,
+      "secretIdentity" : "Dan Jukes",
+      "powers" : [
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
       ]
     },
     {
-      " name " : " Madame Uppercut13 " ,
-      " edad " : 39 ,
-      " secretIdentity " : " Jane Wilson " ,
-      " poderes " : [
-        " Millones de toneladas de ponche " ,
-        " Resistencia al daño " ,
-        " Reflejos sobrehumanos "
+      "name" : "Madame Uppercu14",
+      "age" : 39,
+      "secretIdentity" : "Jane Wilson",
+      "powers" : [
+        "Million tonne punch",
+        "Damage resistance",
+        "Superhuman reflexes"
       ]
     },
     {
-      " name " : " Llama eterna14 " ,
-      " edad " : 10 ,
-      " secretIdentity " : " Desconocido " ,
-      " poderes " : [
-        " Inmortalidad " ,
-        " Inmunidad al calor " ,
-        " Inferno " ,
-        " Teletransportación " ,
-        " Viajes interdimensionales "
+      "name" : "Eternal Fla15",
+      "age" : 10,
+      "secretIdentity" : "Unknown",
+      "powers" : [
+        "Immortality",
+        "Heat Immunity",
+        "Inferno",
+        "Teleportation",
+        "Interdimensional travel"
       ]
     },{
-      " name " : " Hombre Molécula15 " ,
-      " edad " : 99 ,
-      " secretIdentity " : " Dan Jukes " ,
-      " poderes " : [
-        " Resistencia a la radiación " ,
-        " Volviéndose diminuto " ,
-        " Explosión de radiación "
+      "name" : "Molecule 16",
+      "age" : 99,
+      "secretIdentity" : "Dan Jukes",
+      "powers" : [
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
       ]
     },
     {
-      " name " : " Madame Uppercut16 " ,
-      " edad " : 39 ,
-      " secretIdentity " : " Jane Wilson " ,
-      " poderes " : [
-        " Millones de toneladas de ponche " ,
-        " Resistencia al daño " ,
-        " Reflejos sobrehumanos "
+      "name" : "Madame Uppercu17",
+      "age" : 39,
+      "secretIdentity" : "Jane Wilson",
+      "powers" : [
+        "Million tonne punch",
+        "Damage resistance",
+        "Superhuman reflexes"
       ]
     },
     {
-      " name " : " Llama eterna17 " ,
-      " edad " : 10 ,
-      " secretIdentity " : " Desconocido " ,
-      " poderes " : [
-        " Inmortalidad " ,
-        " Inmunidad al calor " ,
-        " Inferno " ,
-        " Teletransportación " ,
-        " Viajes interdimensionales "
-      ]
-    },{
-      " name " : " Hombre Molécula18 " ,
-      " edad " : 99 ,
-      " secretIdentity " : " Dan Jukes " ,
-      " poderes " : [
-        " Resistencia a la radiación " ,
-        " Volviéndose diminuto " ,
-        " Explosión de radiación "
+      "name" : "Eternal Fla18",
+      "age" : 10,
+      "secretIdentity" : "Unknown",
+      "powers" : [
+        "Immortality",
+        "Heat Immunity",
+        "Inferno",
+        "Teleportation",
+        "Interdimensional travel"
       ]
     },
-    {
-      " name " : " Madame Uppercut19 " ,
-      " edad " : 39 ,
-      " secretIdentity " : " Jane Wilson " ,
-      " poderes " : [
-        " Millones de toneladas de ponche " ,
-        " Resistencia al daño " ,
-        " Reflejos sobrehumanos "
-      ]
-    },
-    {
-      " name " : " Llama eterna20 " ,
-      " edad " : 10 ,
-      " secretIdentity " : " Desconocido " ,
-      " poderes " : [
-        " Inmortalidad " ,
-        " Inmunidad al calor " ,
-        " Inferno " ,
-        " Teletransportación " ,
-        " Viajes interdimensionales "
-      ]
-    },{
-      " name " : " Hombre Molécula21 " ,
-      " edad " : 99 ,
-      " secretIdentity " : " Dan Jukes " ,
-      " poderes " : [
-        " Resistencia a la radiación " ,
-        " Volviéndose diminuto " ,
-        " Explosión de radiación "
-      ]
-    },
-    {
-      " name " : " Madame Uppercut22 " ,
-      " edad " : 39 ,
-      " secretIdentity " : " Jane Wilson " ,
-      " poderes " : [
-        " Millones de toneladas de ponche " ,
-        " Resistencia al daño " ,
-        " Reflejos sobrehumanos "
-      ]
-    },
-    {
-      " name " : " Llama eterna23 " ,
-      " edad " : 10 ,
-      " secretIdentity " : " Desconocido " ,
-      " poderes " : [
-        " Inmortalidad " ,
-        " Inmunidad al calor " ,
-        " Inferno " ,
-        " Teletransportación " ,
-        " Viajes interdimensionales "
-      ]
-    },{
-      " name " : " Hombre Molécula24 " ,
-      " edad " : 99 ,
-      " secretIdentity " : " Dan Jukes " ,
-      " poderes " : [
-        " Resistencia a la radiación " ,
-        " Volviéndose diminuto " ,
-        " Explosión de radiación "
-      ]
-    },
-    {
-      " name " : " Madame Uppercut25 " ,
-      " edad " : 39 ,
-      " secretIdentity " : " Jane Wilson " ,
-      " poderes " : [
-        " Millones de toneladas de ponche " ,
-        " Resistencia al daño " ,
-        " Reflejos sobrehumanos "
-      ]
-    },
-    {
-      " name " : " Llama eterna26 " ,
-      " edad " : 10 ,
-      " secretIdentity " : " Desconocido " ,
-      " poderes " : [
-        " Inmortalidad " ,
-        " Inmunidad al calor " ,
-        " Inferno " ,
-        " Teletransportación " ,
-        " Viajes interdimensionales "
-      ]
-    }
   ]
 }
