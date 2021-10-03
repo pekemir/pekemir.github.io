@@ -1,0 +1,153 @@
+{
+  "squadName" : "Super Hero Squad",
+  "homeTown" : "Metro City",
+  "formed" : 2016,
+  "secretBase" : "Super tower",
+  "active" : true,
+  "noticias" : [
+    
+
+{
+      "titulo" : "Comienza la Liga",
+      "imagen" : "noticia1",
+      "textocorto" : "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel ",
+      "textolargo" : "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel, el encuentro tendra lugar en Zaragoza en el PDE.Comienza la liga con un apasionante Derbi en el que en este caso actuaremos como visitante, a la cita llegamos con varias bajas en la convocatoria, pero seguro que plantaremos cara, y esperamos sea un partido intenso y emocionante para el espectador.",
+      "fecha" : "01/10/2021",
+      "hanstag" : [
+        "#somossalduie78",
+        
+      ]
+    },
+	{
+      "titulo" : "Noticia2",
+      "imagen" : "noticia2",
+      "textocorto" : "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel ",
+      "textolargo" : "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel, el encuentro tendra lugar en Zaragoza en el PDE.Comienza la liga con un apasionante Derbi en el que en este caso actuaremos como visitante, a la cita llegamos con varias bajas en la convocatoria, pero seguro que plantaremos cara, y esperamos sea un partido intenso y emocionante para el espectador.",
+      "fecha" : "01/10/2021",
+      "hanstag" : [
+        "#somossalduie78",
+        
+      ]
+    },
+	{
+      "titulo" : "Noticia3",
+      "imagen" : "noticia1",
+      "textocorto" : "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel ",
+      "textolargo" : "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel, el encuentro tendra lugar en Zaragoza en el PDE.Comienza la liga con un apasionante Derbi en el que en este caso actuaremos como visitante, a la cita llegamos con varias bajas en la convocatoria, pero seguro que plantaremos cara, y esperamos sea un partido intenso y emocionante para el espectador.",
+      "fecha" : "01/10/2021",
+      "hanstag" : [
+        "#somossalduie78",
+        
+      ]
+    },
+	{
+      "titulo" : "Noticia4",
+      "imagen" : "noticia1",
+      "textocorto" : "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel ",
+      "textolargo" : "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel, el encuentro tendra lugar en Zaragoza en el PDE.Comienza la liga con un apasionante Derbi en el que en este caso actuaremos como visitante, a la cita llegamos con varias bajas en la convocatoria, pero seguro que plantaremos cara, y esperamos sea un partido intenso y emocionante para el espectador.",
+      "fecha" : "01/10/2021",
+      "hanstag" : [
+        "#somossalduie78",
+        
+      ]
+    },
+	{
+      "titulo" : "Noticia5",
+      "imagen" : "noticia1",
+      "textocorto" : "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel ",
+      "textolargo" : "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel, el encuentro tendra lugar en Zaragoza en el PDE.Comienza la liga con un apasionante Derbi en el que en este caso actuaremos como visitante, a la cita llegamos con varias bajas en la convocatoria, pero seguro que plantaremos cara, y esperamos sea un partido intenso y emocionante para el espectador.",
+      "fecha" : "01/10/2021",
+      "hanstag" : [
+        "#somossalduie78",
+        
+      ]
+    },
+	{
+      "titulo" : "Noticia6",
+      "imagen" : "noticia1",
+      "textocorto" : "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel ",
+      "textolargo" : "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel, el encuentro tendra lugar en Zaragoza en el PDE.Comienza la liga con un apasionante Derbi en el que en este caso actuaremos como visitante, a la cita llegamos con varias bajas en la convocatoria, pero seguro que plantaremos cara, y esperamos sea un partido intenso y emocionante para el espectador.",
+      "fecha" : "01/10/2021",
+      "hanstag" : [
+        "#somossalduie78",
+        
+      ]
+    },
+	{
+      "titulo" : "Noticia8",
+      "imagen" : "noticia1",
+      "textocorto" : "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel ",
+      "textolargo" : "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel, el encuentro tendra lugar en Zaragoza en el PDE.Comienza la liga con un apasionante Derbi en el que en este caso actuaremos como visitante, a la cita llegamos con varias bajas en la convocatoria, pero seguro que plantaremos cara, y esperamos sea un partido intenso y emocionante para el espectador.",
+      "fecha" : "01/10/2021",
+      "hanstag" : [
+        "#somossalduie78",
+        
+      ]
+    },
+	{
+      "titulo" : "Noticia9",
+      "imagen" : "noticia1",
+      "textocorto" : "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel ",
+      "textolargo" : "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel, el encuentro tendra lugar en Zaragoza en el PDE.Comienza la liga con un apasionante Derbi en el que en este caso actuaremos como visitante, a la cita llegamos con varias bajas en la convocatoria, pero seguro que plantaremos cara, y esperamos sea un partido intenso y emocionante para el espectador.",
+      "fecha" : "01/10/2021",
+      "hanstag" : [
+        "#somossalduie78",
+        
+      ]
+    },
+	{
+      "titulo" : "Noticia10",
+      "imagen" : "noticia1",
+      "textocorto" : "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel ",
+      "textolargo" : "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel, el encuentro tendra lugar en Zaragoza en el PDE.Comienza la liga con un apasionante Derbi en el que en este caso actuaremos como visitante, a la cita llegamos con varias bajas en la convocatoria, pero seguro que plantaremos cara, y esperamos sea un partido intenso y emocionante para el espectador.",
+      "fecha" : "01/10/2021",
+      "hanstag" : [
+        "#somossalduie78",
+        
+      ]
+    },
+	{
+      "titulo" : "Noticia11",
+      "imagen" : "noticia1",
+      "textocorto" : "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel ",
+      "textolargo" : "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel, el encuentro tendra lugar en Zaragoza en el PDE.Comienza la liga con un apasionante Derbi en el que en este caso actuaremos como visitante, a la cita llegamos con varias bajas en la convocatoria, pero seguro que plantaremos cara, y esperamos sea un partido intenso y emocionante para el espectador.",
+      "fecha" : "01/10/2021",
+      "hanstag" : [
+        "#somossalduie78",
+        
+      ]
+    },
+	{
+      "titulo" : "Noticia12",
+      "imagen" : "noticia1",
+      "textocorto" : "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel ",
+      "textolargo" : "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel, el encuentro tendra lugar en Zaragoza en el PDE.Comienza la liga con un apasionante Derbi en el que en este caso actuaremos como visitante, a la cita llegamos con varias bajas en la convocatoria, pero seguro que plantaremos cara, y esperamos sea un partido intenso y emocionante para el espectador.",
+      "fecha" : "01/10/2021",
+      "hanstag" : [
+        "#somossalduie78",
+        
+      ]
+    },
+	{
+      "titulo" : "Noticia13",
+      "imagen" : "noticia1",
+      "textocorto" : "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel ",
+      "textolargo" : "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel, el encuentro tendra lugar en Zaragoza en el PDE.Comienza la liga con un apasionante Derbi en el que en este caso actuaremos como visitante, a la cita llegamos con varias bajas en la convocatoria, pero seguro que plantaremos cara, y esperamos sea un partido intenso y emocionante para el espectador.",
+      "fecha" : "01/10/2021",
+      "hanstag" : [
+        "#somossalduie78",
+        
+      ]
+    },
+	{
+      "titulo" : "Noticia14",
+      "imagen" : "noticia1",
+      "textocorto" : "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel ",
+      "textolargo" : "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel, el encuentro tendra lugar en Zaragoza en el PDE.Comienza la liga con un apasionante Derbi en el que en este caso actuaremos como visitante, a la cita llegamos con varias bajas en la convocatoria, pero seguro que plantaremos cara, y esperamos sea un partido intenso y emocionante para el espectador.",
+      "fecha" : "01/10/2021",
+      "hanstag" : [
+        "#somossalduie78",
+        
+      ]
+    },
+    
