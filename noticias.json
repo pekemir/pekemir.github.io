@@ -5,7 +5,7 @@
   "secretBase" : "Super tower",
   "active" : true,
   "noticias" : [
-{
+	  {
       "titulo" : "Comienza la Liga",
       "imagen" : "noticia1",
       "textocorto" : "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel ",
