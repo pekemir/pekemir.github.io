@@ -1,9 +1,12 @@
+
+var contador=1
+
 $(document).ready(main);
-var contador=1;
+
 var contadorr=1;
 function main(){
-alert("holaasggjjjkkkkjjgs") ;
-   contador = 1;
+alert("holaas") ;
+
 		// $('nav').toggle(); toggle=aparece brusco
 alert(contador);
 console.log(contador);
