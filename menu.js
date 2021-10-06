@@ -3,7 +3,7 @@ var contador=1;
 var contadorr=1;
 function main(){
 alert("holaasggjjjkkkkjjgs") ;
-   contador = contadorr
+   contador = 1;
 		// $('nav').toggle(); toggle=aparece brusco
 alert(contador);
 console.log(contador);
