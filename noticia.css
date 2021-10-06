@@ -1,0 +1,94 @@
+@media screen and (max-width:800px ) {
+
+    body, html{position: absolute;
+        width: 100%;
+    
+    z-index: -2;
+    background-color: brown;}
+
+
+
+/*articuloscomunes*/
+.articulonoticias{
+    overflow: auto;
+    position: relative;
+   
+    height: 100% ;
+    top: 85px;
+   
+    background-color: white;
+    z-index: 1;
+}
+.seccionnoticias{
+     width: auto;
+    position: relative;
+    height: 100%;
+      padding: 10px 10px ;
+    display: block;
+    text-align: center;
+    background-color: rgb(253, 250, 246);
+    border: 15px solid whitesmoke;
+
+}
+/*articuloscomunes*/
+
+.imagennoticia{
+    position: relative;
+    text-align: center;
+    
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(media/noticia1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+.divisiontexto{
+    height: 40%;
+    
+}
+.h1noticias{
+   text-decoration: none;
+    height: 30%;
+   color: black;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px 0px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    max-lines: 3;
+    padding: 10px 15px;
+}
+.p1noticias{
+    
+   
+    padding: 0px 15px;
+  
+}
+.p2noticias{
+    border-top:1px solid gray;
+    padding: 2px 5px;
+   
+    text-align: right;
+    font-size: small;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

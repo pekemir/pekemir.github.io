@@ -23,3 +23,7 @@ console.log('.Navmenu'.left);
 	});
 
 };
+function ira(pagina){
+	console.log(pagina);
+	location.href=pagina
+}

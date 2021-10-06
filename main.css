@@ -12,6 +12,7 @@
 		height:100%;
 		margin:0;
 		position: fixed;
+		z-index: 100;
 		top: 100px;
         background-color: rgb(49, 49, 49);
 		
@@ -63,7 +64,7 @@ header nav ul{
 	.BarraM {
 		position: fixed;
 		top: 0;
-	
+		z-index: 100;
 		display:block;
 		width:100%;
 		background:black;
@@ -108,17 +109,18 @@ h1{
 	}
 
 .divisor{
-	height: 20px;
+	display: flex;
+	height: 30px;
 	background-color: brown;
 }
 
 
 	main{overflow: auto;
 		position: absolute;
-		background-color: teal;
-		width: 100%;
-		left: 0;
-		top: 0;
+		
+		
+		
+		
 		z-index: -1;
 	}
 	main h1{
@@ -127,15 +129,15 @@ h1{
 		color:white;
 		font-size:18px;
 		margin: auto;
-				font-style: italic;
+		font-style: italic;
 	}
 	
 
 	.boton{
 		width: 60%;
 		display:block;
-		padding:20px;
-		background:black;
+		padding:15px;
+		background-color: rgba(0, 0, 0, 0.562);
 		color:#fff;
 		text-decoration:none;
 		font-weight: bold;
@@ -148,24 +150,66 @@ h1{
 		margin: auto;
 		border-radius: 5px 5px 5px 5px;
 			}
+			.botonmedio{
+				width: 40%;
+				display:block;
+				padding:5px;
+				text-align: center;
+				background:black;
+				color:#fff;
+				text-decoration:none;
+				font-weight: bold;
+				font-size:10px;
+				-webkit-box-sizing:border-box;
+				-moz-box-sizing:border-box;
+				box-sizing:border-box;
+				position: relative;
+				
+				margin: auto;
+				border-radius: 5px 5px 5px 5px;
+					}
+					
 	.inicio1 .boton{
 		top: 70%;
 			}
 	#iniciodiv1{
 		position: static;
 		text-align: center;
-		width: 100%;
+		
 		height: 600px;
 		display: block;
 		background-image: url(media/sudadera.jpg);
 		background-repeat: no-repeat;
 		background-size: cover;
+		border: 15px solid whitesmoke;
 	}
 	
 	#tituloinicio1{	
-	position:relative;	
+	position:relative;
+	padding: 5px 5px;	
     top: 50%;
     	}
+
+		.carousel {
+			max-width: 800px;
+			margin: 0 auto;
+			display: flex;
+			border: 15px solid whitesmoke;
+		}
+		#imagen {
+			width: 100%;
+			height: 400px;
+			background-size: cover;
+		}
+		#titulonoticiaimagen{
+			text-align: center;
+			position:relative;
+	padding: 5px 5px;	
+    top: 90%;
+	background-color: rgba(0, 0, 0, 0.562);
+	font-size: 16px;
+	overflow: visible;
+		}
 	.inicio2 .boton{
 			top: 50%;
 				}
@@ -179,6 +223,7 @@ h1{
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center;
+		border: 15px solid whitesmoke;
 	}
 	
 	#tituloinicio2{	
@@ -197,7 +242,7 @@ h1{
 		background-image: url(media/equipos.png);
 		background-repeat: no-repeat;
 		background-size: cover;
-		background-position: center;
+		background-position: center;border: 15px solid whitesmoke;
 	}
 	
 	#tituloinicio3{	
