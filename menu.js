@@ -5,13 +5,14 @@ $(document).ready(main);
 
 var contadorr=1;
 function main(){
-alert("holaas") ;
+alert("holaasss") ;
 
 		// $('nav').toggle(); toggle=aparece brusco
 alert(contador);
 console.log(contador);
 console.log('.Navmenu'.left);
 		if(contador == 1){
+alert("666");
 			$('.Navmenu').animate({
               
 				right: '0'
