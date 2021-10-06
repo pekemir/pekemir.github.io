@@ -2,7 +2,7 @@ $(document).ready(main);
 var contador=1;
 function main(){
 alert("holaass") ;
-    $('.BarraMbotonmenu').click(function(){
+   
 alert("hotttla") ;
 		// $('nav').toggle(); toggle=aparece brusco
 alert("click");
