@@ -1,11 +1,11 @@
 $(document).ready(main);
 var contador=1;
 function main(){
-alert("holaasgggs") ;
+alert("holaasggjjjjjgs") ;
    
 alert("hotttla") ;
 		// $('nav').toggle(); toggle=aparece brusco
-alert("click");
+alert(contador);
 console.log(contador);
 console.log('.Navmenu'.left);
 		if(contador == 1){
