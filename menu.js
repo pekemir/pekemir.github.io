@@ -1,11 +1,11 @@
 
 var contador=1
 
-$(document).ready(main);
+const menu=elemet.findbyid
 
 var contadorr=1;
 function main(){
-alert("holaasss") ;
+alert("holaassgggggs") ;
 
 		// $('nav').toggle(); toggle=aparece brusco
 alert(contador);
@@ -13,14 +13,14 @@ console.log(contador);
 console.log('.Navmenu'.left);
 		if(contador == 1){
 alert("666");
-			$('.Navmenu').animate({
+			document.getElementById ('.Navmenu').animate({
               
 				right: '0'
 			});
 			contador = 0;
 		} else {
 			contador = 1;
-			$('.Navmenu').animate({
+	document.getElementById	('.Navmenu').animate({
                 
 				right: '-100%'
 			});
