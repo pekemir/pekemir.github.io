@@ -1,7 +1,7 @@
 $(document).ready(main);
 var contador=1;
 function main(){
-alert("holaass") ;
+alert("holaasgggs") ;
    
 alert("hotttla") ;
 		// $('nav').toggle(); toggle=aparece brusco
