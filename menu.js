@@ -3,9 +3,9 @@ var contador=1;
 function main(){
 alert("hola") ;
     $('.BarraMbotonmenu').click(function(){
-alert("hola") ;
+alert("hotttla") ;
 		// $('nav').toggle(); toggle=aparece brusco
-console.log("click");
+alert("click");
 console.log(contador);
 console.log('.Navmenu'.left);
 		if(contador == 1){
