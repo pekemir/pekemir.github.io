@@ -1,6 +1,7 @@
 $(document).ready(main);
 var contador=1;
 function main(){
+alert("hola") ;
     $('.BarraMbotonmenu').click(function(){
 		// $('nav').toggle(); toggle=aparece brusco
 console.log("click");
