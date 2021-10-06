@@ -22,7 +22,7 @@ console.log('.Navmenu'.left);
 			});
 		}
 
-	});
+	
 
 };
 function ira(pagina){
