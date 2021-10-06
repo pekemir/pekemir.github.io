@@ -3,6 +3,7 @@ var contador=1;
 function main(){
 alert("hola") ;
     $('.BarraMbotonmenu').click(function(){
+alert("hola") ;
 		// $('nav').toggle(); toggle=aparece brusco
 console.log("click");
 console.log(contador);
