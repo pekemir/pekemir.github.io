@@ -264,7 +264,7 @@ h1{
 	background-color: brown;
 }
 header{
-	min-height: 60px;
+	min-height: 80px;
 }
 .footervert{
 	
@@ -290,5 +290,5 @@ padding: 7px 7px;
     font-size: 15px;
 	
 }
-
+.footervert img{height:  50px;}
 }

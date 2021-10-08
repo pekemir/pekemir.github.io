@@ -1,0 +1,21 @@
+* {
+	margin:0;
+	padding:0;
+	
+}/*quitarmargenes*/
+
+@media screen and (max-width:800px ) {
+	body {
+		margin: 0px;
+		padding: 0px;
+
+		
+	}
+#mainescuelas{
+    min-height: 80vh;
+	background-image: url(media/escuelas.jpg);
+	background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+   
+}}
