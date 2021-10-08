@@ -5,7 +5,12 @@
 }/*quitarmargenes*/
 
 @media screen and (max-width:800px ) {
-	
+	body {
+		margin: 0px;
+		padding: 0px;
+
+		
+	}
 	header nav {
 		right: -100%;
 		width:60%;
@@ -13,7 +18,7 @@
 		margin:0;
 		position: fixed;
 		z-index: 100;
-		top: 100px;
+		top: 80px;
         background-color: rgb(49, 49, 49);
 		
 		/*left:-100%;*/
@@ -115,13 +120,8 @@ h1{
 }
 
 
-	main{overflow: auto;
-		position: absolute;
-		
-		
-		
-		
-		z-index: -1;
+	main{
+	z-index: -1;
 	}
 	main h1{
 
@@ -197,6 +197,8 @@ h1{
 			border: 15px solid whitesmoke;
 		}
 		#imagen {
+			-webkit-transition: background-image 0.5s ease-in-out;
+			transition: background-image 0.5s ease-in-out;
 			width: 100%;
 			height: 400px;
 			background-size: cover;
@@ -216,7 +218,7 @@ h1{
 	#iniciodiv2{
 		position: static;
 		text-align: center;
-		width: 100%;
+		
 		height: 300px;
 		display: block;
 		background-image: url(media/escuelas.jpg);
@@ -236,17 +238,57 @@ h1{
 	#iniciodiv3{
 		position: static;
 		text-align: center;
-		width: 100%;
+	
 		height: 300px;
 		display: block;
 		background-image: url(media/equipos.png);
 		background-repeat: no-repeat;
 		background-size: cover;
-		background-position: center;border: 15px solid whitesmoke;
+		background-position: center;
+		border: 15px solid whitesmoke;
 	}
 	
 	#tituloinicio3{	
 	position:relative;	
     top: 50%;
     	}
+
+.footer{
+	color: white;
+   
+    
+    min-height: 81px;
+
+   
+    left: 0;
+	background-color: brown;
+}
+header{
+	min-height: 80px;
+}
+.footervert{
+	
+	
+	border-bottom:1px solid white;
+	text-align: center;
+	color: white;
+	font-style: normal;
+	text-decoration: none;
+	height: auto;
+	padding: 5px 40px 5px 40px;
+}
+.footervert ul{
+	list-style: none;
+}
+.footervert ul li{
+padding: 7px 7px;
+}
+.footervert ul li a{
+	text-decoration: none;
+    
+    color: white;
+    font-size: 15px;
+	
+}
+
 }

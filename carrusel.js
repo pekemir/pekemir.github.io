@@ -30,23 +30,26 @@ window.onload = function () {
 
  IMAGENES = [
      'url(media/'+ noticias[cantidaddenoticias-3].imagen+'.jpg)',
-     'url(media/'+ noticias[cantidaddenoticias-1].imagen+'.jpg)',
      'url(media/'+ noticias[cantidaddenoticias-2].imagen+'.jpg)',
+     'url(media/'+ noticias[cantidaddenoticias-1].imagen+'.jpg)',
+     'url(media/'+ noticias[cantidaddenoticias-4].imagen+'.jpg)',
  ];
  TITULOS=[
      ''+noticias[cantidaddenoticias-3].titulo,
-    ''+ noticias[cantidaddenoticias-1].titulo,
     ''+ noticias[cantidaddenoticias-2].titulo,
+    ''+ noticias[cantidaddenoticias-1].titulo,
+    ''+ noticias[cantidaddenoticias-4].titulo,
 
  ];
  console.log(TITULOS[0]);
  console.log(TITULOS[1]);
  console.log(TITULOS[2]);
+
  $imagen.style.backgroundImage = IMAGENES[posicionActual];
  titul.textContent=TITULOS[posicionActual];
- playIntervalo();
+ 
  }
-
+ playIntervalo();
     // Funciones
 
     /**
@@ -83,6 +86,7 @@ window.onload = function () {
         $imagen.style.backgroundImage = IMAGENES[posicionActual];
         console.log(TITULOS[posicionActual]);
         titul.textContent=TITULOS[posicionActual];
+        
       
     }
 
