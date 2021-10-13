@@ -174,7 +174,7 @@ footer{
    #articulo1titulo{/*imagen*/
     
        position: absolute;
-       top: 65vh;
+       top: 70vh;
         right: 35vw;
        width: 30vw;
       animation-duration: 3s;
@@ -224,7 +224,7 @@ footer{
    #divbotonbajar{
         width: 100%;
        position: absolute;
-       top: 95vh;
+       top: 90vh;
        display: flex;
        justify-content: center;
        animation-duration: 3s;
@@ -239,15 +239,16 @@ footer{
           top: 90vh;
         }
         70%{
-          top: 90vh;
+          top: 95vh;
         }
-        80%{top: 95vh;}
+        80%{top: 90vh;}
         90%{
-          top:90vh;
+          top:95vh;
         }
       
         100% {
          opacity: 1;
+		top:90vh;
         }
       }
    #botonbajar{
