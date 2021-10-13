@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?dz7in0');
-  src:  url('fonts/icomoon.eot?dz7in0#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?dz7in0') format('truetype'),
-    url('fonts/icomoon.woff?dz7in0') format('woff'),
-    url('fonts/icomoon.svg?dz7in0#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?kb1kfx');
+  src:  url('fonts/icomoon.eot?kb1kfx#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?kb1kfx') format('truetype'),
+    url('fonts/icomoon.woff?kb1kfx') format('woff'),
+    url('fonts/icomoon.svg?kb1kfx#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,11 +25,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-menu:before {
+  content: "\e900";
+}
 .icon-phone:before {
   content: "\e942";
-}
-.icon-menu:before {
-  content: "\e9bd";
 }
 .icon-star-full:before {
   content: "\e9d9";
@@ -63,6 +63,9 @@
 }
 .icon-next2:before {
   content: "\ea24";
+}
+.icon-arrow-down:before {
+  content: "\ea36";
 }
 .icon-mail2:before {
   content: "\ea84";
