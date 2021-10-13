@@ -1,0 +1,435 @@
+* {
+	margin:0;
+	padding:0;
+	
+}/*quitarmargenes*/
+
+/*@media screen and (max-width:800px ) {*/
+.boton{
+  position: relative;
+  width: -webkit-fill-available;
+  margin: 0PX 20px;
+  height: 30px;
+  background-color: brown;
+  display: flex;
+  justify-content: center
+}
+.boton a{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: whitesmoke;
+}
+  .separador{
+    /*background-color: rgb(247, 219, 177);*/
+    background-color:#fffbf7;
+  } 
+  .separador{
+    position: relative;
+      width: 100%;
+      height: 5vh; }
+  .section{
+    background-color:#fffbf7;
+  }
+  .articuloseparador{
+    height: 5vh;
+    width: 20%;
+    display: block;
+  }
+  .imgarticuloseparador{
+    max-height: 5vh;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 20vw;
+  }
+body{
+    max-width: 100vw;
+    height: 100vh;
+    
+    display: block;}
+#lineasuperior{
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    height: 3vh;
+    /*background-color: rgba(0, 0, 0, 0.74);*/
+    z-index: 100;}
+header{
+   
+    position: fixed ;
+    z-index: 100;
+    min-height: 6vh;
+    left: 8px;
+    right: 8px;
+    top: 8px;
+    height: auto;}
+main{
+    display: block;
+    position: relative;
+    min-height: 101vh;  }
+footer{
+    position: relative;
+    background-color: darkgoldenrod;
+    min-height: 10vh;}
+
+                                      .cabecero{
+                                      position: fixed;
+                                      z-index: 100;
+                                      min-height: 6vh;
+                                      left: 8px;
+                                      right: 8px;
+                                      top: 8px;
+                                      animation-duration: 2s;
+                                    
+                                      animation-name: cabeceroabajo;
+                                      
+                                  }
+                                  @keyframes cabeceroabajo {
+                                      from {
+                                        top: -90px;
+                                      }
+                                    
+                                      to {
+                                        top: 8px;
+                                      }}
+                                      #contenedorimagender{
+                                      height: 7vh;
+                                      float: right;
+                                      
+                                      background-color: rgba(0, 0, 0, 0.863);
+                                      display: flex;
+                                      justify-content: center;
+                                      border:1px solid brown;
+                                      }
+                                    #cabeceroimagen{
+                                        max-height: 7vh;
+                                        
+                                        
+                                    }
+                                    #contenedorimagenlog{
+                                      height: 7vh;
+                                      float: left;
+                                      width: 7vh;
+                                      background-color: rgba(0, 0, 0, 0.863);
+                                      display: flex;
+                                      justify-content: center;
+                                      border:1px solid brown;
+                                    }
+                                    #cabeceroimagenlog{
+                                      position: relative;
+                                      max-height: 7vh; 
+                                      float: left;
+                                      padding: 5px;
+                                      
+                                    }
+                                    #contenedorbotonmenu{
+                                    height: 7vh;
+                                      float: left;
+                                      width: 7vh;
+                                      background-color:rgba(245, 245, 245, 0.801);
+                                      display: flex;
+                                      justify-content: center;
+                                      border:1px solid brown;
+                                    
+                                    }
+                                    #contenedorbotonmenu a{
+                                        padding: auto;
+                                        display: flex;
+                                        align-items: center;
+                                    }
+                                    #cabecerobotonmenu{
+                                      font-size: 30px;
+                                      color: brown;
+                                      text-decoration: none;
+                                    
+                                    }
+   
+   .section{
+       position: relative;
+      
+      
+      
+   }
+   #articulo1{
+    position: relative;
+    
+    height: 100vh;
+    
+   }
+   #divarticulo1{
+     display: flex;
+     justify-content: center;
+       overflow: hidden;
+    position: relative;
+    
+    height: 100%;
+    background-image: url(../imagenes/sudadera.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+   }
+   
+   #articulo1titulo{/*imagen*/
+    
+       position: absolute;
+       top: 65vh;
+        right: 35vw;
+       width: 30vw;
+      animation-duration: 3s;
+       animation-name: slidein;
+
+   }
+   
+
+   @keyframes slidein {
+    from {
+      right: -300px;
+      opacity: 0;
+    }
+  
+    to {
+      right: 35vw;
+      opacity: 1;
+    }
+  }
+   #tituloinicio1{
+       
+
+       position: absolute;
+       top: 47vh;
+       width: 80vw;
+       font-size:20px;
+       font-family: serif;
+       font-style: italic;
+       color: whitesmoke;
+       
+       animation:aparecertextotitulo 1s ease-in-out both;
+   }
+  
+  @keyframes aparecertextotitulo {
+    
+    0% {
+      -webkit-transform: translateX(100px);
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+      opacity: 1;
+    }}
+   
+   #divbotonbajar{
+        width: 100%;
+       position: absolute;
+       top: 95vh;
+       display: flex;
+       justify-content: center;
+       animation-duration: 3s;
+        animation-name: botbajar;
+       }
+       @keyframes botbajar {
+         0%{opacity: 0;}
+        40% {
+          opacity: 0;
+        }
+        60%{
+          top: 90vh;
+        }
+        70%{
+          top: 90vh;
+        }
+        80%{top: 95vh;}
+        90%{
+          top:90vh;
+        }
+      
+        100% {
+         opacity: 1;
+        }
+      }
+   #botonbajar{
+    font-size: 30px;
+    color: whitesmoke;
+    text-decoration: none;
+   }
+   /*aparezcanobjetos*/
+   .section2 {
+    height: 50vh;
+    min-height: 450px;
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-content: inherit;
+  }
+  .elementoscroll {
+    
+    height: 20%;
+    width: 100%;
+    background-color: red;
+  }
+  .elementoscroll2 {
+    
+    height: 20%;
+    width: 100%;
+    background-color: blue;
+  }
+  .js-scroll {
+    opacity: 0;
+    transition: opacity 500ms;
+  }
+  
+  .js-scroll.scrolled {
+    opacity: 1;
+  }
+  
+  .scrolled.fade-derecha2 {
+    animation:fade-in-bottom 4s ease-in-out both;
+  }
+  .scrolled.fade-derecha {
+    animation: slide-in-right 1s ease-in-out both;
+  }
+  @keyframes slide-in-right {
+    0% {
+      -webkit-transform: translateX(100px);
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+      opacity: 1;
+    }
+
+  }
+  @keyframes fade-in-bottom {
+    0% {
+      -webkit-transform: translateY(150px);
+      transform: translateY(150px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  .articulo2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 95vh;
+    
+   }
+   .titulo1{
+    font-size: 20px;
+    font-family: 'freeserifbold';
+   
+    color: black;
+   }
+   .titulo2{
+     padding: 3px;
+    font-size: 13px;
+    font-family: serif;
+    font-weight: bold;
+    color: brown;
+   }
+   .contenidoarticulo2{
+     position: relative;
+     overflow: hidden;
+     width: -webkit-fill-available;
+     height: 90%;
+     background-color:#f7ece2;
+     margin: 5px;
+   }
+   #fotofamilia{
+     position: relative;
+     display: flex;
+     justify-content: center;
+     
+    height: 27%;
+  }
+  #imgfotofamilia{
+  height: -webkit-fill-available;
+  margin: 0 auto;
+       
+      
+  }
+  .scrolled.fade-opacidad {
+    animation:opacidad 2s ease-in-out both;
+  }
+  @keyframes opacidad {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+     opacity: 1;
+    }
+  }
+  .articulo2parrafo{
+   
+    height: 23%;
+   
+    margin: 5px 15px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .articulo2parrafo img{
+   
+    height: 100%;
+   
+    float: left;
+  }
+  .articulo2.tipo2{
+    height: 60vh;
+
+  }
+  .articulo2parrafo h5{
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+  .articulo2parrafo.tipo2{
+    height: 31%;
+  }
+  .scrolled.articulo2parrafod {
+    animation: slide-in-right-parrafod 2s ease-in-out both;
+  }
+  @keyframes slide-in-right-parrafod {
+    0% {
+      -webkit-transform: translateX(100px);
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+      opacity: 1;
+    }}
+    .scrolled.articulo2parrafoi {
+      animation: slide-in-right-parrafoi 2s ease-in-out both;
+    }
+    @keyframes slide-in-right-parrafoi {
+      0% {
+        -webkit-transform: translateX(-100px);
+        transform: translateX(-100px);
+        opacity: 0;
+      }
+      100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1;
+      }}
+      h5 img{margin: 3px;}
+
+
+
