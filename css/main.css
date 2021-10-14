@@ -174,7 +174,7 @@ footer{
    #articulo1titulo{/*imagen*/
     
        position: absolute;
-       top: 70vh;
+       top: 65vh;
         right: 35vw;
        width: 30vw;
       animation-duration: 3s;
@@ -224,7 +224,7 @@ footer{
    #divbotonbajar{
         width: 100%;
        position: absolute;
-       top: 90vh;
+       top: 95vh;
        display: flex;
        justify-content: center;
        animation-duration: 3s;
@@ -239,16 +239,15 @@ footer{
           top: 90vh;
         }
         70%{
-          top: 95vh;
+          top: 90vh;
         }
-        80%{top: 90vh;}
+        80%{top: 95vh;}
         90%{
-          top:95vh;
+          top:90vh;
         }
       
         100% {
          opacity: 1;
-		top:90vh;
         }
       }
    #botonbajar{
@@ -288,8 +287,8 @@ footer{
     opacity: 1;
   }
   
-  .scrolled.fade-derecha2 {
-    animation:fade-in-bottom 4s ease-in-out both;
+  .scrolled.fade-bottom {
+    animation:fade-in-bottom 1s ease-in-out both;
   }
   .scrolled.fade-derecha {
     animation: slide-in-right 1s ease-in-out both;
@@ -343,7 +342,7 @@ footer{
    .contenidoarticulo2{
      position: relative;
      overflow: hidden;
-     width: -webkit-fill-available;
+     width: 98vw;
      height: 90%;
      background-color:#f7ece2;
      margin: 5px;
@@ -356,7 +355,7 @@ footer{
     height: 27%;
   }
   #imgfotofamilia{
-  height: -webkit-fill-available;
+  height: 100%;
   margin: 0 auto;
        
       
@@ -381,7 +380,7 @@ footer{
     display: flex;
     text-align: center;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
   }
   .articulo2parrafo img{
    
@@ -394,13 +393,16 @@ footer{
 
   }
   .articulo2parrafo h5{
-    height: 100%;
+    
     text-align: center;
     display: flex;
     align-items: center;
   }
   .articulo2parrafo.tipo2{
     height: 31%;
+  }
+  .articulo2parrafo.tipo3{
+    height: 24%;
   }
   .scrolled.articulo2parrafod {
     animation: slide-in-right-parrafod 2s ease-in-out both;
@@ -431,6 +433,14 @@ footer{
         opacity: 1;
       }}
       h5 img{margin: 3px;}
-
+      .articulo2parrafo .h5textoconenlace {
+        height: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    .articulo2parrafo .h5textoconenlace h5{
+      display: block;
+    }
 
 
