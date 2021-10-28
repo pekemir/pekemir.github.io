@@ -1,0 +1,85 @@
+.mainsobrenosotros{
+    background-color: cornsilk;
+   top: 10vh;
+   min-height: 80vh;
+   
+    
+}
+footer{
+    top: 10vh;
+}
+
+.restodepagina{
+    background-color: whitesmoke;
+        position: relative;
+        width: 100%;
+      
+        display: flex;
+        justify-content: center;
+        
+    }
+    section{
+        margin: 10px;
+        background-color:rgb(243, 237, 227);
+        width: 100%;
+        display: flex;
+        border: 2px solid brown;
+        flex-direction: column;
+   
+       
+    }
+   #longi{
+        height: 50px;
+        float: left;
+    }
+    .titulos{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    align-items: center;
+    }
+    .titulos h2{
+        padding: 3px;
+       
+        color: brown;
+    }
+    #section1 p{
+        padding: 10px;
+        text-align: center;
+       
+    }
+    #section1 p2{
+       
+        text-align: center;color: brown;
+        font-weight: bold;
+       
+        animation-name: derechap2;
+        animation-duration:1s ;
+        display:inline-block;
+       
+        
+    }
+    @keyframes derechap2 {
+        0%{opacity: 0;
+            -webkit-transform: translateX(100px);
+            transform: translateX(200px);
+        color: cadetblue;}
+        100%{ opacity: 1;
+            -webkit-transform: translateX(0);
+            transform: translateX(0);
+        color: brown;}
+    }
+    .imagenfamilia{
+        align-items: center;
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+        animation-name:opacidad ;
+        animation-duration: 1s;
+    }
+    #imagenfamiliaa {
+        max-height: 95%;
+       
+    }
+
+

@@ -1,0 +1,24 @@
+.mainsobrenosotros{
+    background-color: cornsilk;
+   top: 10vh;
+   min-height: 80vh;
+    
+}
+footer{
+    top: 10vh;
+}
+
+.restodepagina{
+    background-color: darkgoldenrod;
+        position: relative;
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+    }
+    section{
+        margin: 10px;
+        background-color: darkorchid;
+        width: 100%;
+       
+    }
