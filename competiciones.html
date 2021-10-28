@@ -1,81 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hockey Salduie78</title>
-    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/competiciones.css">
+    <link rel="stylesheet" href="css/cabecero.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="competiciones.css">
+
 </head>
 <body>
-    <header>
-        <div class="BarraM">
-                <img class="BarraMimagen" src="media/logo.png"  alt="logo"  onclick="ira('inde.html')"/>
-                <h1 class="BarraMnombre">Hockey Salduie78</h1>
-                <a href="#" class="BarraMbotonmenu"><span class="icon-menu"></span></a>
-              
+    <header id="cabecerogeneral">
+        <div id="divcontenedorcabecero">
+        <div id="divheaderimg">
+            <img src="imagenes/longiredondo.png" alt="">
         </div>
-        
-        <nav class="Navmenu">
-            <ul>
-               <li><a href="inde.html" class="navpie01"><span ></span>Inicio</a></li>
-               <li><a href="sobrenosotros.html" class="navpie01"><span ></span>Sobrenosotros</a></li>
-               <li><a href="noticias.html" class="navpie01"><span ></span>Noticias</a></li>
-               <li><a href="escuelas.html" class="navpie01"><span ></span>Escuela de Hockey</a></li>
-               <li><a href="equipos.html" class="navpie01"><span ></span>Equipos</a></li>
-               <li><a href="competiciones.html" class="navpie01"><span ></span>Competiciones</a></li>
+        <div id="divheadertitulo">
+            <h1>Hockey Salduie'78</h1>
+        </div>
+        <div id="divheadermenu">
+            <a href="#" id="cabecerobotonmenu"><span class="icon-menu1"></span></a>
+        </div>
+        </div>
+
+        <nav class="navmenu">
+            <ul id="listamenus">
+               <li><a href="index.html" class="navpie01"><span ></span>INICIO</a></li>
+               <li><a href="sobrenosotros.html" class="navpie01"><span ></span>SOBRE NOSOTROS</a></li>
+               <li><a href="noticias.html" class="navpie01"><span ></span>NOTICIAS</a></li>
+               <li><a href="escuelas.html" class="navpie01"><span ></span>ESCUELAS</a></li>
+               <li><a href="competiciones.html" class="navpie01"><span ></span>COMPETICIONES</a></li>
+               <li><a href="equipos.html" class="navpie01"><span ></span>EQUIPOS</a></li>
                <li><a href="instalaciones.html" class="navpie01"><span ></span>Instalaciones</a></li>
               
              </ul>
-        
-                   <ul class="iconosredes">
-                    <li><a href="https://www.facebook.com/salduie78/" class="navpie1"><span class="icon-facebook2"></span></a></li>
+                     <ul class="iconosredes">
+                    <li><a href="https://www.facebook.com/salduie78/" class="navpie1"><span class="icon-facebook"></span></a></li>
                     <li><a href="https://www.instagram.com/salduie78hockey/?hl=es" class="navpie1"><span class="icon-instagram"></span></a></li>
                     <li><a href="https://api.whatsapp.com/send?phone=34626993739&text=Hola, Nececito mas informacion!"  class="navpie1"><span class="icon-whatsapp"></span></a></li>
-                    <li><a href="mailto:alejandromirbel@hotmail.com?Subject=Informacion%20Salduie78%20web%20" class="navpie1"><span class="icon-mail2"></span></a></li>
-                   
-             
-             
-             
-                        </ul>
-                   
-                   
-           </nav>
-        
-        
-        
-        
-            </header>
-
-<main id="maincompeticiones">
-
-</main>
-      <footer class="footer">
-          <div class="footervert">
-              <ul >
-                  <li><img src="media/sald.jpg" alt="" width=""></li>
-                  
-                  <li> <a href="mailto:alejandromirbel@hotmail.com?Subject=Informacion%20Salduie78%20web%20" class="mailfooter"><span class="icon-mail2">  info@salduie78.es</span></a>
-                  </li>
-                  <li> <a href="tel:+34626993739" class="phonefooter"><span class="icon-phone">  +34626993739</span></a>
-                  </li>
-              </ul>
-        
-      
+                    <li><a href="mailto:alejandromirbel@hotmail.com?Subject=Informacion%20Salduie78%20web%20" class="navpie1"><span class="icon-mail"></span></a></li>
+                   </ul>
+                    </nav>
+    </header>
+   <main class="maincompeticiones">
+<article class="restodepagina">
+<section >
+    <div class="titulo"><h1>Calendarios y competiciones</h1></div>
+    <div class="seleccioncategorias">
+        <div class="hueco">
+            <div class="imagen" id="imagen1" onclick="ponerimagen1()"></div>
+            <h4>Escolares</h4>
+        </div>
+        <div class="hueco">
+            <div class="imagen" id="imagen2" onclick="ponerimagen2()"></div>
+            <h4>Senior Masculino</h4>
+        </div>
+        <div class="hueco">
+            <div class="imagen" id="imagen3" onclick="ira('')">
+                
+            </div>
+            <h4>Senior Femenino</h4>
+        </div>
+       
     </div>
-        <div class="footerredes">
-        <p><a href="#">AvisoLegal/Coockies</a></p>
+    
+   
+    <div id="imagencalendarios">
+       
     </div>
-    <div class="footeravisolegal">
+</section>
 
 
-    </div>
-      </footer>
-    <script src="https://code.jquery.com/jquery-latest.js"></script>
- <script src="menu.js"></script> 
- 
- 
+</article>
+<footer id="footer">
+    <div class="primeralinea">
+    
+  
+<ul class="iconosredess">
+<li><img src="imagenes/sald.jpg" alt="" width="" id="imagenfooter"></li>
+<li><a href="https://www.facebook.com/salduie78/" class="navpie1"><span class="icon-facebook"></span></a></li>
+<li><a href="https://www.instagram.com/salduie78hockey/?hl=es" class="navpie1"><span class="icon-instagram"></span></a></li>
+<li><a href="https://api.whatsapp.com/send?phone=34626993739&text=Hola, Nececito mas informacion!"  class="navpie1"><span class="icon-whatsapp"></span></a></li>
+<li><a href="mailto:alejandromirbel@hotmail.com?Subject=Informacion%20Salduie78%20web%20" class="navpie1"><span class="icon-mail"></span></a></li>
+</ul>
+  </div>
+
+        </footer>
+
+
+   </main>
+   
+        <script src="https://code.jquery.com/jquery-latest.js"></script>
+        <script src="java/cabecero.js"></script> 
 </body>
 </html>
