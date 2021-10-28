@@ -81,3 +81,9 @@ function ponerimagen2(){
 	myH1.style.height="250vw";
     myH1.style.backgroundImage=ruta;
 }
+function ponerimagen3(){
+	const myH1=document.getElementById('imagencalendarios');
+	var ruta="url(imagenes/obras.png)";
+	myH1.style.height="100vw";
+    myH1.style.backgroundImage=ruta;
+}
