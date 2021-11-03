@@ -1,12 +1,6 @@
-.mainnoticias{
-    background-color: cornsilk;
-   top: 10vh;
-   min-height: 80vh;
-    
-}
-footer{
-    top: 10vh;
-}
+
+
+
 
 .restodepagina{
     background-color: whitesmoke;
@@ -36,6 +30,7 @@ footer{
     justify-content: space-around;
     list-style: none;
     padding: 10px 0px;
+    margin: 0;
 }
 .ulavance a{
     color: cornsilk;
@@ -61,13 +56,16 @@ background-repeat: no-repeat;
     font-size: 80%;
     text-align: right;
     margin-right: 5%;
+    margin: 0;
 }
 .h1noticias{
     text-align: center;
+    margin: 0;
 }
 .p1noticias{
     font-size: 90%;
     margin-top: 3px;
+    margin: 0;
 }
 .subrallado{
     display: block;
@@ -88,4 +86,23 @@ background-repeat: no-repeat;
   margin-top: 3px;
   margin-bottom: 3px;
     background-color: black; 
+}
+.bloquedenoticias{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width:1023px ) and (orientation: landscape){
+    .bloquedenoticias{
+       
+       flex-direction: row;
+    } 
+
+    .noticia{
+        border: none;
+        margin: 6px;
+        background-color:gainsboro;
+    }
+    section{background-color: whitesmoke;}
+    
 }

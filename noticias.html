@@ -4,184 +4,191 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Salduie78 NOTICIAS</title>
     <link rel="stylesheet" href="css/noticias.css">
     <link rel="stylesheet" href="css/cabecero.css">
     <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
-    <header id="cabecerogeneral">
-        <div id="divcontenedorcabecero">
-        <div id="divheaderimg">
-            <img src="imagenes/longiredondo.png" alt="">
-        </div>
-        <div id="divheadertitulo">
-            <h1>Hockey Salduie'78</h1>
-        </div>
-        <div id="divheadermenu">
-            <a href="#" id="cabecerobotonmenu"><span class="icon-menu1"></span></a>
-        </div>
-        </div>
-
-        <nav class="navmenu">
-            <ul id="listamenus">
-               <li><a href="index.html" class="navpie01"><span ></span>INICIO</a></li>
-               <li><a href="sobrenosotros.html" class="navpie01"><span ></span>SOBRE NOSOTROS</a></li>
-               <li><a href="noticias.html" class="navpie01"><span ></span>NOTICIAS</a></li>
-               <li><a href="escuelas.html" class="navpie01"><span ></span>ESCUELAS</a></li>
-               <li><a href="competiciones.html" class="navpie01"><span ></span>COMPETICIONES</a></li>
-               <li><a href="equipos.html" class="navpie01"><span ></span>EQUIPOS</a></li>
-               <li><a href="instalaciones.html" class="navpie01"><span ></span>Instalaciones</a></li>
-              
-             </ul>
-                     <ul class="iconosredes">
-                    <li><a href="https://www.facebook.com/salduie78/" class="navpie1"><span class="icon-facebook"></span></a></li>
-                    <li><a href="https://www.instagram.com/salduie78hockey/?hl=es" class="navpie1"><span class="icon-instagram"></span></a></li>
-                    <li><a href="https://api.whatsapp.com/send?phone=34626993739&text=Hola, Nececito mas informacion!"  class="navpie1"><span class="icon-whatsapp"></span></a></li>
-                    <li><a href="mailto:alejandromirbel@hotmail.com?Subject=Informacion%20Salduie78%20web%20" class="navpie1"><span class="icon-mail"></span></a></li>
-                   </ul>
-                    </nav>
+    <header>
+        <div class="header">
+            <div id="divcontenedorcabecero">
+                <div id="divheaderimg">
+                    <img src="imagenes/longiredondo.png" alt="">
+                </div>
+                <div id="divheadertitulo">
+                    <h1>Hockey Salduie'78</h1>
+                </div>
+                <div id="divheadermenu">
+                    <a href="#" id="cabecerobotonmenu"><span class="icon-menu1"></span></a>
+                </div>
+                </div>
+        <div id="divcontenedornav">
+                <nav class="navmenu" id="controlnavmenu">
+                    <ul id="listamenus">
+                       <li><a href="index.html" class="navpie01"><span ></span>INICIO</a></li>
+                       <li><a href="sobrenosotros.html" class="navpie01"><span ></span>SOBRE NOSOTROS</a></li>
+                       <li><a href="noticias.html" class="navpie01"><span ></span>NOTICIAS</a></li>
+                       <li><a href="escuelas.html" class="navpie01"><span ></span>ESCUELAS</a></li>
+                       <li><a href="competiciones.html" class="navpie01"><span ></span>COMPETICIONES</a></li>
+                       <li><a href="equipos.html" class="navpie01"><span ></span>EQUIPOS</a></li>
+                       <li><a href="instalaciones.html" class="navpie01"><span ></span>DONDE ESTAMOS</a></li>
+                      
+                     </ul>
+                             <ul class="iconosredes">
+                            <li><a href="https://www.facebook.com/salduie78/"target="_blank" class="navpie1"><span class="icon-facebook"></span></a></li>
+                            <li><a href="https://www.instagram.com/salduie78hockey/?hl=es"target="_blank" class="navpie1"><span class="icon-instagram"></span></a></li>
+                            <li><a href="https://api.whatsapp.com/send?phone=34626993739&text=Hola, Nececito mas informacion!" target="_blank" class="navpie1"><span class="icon-whatsapp"></span></a></li>
+                            <li><a href="mailto:alejandromirbel@hotmail.com?Subject=Informacion%20Salduie78%20web%20" target="_blank"class="navpie1"><span class="icon-mail"></span></a></li>
+                           </ul>
+                            </nav>
+        </div></div>
     </header>
-   <main class="mainnoticias">
-<article class="restodepagina" id="inicioarticuloclass">
-    <section>
-<div class="seleccionpagina">
-    <ul class="ulavance">
-
-        <li class="liavance2">
-            <div class="botonavanzar" onclick="primerapagina() ">
-                <a href="#" ><span class="icon-first"></span></a>
-            </div></li>
-
-        <li class="liavance2">
-            <div class="botonavanzar" onclick="paginaanterior() ">
-                <a href="#" ><span class="icon-backward"></span></a>
-            </div> </li>
-
-        <li class="liavance2"> 
-            <div class="botonavanzar" onclick="showNoticias(1)" >
-            <a href="#">1</a>
-            </div></li>
-
-        <li class="liavance2">
-            <div  class="botonavanzar" onclick="showNoticias(2)">
-                <a href="#">2</a>
-            </div></li>
-        <li class="liavance2">
-                <div class="botonavanzar"  onclick="showNoticias(3)" >
-                <a href="#">3</a>
-            </div></li>
-        <li class="liavance2">
-            <div class="botonavanzar" onclick="showNoticias(4)">
-                <a href="#">4</a>
-            </div></li>
-         <li class="liavance2">
-                <div class="botonavanzar" onclick="showNoticias(5)">
-                    <a href="#">5</a>
-                </div></li>
-        <li class="liavance2">
-                <div class="botonavanzar" onclick="paginasiguiente()">
-                    <a href="#" ><span class="icon-forward"></span></a>
-            </div></li>
-        <li class="liavance2">
-            <div class="botonavanzar" onclick="ultimapagina() ">
-                   <a href="#" ><span class="icon-last"></span></a>
-                </div></li>
-
+    <main  class="indexmain">
+       <section class="sectionprincipal">
+        <article class="restodepagina" id="inicioarticuloclass">
+            <section>
+        <div class="seleccionpagina">
+            <ul class="ulavance">
         
-    </ul>
-
-    
-</div>
-<div class="noticia"onclick="abrirnoticia(1)">
-    <p class="p2noticias" id="p2primeranoticia">
-      
-    </p>
-    <div class="subrallado"></div>
-    <div class="imagennoticia" id="primeranoticia">
-                    
-    </div>
-    <div class="divisiontexto">
-        <div class="subralladoi"></div>
-        <h1 class="h1noticias" id="h1primeranoticia"></h1>
-        <p class="p1noticias" id="p1primeranoticia"></p>
-  
+                <li class="liavance2">
+                    <div class="botonavanzar" onclick="primerapagina() ">
+                        <a href="#" ><span class="icon-first"></span></a>
+                    </div></li>
+        
+                <li class="liavance2">
+                    <div class="botonavanzar" onclick="paginaanterior() ">
+                        <a href="#" ><span class="icon-backward"></span></a>
+                    </div> </li>
+        
+                <li class="liavance2"> 
+                    <div class="botonavanzar" onclick="showNoticias(1)" >
+                    <a href="#">1</a>
+                    </div></li>
+        
+                <li class="liavance2">
+                    <div  class="botonavanzar" onclick="showNoticias(2)">
+                        <a href="#">2</a>
+                    </div></li>
+                <li class="liavance2">
+                        <div class="botonavanzar"  onclick="showNoticias(3)" >
+                        <a href="#">3</a>
+                    </div></li>
+                <li class="liavance2">
+                    <div class="botonavanzar" onclick="showNoticias(4)">
+                        <a href="#">4</a>
+                    </div></li>
+                 <li class="liavance2">
+                        <div class="botonavanzar" onclick="showNoticias(5)">
+                            <a href="#">5</a>
+                        </div></li>
+                <li class="liavance2">
+                        <div class="botonavanzar" onclick="paginasiguiente()">
+                            <a href="#" ><span class="icon-forward"></span></a>
+                    </div></li>
+                <li class="liavance2">
+                    <div class="botonavanzar" onclick="ultimapagina() ">
+                           <a href="#" ><span class="icon-last"></span></a>
+                        </div></li>
+        
+                
+            </ul>
+        
+            
         </div>
-</div>
-<div class="separador"></div>
-<div class="noticia" onclick="abrirnoticia(2)">
-    <p class="p2noticias" id="p2segundanoticia">
-       
-    </p>
-    <div class="subrallado"></div>
-    <div class="imagennoticia" id="segundanoticia">
-                    
-    </div>
-    <div class="divisiontexto">
-        <div class="subralladoi"></div>
-        <h1 class="h1noticias" id="h1segundanoticia"></h1>
-        <p class="p1noticias" id="p1segundanoticia"></p>
-   
+        <div class="bloquedenoticias">
+            <div class="bloquedenoticias1">
+        <div class="noticia"onclick="abrirnoticia(1)">
+            <p class="p2noticias" id="p2primeranoticia">
+              
+            </p>
+            <div class="subrallado"></div>
+            <div class="imagennoticia" id="primeranoticia">
+                            
+            </div>
+            <div class="divisiontexto">
+                <div class="subralladoi"></div>
+                <h1 class="h1noticias" id="h1primeranoticia"></h1>
+                <p class="p1noticias" id="p1primeranoticia"></p>
+          
+                </div>
         </div>
-</div>
-<div class="separador"></div>
-<div class="noticia" onclick="abrirnoticia(3)">
-    <p class="p2noticias" id="p2terceranoticia">
-           </p>
-    <div class="subrallado"></div>
-    <div class="imagennoticia" id="terceranoticia">
-                    
-    </div>
-    <div class="divisiontexto">
-        <div class="subralladoi"></div>
-        <h1 class="h1noticias" id="h1terceranoticia"></h1>
-        <p class="p1noticias" id="p1terceranoticia"></p>
-  
+        <div class="separador"></div>
+        <div class="noticia" onclick="abrirnoticia(2)">
+            <p class="p2noticias" id="p2segundanoticia">
+               
+            </p>
+            <div class="subrallado"></div>
+            <div class="imagennoticia" id="segundanoticia">
+                            
+            </div>
+            <div class="divisiontexto">
+                <div class="subralladoi"></div>
+                <h1 class="h1noticias" id="h1segundanoticia"></h1>
+                <p class="p1noticias" id="p1segundanoticia"></p>
+           
+                </div>
         </div>
-</div>
-<div class="separador"></div>
-<div class="noticia" onclick="abrirnoticia(4)">
-    <p class="p2noticias" id="p2cuartanoticia">
-      
-    </p>
-    <div class="subrallado">
-
+        <div class="separador"></div>
     </div>
-    <div class="imagennoticia" id="cuartanoticia">
-                    
-    </div>
-    <div class="divisiontexto">
-        <div class="subralladoi"></div>
-        <h1 class="h1noticias" id="h1cuartanoticia"></h1>
-        <p class="p1noticias" id="p1cuartanoticia"></p>
+    <div class="bloquedenoticias2">
+        <div class="noticia" onclick="abrirnoticia(3)">
+            <p class="p2noticias" id="p2terceranoticia">
+                   </p>
+            <div class="subrallado"></div>
+            <div class="imagennoticia" id="terceranoticia">
+                            
+            </div>
+            <div class="divisiontexto">
+                <div class="subralladoi"></div>
+                <h1 class="h1noticias" id="h1terceranoticia"></h1>
+                <p class="p1noticias" id="p1terceranoticia"></p>
+          
+                </div>
         </div>
-</div>  
-
-</section>
-
-</article>
-
-<footer id="footer">
-    <div class="primeralinea">
-    
+        <div class="separador"></div>
+        <div class="noticia" onclick="abrirnoticia(4)">
+            <p class="p2noticias" id="p2cuartanoticia">
+              
+            </p>
+            <div class="subrallado">
+        
+            </div>
+            <div class="imagennoticia" id="cuartanoticia">
+                            
+            </div>
+            <div class="divisiontexto">
+                <div class="subralladoi"></div>
+                <h1 class="h1noticias" id="h1cuartanoticia"></h1>
+                <p class="p1noticias" id="p1cuartanoticia"></p>
+                </div>
+        </div>  
+    </div>
+</div>
+        </section>
+        
+        </article>
+       </section>
+    <footer>
+        <footer id="footer">
+            <div class="primeralinea">
+            
+          
+        <ul class="iconosredess">
+        <li><img src="imagenes/sald.jpg" alt="" width="" id="imagenfooter"></li>
+        <li><a href="https://www.facebook.com/salduie78/" class="navpie1"><span class="icon-facebook"></span></a></li>
+        <li><a href="https://www.instagram.com/salduie78hockey/?hl=es" class="navpie1"><span class="icon-instagram"></span></a></li>
+        <li><a href="https://api.whatsapp.com/send?phone=34626993739&text=Hola, Nececito mas informacion!"  class="navpie1"><span class="icon-whatsapp"></span></a></li>
+        <li><a href="mailto:alejandromirbel@hotmail.com?Subject=Informacion%20Salduie78%20web%20" class="navpie1"><span class="icon-mail"></span></a></li>
+        </ul>
+          </div>
+        
+                </footer>
+    </footer>
+</main>
+<script src="https://code.jquery.com/jquery-latest.js"></script>
+  <script src="javas/cabecero.js"></script>  
+  <script src="javas/noticias.js"></script>
   
-<ul class="iconosredess">
-<li><img src="imagenes/sald.jpg" alt="" width="" id="imagenfooter"></li>
-<li><a href="https://www.facebook.com/salduie78/" class="navpie1"><span class="icon-facebook"></span></a></li>
-<li><a href="https://www.instagram.com/salduie78hockey/?hl=es" class="navpie1"><span class="icon-instagram"></span></a></li>
-<li><a href="https://api.whatsapp.com/send?phone=34626993739&text=Hola, Nececito mas informacion!"  class="navpie1"><span class="icon-whatsapp"></span></a></li>
-<li><a href="mailto:alejandromirbel@hotmail.com?Subject=Informacion%20Salduie78%20web%20" class="navpie1"><span class="icon-mail"></span></a></li>
-</ul>
-  </div>
-
-        </footer>
-
-
-   </main>
-  
-        <script src="https://code.jquery.com/jquery-latest.js"></script>
-        <script src="java/cabecero.js"></script> 
-        <script src="java/noticias.js"></script>
 </body>
 </html>

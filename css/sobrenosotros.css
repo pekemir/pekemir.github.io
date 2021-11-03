@@ -1,55 +1,51 @@
-.mainsobrenosotros{
-    background-color: cornsilk;
-   top: 10vh;
-   min-height: 80vh;
-   
+
+.sectionprincipal{min-width: none;}
+.sobrenosotrostextos{
+    
+    display: flex;
+    flex-direction: column;
     
 }
-footer{
-    top: 10vh;
-}
-
 .restodepagina{
-    background-color: whitesmoke;
+    background-color:rgb(243, 237, 227);
         position: relative;
-        width: 100%;
-      
-        display: flex;
+       
+        margin: 10px;
+        border: 2px solid brown;
+        /*display: flex;*/
         justify-content: center;
+
         
     }
-    section{
-        margin: 10px;
-        background-color:rgb(243, 237, 227);
-        width: 100%;
-        display: flex;
-        border: 2px solid brown;
-        flex-direction: column;
-   
-       
-    }
+ 
    #longi{
         height: 50px;
         float: left;
     }
     .titulos{
+        
         display: flex;
         justify-content: center;
         flex-direction: column;
-    align-items: center;
+        align-items: center;
+    }
+    .titulos h3{
+        margin:0;
     }
     .titulos h2{
+        margin:0;
         padding: 3px;
        
         color: brown;
     }
     #section1 p{
+        margin:0;
         padding: 10px;
         text-align: center;
        
     }
     #section1 p2{
-       
+        margin:0;
         text-align: center;color: brown;
         font-weight: bold;
        
@@ -71,15 +67,25 @@ footer{
     }
     .imagenfamilia{
         align-items: center;
-        height: 20vh;
+        min-height: 20vh;
         display: flex;
         justify-content: center;
         animation-name:opacidad ;
         animation-duration: 1s;
     }
     #imagenfamiliaa {
-        max-height: 95%;
+        max-height: 100%;
+        max-width: 100%;
        
     }
 
 
+
+@media screen and (min-width:1023px ) and (orientation: landscape){
+    .sobrenosotrostextos{
+        padding: 2vw;
+        display: flex;
+        flex-direction: row;
+        
+    }
+}

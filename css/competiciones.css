@@ -1,74 +1,90 @@
-.maincompeticiones{
-    background-color: cornsilk;
-   top: 10vh;
-   min-height: 80vh;
+p,h1,h2,h3{
+    margin: 0;
+}
+.sectionprincipal{min-width: none;}
+.restodepagina{
+    background-color:rgb(243, 237, 227);
+    position: relative;
+   min-height: 90vh;
+    margin: 10px;
+    border: 2px solid brown;
+    display: flex;
+    justify-content: center;
+        
+    }
+    .articulo1proximospartidos{
+        width: 100%;
+        height: auto;
+    }
+    .art1titulo{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    align-items: center;
+    margin: 3px;
+    }
+    .art1titulo h2{
+        padding: 2px;
+        background-color: rgb(206, 190, 168);
+        border: brown 1px solid;
+        
+    }
+    .art1seccion{
+       
+       
+        border-bottom: brown 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+        .art1seccion h3{  width: 100%; 
+            text-align: center;
+            background-color: rgb(206, 190, 168);
+            border-bottom: brown 1px solid;
+            border-top: brown 1px solid;
+            }
+
+
+            .art1sec1partidos,.art1sec2partidos,.art1sec3partidos{
+                width: 100%;
+            }
+            .partido{
+               
+                margin: 3px;
+                display: flex;
+                flex-direction: column;
+                border: brown 1px solid;
+               
+               
+            }
+            .linea1{
+                display: flex;
+                justify-content: space-around;
+                flex-direction: row;
+                background-color: rgb(241, 231, 216);}
+            .linea2{display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                background-color: rgb(224, 214, 198);
+                height:calc(3vh + 6px);
+           }
+                .local,.visitante{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    margin: 3px;
+                }
+                .escudo{height: 100%;
+                         width: 3vh;
+                        margin: 3px;}
+                    .escudo img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                    .competicion{width: 42%;
+                    text-align: left;}
+                    .categoria{width: 23%;}
+                    .dia{width: 19%;}
+                    .hora{width: 14%;text-align: right;}
+@media screen and (min-width:1023px ) and (orientation: landscape){
     
 }
-
-
-.restodepagina{
-    background-color: whitesmoke;
-        position: relative;
-        width: 100%;
-        min-height: 85vh;
-        display: flex;
-        justify-content: center;
-        font-size:2vh;
-        
-    }
-    section{
-        margin: 10px;
-        background-color:rgb(243, 237, 227);
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        border: 2px solid brown;
-        min-height: 70vh;
-        align-items: center
-       
-    }
-    .seleccioncategorias{
-        width: 100%;
-        height: 20vh;
-        display: flex;
-        justify-content: space-between
-    }
-    .hueco{
-        width: 33%;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        min-height: 20vh;
-       
-    }
-    .imagen{
-        height: 85%;
-        width: 90%;
-       
-        background-position: center;
-background-size: contain;
-background-repeat: no-repeat;
-    }
-    #imagen1{
-        background-image: url(../imagenes/escuela1.jpg);
-    }
-    #imagen2{
-        background-image: url(../imagenes/masc1.jpg);
-    }
-    #imagen3{
-        background-image: url(../imagenes/fem1.jpg);
-    }
-    .titulo{
-        padding: 5px;
-    }
-    
-    #imagencalendarios{
-        width: 100%;
-        min-height: 200px;
-        background-size: contain;
-        
-       
-       
-        background-repeat: no-repeat;
-    }
- 
