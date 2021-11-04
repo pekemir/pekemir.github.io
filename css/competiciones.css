@@ -12,6 +12,18 @@ p,h1,h2,h3{
     justify-content: center;
         
     }
+    .fondobloque{ 
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-image: url(../imagenes/red.png);
+        background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.1;
+    
+
+    }
     .articulo1proximospartidos{
         width: 100%;
         height: auto;

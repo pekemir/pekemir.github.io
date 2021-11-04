@@ -32,6 +32,7 @@ p,h1,h2,h3{
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.1;
+   
 
     }
    section h1{text-align: center;padding: 3px;display: block;font-size: 1.5em;
@@ -82,17 +83,23 @@ p,h1,h2,h3{
        width: 80%;
        text-align: center;
        padding: 5px;
+       z-index: 20;
    }
    section img{
       max-width: 80%;
        padding: 5px;
        max-height: 40vh;
    }
-   section p a{
+   section p span{
        color: brown;
        text-decoration: none;
        width: auto;
    }
+   section p a{
+    color: black;
+    text-decoration: none;
+    width: auto;
+}
    .titulo{
        max-width: 100%;
        height: auto;
