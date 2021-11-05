@@ -1,4 +1,14 @@
 {
+  "categorias": [
+    "INICIACION",
+    "BENJAMINES",
+    "ALEVINES",
+    "INFANTILES",
+    "CADETES",
+    "JUVENILES",
+    "SENIOR FEMENINO",
+    "SENIOR MASCULINO"
+  ],
   "INICIACION": {
     "SALA": {
       "SECTOR": [
