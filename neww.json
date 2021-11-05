@@ -1,0 +1,28 @@
+{
+  "SENIOR MASCULINO": {
+    "SALA": {
+      "SECTOR": [
+        "CLASIFICACION",
+        "CALENDARIO"
+      ],
+      "CAMPEONATO DE ARAGON": [
+        "CLASIFICACION",
+        "CALENDARIO"
+      ],
+      "PRIMERA DIVISION": [
+        "CLASIFICACION",
+        "CALENDARIO"
+      ]
+    },
+    "HIERBA": {
+      "CAMPEONATO DE ARAGON": [
+        "CLASIFICACION",
+        "CALENDARIO"
+      ],
+      "PRIMERA DIVISION": [
+        "CLASIFICACION",
+        "CALENDARIO"
+      ]
+    }
+  }
+}
