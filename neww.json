@@ -1,4 +1,168 @@
 {
+  "INICIACION": {
+    "SALA": {
+      "SECTOR": [
+        "CLASIFICACION",
+        "CALENDARIO"
+      ],
+      "CAMPEONATO DE ARAGON": [
+        "CLASIFICACION",
+        "CALENDARIO"
+      ],
+      "PRIMERA DIVISION": [
+        "CLASIFICACION",
+        "CALENDARIO"
+      ]
+    },
+    "HIERBA": {
+      "CAMPEONATO DE ARAGON": [
+        "CLASIFICACION",
+        "CALENDARIO"
+      ],
+      "PRIMERA DIVISION": [
+        "CLASIFICACION",
+        "CALENDARIO"
+      ]
+    }
+  },
+  "BENJAMINES": {
+    "SALA": {
+      "SECTOR": [
+        "CLASIFICACION",
+        "CALENDARIO"
+      ],
+      "CAMPEONATO DE ARAGON": [
+        "CLASIFICACION",
+        "CALENDARIO"
+      ],
+      "PRIMERA DIVISION": [
+        "CLASIFICACION",
+        "CALENDARIO"
+      ]
+    },
+    "HIERBA": {
+      "CAMPEONATO DE ARAGON": [
+        "CLASIFICACION",
+        "CALENDARIO"
+      ],
+      "PRIMERA DIVISION": [
+        "CLASIFICACION",
+        "CALENDARIO"
+      ]
+    }
+  },
+  "ALEVINES": {
+    "SALA": {
+      "SECTOR": [
+        "CLASIFICACION",
+        "CALENDARIO"
+      ],
+      "CAMPEONATO DE ARAGON": [
+        "CLASIFICACION",
+        "CALENDARIO"
+      ],
+      "PRIMERA DIVISION": [
+        "CLASIFICACION",
+        "CALENDARIO"
+      ]
+    },
+    "HIERBA": {
+      "CAMPEONATO DE ARAGON": [
+        "CLASIFICACION",
+        "CALENDARIO"
+      ],
+      "PRIMERA DIVISION": [
+        "CLASIFICACION",
+        "CALENDARIO"
+      ]
+    }
+  },
+  "INFANTILES": {
+    "SALA": {
+      "SECTOR": [
+        "CLASIFICACION",
+        "CALENDARIO"
+      ],
+      "CAMPEONATO DE ARAGON": [
+        "CLASIFICACION",
+        "CALENDARIO"
+      ],
+      "PRIMERA DIVISION": [
+        "CLASIFICACION",
+        "CALENDARIO"
+      ]
+    },
+    "HIERBA": {
+      "CAMPEONATO DE ARAGON": [
+        "CLASIFICACION",
+        "CALENDARIO"
+      ],
+      "PRIMERA DIVISION": [
+        "CLASIFICACION",
+        "CALENDARIO"
+      ]
+    }
+  },
+  "CADETES": {
+    "SALA": {
+      "SECTOR": [
+        "CLASIFICACION",
+        "CALENDARIO"
+      ],
+      "CAMPEONATO DE ARAGON": [
+        "CLASIFICACION",
+        "CALENDARIO"
+      ],
+      "PRIMERA DIVISION": [
+        "CLASIFICACION",
+        "CALENDARIO"
+      ]
+    },
+    "HIERBA": {
+      "CAMPEONATO DE ARAGON": [
+        "CLASIFICACION",
+        "CALENDARIO"
+      ],
+      "PRIMERA DIVISION": [
+        "CLASIFICACION",
+        "CALENDARIO"
+      ]
+    }
+  },
+  "JUVENILES": {
+    "SALA": {
+      "SECTOR": [
+        "CLASIFICACION",
+        "CALENDARIO"
+      ],
+      "CAMPEONATO DE ARAGON": [
+        "CLASIFICACION",
+        "CALENDARIO"
+      ],
+      "PRIMERA DIVISION": [
+        "CLASIFICACION",
+        "CALENDARIO"
+      ]
+    },
+    "HIERBA": {
+      "CAMPEONATO DE ARAGON": [
+        "CLASIFICACION",
+        "CALENDARIO"
+      ],
+      "PRIMERA DIVISION": [
+        "CLASIFICACION",
+        "CALENDARIO"
+      ]
+    }
+  },
+  "SENIOR FEMENINO": {
+    "SALA": [
+      "PROXIMOS PARTIDOS"
+    ],
+    "HIERBA": [
+      "PROXIMOS PARTIDOS"
+    ]
+  },
   "SENIOR MASCULINO": {
     "SALA": {
       "SECTOR": [
