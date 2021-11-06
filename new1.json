@@ -1,0 +1,185 @@
+{
+	"competiciones": [
+		{
+			"titulo": "INICIACION",
+			"categorias": [
+				{
+					"titulo": "SALA",
+					"competiciones": [
+						{
+							"titulo": "Juegos escolares",
+							"opciones":["Calendario","Clasificacion"]
+						},
+						{
+							"titulo": "campeonato de aragon",
+							"opciones":["Calendario","Clasificacion"]
+						}
+					]
+				},
+				{
+					"titulo": "HIERBA",
+					"competiciones": [
+						{
+							"titulo": "Juegos escolares",
+							"opciones":["Calendario","Clasificacion"]
+						},
+						{
+							"titulo": "campeonato de aragon",
+							"opciones":["Calendario","Clasificacion"]
+						}
+					]
+				}
+			]
+		},{
+			"titulo": "ALEVINES",
+			"categorias": [
+				{
+					"titulo": "SALA",
+					"competiciones": [
+						{
+							"titulo": "Juegos escolares",
+							"opciones":["Calendario","Clasificacion"]
+						},
+						{
+							"titulo": "campeonato de aragon",
+							"opciones":["Calendario","Clasificacion"]
+						}
+					]
+				},
+				{
+					"titulo": "HIERBA",
+					"competiciones": [
+						{
+							"titulo": "Juegos escolares",
+							"opciones":["Calendario","Clasificacion"]
+						},
+						{
+							"titulo": "campeonato de aragon",
+							"opciones":["Calendario","Clasificacion"]
+						}
+					]
+				}
+			]
+		},{
+			"titulo": "CADETES",
+			"categorias": [
+				{
+					"titulo": "SALA",
+					"competiciones": [
+						{
+							"titulo": "Juegos escolares",
+							"opciones":["Calendario","Clasificacion"]
+						},
+						{
+							"titulo": "campeonato de aragon",
+							"opciones":["Calendario","Clasificacion"]
+						}
+					]
+				},
+				{
+					"titulo": "HIERBA",
+					"competiciones": [
+						{
+							"titulo": "Juegos escolares",
+							"opciones":["Calendario","Clasificacion"]
+						},
+						{
+							"titulo": "campeonato de aragon",
+							"opciones":["Calendario","Clasificacion"]
+						}
+					]
+				}
+			]
+		},{
+			"titulo": "JUVENILES",
+			"categorias": [
+				{
+					"titulo": "SALA",
+					"competiciones": [
+						{
+							"titulo": "Juegos escolares",
+							"opciones":["Calendario","Clasificacion"]
+						},
+						{
+							"titulo": "campeonato de aragon",
+							"opciones":["Calendario","Clasificacion"]
+						}
+					]
+				},
+				{
+					"titulo": "HIERBA",
+					"competiciones": [
+						{
+							"titulo": "Juegos escolares",
+							"opciones":["Calendario","Clasificacion"]
+						},
+						{
+							"titulo": "campeonato de aragon",
+							"opciones":["Calendario","Clasificacion"]
+						}
+					]
+				}
+			]
+		},{
+			"titulo": "SENIOR FEMENINO",
+			"categorias": [
+				{
+					"titulo": "SALA",
+					"competiciones": [
+						{
+							"titulo": "Juegos escolares",
+							"opciones":["Calendario","Clasificacion"]
+						},
+						{
+							"titulo": "campeonato de aragon",
+							"opciones":["Calendario","Clasificacion"]
+						}
+					]
+				},
+				{
+					"titulo": "HIERBA",
+					"competiciones": [
+						{
+							"titulo": "Juegos escolares",
+							"opciones":["Calendario","Clasificacion"]
+						},
+						{
+							"titulo": "campeonato de aragon",
+							"opciones":["Calendario","Clasificacion"]
+						}
+					]
+				}
+			]
+		},{
+			"titulo": "SENIOR MASCULINO",
+			"categorias": [
+				{
+					"titulo": "SALA",
+					"competiciones": [
+						{
+							"titulo": "Juegos escolares",
+							"opciones":["Calendario","Clasificacion"]
+						},
+						{
+							"titulo": "campeonato de aragon",
+							"opciones":["Calendario","Clasificacion"]
+						}
+					]
+				},
+				{
+					"titulo": "HIERBA",
+					"competiciones": [
+						{
+							"titulo": "Juegos escolares",
+							"opciones":["Calendario","Clasificacion"]
+						},
+						{
+							"titulo": "campeonato de aragon",
+							"opciones":["Calendario","Clasificacion"]
+						}
+					]
+				}
+			]
+		}
+	]
+}
