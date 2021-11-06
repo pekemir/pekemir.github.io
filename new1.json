@@ -4,7 +4,7 @@
 			"titulo": "INICIACION",
 			"categorias": [
 				{
-					"titulo": "SALA",
+					"titulo": "SALA1",
 					"competiciones": [
 						{
 							"titulo": "Juegos escolares",
@@ -17,7 +17,7 @@
 					]
 				},
 				{
-					"titulo": "HIERBA",
+					"titulo": "HIERBA1",
 					"competiciones": [
 						{
 							"titulo": "Juegos escolares",
@@ -34,7 +34,7 @@
 			"titulo": "ALEVINES",
 			"categorias": [
 				{
-					"titulo": "SALA",
+					"titulo": "SALA2",
 					"competiciones": [
 						{
 							"titulo": "Juegos escolares",
@@ -47,7 +47,7 @@
 					]
 				},
 				{
-					"titulo": "HIERBA",
+					"titulo": "HIERB2A",
 					"competiciones": [
 						{
 							"titulo": "Juegos escolares",
@@ -64,7 +64,7 @@
 			"titulo": "CADETES",
 			"categorias": [
 				{
-					"titulo": "SALA",
+					"titulo": "SALA3",
 					"competiciones": [
 						{
 							"titulo": "Juegos escolares",
@@ -77,7 +77,7 @@
 					]
 				},
 				{
-					"titulo": "HIERBA",
+					"titulo": "HIERBA3",
 					"competiciones": [
 						{
 							"titulo": "Juegos escolares",
@@ -94,7 +94,7 @@
 			"titulo": "JUVENILES",
 			"categorias": [
 				{
-					"titulo": "SALA",
+					"titulo": "SALA4",
 					"competiciones": [
 						{
 							"titulo": "Juegos escolares",
@@ -107,7 +107,7 @@
 					]
 				},
 				{
-					"titulo": "HIERBA",
+					"titulo": "HIERBA4",
 					"competiciones": [
 						{
 							"titulo": "Juegos escolares",
@@ -124,27 +124,27 @@
 			"titulo": "SENIOR FEMENINO",
 			"categorias": [
 				{
-					"titulo": "SALA",
+					"titulo": "SALA5",
 					"competiciones": [
 						{
-							"titulo": "Juegos escolares",
+							"titulo": "amistosos",
 							"opciones":["Calendario","Clasificacion"]
 						},
 						{
-							"titulo": "campeonato de aragon",
+							"titulo": "amistosos",
 							"opciones":["Calendario","Clasificacion"]
 						}
 					]
 				},
 				{
-					"titulo": "HIERBA",
+					"titulo": "HIERBA5",
 					"competiciones": [
 						{
-							"titulo": "Juegos escolares",
+							"titulo": "amistosos",
 							"opciones":["Calendario","Clasificacion"]
 						},
 						{
-							"titulo": "campeonato de aragon",
+							"titulo": "amistosos",
 							"opciones":["Calendario","Clasificacion"]
 						}
 					]
@@ -154,20 +154,20 @@
 			"titulo": "SENIOR MASCULINO",
 			"categorias": [
 				{
-					"titulo": "SALA",
+					"titulo": "SALA6",
 					"competiciones": [
 						{
-							"titulo": "Juegos escolares",
+							"titulo": "Primera division GLevante",
 							"opciones":["Calendario","Clasificacion"]
 						},
 						{
-							"titulo": "campeonato de aragon",
+							"titulo": "Primera division GLevante",
 							"opciones":["Calendario","Clasificacion"]
 						}
 					]
 				},
 				{
-					"titulo": "HIERBA",
+					"titulo": "HIERB6A",
 					"competiciones": [
 						{
 							"titulo": "Juegos escolares",
