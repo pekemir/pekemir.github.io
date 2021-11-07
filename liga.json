@@ -1,0 +1,43 @@
+[
+    {
+        "Field1": null,
+        "Field2": null,
+        "Field3": "LOCAL",
+        "Field4": "RESULTADO",
+        "Field5": "VISITANTE",
+        "Field6": "CAMPO",
+        "Field7": ""
+    },
+	{
+		"jornada":"jornada1",
+		"partido1":[{
+        "Field1": "02/10/2021",
+        "Field2": "16:00",
+        "Field3": "HONIGVÖGEL HH 79",
+        "Field4": "04-feb",
+        "Field5": "HOCKEY SALDUIE 78",
+        "Field6": "PARQUE D. EBRO",
+        "Field7": ""
+    },
+    {
+        "Field1": "03/10/2021",
+        "Field2": "10:00",
+        "Field3": "CD GINER DE LOS RÍOS",
+        "Field4": "0 - 1",
+        "Field5": "VALENCIA CH",
+        "Field6": "BETERO",
+        "Field7": ""
+    },
+    {
+        "Field1": "03/10/2021",
+        "Field2": "12:00",
+        "Field3": "CH CARPESA",
+        "Field4": "04-may",
+        "Field5": "UNIVERSITAT D'ALACANT - SAN VICENTE",
+        "Field6": "TARONGERS",
+        "Field7": ""
+    }]
+	}
+    
+    
+]
