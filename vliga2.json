@@ -34,6 +34,33 @@
         "campo": "TARONGERS"
     }
 		]
+    },{
+        "jornada": "JORNADA1",
+        "partidos": [
+		{
+        "fecha": "02/10/2021",
+        "hora": "16:00",
+        "local": "HONIGVÖGEL HH 79",
+        "resultado": "04-feb",
+        "visitante": "HOCKEY SALDUIE 78",
+        "campo": "PARQUE D. EBRO"
+    },{
+        "fecha": "03/10/2021",
+        "hora": "10:00",
+        "local": "CD GINER DE LOS RÍOS",
+        "resultado": "0 - 1",
+        "visitante": "VALENCIA CH",
+        "campo": "BETERO"
+    },
+    {
+        "fecha": "03/10/2021",
+        "hora": "12:00",
+        "local": "CH CARPESA",
+        "resultado": "04-may",
+        "visitante": "UNIVERSITAT D'ALACANT - SAN VICENTE",
+        "campo": "TARONGERS"
+    }
+		]
     }
     
 ]}
