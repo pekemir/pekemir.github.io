@@ -1,0 +1,418 @@
+[
+    {
+        "fecha": null,
+        "hora": null,
+        "local": "LOCAL",
+        "resultado": "RESULTADO",
+        "visitante": "VISITANTE",
+        "campo": "CAMPO"
+    },
+    {
+        "jornada": "JORNADA1",
+        "partidos": [
+		{
+        "fecha": "02/10/2021",
+        "hora": "16:00",
+        "local": "HONIGVÖGEL HH 79",
+        "resultado": "04-feb",
+        "visitante": "HOCKEY SALDUIE 78",
+        "campo": "PARQUE D. EBRO"
+    },{
+        "fecha": "03/10/2021",
+        "hora": "10:00",
+        "local": "CD GINER DE LOS RÍOS",
+        "resultado": "0 - 1",
+        "visitante": "VALENCIA CH",
+        "campo": "BETERO"
+    },
+    {
+        "fecha": "03/10/2021",
+        "hora": "12:00",
+        "local": "CH CARPESA",
+        "resultado": "04-may",
+        "visitante": "UNIVERSITAT D'ALACANT - SAN VICENTE",
+        "campo": "TARONGERS"
+    }
+		]
+    },
+    
+    
+    {
+        "jornada": "JORNADA 2",
+        "partidos": [ {
+        "fecha": "16/10/2021",
+        "hora": "15:00",
+        "local": "CH XALOC",
+        "resultado": "6 - 0",
+        "visitante": "HONIGVÖGEL HH 79",
+        "campo": "TARONGERS"
+    },
+    {
+        "fecha": "16/10/2021",
+        "hora": "16:00",
+        "local": "HOCKEY SALDUIE 78",
+        "resultado": "0 - 4",
+        "visitante": "CH CARPESA",
+        "campo": "PARQUE D. EBRO"
+    },
+    {
+        "fecha": "17/10/2021",
+        "hora": "12:00",
+        "local": "UNIVERSITAT D'ALACANT - SAN VICENTE",
+        "resultado": "07-abr",
+        "visitante": "VALENCIA CH",
+        "campo": "UNIVERSIDAD DE ALICANTE"
+    }
+		]
+    },
+   
+    {
+        "jornada": "JORNADA 3",
+        "partidos": [ {
+        "fecha": "23/10/2021",
+        "hora": "15:45",
+        "local": "UNIVERSITAT D'ALACANT - SAN VICENTE",
+        "resultado": "6 - 0",
+        "visitante": "HOCKEY SALDUIE 78",
+        "campo": "UNIVERSIDAD DE ALICANTE"
+    },
+    {
+        "fecha": "24/10/2021",
+        "hora": "10:00",
+        "local": "CH CARPESA",
+        "resultado": "0 - 1",
+        "visitante": "CH XALOC",
+        "campo": "TARONGERS"
+    },
+    {
+        "fecha": "24/10/2021",
+        "hora": "14:30",
+        "local": "HONIGVÖGEL HH 79",
+        "resultado": "3 - 0",
+        "visitante": "CD GINER DE LOS RÍOS",
+        "campo": "PARQUE D. EBRO"
+    }
+		]
+    },
+   
+    {
+        "jornada": "JORNADA 4",
+        "partidos": [ {
+        "fecha": "06/11/2021",
+        "hora": "15:00",
+        "local": "HOCKEY SALDUIE 78",
+        "resultado": "0 - 3",
+        "visitante": "VALENCIA CH",
+        "campo": "PARQUE D. EBRO"
+    },
+    {
+        "fecha": "07/11/2021",
+        "hora": "13:00",
+        "local": "CH XALOC",
+        "resultado": "-",
+        "visitante": "UNIVERSITAT D'ALACANT - SAN VICENTE",
+        "campo": "BETERO"
+    },{
+        "fecha": "11/12/2021",
+        "hora": "17:00",
+        "local": "CD GINER DE LOS RÍOS",
+        "resultado": "-",
+        "visitante": "CH CARPESA",
+        "campo": "BETERO"
+    }
+		]
+    },
+   
+    {
+        "jornada": "JORNADA 5",
+        "partidos": [{
+        "fecha": "13/11/2021",
+        "hora": "15:00",
+        "local": "VALENCIA CH",
+        "resultado": "-",
+        "visitante": "HONIGVÖGEL HH 79",
+        "campo": "BETERO"
+    },
+    {
+        "fecha": "14/11/2021",
+        "hora": "12:00",
+        "local": "UNIVERSITAT D'ALACANT - SAN VICENTE",
+        "resultado": "-",
+        "visitante": "CD GINER DE LOS RÍOS",
+        "campo": "UNIVERSIDAD DE ALICANTE"
+    },
+    {
+        "fecha": "14/11/2021",
+        "hora": "14:00",
+        "local": "HOCKEY SALDUIE 78",
+        "resultado": "-",
+        "visitante": "CH XALOC",
+        "campo": "PARQUE D. EBRO"
+    },
+		]
+    },
+    
+    {
+        "jornada": "JORNADA 6",
+        "partidos": [{
+        "fecha": "16/11/2021",
+        "hora": "21:00",
+        "local": "CH XALOC",
+        "resultado": "-",
+        "visitante": "VALENCIA CH",
+        "campo": "TARONGERS"
+    },
+    {
+        "fecha": "20/11/2021",
+        "hora": "15:00",
+        "local": "CH CARPESA",
+        "resultado": "-",
+        "visitante": "HONIGVÖGEL HH 79",
+        "campo": "TARONGERS"
+    }, {
+        "fecha": "27/02/2022",
+        "hora": "0:00",
+        "local": "CD GINER DE LOS RÍOS",
+        "resultado": "-",
+        "visitante": "HOCKEY SALDUIE 78",
+        "campo": "TARONGERS"
+    }
+		]
+    },
+    
+    {
+        "jornada": "JORNADA 7",
+        "partidos": [ {
+        "fecha": "27/11/2021",
+        "hora": "15:30",
+        "local": "HONIGVÖGEL HH 79",
+        "resultado": "-",
+        "visitante": "UNIVERSITAT D'ALACANT - SAN VICENTE",
+        "campo": "PARQUE D. EBRO"
+    },
+    {
+        "fecha": "27/11/2021",
+        "hora": "16:00",
+        "local": "VALENCIA CH",
+        "resultado": "-",
+        "visitante": "CH CARPESA",
+        "campo": "BETERO"
+    },
+    {
+        "fecha": "28/11/2021",
+        "hora": "12:00",
+        "local": "CH XALOC",
+        "resultado": "-",
+        "visitante": "CD GINER DE LOS RÍOS",
+        "campo": "BETERO"
+    },
+		]
+    },
+   
+    
+    
+   
+   
+    {
+        "jornada": "JORNADA 8",
+        "partidos": [{
+        "fecha": "06/03/2022",
+        "hora": "0:00",
+        "local": "UNIVERSITAT D'ALACANT - SAN VICENTE",
+        "resultado": "-",
+        "visitante": "CH CARPESA",
+        "campo": "UNIVERSIDAD DE ALICANTE"
+    },
+    {
+        "fecha": "06/03/2022",
+        "hora": "0:00",
+        "local": "HOCKEY SALDUIE 78",
+        "resultado": "-",
+        "visitante": "HONIGVÖGEL HH 79",
+        "campo": "POR DETERMINAR"
+    },
+    {
+        "fecha": "06/03/2022",
+        "hora": "0:00",
+        "local": "VALENCIA CH",
+        "resultado": "-",
+        "visitante": "CD GINER DE LOS RÍOS",
+        "campo": "POR DETERMINAR"
+    }
+		]
+    },
+    
+    {
+        "jornada": "JORNADA 9",
+        "partidos": [{
+        "fecha": "13/03/2022",
+        "hora": "0:00",
+        "local": "CD GINER DE LOS RÍOS",
+        "resultado": "-",
+        "visitante": "HONIGVÖGEL HH 79",
+        "campo": "POR DETERMINAR"
+    },
+    {
+        "fecha": "13/03/2022",
+        "hora": "0:00",
+        "local": "CH XALOC",
+        "resultado": "-",
+        "visitante": "CH CARPESA",
+        "campo": "POR DETERMINAR"
+    },
+    {
+        "fecha": "13/03/2022",
+        "hora": "0:00",
+        "local": "HOCKEY SALDUIE 78",
+        "resultado": "-",
+        "visitante": "UNIVERSITAT D'ALACANT - SAN VICENTE",
+        "campo": "POR DETERMINAR"
+    }
+		]
+    },
+    
+    {
+        "jornada": "JORNADA 10",
+        "partidos": [{
+        "fecha": "27/03/2022",
+        "hora": "0:00",
+        "local": "CH CARPESA",
+        "resultado": "-",
+        "visitante": "CD GINER DE LOS RÍOS",
+        "campo": "POR DETERMINAR"
+    },
+    {
+        "fecha": "27/03/2022",
+        "hora": "0:00",
+        "local": "UNIVERSITAT D'ALACANT - SAN VICENTE",
+        "resultado": "-",
+        "visitante": "CH XALOC",
+        "campo": "UNIVERSIDAD DE ALICANTE"
+    },
+    {
+        "fecha": "27/03/2022",
+        "hora": "0:00",
+        "local": "VALENCIA CH",
+        "resultado": "-",
+        "visitante": "HOCKEY SALDUIE 78",
+        "campo": "POR DETERMINAR"
+    }
+		]
+    },
+    
+    {
+        "jornada": "JORNADA 11",
+        "partidos": [{
+        "fecha": "03/04/2022",
+        "hora": "0:00",
+        "local": "HONIGVÖGEL HH 79",
+        "resultado": "-",
+        "visitante": "CH XALOC",
+        "campo": "POR DETERMINAR"
+    },
+    {
+        "fecha": "03/04/2022",
+        "hora": "0:00",
+        "local": "CH CARPESA",
+        "resultado": "-",
+        "visitante": "HOCKEY SALDUIE 78",
+        "campo": "POR DETERMINAR"
+    },
+    {
+        "fecha": "03/04/2022",
+        "hora": "0:00",
+        "local": "VALENCIA CH",
+        "resultado": "-",
+        "visitante": "UNIVERSITAT D'ALACANT - SAN VICENTE",
+        "campo": "POR DETERMINAR"
+    }
+		]
+    },
+    
+    {
+        "jornada": "JORNADA 12",
+        "partidos": [ {
+        "fecha": "09/04/2022",
+        "hora": "0:00",
+        "local": "HONIGVÖGEL HH 79",
+        "resultado": "-",
+        "visitante": "VALENCIA CH",
+        "campo": "POR DETERMINAR"
+    },
+    {
+        "fecha": "09/04/2022",
+        "hora": "0:00",
+        "local": "CD GINER DE LOS RÍOS",
+        "resultado": "-",
+        "visitante": "UNIVERSITAT D'ALACANT - SAN VICENTE",
+        "campo": "POR DETERMINAR"
+    },
+    {
+        "fecha": "09/04/2022",
+        "hora": "0:00",
+        "local": "CH XALOC",
+        "resultado": "-",
+        "visitante": "HOCKEY SALDUIE 78",
+        "campo": "POR DETERMINAR"
+    }
+		]
+    },
+   
+    {
+        "jornada": "JORNADA 13",
+        "partidos": [ {
+        "fecha": "24/04/2022",
+        "hora": "0:00",
+        "local": "HONIGVÖGEL HH 79",
+        "resultado": "-",
+        "visitante": "CH CARPESA",
+        "campo": "POR DETERMINAR"
+    },
+    {
+        "fecha": "24/04/2022",
+        "hora": "0:00",
+        "local": "HOCKEY SALDUIE 78",
+        "resultado": "-",
+        "visitante": "CD GINER DE LOS RÍOS",
+        "campo": "POR DETERMINAR"
+    },
+    {
+        "fecha": "24/04/2022",
+        "hora": "0:00",
+        "local": "VALENCIA CH",
+        "resultado": "-",
+        "visitante": "CH XALOC",
+        "campo": "POR DETERMINAR"
+    }
+		]
+    },
+   
+    {
+        "jornada": "JORNADA 14",
+        "partidos": [{
+        "fecha": "01/05/2022",
+        "hora": "0:00",
+        "local": "CH CARPESA",
+        "resultado": "-",
+        "visitante": "VALENCIA CH",
+        "campo": "POR DETERMINAR"
+    },
+    {
+        "fecha": "01/05/2022",
+        "hora": "0:00",
+        "local": "UNIVERSITAT D'ALACANT - SAN VICENTE",
+        "resultado": "-",
+        "visitante": "HONIGVÖGEL HH 79",
+        "campo": "UNIVERSIDAD DE ALICANTE"
+    },
+    {
+        "fecha": "01/05/2022",
+        "hora": "0:00",
+        "local": "CD GINER DE LOS RÍOS",
+        "resultado": "-",
+        "visitante": "CH XALOC",
+        "campo": "POR DETERMINAR"
+    }]
+    }
+    
+]
