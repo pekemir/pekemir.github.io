@@ -1,0 +1,400 @@
+{
+  "1": {
+    "titulo": "PRIMERA DIVISION MASCULINA",
+    "JORNADAS": [
+      [
+        "JORNADA1",
+        {
+          "fecha": "02/10/2021",
+          "hora": "16:00",
+          "local": "HONIGVÖGEL HH 79",
+          "resultado": "04-feb",
+          "visitante": "HOCKEY SALDUIE 78",
+          "campo": "PARQUE D. EBRO"
+        },
+        {
+          "fecha": "03/10/2021",
+          "hora": "10:00",
+          "local": "CD GINER DE LOS RÍOS",
+          "resultado": "0 - 1",
+          "visitante": "VALENCIA CH",
+          "campo": "BETERO"
+        },
+        {
+          "fecha": "03/10/2021",
+          "hora": "12:00",
+          "local": "CH CARPESA",
+          "resultado": "04-may",
+          "visitante": "UA - SAN VICENTE",
+          "campo": "TARONGERS"
+        }
+      ],
+      [
+        "JORNADA2",
+        {
+          "fecha": "16/10/2021",
+          "hora": "15:00",
+          "local": "CH XALOC",
+          "resultado": "6 - 0",
+          "visitante": "HONIGVÖGEL HH 79",
+          "campo": "TARONGERS"
+        },
+        {
+          "fecha": "16/10/2021",
+          "hora": "16:00",
+          "local": "HOCKEY SALDUIE 78",
+          "resultado": "0 - 4",
+          "visitante": "CH CARPESA",
+          "campo": "PARQUE D. EBRO"
+        },
+        {
+          "fecha": "17/10/2021",
+          "hora": "12:00",
+          "local": "UA - SAN VICENTE",
+          "resultado": "07-abr",
+          "visitante": "VALENCIA CH",
+          "campo": "UNIVERSIDAD DE ALICANTE"
+        }
+      ],
+      [
+        "JORNADA3",
+        {
+          "fecha": "23/10/2021",
+          "hora": "15:45",
+          "local": "UA - SAN VICENTE",
+          "resultado": "6 - 0",
+          "visitante": "HOCKEY SALDUIE 78",
+          "campo": "UNIVERSIDAD DE ALICANTE"
+        },
+        {
+          "fecha": "24/10/2021",
+          "hora": "10:00",
+          "local": "CH CARPESA",
+          "resultado": "0 - 1",
+          "visitante": "CH XALOC",
+          "campo": "TARONGERS"
+        },
+        {
+          "fecha": "24/10/2021",
+          "hora": "14:30",
+          "local": "HONIGVÖGEL HH 79",
+          "resultado": "3 - 0",
+          "visitante": "CD GINER DE LOS RÍOS",
+          "campo": "PARQUE D. EBRO"
+        }
+      ],
+      [
+        "JORNADA4",
+        {
+          "fecha": "06/11/2021",
+          "hora": "15:00",
+          "local": "HOCKEY SALDUIE 78",
+          "resultado": "0 - 3",
+          "visitante": "VALENCIA CH",
+          "campo": "PARQUE D. EBRO"
+        },
+        {
+          "fecha": "07/11/2021",
+          "hora": "13:00",
+          "local": "CH XALOC",
+          "resultado": "-",
+          "visitante": "UA - SAN VICENTE",
+          "campo": "BETERO"
+        },
+        {
+          "fecha": "11/12/2021",
+          "hora": "17:00",
+          "local": "CD GINER DE LOS RÍOS",
+          "resultado": "-",
+          "visitante": "CH CARPESA",
+          "campo": "BETERO"
+        }
+      ],
+      [
+        "JORNADA5",
+        {
+          "fecha": "13/11/2021",
+          "hora": "15:00",
+          "local": "VALENCIA CH",
+          "resultado": "-",
+          "visitante": "HONIGVÖGEL HH 79",
+          "campo": "BETERO"
+        },
+        {
+          "fecha": "14/11/2021",
+          "hora": "12:00",
+          "local": "UA - SAN VICENTE",
+          "resultado": "-",
+          "visitante": "CD GINER DE LOS RÍOS",
+          "campo": "UNIVERSIDAD DE ALICANTE"
+        },
+        {
+          "fecha": "14/11/2021",
+          "hora": "14:00",
+          "local": "HOCKEY SALDUIE 78",
+          "resultado": "-",
+          "visitante": "CH XALOC",
+          "campo": "PARQUE D. EBRO"
+        }
+      ],
+      [
+        "JORNADA6",
+        {
+          "fecha": "16/11/2021",
+          "hora": "21:00",
+          "local": "CH XALOC",
+          "resultado": "-",
+          "visitante": "VALENCIA CH",
+          "campo": "TARONGERS"
+        },
+        {
+          "fecha": "20/11/2021",
+          "hora": "15:00",
+          "local": "CH CARPESA",
+          "resultado": "-",
+          "visitante": "HONIGVÖGEL HH 79",
+          "campo": "TARONGERS"
+        },
+        {
+          "fecha": "27/02/2022",
+          "hora": "0:00",
+          "local": "CD GINER DE LOS RÍOS",
+          "resultado": "-",
+          "visitante": "HOCKEY SALDUIE 78",
+          "campo": "TARONGERS"
+        }
+      ],
+      [
+        "JORNADA7",
+        {
+          "fecha": "27/11/2021",
+          "hora": "15:30",
+          "local": "HONIGVÖGEL HH 79",
+          "resultado": "-",
+          "visitante": "UA - SAN VICENTE",
+          "campo": "PARQUE D. EBRO"
+        },
+        {
+          "fecha": "27/11/2021",
+          "hora": "16:00",
+          "local": "VALENCIA CH",
+          "resultado": "-",
+          "visitante": "CH CARPESA",
+          "campo": "BETERO"
+        },
+        {
+          "fecha": "28/11/2021",
+          "hora": "12:00",
+          "local": "CH XALOC",
+          "resultado": "-",
+          "visitante": "CD GINER DE LOS RÍOS",
+          "campo": "BETERO"
+        }
+      ],
+      [
+        "JORNADA8",
+        {
+          "fecha": "06/03/2022",
+          "hora": "0:00",
+          "local": "UA - SAN VICENTE",
+          "resultado": "-",
+          "visitante": "CH CARPESA",
+          "campo": "UNIVERSIDAD DE ALICANTE"
+        },
+        {
+          "fecha": "06/03/2022",
+          "hora": "0:00",
+          "local": "HOCKEY SALDUIE 78",
+          "resultado": "-",
+          "visitante": "HONIGVÖGEL HH 79",
+          "campo": "POR DETERMINAR"
+        },
+        {
+          "fecha": "06/03/2022",
+          "hora": "0:00",
+          "local": "VALENCIA CH",
+          "resultado": "-",
+          "visitante": "CD GINER DE LOS RÍOS",
+          "campo": "POR DETERMINAR"
+        }
+      ],
+      [
+        "JORNADA9",
+        {
+          "fecha": "13/03/2022",
+          "hora": "0:00",
+          "local": "CD GINER DE LOS RÍOS",
+          "resultado": "-",
+          "visitante": "HONIGVÖGEL HH 79",
+          "campo": "POR DETERMINAR"
+        },
+        {
+          "fecha": "13/03/2022",
+          "hora": "0:00",
+          "local": "CH XALOC",
+          "resultado": "-",
+          "visitante": "CH CARPESA",
+          "campo": "POR DETERMINAR"
+        },
+        {
+          "fecha": "13/03/2022",
+          "hora": "0:00",
+          "local": "HOCKEY SALDUIE 78",
+          "resultado": "-",
+          "visitante": "UA - SAN VICENTE",
+          "campo": "POR DETERMINAR"
+        }
+      ],
+      [
+        "JORNADA10",
+        {
+          "fecha": "27/03/2022",
+          "hora": "0:00",
+          "local": "CH CARPESA",
+          "resultado": "-",
+          "visitante": "CD GINER DE LOS RÍOS",
+          "campo": "POR DETERMINAR"
+        },
+        {
+          "fecha": "27/03/2022",
+          "hora": "0:00",
+          "local": "UA - SAN VICENTE",
+          "resultado": "-",
+          "visitante": "CH XALOC",
+          "campo": "UNIVERSIDAD DE ALICANTE"
+        },
+        {
+          "fecha": "27/03/2022",
+          "hora": "0:00",
+          "local": "VALENCIA CH",
+          "resultado": "-",
+          "visitante": "HOCKEY SALDUIE 78",
+          "campo": "POR DETERMINAR"
+        }
+      ]
+    ],
+    "CLASIFICACION": [
+      {
+        "Field1": "",
+        "Field10": "DIF",
+        "Field11": "PTS",
+        "Field2": "",
+        "Field3": "",
+        "Field4": "PJ",
+        "Field5": "PG",
+        "Field6": "PE",
+        "Field7": "PP",
+        "Field8": "GF",
+        "Field9": "GE"
+      },
+      {
+        "Field1": "1º",
+        "Field10": "10",
+        "Field11": "9",
+        "Field2": "escudoua.png",
+        "Field3": "UA - SAN VICENTE",
+        "Field4": "3",
+        "Field5": "3",
+        "Field6": "0",
+        "Field7": "0",
+        "Field8": "18",
+        "Field9": "8"
+      },
+      {
+        "Field1": "2º",
+        "Field10": "7",
+        "Field11": "6",
+        "Field2": "escudoxaloc.png",
+        "Field3": "CH XALOC",
+        "Field4": "2",
+        "Field5": "2",
+        "Field6": "0",
+        "Field7": "0",
+        "Field8": "7",
+        "Field9": "0"
+      },
+      {
+        "Field1": "3º",
+        "Field10": "1",
+        "Field11": "6",
+        "Field2": "escudovalencia.png",
+        "Field3": "VALENCIA CH",
+        "Field4": "3",
+        "Field5": "2",
+        "Field6": "0",
+        "Field7": "1",
+        "Field8": "8",
+        "Field9": "7"
+      },
+      {
+        "Field1": "4º",
+        "Field10": "-1",
+        "Field11": "6",
+        "Field2": "escudohonig.png",
+        "Field3": "HONIGVÖGEL HH 79",
+        "Field4": "3",
+        "Field5": "2",
+        "Field6": "0",
+        "Field7": "1",
+        "Field8": "7",
+        "Field9": "8"
+      },
+      {
+        "Field1": "5º",
+        "Field10": "2",
+        "Field11": "3",
+        "Field2": "escudocarpesa.png",
+        "Field3": "CH CARPESA",
+        "Field4": "3",
+        "Field5": "1",
+        "Field6": "0",
+        "Field7": "2",
+        "Field8": "8",
+        "Field9": "6"
+      },
+      {
+        "Field1": "6º",
+        "Field10": "-4",
+        "Field11": "0",
+        "Field2": "escudoginer.png",
+        "Field3": "CD GINER DE LOS RÍOS",
+        "Field4": "2",
+        "Field5": "0",
+        "Field6": "0",
+        "Field7": "2",
+        "Field8": "0",
+        "Field9": "4"
+      },
+      {
+        "Field1": "7º",
+        "Field10": "-15",
+        "Field11": "0",
+        "Field2": "escudosalduie.png",
+        "Field3": "HOCKEY SALDUIE 78",
+        "Field4": "4",
+        "Field5": "0",
+        "Field6": "0",
+        "Field7": "4",
+        "Field8": "2",
+        "Field9": "17"
+      }
+    ]
+  },
+  "2": {
+    "titulo": "SENIOR FEMENINO",
+    "CLASIFICACION": [],
+    "PARTIDOS": [
+      [
+        "AMISTOSO",
+        {
+          "fecha": "16/10/2021",
+          "hora": "15:00",
+          "local": "SALDUIE78 FEM",
+          "resultado": "6 - 0",
+          "visitante": "VETERRANOS ARAGON",
+          "campo": "TARONGERS"
+        }
+      ]
+    ]
+  }
+}
