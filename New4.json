@@ -25,7 +25,7 @@
           "hora": "12:00",
           "local": "CH CARPESA",
           "resultado": "04-may",
-          "visitante": "UNIVERSITAT D'ALACANT - SAN VICENTE",
+          "visitante": "UA - SAN VICENTE",
           "campo": "TARONGERS"
         }
       ],
@@ -50,7 +50,7 @@
         {
           "fecha": "17/10/2021",
           "hora": "12:00",
-          "local": "UNIVERSITAT D'ALACANT - SAN VICENTE",
+          "local": "UA - SAN VICENTE",
           "resultado": "07-abr",
           "visitante": "VALENCIA CH",
           "campo": "UNIVERSIDAD DE ALICANTE"
@@ -61,7 +61,7 @@
         {
           "fecha": "23/10/2021",
           "hora": "15:45",
-          "local": "UNIVERSITAT D'ALACANT - SAN VICENTE",
+          "local": "UA - SAN VICENTE",
           "resultado": "6 - 0",
           "visitante": "HOCKEY SALDUIE 78",
           "campo": "UNIVERSIDAD DE ALICANTE"
@@ -98,7 +98,7 @@
           "hora": "13:00",
           "local": "CH XALOC",
           "resultado": "-",
-          "visitante": "UNIVERSITAT D'ALACANT - SAN VICENTE",
+          "visitante": "UA - SAN VICENTE",
           "campo": "BETERO"
         },
         {
@@ -123,7 +123,7 @@
         {
           "fecha": "14/11/2021",
           "hora": "12:00",
-          "local": "UNIVERSITAT D'ALACANT - SAN VICENTE",
+          "local": "UA - SAN VICENTE",
           "resultado": "-",
           "visitante": "CD GINER DE LOS RÍOS",
           "campo": "UNIVERSIDAD DE ALICANTE"
@@ -171,7 +171,7 @@
           "hora": "15:30",
           "local": "HONIGVÖGEL HH 79",
           "resultado": "-",
-          "visitante": "UNIVERSITAT D'ALACANT - SAN VICENTE",
+          "visitante": "UA - SAN VICENTE",
           "campo": "PARQUE D. EBRO"
         },
         {
@@ -196,7 +196,7 @@
         {
           "fecha": "06/03/2022",
           "hora": "0:00",
-          "local": "UNIVERSITAT D'ALACANT - SAN VICENTE",
+          "local": "UA - SAN VICENTE",
           "resultado": "-",
           "visitante": "CH CARPESA",
           "campo": "UNIVERSIDAD DE ALICANTE"
@@ -241,7 +241,7 @@
           "hora": "0:00",
           "local": "HOCKEY SALDUIE 78",
           "resultado": "-",
-          "visitante": "UNIVERSITAT D'ALACANT - SAN VICENTE",
+          "visitante": "UA - SAN VICENTE",
           "campo": "POR DETERMINAR"
         }
       ],
@@ -258,7 +258,7 @@
         {
           "fecha": "27/03/2022",
           "hora": "0:00",
-          "local": "UNIVERSITAT D'ALACANT - SAN VICENTE",
+          "local": "UA - SAN VICENTE",
           "resultado": "-",
           "visitante": "CH XALOC",
           "campo": "UNIVERSIDAD DE ALICANTE"
@@ -292,7 +292,7 @@
         "Field10": "10",
         "Field11": "9",
         "Field2": "escudoua.png",
-        "Field3": "UNIVERSITAT D'ALACANT - SAN VICENTE",
+        "Field3": "UA - SAN VICENTE",
         "Field4": "3",
         "Field5": "3",
         "Field6": "0",
