@@ -110,7 +110,7 @@ footer{
     text-decoration: none;
     display: flex; }
 
-    .navmenu {
+    .navmenu,.navmenu5,.navmenu51,.navmenu52{
         right: -100%;
         display: flex;
         flex-direction: column;
@@ -126,9 +126,23 @@ footer{
         
          
      }
-         
+     .navmenu5{
+      justify-content: flex-start;
+      
+       
+   }
+   .navmenu51,.navmenu52{
+     background-color:transparent;
+     height: 60vh;
+     top: 30vh;
+   }
+   #volver1{
+    height: 5vh
+    ;
+   }
+       
      
- #listamenus{
+ #listamenus,#listamenus5,#listamenus51,#listamenus52{
      padding: 0;
      height: 70%;
      display: flex;
@@ -136,14 +150,18 @@ footer{
     justify-content: space-around;
     margin: 0;
    }
- #listamenus li{
+   #listamenus5{
+     height: 20%;
+   }
+ #listamenus li,#listamenus5 li,#listamenus51 li,#listamenus52 li{
      display: flex;
      justify-content: center
  }
  #listamenus li a{
      text-align: center;
  }
-    .navpie01{
+ #listamenus5 li a,#listamenus51 li a,#listamenus52 li a{text-align: left;}
+    .navpie01,.navpie011{
          
          display:block;
          float:none;
@@ -154,9 +172,12 @@ footer{
          text-decoration: none;
          height: auto;
         
-         width: 50%;
+         width: 80%;
          letter-spacing: .2em;
          font-size: 2.5vh;
+     }
+     .navpie011{
+       width: 80%;
      }
      .iconosredes{
          display:flex;/*justificar ancho*/
@@ -222,10 +243,16 @@ footer{
       margin: auto;
     }
 @media screen and (min-width:1023px )and (orientation: landscape) {
-
+.controlnavmenuu{right: -100vw;}
+#volver1{display: none;}
 header{height: 14vh;
     
 }
+.navmenu5{
+ 
+   top: auto;
+  }
+  .navmenu51,.navmenu52{top: 30vh;}
 .header{
     flex-direction: column;
 

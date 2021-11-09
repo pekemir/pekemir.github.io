@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/competiciones.css">
     <link rel="stylesheet" href="css/cabecero.css">
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <header>
@@ -24,13 +25,13 @@
                 </div>
                 </div>
         <div id="divcontenedornav">
-                <nav class="navmenu" id="controlnavmenu">
+                <nav class="navmenu controlnavmenuu" id="controlnavmenu">
                     <ul id="listamenus">
                        <li><a href="index.html" class="navpie01"><span ></span>INICIO</a></li>
                        <li><a href="sobrenosotros.html" class="navpie01"><span ></span>SOBRE NOSOTROS</a></li>
                        <li><a href="noticias.html" class="navpie01"><span ></span>NOTICIAS</a></li>
                        <li><a href="escuelas.html" class="navpie01"><span ></span>ESCUELAS</a></li>
-                       <li><a href="competiciones.html" class="navpie01"><span ></span>COMPETICIONES</a></li>
+                       <li><a href="#" class="navpie01" id="cabecerobotoncompeticiones"><span ></span>COMPETICIONES</a></li>
                        <li><a href="equipos.html" class="navpie01"><span ></span>EQUIPOS</a></li>
                        <li><a href="instalaciones.html" class="navpie01"><span ></span>DONDE ESTAMOS</a></li>
                       
@@ -42,13 +43,57 @@
                             <li><a href="mailto:alejandromirbel@hotmail.com?Subject=Informacion%20Salduie78%20web%20" target="_blank"class="navpie1"><span class="icon-mail"></span></a></li>
                            </ul>
                             </nav>
-        </div></div>
+        </div>
+                <div id="divcontenedornav5">
+                    <nav class="navmenu5 controlnavmenuu" id="controlnavmenu5">
+                        <ul id="listamenus5">
+                        <li><a href="#" class="navpie011" id="volver1"><span ></span>VOLVER</a></li>
+                        <li><a href="#" class="navpie011" id="cabecerobotonprox"onclick="abrircompeticiones(0)"><span ></span>PROXIMOS PARTIDOS</a></li>
+                        <li><a href="#" class="navpie011" id="cabeceroboton51"><span ></span>HIERBA</a></li>
+                        <li><a href="#" class="navpie011"id="cabeceroboton52"><span ></span>SALA</a></li>
+                        </ul>
+                                </nav>
+    </div>
+                <div id="divcontenedornav51">
+                    <nav class="navmenu51 controlnavmenuu" id="controlnavmenu51">
+                        <ul id="listamenus51">
+                            
+                        <li><a href="#" class="navpie011"onclick="abrircompeticiones(1)" ><span ></span>PRIMERA DIVISION MASCULINA</a></li>
+                        <li><a href="#" class="navpie011"><span ></span>SENIOR FEMENINO</a></li>
+                        <li><a href="#" class="navpie011" ><span ></span>JUVENIL MASCULINO</a></li>
+                        <li><a href="#" class="navpie011"><span ></span>CADETE </a></li>
+                        <li><a href="#" class="navpie011" ><span ></span>ALEVIN </a></li>
+                        <li><a href="#" class="navpie011"><span ></span>BENJAMIN</a></li>
+                        <li><a href="#" class="navpie011"><span ></span>INICIACION</a></li>
+                        </ul>
+                                </nav>
+            </div>
+            <div id="divcontenedornav52 controlnavmenuu">
+                <nav class="navmenu52" id="controlnavmenu52">
+                    <ul id="listamenus52">
+                        
+                    <li><a href="#" class="navpie011" ><span ></span>PRIMERA DIVISION MASCULINA</a></li>
+                    <li><a href="#" class="navpie011"><span ></span>SENIOR FEMENINO</a></li>
+                    <li><a href="#" class="navpie011" ><span ></span>JUVENIL MASCULINO</a></li>
+                    <li><a href="#" class="navpie011"><span ></span>CADETE </a></li>
+                    <li><a href="#" class="navpie011" ><span ></span>ALEVIN </a></li>
+                    <li><a href="#" class="navpie011"><span ></span>BENJAMIN</a></li>
+                    <li><a href="#" class="navpie011"><span ></span>INICIACION</a></li>
+                    </ul>
+                            </nav>
+        </div>
+    
+    
+    
+    
+    </div>
     </header>
     <main  class="indexmain">
+       
        <section class="sectionprincipal">
         <article class="restodepagina">
             <div class="fondobloque"></div>
-           <article class="articulo1proximospartidos">
+           <article class="articulo1proximospartidos" id="idarticulo1proximospartidos">
                <div class="art1titulo">
                    <h2>PROXIMOS PARTIDOS</h2>
                </div>
@@ -201,6 +246,14 @@
                 </div>
                </section>
            </article>
+           <article class="articuloporcategorias" id="idarticulo1proximospartidos2">
+               <div class="contenedorarticuloporcategorias">
+                   <h2 id="titulocategoriaseleccionada">CATEGORIA</h2>
+                   <div id="tabla"></div>
+                   <div id="tabla2"></div>
+                   <div id="partidos"></div>
+               </div>
+           </article>
           </article>
        </section>
     <footer>
@@ -223,5 +276,6 @@
 <script src="https://code.jquery.com/jquery-latest.js"></script>
   <script src="javas/cabecero.js"></script>  
   
+  <script src="javas/competiciones.js"></script>
 </body>
 </html>
