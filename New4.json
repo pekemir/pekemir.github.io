@@ -419,14 +419,36 @@
     "CLASIFICACION": [],
     "JORNADAS": [
       [
-        "AMISTOSO",
+        "JORNADA 1",
         {
-          "fecha": "16/10/2021",
-          "hora": "15:00",
-          "local": "SALDUIE78 FEM",
-          "resultado": "6 - 0",
-          "visitante": "VETERRANOS ARAGON",
-          "campo": "TARONGERS"
+          "fecha": "07/11/2021",
+          "hora": "10:15",
+          "local": "HONIGVOGEL",
+          "resultado": "-",
+          "visitante": "SALDUIE",
+          "campo": "PDE"
+        }
+      ],
+      [
+        "JORNADA 2",
+        {
+          "fecha": "21/11/2021",
+          "hora": "10:15",
+          "local": "SALDUIE",
+          "resultado": "-",
+          "visitante": "HONIGVOGEL",
+          "campo": "PDE"
+        }
+      ],
+      [
+        "JORNADA 3",
+        {
+          "fecha": "28/11/2021",
+          "hora": "--:--",
+          "local": "HONIGVOGEL",
+          "resultado": "-",
+          "visitante": "SALDUIE",
+          "campo": "PDE"
         }
       ]
     ]
@@ -436,14 +458,36 @@
     "CLASIFICACION": [],
     "JORNADAS": [
       [
-        "AMISTOSO",
+        "JORNADA 1",
         {
-          "fecha": "16/10/2021",
-          "hora": "15:00",
-          "local": "SALDUIE78 FEM",
-          "resultado": "6 - 0",
-          "visitante": "VETERRANOS ARAGON",
-          "campo": "TARONGERS"
+          "fecha": "7/11/2021",
+          "hora": "11:15",
+          "local": "HONIGVOGEL",
+          "resultado": "-",
+          "visitante": "SALDUIE",
+          "campo": "PDE"
+        }
+      ],
+      [
+        "JORNADA 2",
+        {
+          "fecha": "7/11/2021",
+          "hora": "11:15",
+          "local": "SALDUIE",
+          "resultado": "-",
+          "visitante": "HONIGVOGEL",
+          "campo": "PDE"
+        }
+      ],
+      [
+        "JORNADA 3",
+        {
+          "fecha": "28/11/2021",
+          "hora": "--:--",
+          "local": "SALDUIE",
+          "resultado": "-",
+          "visitante": "BRITISH SCHOOL",
+          "campo": "PDE"
         }
       ]
     ]
@@ -453,14 +497,36 @@
     "CLASIFICACION": [],
     "JORNADAS": [
       [
-        "AMISTOSO",
+        "JORNADA 1",
         {
-          "fecha": "16/10/2021",
-          "hora": "15:00",
-          "local": "SALDUIE78 FEM",
-          "resultado": "6 - 0",
-          "visitante": "VETERRANOS ARAGON",
-          "campo": "TARONGERS"
+          "fecha": "7/11/2021",
+          "hora": "10:15",
+          "local": "HONIG",
+          "resultado": "-",
+          "visitante": "VOGEL",
+          "campo": "PDE"
+        }
+      ],
+      [
+        "JORNADA 2",
+        {
+          "fecha": "21/11/2021",
+          "hora": "10:15",
+          "local": "VOGEL",
+          "resultado": "-",
+          "visitante": "SALDUIE",
+          "campo": "PDE"
+        }
+      ],
+      [
+        "JORNADA 3",
+        {
+          "fecha": "21/11/2021",
+          "hora": "--:--",
+          "local": "SALDUIE",
+          "resultado": "-",
+          "visitante": "HONIG",
+          "campo": "PDE"
         }
       ]
     ]
