@@ -274,7 +274,7 @@
       ]
     ],
     "CLASIFICACION": [
-    {
+      {
         "Field1": null,
         "Field10": "DIF",
         "Field11": "PTS",
@@ -286,8 +286,8 @@
         "Field7": "PP",
         "Field8": "GF",
         "Field9": "GE"
-    },
-    {
+      },
+      {
         "Field1": "1º",
         "Field10": "10",
         "Field11": "9",
@@ -299,8 +299,8 @@
         "Field7": "0",
         "Field8": "18",
         "Field9": "8"
-    },
-    {
+      },
+      {
         "Field1": "2º",
         "Field10": "7",
         "Field11": "6",
@@ -312,8 +312,8 @@
         "Field7": "0",
         "Field8": "7",
         "Field9": "0"
-    },
-    {
+      },
+      {
         "Field1": "3º",
         "Field10": "1",
         "Field11": "6",
@@ -325,8 +325,8 @@
         "Field7": "1",
         "Field8": "8",
         "Field9": "7"
-    },
-    {
+      },
+      {
         "Field1": "4º",
         "Field10": "-1",
         "Field11": "6",
@@ -338,8 +338,8 @@
         "Field7": "1",
         "Field8": "7",
         "Field9": "8"
-    },
-    {
+      },
+      {
         "Field1": "5º",
         "Field10": "2",
         "Field11": "3",
@@ -351,8 +351,8 @@
         "Field7": "2",
         "Field8": "8",
         "Field9": "6"
-    },
-    {
+      },
+      {
         "Field1": "6º",
         "Field10": "-4",
         "Field11": "0",
@@ -364,8 +364,8 @@
         "Field7": "2",
         "Field8": "0",
         "Field9": "4"
-    },
-    {
+      },
+      {
         "Field1": "7º",
         "Field10": "-15",
         "Field11": "0",
@@ -377,11 +377,12 @@
         "Field7": "4",
         "Field8": "2",
         "Field9": "17"
-    }
-]
+      }
+    ]
   },
   "2": {
     "titulo ": "SENIOR FEMENINO",
+    "CLASIFICACION": [],
     "PARTIDOS": [
       [
         "AMISTOSO",
