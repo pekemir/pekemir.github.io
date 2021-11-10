@@ -52,13 +52,16 @@ p,h1,h2,h3{
             background-position: center;
         }  
         .imagennoticia{
-            transition: background-image 3.5s ease-in-out;
+           
             height: 40vh;
           margin: 5px; 
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
         
+        }
+        #primeranoticia2{
+            transition: background-image 3.5s ease-in-out;
         }
         .noticia{
             padding:  5px 5px;

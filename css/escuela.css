@@ -113,7 +113,7 @@ p,h1,h2,h3{
        width: 100%;
    }
    .contenedorboton a{max-width: 40%;}
-   .contenedorboton .boton{max-width: 45%;}
+   .contenedorboton .boton{max-width: 40%;}
    @media screen and (min-width:1023px ) and (orientation: landscape){
     .contenedorboton{
         
