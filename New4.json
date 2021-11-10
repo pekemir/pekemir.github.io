@@ -374,7 +374,20 @@
   },
   "2": {
     "titulo": "SENIOR FEMENINO HIERBA",
-    "CLASIFICACION": [],
+    "CLASIFICACION": [
+      {
+        "dfgoles": "DIF",
+        "puntos": "PTS",
+        "escudo": "",
+        "nombreequipo": "",
+        "jugados": "PJ",
+        "ganados": "PG",
+        "empatados": "PE",
+        "perdidos": "PP",
+        "golesf": "GF",
+        "golesc": "GE"
+      }
+    ],
     "JORNADAS": [
       [
         "AMISTOSO",
@@ -392,6 +405,18 @@
   "3": {
     "titulo": "CADETE CAMPEONATO ARAGON 9X9 HIERBA",
     "CLASIFICACION": [
+      {
+        "dfgoles": "DIF",
+        "puntos": "PTS",
+        "escudo": "",
+        "nombreequipo": "",
+        "jugados": "PJ",
+        "ganados": "PG",
+        "empatados": "PE",
+        "perdidos": "PP",
+        "golesf": "GF",
+        "golesc": "GE"
+      },
       {
         "dfgoles": "0",
         "puntos": "0",
@@ -434,6 +459,18 @@
   "4": {
     "titulo": "ALEVIN JJEE-DGA 9X9",
     "CLASIFICACION": [
+      {
+        "dfgoles": "DIF",
+        "puntos": "PTS",
+        "escudo": "",
+        "nombreequipo": "",
+        "jugados": "PJ",
+        "ganados": "PG",
+        "empatados": "PE",
+        "perdidos": "PP",
+        "golesf": "GF",
+        "golesc": "GE"
+      },
       {
         "dfgoles": "0",
         "puntos": "0",
@@ -498,6 +535,18 @@
   "5": {
     "titulo": "BENJAMIN JJEE-DGA 5X5",
     "CLASIFICACION": [
+      {
+        "dfgoles": "DIF",
+        "puntos": "PTS",
+        "escudo": "",
+        "nombreequipo": "",
+        "jugados": "PJ",
+        "ganados": "PG",
+        "empatados": "PE",
+        "perdidos": "PP",
+        "golesf": "GF",
+        "golesc": "GE"
+      },
       {
         "dfgoles": "0",
         "puntos": "0",
@@ -575,6 +624,18 @@
     "titulo": "INICIACION JJEE-DGA 3X3",
     "CLASIFICACION": [
       {
+        "dfgoles": "DIF",
+        "puntos": "PTS",
+        "escudo": "",
+        "nombreequipo": "",
+        "jugados": "PJ",
+        "ganados": "PG",
+        "empatados": "PE",
+        "perdidos": "PP",
+        "golesf": "GF",
+        "golesc": "GE"
+      },
+      {
         "dfgoles": "0",
         "puntos": "0",
         "escudo": "escudohonig.png",
@@ -649,7 +710,20 @@
   },
   "7": {
     "titulo": "SENIOR MASCULINO LIGA FHCV-FAH",
-    "CLASIFICACION": [],
+    "CLASIFICACION": [
+      {
+        "dfgoles": "DIF",
+        "puntos": "PTS",
+        "escudo": "",
+        "nombreequipo": "",
+        "jugados": "PJ",
+        "ganados": "PG",
+        "empatados": "PE",
+        "perdidos": "PP",
+        "golesf": "GF",
+        "golesc": "GE"
+      }
+    ],
     "JORNADAS": [
       [
         "AMISTOSO",
@@ -666,7 +740,20 @@
   },
   "8": {
     "titulo": "SENIOR FEMENINO",
-    "CLASIFICACION": [],
+    "CLASIFICACION": [
+      {
+        "dfgoles": "DIF",
+        "puntos": "PTS",
+        "escudo": "",
+        "nombreequipo": "",
+        "jugados": "PJ",
+        "ganados": "PG",
+        "empatados": "PE",
+        "perdidos": "PP",
+        "golesf": "GF",
+        "golesc": "GE"
+      }
+    ],
     "JORNADAS": [
       [
         "AMISTOSO",
@@ -683,7 +770,20 @@
   },
   "9": {
     "titulo": "CADETE CAMPEONATO DE ARAGON",
-    "CLASIFICACION": [],
+    "CLASIFICACION": [
+      {
+        "dfgoles": "DIF",
+        "puntos": "PTS",
+        "escudo": "",
+        "nombreequipo": "",
+        "jugados": "PJ",
+        "ganados": "PG",
+        "empatados": "PE",
+        "perdidos": "PP",
+        "golesf": "GF",
+        "golesc": "GE"
+      }
+    ],
     "JORNADAS": [
       [
         "AMISTOSO",
@@ -700,7 +800,20 @@
   },
   "10": {
     "titulo": "ALEVIN SALA JJEE-DGA",
-    "CLASIFICACION": [],
+    "CLASIFICACION": [
+      {
+        "dfgoles": "DIF",
+        "puntos": "PTS",
+        "escudo": "",
+        "nombreequipo": "",
+        "jugados": "PJ",
+        "ganados": "PG",
+        "empatados": "PE",
+        "perdidos": "PP",
+        "golesf": "GF",
+        "golesc": "GE"
+      }
+    ],
     "JORNADAS": [
       [
         "AMISTOSO",
@@ -717,7 +830,20 @@
   },
   "11": {
     "titulo": "BENJAMIN SALA JJEE-DGA",
-    "CLASIFICACION": [],
+    "CLASIFICACION": [
+      {
+        "dfgoles": "DIF",
+        "puntos": "PTS",
+        "escudo": "",
+        "nombreequipo": "",
+        "jugados": "PJ",
+        "ganados": "PG",
+        "empatados": "PE",
+        "perdidos": "PP",
+        "golesf": "GF",
+        "golesc": "GE"
+      }
+    ],
     "JORNADAS": [
       [
         "AMISTOSO",
