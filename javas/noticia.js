@@ -124,8 +124,8 @@ window.onload = function getGET()
                 var noticianumero=numero+1;
                 if (max>noticianumero){
                     numnoticia=noticianumero;
-              showNoticia(noticianumero);
-               /* location.href='noticia.html?var1='+noticianumero;*/}
+         
+               location.href='noticia.html?var1='+noticianumero;}
               
               
           }
@@ -136,8 +136,8 @@ window.onload = function getGET()
             var noticianumero=numero-1;
             if (noticianumero>=0){
                 numnoticia=noticianumero;
-                showNoticia(noticianumero);
-            /*location.href='noticia.html?var1='+noticianumero;*/}
+               
+            location.href='noticia.html?var1='+noticianumero;}
           
           
 
