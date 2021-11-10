@@ -143,7 +143,11 @@ p,h1,h2,h3{
                             align-items: center;
 
                         }
-                        #tabla{margin: 5px;}
+                        #titulocategoriaseleccionada{
+                            text-align: center;
+                        }
+                        #tabla{margin: 5px;min-width: 300px;}
+                        
                         .seccionprincipal{min-height: auto;}
                         td img{
                             width: 25px;
@@ -155,6 +159,13 @@ p,h1,h2,h3{
                             text-align: center;
                         }
                         tr{background-color: transparent;}
+                        #tabla2{width: 100%;}
+                        table{width: 100%;
+
+                        }
+                        #tabla2 tbody{width: 100%;}
+                        #tabla2 td{width: 33%;}
+                        #tabla2 .estrecha{width: 13%;}
 @media screen and (min-width:1023px ) and (orientation: landscape){
     
 }

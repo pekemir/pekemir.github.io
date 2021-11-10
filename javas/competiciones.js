@@ -86,26 +86,27 @@ switch (numero) {
             body=document.getElementById("tabla");
             tabla   = document.createElement("table");
             tblBody = document.createElement("tbody");
+            crearlinea2th("CLASIFICACIÓN","","");
             if (screen.width>1023) {
                 for (let i = 0; i < basepartidos['CLASIFICACION'].length; i++) {
                     var pos;
                     if (i==0) {pos="";
                         
                     }else{pos= i+"ª"}
-                    console.log( basepartidos['CLASIFICACION'][i].Field2);
+                   
                    crearlinea(
                     pos,
-                    basepartidos['CLASIFICACION'][i].Field2,
+                    basepartidos['CLASIFICACION'][i].escudo,
                    
-                    basepartidos['CLASIFICACION'][i].Field3,
-                    basepartidos['CLASIFICACION'][i].Field4,
-                    basepartidos['CLASIFICACION'][i].Field5,
-                    basepartidos['CLASIFICACION'][i].Field6,
-                    basepartidos['CLASIFICACION'][i].Field7,
-                    basepartidos['CLASIFICACION'][i].Field8,
-                    basepartidos['CLASIFICACION'][i].Field9,
-                    basepartidos['CLASIFICACION'][i].Field10,
-                    basepartidos['CLASIFICACION'][i].Field11,)
+                    basepartidos['CLASIFICACION'][i].nombreequipo,
+                    basepartidos['CLASIFICACION'][i].jugados,
+                    basepartidos['CLASIFICACION'][i].ganados,
+                    basepartidos['CLASIFICACION'][i].empatados,
+                    basepartidos['CLASIFICACION'][i].perdidos,
+                    basepartidos['CLASIFICACION'][i].golesf,
+                    basepartidos['CLASIFICACION'][i].golesc,
+                    basepartidos['CLASIFICACION'][i].dfgoles,
+                    basepartidos['CLASIFICACION'][i].puntos,)
                     console.log(i);
             
                 };
@@ -114,19 +115,19 @@ switch (numero) {
                 if (i==0) {pos="";
                     
                 }else{pos= i+"ª"}
-                console.log( basepartidos['CLASIFICACION'][i].Field2);
+                
                crearlineacorta(
                 pos,
-                basepartidos['CLASIFICACION'][i].Field2,
-               
-                basepartidos['CLASIFICACION'][i].Field3,
-                basepartidos['CLASIFICACION'][i].Field4,
-                basepartidos['CLASIFICACION'][i].Field5,
-                basepartidos['CLASIFICACION'][i].Field6,
-                basepartidos['CLASIFICACION'][i].Field7,
-               
-                basepartidos['CLASIFICACION'][i].Field11,)
-                console.log(i);
+                    basepartidos['CLASIFICACION'][i].escudo,
+                   
+                    basepartidos['CLASIFICACION'][i].nombreequipo,
+                    basepartidos['CLASIFICACION'][i].jugados,
+                    basepartidos['CLASIFICACION'][i].ganados,
+                    basepartidos['CLASIFICACION'][i].empatados,
+                    basepartidos['CLASIFICACION'][i].perdidos,
+                    
+                    basepartidos['CLASIFICACION'][i].puntos,)
+                
         
             };
                 
@@ -158,7 +159,7 @@ switch (numero) {
           } else {pintado=color2
               
           }
-          console.log(pintado);
+          
         var celda = document.createElement("td");
         var textoCelda = document.createTextNode(dato);
         celda.style.backgroundColor=pintado;    
@@ -166,6 +167,22 @@ switch (numero) {
         hilera.appendChild(celda);
             
           }
+          function creartdcolorestrecha(dato,hilera,color ) {
+            var pintado;
+            if (color==1) {
+                pintado=color1
+            } else {pintado=color2
+                
+            }
+            
+          var celda = document.createElement("td");
+          var textoCelda = document.createTextNode(dato);
+          celda.style.backgroundColor=pintado;  
+          celda.className="estrecha";
+          celda.appendChild(textoCelda);
+          hilera.appendChild(celda);
+              
+            }
       function crearth(dato,hilera ) {
          
     var celda = document.createElement("th");
@@ -176,26 +193,26 @@ switch (numero) {
         
       }
     
-      function crearlinea(posicion,equipo,ganados,perdidos,puntos,ee,dd,ff,gg,hh,ii) {
+      function crearlinea(posicion,escudo,nequipo,jugados,gan,emp,per,gf,gc,dg,ptos) {
         var hilera = document.createElement("tr");
     
     creartd(posicion,hilera);
-    if (equipo!="") {
-        creartdimagen(equipo,hilera);
+    if (escudo!="") {
+        creartdimagen(escudo,hilera);
     }else{
         creartd("",hilera);
     }
     
     
-    creartd(ganados,hilera);
-    creartd(perdidos,hilera);
-    creartd(puntos,hilera);
-    creartd(ee,hilera);
-    creartd(dd,hilera);
-    creartd(ff,hilera);
-    creartd(gg,hilera);
-    creartd(hh,hilera);
-    creartd(ii,hilera);
+    creartd(nequipo,hilera);
+    creartd(jugados,hilera);
+    creartd(gan,hilera);
+    creartd(emp,hilera);
+    creartd(per,hilera);
+    creartd(gf,hilera);
+    creartd(gc,hilera);
+    creartd(dg,hilera);
+    creartd(ptos,hilera);
    
     
     
@@ -203,31 +220,24 @@ switch (numero) {
     tblBody.appendChild(hilera);
     
       }
-      function crearlineacorta(posicion,equipo,ganados,perdidos,puntos,ee,dd,ii) {
+      function crearlineacorta(posicion,escudo,nequipo,jugados,gan,emp,per,ptos) {
         var hilera = document.createElement("tr");
     
-    creartd(posicion,hilera);
-    if (equipo!="") {
-        creartdimagen(equipo,hilera);
-    }else{
-        creartd("",hilera);
-    }
-    
-    
-    creartd(ganados,hilera);
-    creartd(perdidos,hilera);
-    creartd(puntos,hilera);
-    creartd(ee,hilera);
-    creartd(dd,hilera);
-    
-    creartd(ii,hilera);
-   
-    
-    
-    // agrega la hilera al final de la tabla (al final del elemento tblbody)
+        creartd(posicion,hilera);
+        if (escudo!="") {
+            creartdimagen(escudo,hilera);
+        }else{
+            creartd("",hilera);
+        }
+        creartd(nequipo,hilera);
+        creartd(jugados,hilera);
+        creartd(gan,hilera);
+        creartd(emp,hilera);
+        creartd(per,hilera);
+        creartd(ptos,hilera);
+      // agrega la hilera al final de la tabla (al final del elemento tblbody)
     tblBody.appendChild(hilera);
-    
-      }
+     }
       function crearlinea2(posicion,equipo,ganados) {
         var hilera = document.createElement("tr");
     
@@ -242,7 +252,7 @@ switch (numero) {
         var hilera = document.createElement("tr");
     
     creartdcolor(posicion,hilera,color);
-    creartdcolor(equipo,hilera,color);
+    creartdcolorestrecha(equipo,hilera,color);
     creartdcolor(ganados,hilera,color);
      // agrega la hilera al final de la tabla (al final del elemento tblbody)
     tblBody.appendChild(hilera);
@@ -277,16 +287,14 @@ switch (numero) {
             var color=1;
 
             for (let i = 0; i < basee.length; i++) {
+                var tipopartido=basee[i][0];
                 
-               var jornada=i+1;
-                crearlinea2th("JORNADA"+jornada,"","");
+               
+                crearlinea2th(tipopartido,"","");
                 
                
                 for (let index = 1; index < basee[i].length; index++) {
-                    
-                    
-               
-               crearlinea2color(
+                  crearlinea2color(
                
                 basee[i][index].fecha,
                 basee[i][index].hora,
@@ -300,13 +308,13 @@ switch (numero) {
                 basee[i][index].visitante,
                 color
                )
-                console.log(i);
+                
                 if (color==1) {color=0
             
                  } else {color=1
             
         }
-        console.log(color);
+        
              } };
             // posiciona el <tbody> debajo del elemento <table>
            tabla.appendChild(tblBody);
