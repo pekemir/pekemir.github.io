@@ -275,108 +275,100 @@
     ],
     "CLASIFICACION": [
       {
-        "Field1": "",
-        "Field10": "DIF",
-        "Field11": "PTS",
-        "Field2": "",
-        "Field3": "",
-        "Field4": "PJ",
-        "Field5": "PG",
-        "Field6": "PE",
-        "Field7": "PP",
-        "Field8": "GF",
-        "Field9": "GE"
+        "dfgoles": "DIF",
+        "puntos": "PTS",
+        "escudo": "",
+        "nombreequipo": "",
+        "jugados": "PJ",
+        "ganados": "PG",
+        "empatados": "PE",
+        "perdidos": "PP",
+        "golesf": "GF",
+        "golesc": "GE"
       },
       {
-        "Field1": "1º",
-        "Field10": "10",
-        "Field11": "9",
-        "Field2": "escudoua.png",
-        "Field3": "UA - SAN VICENTE",
-        "Field4": "3",
-        "Field5": "3",
-        "Field6": "0",
-        "Field7": "0",
-        "Field8": "18",
-        "Field9": "8"
+        "dfgoles": "10",
+        "puntos": "9",
+        "escudo": "escudoua.png",
+        "nombreequipo": "UA - SAN VICENTE",
+        "jugados": "3",
+        "ganados": "3",
+        "empatados": "0",
+        "perdidos": "0",
+        "golesf": "18",
+        "golesc": "8"
       },
       {
-        "Field1": "2º",
-        "Field10": "7",
-        "Field11": "6",
-        "Field2": "escudoxaloc.png",
-        "Field3": "CH XALOC",
-        "Field4": "2",
-        "Field5": "2",
-        "Field6": "0",
-        "Field7": "0",
-        "Field8": "7",
-        "Field9": "0"
+        "dfgoles": "7",
+        "puntos": "6",
+        "escudo": "escudoxaloc.png",
+        "nombreequipo": "CH XALOC",
+        "jugados": "2",
+        "ganados": "2",
+        "empatados": "0",
+        "perdidos": "0",
+        "golesf": "7",
+        "golesc": "0"
       },
       {
-        "Field1": "3º",
-        "Field10": "1",
-        "Field11": "6",
-        "Field2": "escudovalencia.png",
-        "Field3": "VALENCIA CH",
-        "Field4": "3",
-        "Field5": "2",
-        "Field6": "0",
-        "Field7": "1",
-        "Field8": "8",
-        "Field9": "7"
+        "dfgoles": "1",
+        "puntos": "6",
+        "escudo": "escudovalencia.png",
+        "nombreequipo": "VALENCIA CH",
+        "jugados": "3",
+        "ganados": "2",
+        "empatados": "0",
+        "perdidos": "1",
+        "golesf": "8",
+        "golesc": "7"
       },
       {
-        "Field1": "4º",
-        "Field10": "-1",
-        "Field11": "6",
-        "Field2": "escudohonig.png",
-        "Field3": "HONIGVÖGEL HH 79",
-        "Field4": "3",
-        "Field5": "2",
-        "Field6": "0",
-        "Field7": "1",
-        "Field8": "7",
-        "Field9": "8"
+        "dfgoles": "-1",
+        "puntos": "6",
+        "escudo": "escudohonig.png",
+        "nombreequipo": "HONIGVÖGEL HH 79",
+        "jugados": "3",
+        "ganados": "2",
+        "empatados": "0",
+        "perdidos": "1",
+        "golesf": "7",
+        "golesc": "8"
       },
       {
-        "Field1": "5º",
-        "Field10": "2",
-        "Field11": "3",
-        "Field2": "escudocarpesa.png",
-        "Field3": "CH CARPESA",
-        "Field4": "3",
-        "Field5": "1",
-        "Field6": "0",
-        "Field7": "2",
-        "Field8": "8",
-        "Field9": "6"
+        "dfgoles": "2",
+        "puntos": "3",
+        "escudo": "escudocarpesa.png",
+        "nombreequipo": "CH CARPESA",
+        "jugados": "3",
+        "ganados": "1",
+        "empatados": "0",
+        "perdidos": "2",
+        "golesf": "8",
+        "golesc": "6"
       },
       {
-        "Field1": "6º",
-        "Field10": "-4",
-        "Field11": "0",
-        "Field2": "escudoginer.png",
-        "Field3": "CD GINER DE LOS RÍOS",
-        "Field4": "2",
-        "Field5": "0",
-        "Field6": "0",
-        "Field7": "2",
-        "Field8": "0",
-        "Field9": "4"
+        "dfgoles": "-4",
+        "puntos": "0",
+        "escudo": "escudoginer.png",
+        "nombreequipo": "CD GINER DE LOS RÍOS",
+        "jugados": "2",
+        "ganados": "0",
+        "empatados": "0",
+        "perdidos": "2",
+        "golesf": "0",
+        "golesc": "4"
       },
       {
-        "Field1": "7º",
-        "Field10": "-15",
-        "Field11": "0",
-        "Field2": "escudosalduie.png",
-        "Field3": "HOCKEY SALDUIE 78",
-        "Field4": "4",
-        "Field5": "0",
-        "Field6": "0",
-        "Field7": "4",
-        "Field8": "2",
-        "Field9": "17"
+        "dfgoles": "-15",
+        "puntos": "0",
+        "escudo": "escudosalduie.png",
+        "nombreequipo": "HOCKEY SALDUIE 78",
+        "jugados": "4",
+        "ganados": "0",
+        "empatados": "0",
+        "perdidos": "4",
+        "golesf": "2",
+        "golesc": "17"
       }
     ]
   },
@@ -399,7 +391,32 @@
   },
   "3": {
     "titulo": "CADETE CAMPEONATO ARAGON 9X9 HIERBA",
-    "CLASIFICACION": [],
+    "CLASIFICACION": [
+      {
+        "dfgoles": "0",
+        "puntos": "0",
+        "escudo": "escudohonig.png",
+        "nombreequipo": "HONIGVÖGEL HH 79",
+        "jugados": "0",
+        "ganados": "0",
+        "empatados": "0",
+        "perdidos": "0",
+        "golesf": "0",
+        "golesc": "0"
+      },
+      {
+        "dfgoles": "0",
+        "puntos": "0",
+        "escudo": "escudosalduie.png",
+        "nombreequipo": "HOCKEY SALDUIE 78",
+        "jugados": "0",
+        "ganados": "0",
+        "empatados": "0",
+        "perdidos": "0",
+        "golesf": "0",
+        "golesc": "0"
+      }
+    ],
     "JORNADAS": [
       [
         "AMISTOSO",
@@ -416,7 +433,32 @@
   },
   "4": {
     "titulo": "ALEVIN JJEE-DGA 9X9",
-    "CLASIFICACION": [],
+    "CLASIFICACION": [
+      {
+        "dfgoles": "0",
+        "puntos": "0",
+        "escudo": "escudosalduie.png",
+        "nombreequipo": "HOCKEY SALDUIE 78",
+        "jugados": "0",
+        "ganados": "0",
+        "empatados": "0",
+        "perdidos": "0",
+        "golesf": "0",
+        "golesc": "0"
+      },
+      {
+        "dfgoles": "0",
+        "puntos": "0",
+        "escudo": "escudohonig.png",
+        "nombreequipo": "HONIGVÖGEL",
+        "jugados": "0",
+        "ganados": "0",
+        "empatados": "0",
+        "perdidos": "0",
+        "golesf": "0",
+        "golesc": "0"
+      }
+    ],
     "JORNADAS": [
       [
         "JORNADA 1",
@@ -455,7 +497,44 @@
   },
   "5": {
     "titulo": "BENJAMIN JJEE-DGA 5X5",
-    "CLASIFICACION": [],
+    "CLASIFICACION": [
+      {
+        "dfgoles": "0",
+        "puntos": "0",
+        "escudo": "escudohonig.png",
+        "nombreequipo": "HONIGVÖGEL",
+        "jugados": "0",
+        "ganados": "0",
+        "empatados": "0",
+        "perdidos": "0",
+        "golesf": "0",
+        "golesc": "0"
+      },
+      {
+        "dfgoles": "0",
+        "puntos": "0",
+        "escudo": "escudosalduie.png",
+        "nombreequipo": "HOCKEY SALDUIE 78",
+        "jugados": "0",
+        "ganados": "0",
+        "empatados": "0",
+        "perdidos": "0",
+        "golesf": "0",
+        "golesc": "0"
+      },
+      {
+        "dfgoles": "0",
+        "puntos": "0",
+        "escudo": "escudobritis.png",
+        "nombreequipo": "BRITISH SCHOOL",
+        "jugados": "0",
+        "ganados": "0",
+        "empatados": "0",
+        "perdidos": "0",
+        "golesf": "0",
+        "golesc": "0"
+      }
+    ],
     "JORNADAS": [
       [
         "JORNADA 1",
@@ -471,11 +550,11 @@
       [
         "JORNADA 2",
         {
-          "fecha": "7/11/2021",
+          "fecha": "21/11/2021",
           "hora": "11:15",
-          "local": "SALDUIE",
+          "local": "HONIGVOGEL",
           "resultado": "-",
-          "visitante": "HONIGVOGEL",
+          "visitante": "BRITISH SCHOOL",
           "campo": "PDE"
         }
       ],
@@ -494,7 +573,44 @@
   },
   "6": {
     "titulo": "INICIACION JJEE-DGA 3X3",
-    "CLASIFICACION": [],
+    "CLASIFICACION": [
+      {
+        "dfgoles": "0",
+        "puntos": "0",
+        "escudo": "escudohonig.png",
+        "nombreequipo": "VOGEL",
+        "jugados": "0",
+        "ganados": "0",
+        "empatados": "0",
+        "perdidos": "0",
+        "golesf": "0",
+        "golesc": "0"
+      },
+      {
+        "dfgoles": "0",
+        "puntos": "0",
+        "escudo": "escudosalduie.png",
+        "nombreequipo": "HOCKEY SALDUIE 78",
+        "jugados": "0",
+        "ganados": "0",
+        "empatados": "0",
+        "perdidos": "0",
+        "golesf": "0",
+        "golesc": "0"
+      },
+      {
+        "dfgoles": "0",
+        "puntos": "0",
+        "escudo": "escudohonig.png",
+        "nombreequipo": "HONIG",
+        "jugados": "0",
+        "ganados": "0",
+        "empatados": "0",
+        "perdidos": "0",
+        "golesf": "0",
+        "golesc": "0"
+      }
+    ],
     "JORNADAS": [
       [
         "JORNADA 1",
