@@ -4,6 +4,13 @@ var max;
     const section = document.querySelector('section');
     const requestURL = 'https://pekemir.github.io/noticias.json';
     const request = new XMLHttpRequest();
+    const myH1=document.getElementById('h1primeranoticia2');
+      
+    const myp1=document.getElementById('p1primeranoticia2');
+   
+    const mypp1=document.getElementById('p2primeranoticia2');
+   
+    const fondo1=document.getElementById('primeranoticia2');
 const TIEMPO_INTERVALO_MILESIMAS_SEG = 4000;
 let posicionActual = 0;
 let $imagen = document.querySelector('#primeranoticia2');
@@ -69,19 +76,16 @@ window.onload = function getGET()
         max=noticias.length;
         console.log(noticias[valorinicio].imagenes.length);
         console.log(noticias[valorinicio].imagenes);
+       
         //array de imagenes
         for (let index = 0; index < noticias[valorinicio].imagenes.length; index++) {
-           IMAGENES[index]='url(imagenes/'+ noticias[valorinicio].imagenes[index]+'.jpg)'
-            
+            var ruta='url(imagenes/'+ noticias[valorinicio].imagenes[index]+'.jpg)';
+            console.log(ruta);
+           IMAGENES[index]=ruta;
+           fondo1.style.backgroundImage=ruta;
         }
         
-      const myH1=document.getElementById('h1primeranoticia2');
       
-      const myp1=document.getElementById('p1primeranoticia2');
-     
-      const mypp1=document.getElementById('p2primeranoticia2');
-     
-      const fondo1=document.getElementById('primeranoticia2');
      
       
          
