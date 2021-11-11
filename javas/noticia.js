@@ -95,7 +95,7 @@ window.onload = function getGET()
           myH1.textContent = noticias[valorinicio].titulo;
           myp1.textContent = noticias[valorinicio].textolargo;
           mypp1.textContent = noticias[valorinicio].fecha;
-          var ruta="url(imagenes/noticias"+ noticias[valorinicio].imagen+".jpg)";
+          var ruta="url(imagenes/noticias/"+ noticias[valorinicio].imagen+".jpg)";
           fondo1.style.backgroundImage=ruta;
           playIntervalo();
         }
