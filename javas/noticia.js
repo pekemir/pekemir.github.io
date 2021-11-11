@@ -35,6 +35,7 @@ window.onload = function getGET()
     {
         // cogemos la parte de la url que hay despues del interrogante
         var getString = loc.split('?')[1];
+        console.log(getString);
         // obtenemos un array con cada clave=valor
         var GET = getString.split('&');
         console.log(GET);
@@ -45,6 +46,9 @@ window.onload = function getGET()
             var tmp = GET[i].split('=');
                numnoticia=tmp[1];     
             console.log(tmp[1]);
+           var numnoticia2= numnoticia.replace("#","")
+            console.log(numnoticia2);
+            numnoticia=numnoticia2;
             console.log("aora");
             request.open('GET', requestURL);
             request.responseType = 'json';
