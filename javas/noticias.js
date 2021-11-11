@@ -100,14 +100,15 @@ const fondo4=document.getElementById('cuartanoticia');
     myH1.textContent = noticias[valorinicio].titulo;
     myp1.textContent = noticias[valorinicio].textocorto;
     mypp1.textContent = noticias[valorinicio].fecha;
-    var ruta="url(imagenes/noticias"+ noticias[valorinicio].imagen+".jpg)";
+    var ruta="url(imagenes/noticias/"+ noticias[valorinicio].imagen+".jpg)";
+    console.log(ruta);
     fondo1.style.backgroundImage=ruta;
   }
     if(valorinicio-1>=0){
     myH2.textContent = noticias[valorinicio-1].titulo;
     myp2.textContent = noticias[valorinicio-1].textocorto;
     mypp2.textContent = noticias[valorinicio-1].fecha;
-    var ruta="url(imagenes/noticias"+ noticias[valorinicio-1].imagen+".jpg)";
+    var ruta="url(imagenes/noticias/"+ noticias[valorinicio-1].imagen+".jpg)";
     fondo2.style.backgroundImage=ruta;
   }else{
     myH2.textContent = "";
@@ -120,7 +121,7 @@ const fondo4=document.getElementById('cuartanoticia');
     myH3.textContent = noticias[valorinicio-2].titulo;
     myp3.textContent = noticias[valorinicio-2].textocorto;
     mypp3.textContent = noticias[valorinicio-2].fecha;
-    var ruta="url(imagenes/noticias"+ noticias[valorinicio-2].imagen+".jpg)";
+    var ruta="url(imagenes/noticias/"+ noticias[valorinicio-2].imagen+".jpg)";
     fondo3.style.backgroundImage=ruta;
   }
   else{
@@ -133,7 +134,7 @@ const fondo4=document.getElementById('cuartanoticia');
     myH4.textContent = noticias[valorinicio-3].titulo;
     myp4.textContent = noticias[valorinicio-3].textocorto;
     mypp4.textContent = noticias[valorinicio-3].fecha;
-    var ruta="url(imagenes/noticias"+ noticias[valorinicio-3].imagen+".jpg)";
+    var ruta="url(imagenes/noticias/"+ noticias[valorinicio-3].imagen+".jpg)";
     fondo4.style.backgroundImage=ruta;}
     else{
       myH4.textContent = "";
