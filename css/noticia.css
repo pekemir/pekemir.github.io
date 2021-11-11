@@ -4,14 +4,12 @@ p,h1,h2,h3{
 
 .sectionprincipal{min-width: none;}
 .restodepagina{
-    background-color:rgb(243, 237, 227);
-    position: relative;
-   min-height: 90vh;
-    margin: 10px;
-    border: 2px solid brown;
-    display: flex;
-    justify-content: center;
-        
+    background-color: whitesmoke;
+        position: relative;
+        width: 100%;
+        min-height: 80vh;
+        display: flex;
+        justify-content: center;
     }
     .mainnoticia{
         background-color: cornsilk;
@@ -23,19 +21,11 @@ p,h1,h2,h3{
         top: 10vh;
     }
     
-    .restodepagina{
-        background-color: whitesmoke;
-            position: relative;
-            width: 100%;
-            min-height: 85vh;
-            display: flex;
-            justify-content: center;
-            
-        }
+   
         section{
             margin: 10px;
             background-color:rgb(243, 237, 227);
-            width: 100%;
+           width: 100%;
             display: flex;
             flex-direction: column;
             border: 2px solid brown;
@@ -61,7 +51,7 @@ p,h1,h2,h3{
         
         }
         #primeranoticia2{
-            transition: background-image 3.5s ease-in-out;
+            transition: background-image 1.5s ease-in-out;
         }
         .noticia{
             padding:  5px 5px;
@@ -121,6 +111,7 @@ p,h1,h2,h3{
             justify-content: space-around;
             list-style: none;
             padding: 10px 0px;
+            margin: 0;
         }
         .ulavance a{
             color: cornsilk;

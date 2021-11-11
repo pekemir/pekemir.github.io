@@ -203,18 +203,8 @@ window.addEventListener("scroll", () => {
   handleScrollAnimation();
 });
 
-function ponerimagen1(){
-	const myH1=document.getElementById('imagencalendarios');
-	var ruta="url(imagenes/calendario.jpg)";
-	myH1.style.height="130vw";
-    myH1.style.backgroundImage=ruta;
-}
-function ponerimagen2(){
-	const myH1=document.getElementById('imagencalendarios');
-	var ruta="url(imagenes/primera.png)";
-	myH1.style.height="250vw";
-    myH1.style.backgroundImage=ruta;
-}
+
+
 function ponerimagen3(){
 	const myH1=document.getElementById('imagencalendarios');
 	var ruta="url(imagenes/obras.png)";

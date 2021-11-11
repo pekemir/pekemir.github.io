@@ -62,7 +62,7 @@ p,h1,h2,h3{
         position: absolute;
         width: 100%;
         height: 100%;
-        background-image: url(../imagenes/zaragoza.png);
+        background-image: url(../imagenes/fondosfijos/zaragoza.png);
         background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

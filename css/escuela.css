@@ -27,7 +27,7 @@ p,h1,h2,h3{
         position: absolute;
         width: 100%;
         height: 100%;
-        background-image: url(../imagenes/escuela3.jpg);
+        background-image: url(../imagenes/fondosfijos/escuela3.jpg);
         background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -65,13 +65,13 @@ p,h1,h2,h3{
         background-position: center;
    }
    #imagen1{
-       background-image: url(../imagenes/escuela2.jpg);
+       background-image: url(../imagenes/fondosfijos/escuela2.jpg);
    }
    #imagen2{
-    background-image: url(../imagenes/elisa.jpg);
+    background-image: url(../imagenes/fondosfijos/elisa.jpg);
 }
 #imagen3{
-    background-image: url(../imagenes/escuela5.jpg);
+    background-image: url(../imagenes/fondosfijos/escuela5.jpg);
 }
 .divtextos{
     display: flex;

@@ -1,6 +1,6 @@
 const TIEMPO_INTERVALO_MILESIMAS_SEG = 5000;
 let posicionActual = 0;
-let $imagen = document.querySelector('#indexcontenedor1contenedorimagenimagen');
+const imagen = document.getElementById('indexcontenedor1contenedorimagenimagen');
 const titul= document.getElementById('indexcontenedor1contenedorimagentituloh1');
 const titul2=document.getElementById('indexcontenedor1contenedorimagentitulo2h2');
 const boton=document.getElementById('indexcontenedor1contenedorimagenbotonboton');
@@ -63,11 +63,11 @@ function iniciopatallagrande(){
     console.log("aqui");
     console.log(cantidaddenoticias);
  IMAGENES = [
-     'url(imagenes/sudadera.jpg)',
-     'url(imagenes/'+ noticias[cantidaddenoticias-1].imagen+'.jpg)',
-     'url(imagenes/escuela33.jpg',
-     'url(imagenes/emma.jpg)',
-     /* 'url(imagenes/'+ noticias[cantidaddenoticias-4].imagen+'.jpg)',*/
+     'url(imagenes/fondosfijos/sudadera.jpg)',
+     'url(imagenes/noticias/'+ noticias[cantidaddenoticias-1].imagen+'.jpg)',
+     'url(imagenes/fondosfijos/escuela33.jpg',
+     'url(imagenes/fondosfijos/horagratis.png)',
+     /* 'url(imagenes/noticias/'+ noticias[cantidaddenoticias-4].imagen+'.jpg)',*/
  ];
  TITULOS=[
      salduie,
@@ -79,15 +79,15 @@ function iniciopatallagrande(){
      somos,
      ''+ noticias[cantidaddenoticias-1].titulo,
      'Te esperamos...',
-     'se disputan el plan de captacion en el colegio camon aznar de zaragoza',
+     '',
  ]
  BOTONES=[
      conocenos,
      'NOTICIAS',
      '+INFO',
-     'OTROS',
+     '+INFO',
  ]
- $imagen.style.backgroundImage = IMAGENES[posicionActual];
+ imagen.style.backgroundImage = IMAGENES[posicionActual];
  titul.textContent=TITULOS[posicionActual];
  titul2.textContent=TITULOS2[posicionActual];
  boton.textContent=BOTONES[posicionActual];
@@ -114,19 +114,20 @@ function pasarFoto() {
 }
 function renderizarimageninicio(){
     setTimeout(function() {
-        $imagen.style.animation='';
+        imagen.style.animation='';
         titul222.style.animation='';
         titul22.style.animation='';
         boton2.style.animation='';
     }, 0);
-    $imagen.style.backgroundImage = 'url(imagenes/sudadera.jpg)';
+    imagen.style.backgroundImage = 'url(imagenes/fondosfijos/sudadera.jpg)';
     titul.textContent=salduie;
     titul2.textContent=somos;
     boton.textContent=conocenos;
     console.log("finrenderinicio");
 }
 function renderizarImagen () {
-    $imagen.style.backgroundImage = IMAGENES[posicionActual];
+   
+    imagen.style.backgroundImage = IMAGENES[posicionActual];
     titul.textContent=TITULOS[posicionActual];
     titul2.textContent=TITULOS2[posicionActual];
     boton.textContent=BOTONES[posicionActual];
@@ -135,7 +136,7 @@ function renderizarImagen () {
  function playIntervalo() {
      console.log("inicio");
      setTimeout(function() {
-        $imagen.style.animation='';
+        imagen.style.animation='';
         titul222.style.animation='';
         titul22.style.animation='';
         boton2.style.animation='';
@@ -148,7 +149,7 @@ function renderizarImagen () {
         console.log("stop");
         clearInterval(intervalo);
         intervalo=null;
-        $imagen.style.animation='none';
+        imagen.style.animation='none';
         titul222.style.animation='none';
         titul22.style.animation='none';
         boton2.style.animation='none';
@@ -191,11 +192,11 @@ function renderizarImagen () {
             cantidaddenoticias=noticias.length;
             
          IMAGENESnoticias = [
-            'url(imagenes/'+ noticias[cantidaddenoticias-1].imagen+'.jpg)',
-             'url(imagenes/'+ noticias[cantidaddenoticias-2].imagen+'.jpg)',
-             'url(imagenes/'+ noticias[cantidaddenoticias-3].imagen+'.jpg)',
-             'url(imagenes/'+ noticias[cantidaddenoticias-4].imagen+'.jpg)',
-             /* 'url(imagenes/'+ noticias[cantidaddenoticias-4].imagen+'.jpg)',*/
+            'url(imagenes/noticias/'+ noticias[cantidaddenoticias-1].imagen+'.jpg)',
+             'url(imagenes/noticias/'+ noticias[cantidaddenoticias-2].imagen+'.jpg)',
+             'url(imagenes/noticias/'+ noticias[cantidaddenoticias-3].imagen+'.jpg)',
+             'url(imagenes/noticias/'+ noticias[cantidaddenoticias-4].imagen+'.jpg)',
+             /* 'url(imagenes/noticias/'+ noticias[cantidaddenoticias-4].imagen+'.jpg)',*/
          ];
          TITULOSnoticias=[
             ''+noticias[cantidaddenoticias-1].titulo,
@@ -234,11 +235,11 @@ function cargarimagenesnoticiasonload(){
     cantidaddenoticias=noticias.length;
     
  IMAGENESnoticias = [
-    'url(imagenes/'+ noticias[cantidaddenoticias-1].imagen+'.jpg)',
-     'url(imagenes/'+ noticias[cantidaddenoticias-2].imagen+'.jpg)',
-     'url(imagenes/'+ noticias[cantidaddenoticias-3].imagen+'.jpg)',
-     'url(imagenes/'+ noticias[cantidaddenoticias-4].imagen+'.jpg)',
-     /* 'url(imagenes/'+ noticias[cantidaddenoticias-4].imagen+'.jpg)',*/
+    'url(imagenes/noticias/'+ noticias[cantidaddenoticias-1].imagen+'.jpg)',
+     'url(imagenes/noticias/'+ noticias[cantidaddenoticias-2].imagen+'.jpg)',
+     'url(imagenes/noticias/'+ noticias[cantidaddenoticias-3].imagen+'.jpg)',
+     'url(imagenes/noticias/'+ noticias[cantidaddenoticias-4].imagen+'.jpg)',
+     /* 'url(imagenes/noticias/'+ noticias[cantidaddenoticias-4].imagen+'.jpg)',*/
  ];
  TITULOSnoticias=[
     ''+noticias[cantidaddenoticias-1].titulo,

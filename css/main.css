@@ -8,7 +8,7 @@
 .dp1imagen{
     width: 100%;
     height: 100%;
-    background-color: lawngreen;
+    
     position: relative;
 }
 .indexcontenedor1contenedorimagen{
@@ -21,7 +21,7 @@
     
     width: 100%;
     height: 100%;
-    background-image: url(../imagenes/sudadera.jpg);
+    background-image: url(../imagenes/fondosfijos/sudadera.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -191,9 +191,9 @@ flex-direction: column;
                     transition: background-image 1s ease-in-out;
                     width: 100%;
                     height: 100%;
-                    background-image: url(../imagenes/noticiasweb.jpg);
+                    background-image: url(../imagenes/fondosfijos/noticiasweb.jpg);
                     background-position: center;
-                    background-size: cover;
+                    background-size:cover;
                 }
                 #dp2div1doscarruselimagentitulo{
                  
@@ -338,7 +338,7 @@ flex-direction: column;
         
         width: 100%;
         height: 100%;
-        background-image: url(../imagenes/honig1.jpg);
+        
         background-position: center;
         background-size: cover;
     }
@@ -387,7 +387,7 @@ flex-direction: column;
      
       width: 100%;
       height: 100%;
-      background-image: url(../imagenes/honig1.jpg);
+     
       background-position: center;
       background-size: cover;
   }
