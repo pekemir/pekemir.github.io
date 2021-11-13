@@ -452,9 +452,11 @@ function inicioproxpartidos() {var peke =0;
                     color1
                    
                    )
-                   crearlinea2color(
+                   crearlinea2colorescudo(
                   cc.local,
                     cc.resultado,
+                    cc.escudo1,
+                    cc.escudo2,
                     cc.visitante,
                     color1
                    )
@@ -513,12 +515,47 @@ tblBody.appendChild(hilera);
     }
     
   var celda = document.createElement("td");
-  var textoCelda = document.createTextNode(dato);
-  celda.style.backgroundColor=pintado;    
-  celda.appendChild(textoCelda);
+  var textoCelda = document.createTextNode(" "+dato+" ");
+  
+  celda.style.backgroundColor=pintado;
+  
+    
+ celda.appendChild(textoCelda);
+  
   hilera.appendChild(celda);
       
     }
+    function crearlinea2colorescudo(posicion,equipo,escudo1,escudo2,ganados,color) {
+        var hilera = document.createElement("tr");
+    
+    creartdcolorescudo(posicion,escudo1,hilera,color);
+    creartdcolorestrecha(equipo,hilera,color);
+    creartdcolorescudo(ganados,escudo2,hilera,color);
+     // agrega la hilera al final de la tabla (al final del elemento tblbody)
+    tblBody.appendChild(hilera);
+    
+      }
+    function creartdcolorescudo(dato,escudo,hilera,color ) {
+        var pintado;
+        if (color==1) {
+            pintado=color1
+        } else {pintado=color1
+            
+        }
+        
+      var celda = document.createElement("td");
+      var textoCelda = document.createTextNode(" "+dato+" ");
+      var imag=document.createElement("img");
+      celda.style.backgroundColor=pintado;
+      imag.src="imagenes/escudos/"+escudo;
+      imag.style.width="3vh";
+        console.log(imag.src);
+        celda.appendChild(imag);
+     celda.appendChild(textoCelda);
+      
+      hilera.appendChild(celda);
+          
+        }
     function creartdcolorestrecha(dato,hilera,color ) {
       var pintado;
       if (color==1) {
