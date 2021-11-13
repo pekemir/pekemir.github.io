@@ -1,0 +1,108 @@
+
+
+
+
+.restodepagina{
+    background-color: whitesmoke;
+        position: relative;
+        width: 100%;
+        min-height: 80vh;
+        display: flex;
+        justify-content: center;
+    }
+    section{
+        margin: 10px;
+        background-color:rgb(243, 237, 227);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+       
+    }
+.seleccionpagina{
+    width: 100%;
+    background-color: brown;
+    
+    
+}
+.ulavance{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 10px 0px;
+    margin: 0;
+}
+.ulavance a{
+    color: cornsilk;
+    text-decoration: none;
+    font-size: 2.5vh;
+}
+.imagennoticia{
+    height: 40vh;
+    
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+
+}
+.noticia{
+    padding:  5px 5px;
+    font-size: 1em;
+    border: 1px solid #000;
+    flex-direction: column;
+    display: block;
+}
+.p2noticias{
+    font-size: 80%;
+    text-align: right;
+    margin-right: 5%;
+    margin: 0;
+}
+.h1noticias{
+    text-align: center;
+    margin: 0;
+}
+.p1noticias{
+    font-size: 90%;
+    margin-top: 3px;
+    margin: 0;
+}
+.subrallado{
+    display: block;
+    margin-left: auto;
+    
+    height: 1px;
+    width: 70%;
+  margin-top: 3px;
+  margin-bottom: 3px;
+    background-color: black; 
+}
+.subralladoi{
+    display: block;
+    margin-right: auto;
+    
+    height: 1px;
+    width: 70%;
+  margin-top: 3px;
+  margin-bottom: 3px;
+    background-color: black; 
+}
+.bloquedenoticias{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width:1023px ) and (orientation: landscape){
+    .bloquedenoticias{
+       
+       flex-direction: row;
+    } 
+
+    .noticia{
+        border: none;
+        margin: 6px;
+        background-color:gainsboro;
+    }
+    section{background-color: whitesmoke;}
+    
+}
