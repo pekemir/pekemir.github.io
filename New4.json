@@ -134,7 +134,9 @@
           "local": "HOCKEY SALDUIE 78",
           "resultado": "-",
           "visitante": "CH XALOC",
-          "campo": "PARQUE D. EBRO"
+          "campo": "PARQUE D. EBRO",
+		  "escudo1":"escudosalduie.png",
+		  "escudo2":"escudoxaloc.png"
         }
       ],
       [
