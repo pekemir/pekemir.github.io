@@ -10,7 +10,9 @@
           "local": "HONIGVÖGEL HH 79",
           "resultado": "04-feb",
           "visitante": "HOCKEY SALDUIE 78",
-          "campo": "PARQUE D. EBRO"
+          "campo": "PARQUE D. EBRO",
+          "escudo1": "escudosalduie.png",
+          "escudo2": "escudosalduie.png"
         },
         {
           "fecha": "03/10/2021",
@@ -18,7 +20,9 @@
           "local": "CD GINER DE LOS RÍOS",
           "resultado": "0 - 1",
           "visitante": "VALENCIA CH",
-          "campo": "BETERO"
+          "campo": "BETERO",
+          "escudo1": "escudosalduie.png",
+          "escudo2": "escudoxaloc.png"
         },
         {
           "fecha": "03/10/2021",
@@ -26,7 +30,9 @@
           "local": "CH CARPESA",
           "resultado": "04-may",
           "visitante": "UA - SAN VICENTE",
-          "campo": "TARONGERS"
+          "campo": "TARONGERS",
+          "escudo1": "escudosalduie.png",
+          "escudo2": "escudoxaloc.png"
         }
       ],
       [
@@ -37,7 +43,9 @@
           "local": "CH XALOC",
           "resultado": "6 - 0",
           "visitante": "HONIGVÖGEL HH 79",
-          "campo": "TARONGERS"
+          "campo": "TARONGERS",
+          "escudo1": "escudosalduie.png",
+          "escudo2": "escudoxaloc.png"
         },
         {
           "fecha": "16/10/2021",
@@ -45,7 +53,9 @@
           "local": "HOCKEY SALDUIE 78",
           "resultado": "0 - 4",
           "visitante": "CH CARPESA",
-          "campo": "PARQUE D. EBRO"
+          "campo": "PARQUE D. EBRO",
+          "escudo1": "escudosalduie.png",
+          "escudo2": "escudoxaloc.png"
         },
         {
           "fecha": "17/10/2021",
@@ -53,7 +63,9 @@
           "local": "UA - SAN VICENTE",
           "resultado": "07-abr",
           "visitante": "VALENCIA CH",
-          "campo": "UNIVERSIDAD DE ALICANTE"
+          "campo": "UNIVERSIDAD DE ALICANTE",
+          "escudo1": "escudosalduie.png",
+          "escudo2": "escudoxaloc.png"
         }
       ],
       [
@@ -64,7 +76,9 @@
           "local": "UA - SAN VICENTE",
           "resultado": "6 - 0",
           "visitante": "HOCKEY SALDUIE 78",
-          "campo": "UNIVERSIDAD DE ALICANTE"
+          "campo": "UNIVERSIDAD DE ALICANTE",
+          "escudo1": "escudosalduie.png",
+          "escudo2": "escudosalduie.png",
         },
         {
           "fecha": "24/10/2021",
@@ -72,7 +86,9 @@
           "local": "CH CARPESA",
           "resultado": "0 - 1",
           "visitante": "CH XALOC",
-          "campo": "TARONGERS"
+          "campo": "TARONGERS",
+          "escudo1": "escudosalduie.png",
+          "escudo2": "escudoxaloc.png"
         },
         {
           "fecha": "24/10/2021",
@@ -80,7 +96,9 @@
           "local": "HONIGVÖGEL HH 79",
           "resultado": "3 - 0",
           "visitante": "CD GINER DE LOS RÍOS",
-          "campo": "PARQUE D. EBRO"
+          "campo": "PARQUE D. EBRO",
+          "escudo1": "escudosalduie.png",
+          "escudo2": "escudoxaloc.png"
         }
       ],
       [
@@ -91,7 +109,9 @@
           "local": "HOCKEY SALDUIE 78",
           "resultado": "0 - 3",
           "visitante": "VALENCIA CH",
-          "campo": "PARQUE D. EBRO"
+          "campo": "PARQUE D. EBRO",
+          "escudo1": "escudosalduie.png",
+          "escudo2": "escudoxaloc.png"
         },
         {
           "fecha": "07/11/2021",
@@ -99,7 +119,9 @@
           "local": "CH XALOC",
           "resultado": "-",
           "visitante": "UA - SAN VICENTE",
-          "campo": "BETERO"
+          "campo": "BETERO",
+          "escudo1": "escudosalduie.png",
+          "escudo2": "escudoxaloc.png"
         },
         {
           "fecha": "11/12/2021",
@@ -107,7 +129,9 @@
           "local": "CD GINER DE LOS RÍOS",
           "resultado": "-",
           "visitante": "CH CARPESA",
-          "campo": "BETERO"
+          "campo": "BETERO",
+          "escudo1": "escudosalduie.png",
+          "escudo2": "escudoxaloc.png"
         }
       ],
       [
@@ -118,7 +142,9 @@
           "local": "VALENCIA CH",
           "resultado": "-",
           "visitante": "HONIGVÖGEL HH 79",
-          "campo": "BETERO"
+          "campo": "BETERO",
+          "escudo1": "escudosalduie.png",
+          "escudo2": "escudoxaloc.png"
         },
         {
           "fecha": "14/11/2021",
@@ -126,7 +152,9 @@
           "local": "UA - SAN VICENTE",
           "resultado": "-",
           "visitante": "CD GINER DE LOS RÍOS",
-          "campo": "UNIVERSIDAD DE ALICANTE"
+          "campo": "UNIVERSIDAD DE ALICANTE",
+          "escudo1": "escudosalduie.png",
+          "escudo2": "escudoxaloc.png"
         },
         {
           "fecha": "14/11/2021",
@@ -135,8 +163,8 @@
           "resultado": "-",
           "visitante": "CH XALOC",
           "campo": "PARQUE D. EBRO",
-		  "escudo1":"escudosalduie.png",
-		  "escudo2":"escudoxaloc.png"
+          "escudo1": "escudosalduie.png",
+          "escudo2": "escudoxaloc.png"
         }
       ],
       [
@@ -147,7 +175,9 @@
           "local": "CH XALOC",
           "resultado": "-",
           "visitante": "VALENCIA CH",
-          "campo": "TARONGERS"
+          "campo": "TARONGERS",
+          "escudo1": "escudosalduie.png",
+          "escudo2": "escudoxaloc.png"
         },
         {
           "fecha": "20/11/2021",
@@ -155,7 +185,9 @@
           "local": "CH CARPESA",
           "resultado": "-",
           "visitante": "HONIGVÖGEL HH 79",
-          "campo": "TARONGERS"
+          "campo": "TARONGERS",
+          "escudo1": "escudosalduie.png",
+          "escudo2": "escudoxaloc.png"
         },
         {
           "fecha": "27/02/2022",
@@ -163,7 +195,9 @@
           "local": "CD GINER DE LOS RÍOS",
           "resultado": "-",
           "visitante": "HOCKEY SALDUIE 78",
-          "campo": "TARONGERS"
+          "campo": "TARONGERS",
+          "escudo1": "escudosalduie.png",
+          "escudo2": "escudosalduie.png",
         }
       ],
       [
@@ -174,7 +208,9 @@
           "local": "HONIGVÖGEL HH 79",
           "resultado": "-",
           "visitante": "UA - SAN VICENTE",
-          "campo": "PARQUE D. EBRO"
+          "campo": "PARQUE D. EBRO",
+          "escudo1": "escudosalduie.png",
+          "escudo2": "escudoxaloc.png"
         },
         {
           "fecha": "27/11/2021",
@@ -182,7 +218,9 @@
           "local": "VALENCIA CH",
           "resultado": "-",
           "visitante": "CH CARPESA",
-          "campo": "BETERO"
+          "campo": "BETERO",
+          "escudo1": "escudosalduie.png",
+          "escudo2": "escudoxaloc.png"
         },
         {
           "fecha": "28/11/2021",
@@ -190,7 +228,9 @@
           "local": "CH XALOC",
           "resultado": "-",
           "visitante": "CD GINER DE LOS RÍOS",
-          "campo": "BETERO"
+          "campo": "BETERO",
+          "escudo1": "escudosalduie.png",
+          "escudo2": "escudoxaloc.png"
         }
       ],
       [
@@ -201,7 +241,9 @@
           "local": "UA - SAN VICENTE",
           "resultado": "-",
           "visitante": "CH CARPESA",
-          "campo": "UNIVERSIDAD DE ALICANTE"
+          "campo": "UNIVERSIDAD DE ALICANTE",
+          "escudo1": "escudosalduie.png",
+          "escudo2": "escudoxaloc.png"
         },
         {
           "fecha": "06/03/2022",
@@ -209,7 +251,9 @@
           "local": "HOCKEY SALDUIE 78",
           "resultado": "-",
           "visitante": "HONIGVÖGEL HH 79",
-          "campo": "POR DETERMINAR"
+          "campo": "POR DETERMINAR",
+          "escudo1": "escudosalduie.png",
+          "escudo2": "escudoxaloc.png"
         },
         {
           "fecha": "06/03/2022",
@@ -217,7 +261,9 @@
           "local": "VALENCIA CH",
           "resultado": "-",
           "visitante": "CD GINER DE LOS RÍOS",
-          "campo": "POR DETERMINAR"
+          "campo": "POR DETERMINAR",
+          "escudo1": "escudosalduie.png",
+          "escudo2": "escudoxaloc.png"
         }
       ],
       [
@@ -228,7 +274,9 @@
           "local": "CD GINER DE LOS RÍOS",
           "resultado": "-",
           "visitante": "HONIGVÖGEL HH 79",
-          "campo": "POR DETERMINAR"
+          "campo": "POR DETERMINAR",
+          "escudo1": "escudosalduie.png",
+          "escudo2": "escudoxaloc.png"
         },
         {
           "fecha": "13/03/2022",
@@ -236,7 +284,9 @@
           "local": "CH XALOC",
           "resultado": "-",
           "visitante": "CH CARPESA",
-          "campo": "POR DETERMINAR"
+          "campo": "POR DETERMINAR",
+          "escudo1": "escudosalduie.png",
+          "escudo2": "escudoxaloc.png"
         },
         {
           "fecha": "13/03/2022",
@@ -244,7 +294,9 @@
           "local": "HOCKEY SALDUIE 78",
           "resultado": "-",
           "visitante": "UA - SAN VICENTE",
-          "campo": "POR DETERMINAR"
+          "campo": "POR DETERMINAR",
+          "escudo1": "escudosalduie.png",
+          "escudo2": "escudoxaloc.png"
         }
       ],
       [
@@ -255,7 +307,9 @@
           "local": "CH CARPESA",
           "resultado": "-",
           "visitante": "CD GINER DE LOS RÍOS",
-          "campo": "POR DETERMINAR"
+          "campo": "POR DETERMINAR",
+          "escudo1": "escudosalduie.png",
+          "escudo2": "escudoxaloc.png"
         },
         {
           "fecha": "27/03/2022",
@@ -263,7 +317,9 @@
           "local": "UA - SAN VICENTE",
           "resultado": "-",
           "visitante": "CH XALOC",
-          "campo": "UNIVERSIDAD DE ALICANTE"
+          "campo": "UNIVERSIDAD DE ALICANTE",
+          "escudo1": "escudosalduie.png",
+          "escudo2": "escudoxaloc.png"
         },
         {
           "fecha": "27/03/2022",
@@ -271,7 +327,9 @@
           "local": "VALENCIA CH",
           "resultado": "-",
           "visitante": "HOCKEY SALDUIE 78",
-          "campo": "POR DETERMINAR"
+          "campo": "POR DETERMINAR",
+          "escudo1": "escudosalduie.png",
+          "escudo2":"escudosalduie.png",
         }
       ]
     ],
@@ -399,7 +457,9 @@
           "local": "SALDUIE78 FEM",
           "resultado": "6 - 0",
           "visitante": "VETERRANOS ARAGON",
-          "campo": "TARONGERS"
+          "campo": "TARONGERS",
+          "escudo1": "escudosalduie.png",
+          "escudo2": "escudoxaloc.png"
         }
       ]
     ]
@@ -507,7 +567,9 @@
           "local": "HONIGVOGEL",
           "resultado": "-",
           "visitante": "SALDUIE",
-          "campo": "PDE"
+          "campo": "PDE",
+          "escudo1": "escudosalduie.png",
+          "escudo2": "escudoxaloc.png"
         }
       ],
       [
@@ -518,7 +580,9 @@
           "local": "SALDUIE",
           "resultado": "-",
           "visitante": "HONIGVOGEL",
-          "campo": "PDE"
+          "campo": "PDE",
+          "escudo1": "escudosalduie.png",
+          "escudo2": "escudoxaloc.png"
         }
       ],
       [
@@ -529,7 +593,9 @@
           "local": "HONIGVOGEL",
           "resultado": "-",
           "visitante": "SALDUIE",
-          "campo": "PDE"
+          "campo": "PDE",
+          "escudo1": "escudosalduie.png",
+          "escudo2": "escudoxaloc.png"
         }
       ]
     ]
@@ -595,7 +661,9 @@
           "local": "HONIGVOGEL",
           "resultado": "-",
           "visitante": "SALDUIE",
-          "campo": "PDE"
+          "campo": "PDE",
+          "escudo1": "escudosalduie.png",
+          "escudo2": "escudoxaloc.png"
         }
       ],
       [
@@ -606,7 +674,9 @@
           "local": "HONIGVOGEL",
           "resultado": "-",
           "visitante": "BRITISH SCHOOL",
-          "campo": "PDE"
+          "campo": "PDE",
+          "escudo1": "escudosalduie.png",
+          "escudo2": "escudoxaloc.png"
         }
       ],
       [
@@ -617,7 +687,9 @@
           "local": "SALDUIE",
           "resultado": "-",
           "visitante": "BRITISH SCHOOL",
-          "campo": "PDE"
+          "campo": "PDE",
+          "escudo1": "escudosalduie.png",
+          "escudo2": "escudoxaloc.png"
         }
       ]
     ]
@@ -683,7 +755,9 @@
           "local": "HONIG",
           "resultado": "-",
           "visitante": "VOGEL",
-          "campo": "PDE"
+          "campo": "PDE",
+          "escudo1": "escudosalduie.png",
+          "escudo2": "escudoxaloc.png"
         }
       ],
       [
@@ -694,7 +768,9 @@
           "local": "VOGEL",
           "resultado": "-",
           "visitante": "SALDUIE",
-          "campo": "PDE"
+          "campo": "PDE",
+          "escudo1": "escudosalduie.png",
+          "escudo2": "escudoxaloc.png"
         }
       ],
       [
@@ -705,7 +781,9 @@
           "local": "SALDUIE",
           "resultado": "-",
           "visitante": "HONIG",
-          "campo": "PDE"
+          "campo": "PDE",
+          "escudo1": "escudosalduie.png",
+          "escudo2": "escudoxaloc.png"
         }
       ]
     ]
@@ -782,7 +860,7 @@
     ],
     "JORNADAS": [
       [
-       "CALENDARIO NO CERRADO",
+        "CALENDARIO NO CERRADO",
         {
           "fecha": "--/--/----",
           "hora": "--:--",
@@ -866,7 +944,7 @@
     ],
     "JORNADAS": [
       [
-       "CALENDARIO NO CERRADO",
+        "CALENDARIO NO CERRADO",
         {
           "fecha": "--/--/----",
           "hora": "--:--",
