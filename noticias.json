@@ -1,200 +1,13 @@
 {
-	"squadName": "Super Hero Squad",
-	"homeTown": "Metro City",
-	"formed": 2016,
-	"secretBase": "Super tower",
-	"active": true,
+	
 	"noticias": [
 		{
 			"control": 1,
-			"titulo": "Comienza la Liga",
+			"titulo": "Fin de la primera vuelta",
 			"imagen": "noticia1",
-			"textocorto": "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel. Más... ",
-			"textolargo": "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel, el encuentro tendra lugar en Zaragoza en el PDE.Comienza la liga con un apasionante Derbi en el que en este caso actuaremos como visitante, a la cita llegamos con varias bajas en la convocatoria, pero seguro que plantaremos cara, y esperamos sea un partido intenso y emocionante para el espectador. ",
-			"fecha": "01/10/2021",
-			"imagenes": [
-				"noticia1",
-				"noticia2",
-				"noticia3",
-				"noticia4"
-			]
-		},
-		{
-			"control": 1,
-			"titulo": "Noticia2",
-			"imagen": "noticia2",
-			"textocorto": "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel ",
-			"textolargo": "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel, el encuentro tendra lugar en Zaragoza en el PDE.Comienza la liga con un apasionante Derbi en el que en este caso actuaremos como visitante, a la cita llegamos con varias bajas en la convocatoria, pero seguro que plantaremos cara, y esperamos sea un partido intenso y emocionante para el espectador.",
-			"fecha": "01/10/2021",
-			"imagenes": [
-				"noticia1",
-				"noticia2",
-				"noticia3",
-				"noticia4"
-			]
-		},
-		{
-			"control": 1,
-			"titulo": "Noticia3333",
-			"imagen": "noticia3",
-			"textocorto": "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel ",
-			"textolargo": "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel, el encuentro tendra lugar en Zaragoza en el PDE.Comienza la liga con un apasionante Derbi en el que en este caso actuaremos como visitante, a la cita llegamos con varias bajas en la convocatoria, pero seguro que plantaremos cara, y esperamos sea un partido intenso y emocionante para el espectador.",
-			"fecha": "01/10/2021",
-			"imagenes": [
-				"noticia1",
-				"noticia2",
-				"noticia3",
-				"noticia4"
-			]
-		},
-		{
-			"control": 1,
-			"titulo": "Comienza la Liga4444",
-			"imagen": "noticia4",
-			"textocorto": "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel ",
-			"textolargo": "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel, el encuentro tendra lugar en Zaragoza en el PDE.Comienza la liga con un apasionante Derbi en el que en este caso actuaremos como visitante, a la cita llegamos con varias bajas en la convocatoria, pero seguro que plantaremos cara, y esperamos sea un partido intenso y emocionante para el espectador.",
-			"fecha": "01/10/2021",
-			"imagenes": [
-				"noticia1",
-				"noticia2",
-				"noticia3",
-				"noticia4"
-			]
-		},
-		{
-			"titulo": "Noticia5",
-			"imagen": "noticia5",
-			"textocorto": "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel ",
-			"textolargo": "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel, el encuentro tendra lugar en Zaragoza en el PDE.Comienza la liga con un apasionante Derbi en el que en este caso actuaremos como visitante, a la cita llegamos con varias bajas en la convocatoria, pero seguro que plantaremos cara, y esperamos sea un partido intenso y emocionante para el espectador.",
-			"fecha": "01/10/2021",
-			"imagenes": [
-				"noticia1",
-				"noticia2",
-				"noticia3",
-				"noticia4"
-			]
-		},
-		{
-			"titulo": "Noticia6",
-			"imagen": "noticia6",
-			"textocorto": "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel ",
-			"textolargo": "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel, el encuentro tendra lugar en Zaragoza en el PDE.Comienza la liga con un apasionante Derbi en el que en este caso actuaremos como visitante, a la cita llegamos con varias bajas en la convocatoria, pero seguro que plantaremos cara, y esperamos sea un partido intenso y emocionante para el espectador.",
-			"fecha": "01/10/2021",
-			"imagenes": [
-				"noticia1",
-				"noticia2",
-				"noticia3",
-				"noticia4"
-			]
-		},
-		{
-			"titulo": "Comienza la Liga77",
-			"imagen": "noticia7",
-			"textocorto": "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel ",
-			"textolargo": "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel, el encuentro tendra lugar en Zaragoza en el PDE.Comienza la liga con un apasionante Derbi en el que en este caso actuaremos como visitante, a la cita llegamos con varias bajas en la convocatoria, pero seguro que plantaremos cara, y esperamos sea un partido intenso y emocionante para el espectador.",
-			"fecha": "01/10/2021",
-			"imagenes": [
-				"noticia1",
-				"noticia2",
-				"noticia3",
-				"noticia4"
-			]
-		},
-		{
-			"titulo": "Noticia8",
-			"imagen": "noticia8",
-			"textocorto": "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel ",
-			"textolargo": "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel, el encuentro tendra lugar en Zaragoza en el PDE.Comienza la liga con un apasionante Derbi en el que en este caso actuaremos como visitante, a la cita llegamos con varias bajas en la convocatoria, pero seguro que plantaremos cara, y esperamos sea un partido intenso y emocionante para el espectador.",
-			"fecha": "01/10/2021",
-			"imagenes": [
-				"noticia1",
-				"noticia2",
-				"noticia3",
-				"noticia4"
-			]
-		},
-		{
-			"titulo": "Noticia9",
-			"imagen": "noticia9",
-			"textocorto": "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel ",
-			"textolargo": "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel, el encuentro tendra lugar en Zaragoza en el PDE.Comienza la liga con un apasionante Derbi en el que en este caso actuaremos como visitante, a la cita llegamos con varias bajas en la convocatoria, pero seguro que plantaremos cara, y esperamos sea un partido intenso y emocionante para el espectador.",
-			"fecha": "01/10/2021",
-			"imagenes": [
-				"noticia1",
-				"noticia2",
-				"noticia3",
-				"noticia4"
-			]
-		},
-		{
-			"titulo": "Jornada 2 Senior Masculino",
-			"imagen": "noticia10",
-			"textocorto": "Este proximo sabado 16 de Octubre se disputa la Jornada 2 de la 1ª division de Hockey Hierba",
-			"textolargo": "Este proximo sabado 16 de Octubre se disputa la Jornada 2 de la 1ª division de Hockey Hierba, el encuentro se disputara en el Parque deportivo Ebro a las 16:00. Los de Dionisio Maria intentaran sus primeros puntos en esta competicion, y asi resarcirse de la derrota cosechada en el primer encuentro, para este encuentro se recuperaran algunas de las bajas con las que se disputo el primer encuentro, de esta manera esperamos sera un partido agradable para el espectador y nuestro equipo disponga de oportunidades para llevarse el encuentro.¡Suerte EQUIPO! ",
-			"fecha": "01/10/2021",
-			"imagenes": [
-				"noticia10"
-				
-			]
-		},
-		{
-			"titulo": "Noticia11",
-			"imagen": "noticia11",
-			"textocorto": "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel ",
-			"textolargo": "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel, el encuentro tendra lugar en Zaragoza en el PDE.Comienza la liga con un apasionante Derbi en el que en este caso actuaremos como visitante, a la cita llegamos con varias bajas en la convocatoria, pero seguro que plantaremos cara, y esperamos sea un partido intenso y emocionante para el espectador.",
-			"fecha": "01/10/2021",
-			"imagenes": [
-				"noticia1",
-				"noticia2",
-				"noticia3",
-				"noticia4"
-			]
-		},
-		{
-			"titulo": "Noticia12",
-			"imagen": "noticia12",
-			"textocorto": "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel ",
-			"textolargo": "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel, el encuentro tendra lugar en Zaragoza en el PDE.Comienza la liga con un apasionante Derbi en el que en este caso actuaremos como visitante, a la cita llegamos con varias bajas en la convocatoria, pero seguro que plantaremos cara, y esperamos sea un partido intenso y emocionante para el espectador.",
-			"fecha": "01/10/2021",
-			"imagenes": [
-				"noticia1",
-				"noticia2",
-				"noticia3",
-				"noticia4"
-			]
-		},
-		{
-			"titulo": "Comienza la Lig13a",
-			"imagen": "noticia13",
-			"textocorto": "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel ",
-			"textolargo": "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel, el encuentro tendra lugar en Zaragoza en el PDE.Comienza la liga con un apasionante Derbi en el que en este caso actuaremos como visitante, a la cita llegamos con varias bajas en la convocatoria, pero seguro que plantaremos cara, y esperamos sea un partido intenso y emocionante para el espectador.",
-			"fecha": "01/10/2021",
-			"imagenes": [
-				"noticia1",
-				"noticia2",
-				"noticia3",
-				"noticia4"
-			]
-		},
-		{
-			"titulo": "Noticia14",
-			"imagen": "noticia14",
-			"textocorto": "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel ",
-			"textolargo": "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel, el encuentro tendra lugar en Zaragoza en el PDE.Comienza la liga con un apasionante Derbi en el que en este caso actuaremos como visitante, a la cita llegamos con varias bajas en la convocatoria, pero seguro que plantaremos cara, y esperamos sea un partido intenso y emocionante para el espectador.",
-			"fecha": "01/10/2021",
-			"imagenes": [
-				"noticia1",
-				"noticia2",
-				"noticia3",
-				"noticia4"
-			]
-		},
-		{
-			"control": 15,
-			"titulo": "Noticia15",
-			"imagen": "noticia15",
-			"textocorto": "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partido contra Honigvögel ",
-			"textolargo": "Mañana, Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el pr Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partid Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partid Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partid Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partid Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partid Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partid Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partid Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partid Sábado 2 de Octubre, comienza para nosotros la liga.Disputaremos a las 16:00 el primer partidimer partido contra Honigvögel, el encuentro tendra lugar en Zaragoza en el PDE.Comienza la liga con un apasionante Derbi en el que en este caso actuaremos como visitante, a la cita llegamos con varias bajas en la convocatoria, pero seguro que plantaremos cara, y esperamos sea un partido intenso y emocionante para el espectador.",
+			"textocorto": "Con la disputa de la 5ª jornada y a falta de disputar el partido aplazado contra...",
+			"textolargo": ["Con la disputa de la 5ª jornada y a falta de disputar el partido aplazado contra el CD Giner de los rios ",
+							"termina la primera vuelta de la 1ª division masculina de hockey hierba."],
 			"fecha": "01/10/2021",
 			"imagenes": [
 				"noticia1",
@@ -203,5 +16,7 @@
 				"noticia4"
 			]
 		}
+		
+		
 	]
 }
