@@ -1,13 +1,65 @@
 {
-	
 	"noticias": [
 		{
 			"control": 1,
 			"titulo": "Fin de la primera vuelta",
 			"imagen": "noticia1",
 			"textocorto": "Con la disputa de la 5ª jornada y a falta de disputar el partido aplazado contra...",
-			"textolargo": ["Con la disputa de la 5ª jornada y a falta de disputar el partido aplazado contra el CD Giner de los rios ",
-							"termina la primera vuelta de la 1ª division masculina de hockey hierba."],
+			"textolargo": [
+				"Con la disputa de la 5ª jornada y a falta de disputar el partido aplazado contra el CD Giner de los rios ",
+				"termina la primera vuelta de la 1ª division masculina de hockey hierba."
+			],
+			"fecha": "01/10/2021",
+			"imagenes": [
+				"noticia1",
+				"noticia2",
+				"noticia3",
+				"noticia4"
+			]
+		},
+		{
+			"control": 1,
+			"titulo": "Fin de la primera vuelta",
+			"imagen": "noticia1",
+			"textocorto": "Con la disputa de la 5ª jornada y a falta de disputar el partido aplazado contra...",
+			"textolargo": [
+				"Con la disputa de la 5ª jornada y a falta de disputar el partido aplazado contra el CD Giner de los rios ",
+				"termina la primera vuelta de la 1ª division masculina de hockey hierba."
+			],
+			"fecha": "01/10/2021",
+			"imagenes": [
+				"noticia1",
+				"noticia2",
+				"noticia3",
+				"noticia4"
+			]
+		},
+		{
+			"control": 1,
+			"titulo": "Fin de la primera vuelta",
+			"imagen": "noticia1",
+			"textocorto": "Con la disputa de la 5ª jornada y a falta de disputar el partido aplazado contra...",
+			"textolargo": [
+				"Con la disputa de la 5ª jornada y a falta de disputar el partido aplazado contra el CD Giner de los rios ",
+				"termina la primera vuelta de la 1ª division masculina de hockey hierba."
+			],
+			"fecha": "01/10/2021",
+			"imagenes": [
+				"noticia1",
+				"noticia2",
+				"noticia3",
+				"noticia4"
+			]
+		},
+		{
+			"control": 1,
+			"titulo": "Fin de la primera vuelta",
+			"imagen": "noticia1",
+			"textocorto": "Con la disputa de la 5ª jornada y a falta de disputar el partido aplazado contra...",
+			"textolargo": [
+				"Con la disputa de la 5ª jornada y a falta de disputar el partido aplazado contra el CD Giner de los rios ",
+				"termina la primera vuelta de la 1ª division masculina de hockey hierba."
+			],
 			"fecha": "01/10/2021",
 			"imagenes": [
 				"noticia1",
@@ -16,7 +68,5 @@
 				"noticia4"
 			]
 		}
-		
-		
 	]
 }
