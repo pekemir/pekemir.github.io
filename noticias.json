@@ -12,7 +12,8 @@
 			],
 			"fecha": "14/11/2021",
 			"imagenes": [
-				"noticia1"
+				"noticia1",
+				"noticia1f1"
 			]
 		},
 		{
@@ -27,7 +28,7 @@
 			"fecha": "19/11/2021",
 			"imagenes": [
 				"noticia2",
-				"noticia2f2"
+				"noticia2f1"
 			]
 		},
 		{
@@ -49,7 +50,7 @@
 			]
 		},
 		{
-			"control": 1,
+			"control": 4,
 			"titulo": "Fin de la primera vuelta",
 			"imagen": "noticia1",
 			"textocorto": "Con la disputa de la 5ª jornada y a falta de disputar el partido aplazado contra...",
@@ -59,9 +60,9 @@
 			],
 			"fecha": "01/10/2021",
 			"imagenes": [
-				"noticia1",
-				"noticia2",
-				"noticia3",
+				"noticia4",
+				"noticia4f1",
+				"noticiaf2",
 				"noticia4"
 			]
 		}
