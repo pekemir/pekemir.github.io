@@ -233,8 +233,8 @@ $('.js-boton-cookie').click(function() {
    if(dev != null){
 	$('.politicas-cookie').css('display', 'none');
    }else{//De lo contrario muestro la información
-	$('.politicas-cookie').css('display', 'block');
-//$('.politicas-cookie').css('display', 'none');//quitar esto para que se vea
+	//$('.politicas-cookie').css('display', 'block');
+$('.politicas-cookie').css('display', 'none');//quitar esto para que se vea
    }
   
   
