@@ -12,7 +12,8 @@
 			],
 			"fecha": "14/11/2021",
 			"imagenes": [
-				"noticia1"
+				"noticia1",
+				"noticia1f1"
 			]
 		},
 		{
@@ -63,10 +64,10 @@
 			"enlace":"https://www.instagram.com/p/CWl8FTeDuIm/",
 			"fecha": "01/10/2021",
 			"imagenes": [
-				"noticia1",
-				"noticia2",
-				"noticia3",
-				"noticia4"
+				"noticia4",
+				"noticia4f1",
+				"noticia4f2"
+				
 			]
 		}
 	]
