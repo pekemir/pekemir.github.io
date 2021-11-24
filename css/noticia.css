@@ -70,6 +70,7 @@ p,h1,h2,h3{
             text-align: center;
         }
         .p1noticias{
+            text-align: center;
             font-size: 90%;
             margin-top: 3px;
         }
@@ -94,8 +95,11 @@ p,h1,h2,h3{
             background-color: black; 
         }
         .divisiontexto{
+            align-items: center;
             margin :8px;
             min-height: 30vh;
+            display: flex;
+            flex-direction: column;
         }
         .seleccionpagina{
             
@@ -120,6 +124,11 @@ p,h1,h2,h3{
             font-size: 2.5vh;
         }
        
-    @media screen and (min-width:1023px ) and (orientation: landscape){
+    @media screen and (min-width:1023px ) {
+        .p1noticias{width: 60%;}
     
+}
+@media screen and (min-width:1023px ) and (orientation: landscape){
+    .p1noticias{width: 60%;}
+
 }

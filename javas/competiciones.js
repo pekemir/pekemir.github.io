@@ -47,6 +47,7 @@ function quehacer(numero){
     console.log("numeroooo"+numero);
 switch (numero) {
     case '0':{ otros.style.display='none';
+    ponerproximospartidos();
                 break;
             }
    
@@ -184,12 +185,32 @@ switch (numero) {
             
           var celda = document.createElement("td");
           var textoCelda = document.createTextNode(dato);
+         
           celda.style.backgroundColor=pintado;  
           celda.className="estrecha";
+          
           celda.appendChild(textoCelda);
           hilera.appendChild(celda);
               
             }
+            function creartdcolorestrechabold(dato,hilera,color ) {
+              var pintado;
+              if (color==1) {
+                  pintado=color1
+              } else {pintado=color2
+                  
+              }
+              
+            var celda = document.createElement("td");
+            var textoCelda = document.createTextNode(dato);
+           
+            celda.style.backgroundColor=pintado;  
+            celda.className="estrecha";
+            celda.style.fontWeight="bold";
+            celda.appendChild(textoCelda);
+            hilera.appendChild(celda);
+                
+              }
       function crearth(dato,hilera ) {
          
     var celda = document.createElement("th");
@@ -265,6 +286,16 @@ switch (numero) {
     tblBody.appendChild(hilera);
     
       }
+      function crearlinea2colorbold(posicion,equipo,ganados,color) {
+        var hilera = document.createElement("tr");
+    
+    creartdcolor(posicion,hilera,color);
+    creartdcolorestrechabold(equipo,hilera,color);
+    creartdcolor(ganados,hilera,color);
+     // agrega la hilera al final de la tabla (al final del elemento tblbody)
+    tblBody.appendChild(hilera);
+    
+      }
       function crearlinea2th(posicion,equipo,ganados) {
         var hilera = document.createElement("tr");
         crearth(posicion,hilera);
@@ -284,23 +315,44 @@ switch (numero) {
         
       }
       function comprobarpartidos() {
+        console.log("comprobarpartidos");
         if (basepartidos['JORNADAS'].length>0) {
             
             body=document.getElementById("tabla2");
-            tabla   = document.createElement("table");
-            tblBody = document.createElement("tbody");
+           
             var basee=basepartidos['JORNADAS'];
             console.log(basee);
             var color=1;
+            const imagenn = document.getElementById("mitable");	
+            if (!imagenn){console.log("no");
+                  
+              tabla   = document.createElement("table");
+                  tabla.id="mitable";
+            } else {
+              padre = imagenn.parentNode;
+              padre.removeChild(imagenn);
+                  tabla   = document.createElement("table");
+                  tabla.id="mitable";
+            };
+              const imagenn2 = document.getElementById("mi tblBody");	
+            if (!imagenn2){console.log("no");
+              tblBody = document.createElement("tbody");
+                  tblBody.id="mi tblBody";
+            } else {
+              padre = imagenn2.parentNode;
+              padre.removeChild(imagenn2);
+                  tblBody = document.createElement("tbody");
+                  tblBody.id="mi tblBody";
+            };
+              
 
             for (let i = 0; i < basee.length; i++) {
                 var tipopartido=basee[i][0];
-                
-               
-                crearlinea2th(tipopartido,"","");
-                
-               
+                 crearlinea2th(tipopartido,"","");
                 for (let index = 1; index < basee[i].length; index++) {
+                  console.log(basee[i][index].fecha,
+                    basee[i][index].hora,
+                    basee[i][index].campo,);
                   crearlinea2color(
                
                 basee[i][index].fecha,
@@ -309,7 +361,7 @@ switch (numero) {
                 color
                
                )
-               crearlinea2color(
+               crearlinea2colorbold(
                 basee[i][index].local,
                 basee[i][index].resultado,
                 basee[i][index].visitante,
@@ -337,3 +389,160 @@ switch (numero) {
     }
 
 
+
+
+
+    var basepartidos;
+var keyCount;
+function ponerproximospartidos() {
+  const requestURL2 = 'https://pekemir.github.io/New4.json';
+  const request2 = new XMLHttpRequest();
+  
+  request2.open('GET', requestURL2);
+  request2.responseType = 'json';
+  request2.send();
+  request2.onload = function() {
+  const superNoticias2 = request2.response;
+  basepartidos=superNoticias2;
+  console.log(basepartidos);
+  //showNoticias(1);
+  console.log("aqui");
+  keyCount  = Object.keys(basepartidos).length;
+  inicioproxpartidos();
+  }}
+
+
+
+    function inicioproxpartidos() {var peke =0;
+      console.log("inicooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo");
+          body=document.getElementById("tablaproxpartidos");
+        
+          const imagenn = document.getElementById("mitable");	
+    if (!imagenn){
+          
+      tabla   = document.createElement("table");
+          tabla.id="mitable";
+    } else {
+      padre = imagenn.parentNode;
+      padre.removeChild(imagenn);
+          tabla   = document.createElement("table");
+          tabla.id="mitable";
+    };
+      const imagenn2 = document.getElementById("mi tblBody");	
+    if (!imagenn2){
+      tblBody = document.createElement("tbody");
+          tblBody.id="mi tblBody";
+    } else {
+      padre = imagenn2.parentNode;
+      padre.removeChild(imagenn2);
+          tblBody = document.createElement("tbody");
+          tblBody.id="mi tblBody";
+    };
+      
+          
+         
+          
+      var cotro=0;
+      for (let index = 1; index < keyCount; index++) {
+          cotro=0;
+         
+          for (let index2 = 0; index2 < basepartidos[index]['JORNADAS'].length; index2++) {
+              
+              for (let index3 = 1; index3 < basepartidos[index]['JORNADAS'][index2].length; index3++) {
+                 /* console.log(basepartidos[index]['JORNADAS'][index2][index3]);*/
+                 var cc=basepartidos[index]['JORNADAS'][index2][index3];
+                  if (cc.resultado =='-' && (cc.local.includes('SALDUIE') ||cc.visitante.includes('SALDUIE'))&& cc.campo!='---') {
+                      /*console.log(basepartidos[index]['JORNADAS'][index2][index3]);*/
+                   peke=peke+1;
+                     cotro=1;
+                     crearlinea2th(basepartidos[index].titulo,"","");
+                     crearlinea2color(
+             
+                      cc.fecha,
+                      cc.hora,
+                      cc.campo,
+                      color1
+                     
+                     )
+                     crearlinea2colorescudo(
+                      cc.local,
+                      cc.resultado,
+                      cc.escudo1,
+                      cc.escudo2,
+                      cc.visitante,
+                      color1
+                     )
+                     /*console.log("out");*/
+                     break;
+                  }
+  
+  
+                  if (cotro==1) {
+                     /* console.log("out2");*/
+                      break
+                      
+                  }
+                  
+  
+          }
+        /*  console.log(basepartidos[index].titulo);*/
+        if (cotro==1) {
+        /*  console.log("out2");*/
+          break
+  }
+          
+      }
+      
+  
+      
+          // posiciona el <tbody> debajo del elemento <table>
+         tabla.appendChild(tblBody);
+         // appends <table> into <body>
+             body.appendChild(tabla);
+         // modifica el atributo "border" de la tabla y lo fija a "2";
+           tabla.setAttribute("border", "2");
+         
+          
+          
+      }
+  
+      
+  }
+  function crearlinea2colorescudo(local,resultado,escudo1,escudo2,visitante,color) {
+    var hilera = document.createElement("tr");
+    var equipo=local;
+if (equipo.includes('SALDUIE')) {
+    console.log("okkkkkkkkkkkkKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK");
+    
+}else{
+    console.log("okkkkkkkkkkkk");
+}
+console.log(local);
+creartdcolorescudo(local,escudo1,hilera,color);
+creartdcolorestrecha(resultado,hilera,color);
+creartdcolorescudo(visitante,escudo2,hilera,color);
+ // agrega la hilera al final de la tabla (al final del elemento tblbody)
+tblBody.appendChild(hilera);
+
+  }
+  function creartdcolorescudo(equipo,escudo,hilera,color ) {
+    var pintado;
+    if (color==1) {
+        pintado=color1
+    } else {pintado=color1
+        
+    }
+    
+  var celda = document.createElement("td");
+  var textoCelda = document.createTextNode(" "+equipo+" ");
+  var imag=document.createElement("img");
+  celda.style.backgroundColor=pintado;
+  imag.src="imagenes/escudos/"+escudo;
+  imag.style.width="3vh";
+    
+    celda.appendChild(imag);
+ celda.appendChild(textoCelda);
+  
+  hilera.appendChild(celda);
+      
+    }

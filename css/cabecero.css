@@ -1,7 +1,7 @@
 * {
 
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	
+	cursor: pointer;
 }
 .boton{
   width: 100%;
@@ -385,3 +385,52 @@ main{top: 14vh;}
         }
     
       }
+     
+ 
+
+ 
+.boton-subir,
+.politicas-cookie{
+ position: fixed;
+ z-index: 100000;
+}
+
+.politicas-cookie{
+ display: none;
+ background: #0F2027;
+ background-color: rgba(0, 0, 0, 0.308);
+ position: relative;
+ right: 0;
+ bottom: 0;
+ left: 0;
+ padding:  10px;
+ height: 98vh;
+}
+.info-cookie{
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+ display: flex;
+ align-items: center;
+ flex-wrap: wrap;
+ justify-content: center;
+ color:  #fff;
+ font-size: 1.2em;
+ margin-bottom: 0;
+ margin-top: 0;
+}
+.link-politica-cookie{
+ color: #fff;
+ margin:  0 5px;
+}
+.boton-cookie{
+ display: flex;
+ color: #fff;
+ background: #FF91A6;
+ border-radius: 15px;
+ margin-left: 5px;
+ padding: 4px 10px;
+ text-decoration: none;
+ transition: .5s;
+}
+.boton-cookie:hover{
+ background: #F95977;
+}

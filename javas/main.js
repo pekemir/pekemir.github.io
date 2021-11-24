@@ -390,7 +390,7 @@ request2.send();
 request2.onload = function() {
 const superNoticias2 = request2.response;
 basepartidos=superNoticias2;
-/*console.log(basepartidos);*/
+console.log(basepartidos);
 //showNoticias(1);
 console.log("aqui");
 keyCount  = Object.keys(basepartidos).length;
@@ -453,7 +453,7 @@ function inicioproxpartidos() {var peke =0;
                    
                    )
                    crearlinea2colorescudo(
-                  cc.local,
+                    cc.local,
                     cc.resultado,
                     cc.escudo1,
                     cc.escudo2,
@@ -480,7 +480,7 @@ function inicioproxpartidos() {var peke =0;
 }
         
     }
-    console.log("peeeeeeeeeeeeeee"+peke);
+    
 
     
         // posiciona el <tbody> debajo del elemento <table>
@@ -496,12 +496,12 @@ function inicioproxpartidos() {var peke =0;
 
     
 }
-function crearlinea2color(posicion,equipo,ganados,color) {
+function crearlinea2color(fecha,hora,lugar,color) {
     var hilera = document.createElement("tr");
 
-creartdcolor(posicion,hilera,color);
-creartdcolorestrecha(equipo,hilera,color);
-creartdcolor(ganados,hilera,color);
+creartdcolor(fecha,hilera,color);
+creartdcolorestrecha(hora,hilera,color);
+creartdcolor(lugar,hilera,color);
  // agrega la hilera al final de la tabla (al final del elemento tblbody)
 tblBody.appendChild(hilera);
 
@@ -525,17 +525,25 @@ tblBody.appendChild(hilera);
   hilera.appendChild(celda);
       
     }
-    function crearlinea2colorescudo(posicion,equipo,escudo1,escudo2,ganados,color) {
+    function crearlinea2colorescudo(local,resultado,escudo1,escudo2,visitante,color) {
         var hilera = document.createElement("tr");
-    
-    creartdcolorescudo(posicion,escudo1,hilera,color);
-    creartdcolorestrecha(equipo,hilera,color);
-    creartdcolorescudo(ganados,escudo2,hilera,color);
+        var equipo=local;
+    if (equipo.includes('SALDUIE')) {
+        console.log("okkkkkkkkkkkkKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK");
+        
+    }else{
+        console.log("okkkkkkkkkkkk");
+    }
+    console.log(local);
+    creartdcolorescudo(local,escudo1,hilera,color);
+    creartdcolorestrecha(resultado,hilera,color);
+    creartdcolorescudo(visitante,escudo2,hilera,color);
      // agrega la hilera al final de la tabla (al final del elemento tblbody)
     tblBody.appendChild(hilera);
     
       }
-    function creartdcolorescudo(dato,escudo,hilera,color ) {
+     
+    function creartdcolorescudo(equipo,escudo,hilera,color ) {
         var pintado;
         if (color==1) {
             pintado=color1
@@ -544,12 +552,12 @@ tblBody.appendChild(hilera);
         }
         
       var celda = document.createElement("td");
-      var textoCelda = document.createTextNode(" "+dato+" ");
+      var textoCelda = document.createTextNode(" "+equipo+" ");
       var imag=document.createElement("img");
       celda.style.backgroundColor=pintado;
       imag.src="imagenes/escudos/"+escudo;
       imag.style.width="3vh";
-        console.log(imag.src);
+        
         celda.appendChild(imag);
      celda.appendChild(textoCelda);
       

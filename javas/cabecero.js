@@ -213,5 +213,28 @@ function ponerimagen3(){
 }
 function abrircompeticiones(posicion){
 	location.href='competiciones.html?var1='+posicion;}
+	
+
+
+//POLÍTICA DE COOKIES
+//Evento clic de la etiqueta con la clase (.js-boton-cookie)
+$('.js-boton-cookie').click(function() {
+	//Almaceno los datos en localStorage (clave, valor)
+	localStorage.setItem('salduie78', 'yes');
+	//Oculto la barra que muestra la información de política de cookies
+	$('.politicas-cookie').css('display', 'none');
+	//Muestro un mensaje en consola
+	console.log('Haz aceptado nuestra política de cookies. ☺️');
+   });
+   
+   //Creo la variable "dev" que almacena el valor asignado que seria (yes)
+   var dev = localStorage.getItem('salduie78');
+   //Realizo una condición si el valor obtenido de la variable "dev" es diferente (null) quiere decir que el usuario a aceptado nuestra política de cookies
+   if(dev != null){
+	$('.politicas-cookie').css('display', 'none');
+   }else{//De lo contrario muestro la información
+	$('.politicas-cookie').css('display', 'block');
+//$('.politicas-cookie').css('display', 'none');//quitar esto para que se vea
+   }
   
   

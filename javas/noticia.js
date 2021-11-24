@@ -6,6 +6,7 @@ var max;
     const requestURL = 'https://pekemir.github.io/noticias.json';
     const request = new XMLHttpRequest();
     const myH1=document.getElementById('h1primeranoticia2');
+    const contenedortexto = document.getElementById("contenedorparatexto");
       
     const myp1=document.getElementById('p1primeranoticia2');
    
@@ -81,13 +82,12 @@ window.onload = function getGET()
        console.log(noticias.length);
        console.log(valorinicio);
         max=noticias.length;
-        console.log(noticias[valorinicio].imagenes.length);
-        console.log(noticias[valorinicio].imagenes);
+        
        
         //array de imagenes
         for (let index = 0; index < noticias[valorinicio].imagenes.length; index++) {
             var ruta='url(imagenes/noticias/'+ noticias[valorinicio].imagenes[index]+'.jpg)';
-            console.log(ruta);
+            
            IMAGENES[index]=ruta;
            fondo1.style.backgroundImage=ruta;
         }
@@ -97,7 +97,22 @@ window.onload = function getGET()
       
          
           myH1.textContent = noticias[valorinicio].titulo;
-          myp1.textContent = noticias[valorinicio].textolargo;
+          
+          console.log(noticias[valorinicio].textolargo.length);
+          myp1.textContent = noticias[valorinicio].textolargo[0];
+
+console.log(noticias[valorinicio].textolargo);
+          for (let index = 1; index < noticias[valorinicio].textolargo.length; index++) {
+            var parrafo = document.createElement("p");
+          parrafo.className="p1noticias";
+          parrafo.textContent=noticias[valorinicio].textolargo[index];
+          contenedortexto.appendChild(parrafo);
+              console.log(noticias[valorinicio].textolargo[index]);
+              
+          }; 
+         	
+          
+         
           mypp1.textContent = noticias[valorinicio].fecha;
           var ruta="url(imagenes/noticias/"+ noticias[valorinicio].imagen+".jpg)";
           fondo1.style.backgroundImage=ruta;
@@ -116,8 +131,7 @@ window.onload = function getGET()
         
         }
         function renderizarImagen () {
-            console.log("PASANDO");
-            console.log(IMAGENES[posicionActual]);
+           
             $imagen.style.backgroundImage = IMAGENES[posicionActual];
             
            
