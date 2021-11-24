@@ -394,7 +394,6 @@
 				"golesf": "14",
 				"golesc": "13"
 			},
-			
 			{
 				"dfgoles": "0",
 				"puntos": "3",
@@ -534,7 +533,6 @@
 				"golesf": "GF",
 				"golesc": "GE"
 			},
-			
 			{
 				"dfgoles": "-",
 				"puntos": "6",
@@ -546,7 +544,8 @@
 				"perdidos": "0",
 				"golesf": "-",
 				"golesc": "-"
-			},{
+			},
+			{
 				"dfgoles": "-",
 				"puntos": "0",
 				"escudo": "escudosalduie.png",
@@ -628,7 +627,6 @@
 				"golesf": "-",
 				"golesc": "-"
 			},
-			
 			{
 				"dfgoles": "-",
 				"puntos": "0",
@@ -640,7 +638,8 @@
 				"perdidos": "1",
 				"golesf": "-",
 				"golesc": "-"
-			},{
+			},
+			{
 				"dfgoles": "-",
 				"puntos": "0",
 				"escudo": "escudosalduie.png",
@@ -745,8 +744,7 @@
 				"perdidos": "1",
 				"golesf": "-",
 				"golesc": "-"
-			},
-			
+			}
 		],
 		"JORNADAS": [
 			[
