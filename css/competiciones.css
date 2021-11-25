@@ -30,7 +30,7 @@ p,h1,h2,h3{
     }
     .articulo1proximospartidos{
         margin: 3px;
-        border: 2px solid black ;
+      
        max-width: 100%;
         height: auto;
     }
@@ -106,7 +106,7 @@ p,h1,h2,h3{
 
                 .articuloporcategorias{
                     margin: 3px;
-                    border: 2px solid black ;
+                    
                    max-width: 100%;
                     height: auto;
                     min-height: 90vh;
@@ -146,7 +146,7 @@ p,h1,h2,h3{
                         #titulocategoriaseleccionada{
                             text-align: center;
                         }
-                        #tabla{margin: 5px;min-width: 300px;}
+                        #tabla{margin: 5px;}
                         
                         .seccionprincipal{min-height: auto;}
                         td img{

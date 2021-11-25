@@ -73,8 +73,15 @@ console.log("numerodenoticiases"+cantidaddenoticias);
 var valorfinal;
 var numeroresta=(numeropagina-1)*noticiasmostradas;
 var numeroreal=cantidaddenoticias-1;
+
 valorinicio=numeroreal-numeroresta;
 valorfinal=cantidaddenoticias-(numeropagina*noticiasmostradas);
+if (valorinicio<0) {valorinicio=numeroreal;
+  
+}
+if (valorfinal<0) {valorfinal=cantidaddenoticias-noticiasmostradas;
+  
+}
 
 console.log('valor inicioooooooooooooooo'+valorinicio);
 console.log('valorfinallllllllllllllllllll'+valorfinal);
@@ -149,5 +156,8 @@ const fondo4=document.getElementById('cuartanoticia');
     mydiv.scrollTop=0;
   
     
+}else{
+  console.log("elseee");
+
 }}
 

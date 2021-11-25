@@ -13,6 +13,7 @@ var max;
     const mypp1=document.getElementById('p2primeranoticia2');
    
     const fondo1=document.getElementById('primeranoticia2');
+    var interval;
 const TIEMPO_INTERVALO_MILESIMAS_SEG = 4000;
 let posicionActual = 0;
 let $imagen = document.querySelector('#primeranoticia2');
@@ -75,28 +76,20 @@ window.onload = function getGET()
 
     function showNoticia(numero) {
        
-        
        valorinicio=numero;
-        
         noticias = noticiass['noticias'];
        console.log(noticias.length);
        console.log(valorinicio);
         max=noticias.length;
-        
-       
-        //array de imagenes
+         //array de imagenes
         for (let index = 0; index < noticias[valorinicio].imagenes.length; index++) {
             var ruta='url(imagenes/noticias/'+ noticias[valorinicio].imagenes[index]+'.jpg)';
-            
            IMAGENES[index]=ruta;
            fondo1.style.backgroundImage=ruta;
-        }
+        };
+
         
-      //hola
-     
-      
-         
-          myH1.textContent = noticias[valorinicio].titulo;
+        myH1.textContent = noticias[valorinicio].titulo;
           
           console.log(noticias[valorinicio].textolargo.length);
           myp1.textContent = noticias[valorinicio].textolargo[0];
@@ -110,16 +103,34 @@ console.log(noticias[valorinicio].textolargo);
               console.log(noticias[valorinicio].textolargo[index]);
               
           }; 
+          var enlace;
+
+        for (let inn = 0; inn < noticias[valorinicio].enlace.length; inn++) {
+            console.log(noticias[valorinicio].enlace[inn]);
+            var parrafo = document.createElement("a");
+            parrafo.className="p1noticias";
+            enlace=noticias[valorinicio].enlace[inn];
+            parrafo.href=enlace;
+            parrafo.innerHTML=enlace;
+          contenedortexto.appendChild(parrafo);
+        };
          	
           
          
           mypp1.textContent = noticias[valorinicio].fecha;
           var ruta="url(imagenes/noticias/"+ noticias[valorinicio].imagen+".jpg)";
           fondo1.style.backgroundImage=ruta;
-          playIntervalo();
+          if (IMAGENES.length>1) {
+              interval=16000/IMAGENES.length;
+              if (interval<4000) {interval=4000;
+                  
+              }
+            playIntervalo(interval);
+          }
+         
         }
-        function playIntervalo() {
-            intervalo = setInterval(pasarFoto, TIEMPO_INTERVALO_MILESIMAS_SEG);
+        function playIntervalo(tiempo) {
+            intervalo = setInterval(pasarFoto, tiempo);
           }
           function pasarFoto() {
             if(posicionActual >= IMAGENES.length - 1) {

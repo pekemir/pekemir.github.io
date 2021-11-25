@@ -112,8 +112,11 @@ p,h1,h2,h3{
        flex-direction: row;
        width: 100%;
    }
-   .contenedorboton a{max-width: 40%;}
-   .contenedorboton .boton{max-width: 40%;}
+   .contenedorboton a{max-width: 45%;
+    padding-left: 5px;
+    padding-right: 5px;}
+   .contenedorboton .boton{max-width: 45%;
+padding-left: auto;}
    @media screen and (min-width:1023px ) and (orientation: landscape){
     .contenedorboton{
         
