@@ -79,7 +79,7 @@ function expandirnavmenu52() {
 	contadornavmenu52 = 0;
 }
 function main(){
-	if (window.screen.width>1023) {dentro='-40vw'
+	if (window.screen.width>1023) {dentro='-0vw'
 		
 	}else{dentro='0vw'}
     $('#cabecerobotonmenu').click(function(){
