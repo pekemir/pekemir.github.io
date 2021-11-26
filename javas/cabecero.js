@@ -143,11 +143,16 @@ function subcompeticiones(){
 }
 window.onorientationchange= function(){
 	console.log("resizeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee");
-    if(screen.width>1023){ 
+    if(screen.width>1023& screen.width<screen.height) { 
 		console.log("if");
-		navmenu.style.right='0vw'
-		dentro='-40vw'
+		navmenu.style.right='-100vw'
+		dentro='0vw'
 		}
+		else if(screen.width>1023){ 
+			console.log("if");
+			navmenu.style.right='0vw'
+			dentro='0vw'
+			}
 
 		else{
 			navmenu.style.right='-100vw';

@@ -71,12 +71,18 @@ function iniciopatallagrande(){
  IMAGENES = [
      'url(imagenes/fondosfijos/sudadera.jpg)',
      'url(imagenes/noticias/'+ noticias[cantidaddenoticias-1].imagen+'.jpg)',
+     'url(imagenes/noticias/'+ noticias[cantidaddenoticias-2].imagen+'.jpg)',
      'url(imagenes/fondosfijos/escuela33.jpg',
      'url(imagenes/fondosfijos/horagratis.png)',
      /* 'url(imagenes/noticias/'+ noticias[cantidaddenoticias-4].imagen+'.jpg)',*/
  ];
+ for (let index = 0; index < IMAGENES.length; index++) {
+    imagen.style.backgroundImage = IMAGENES[index];
+     
+ }
  TITULOS=[
      salduie,
+    '',
     '',
     '¿Ven a probar!',
     '',
@@ -84,11 +90,13 @@ function iniciopatallagrande(){
  TITULOS2=[
      somos,
      ''+ noticias[cantidaddenoticias-1].titulo,
+     ''+ noticias[cantidaddenoticias-2].titulo,
      'Te esperamos...',
      '',
  ]
  BOTONES=[
      conocenos,
+     'NOTICIAS',
      'NOTICIAS',
      '+INFO',
      '+INFO',
@@ -247,6 +255,12 @@ function cargarimagenesnoticiasonload(){
      'url(imagenes/noticias/'+ noticias[cantidaddenoticias-4].imagen+'.jpg)',
      /* 'url(imagenes/noticias/'+ noticias[cantidaddenoticias-4].imagen+'.jpg)',*/
  ];
+ for (let index = 0; index < IMAGENESnoticias.length; index++) {
+    $imagennoticias.style.backgroundImage = IMAGENESnoticias[index];
+     console.log(IMAGENESnoticias[index]);
+ }
+ $imagennoticias.style.backgroundImage ='url(imagenes/fondosfijos/noticiasweb.jpg)';
+ 
  TITULOSnoticias=[
     ''+noticias[cantidaddenoticias-1].titulo,
    ''+ noticias[cantidaddenoticias-2].titulo,
@@ -303,8 +317,7 @@ console.log(posicionActualnoticias);
 
 }
 function renderizarimageninicionoticias(){
-   console.log(IMAGENESnoticias[2]);
-   console.log(TITULOSnoticias[2]);
+  
     $imagennoticiasfija1.style.backgroundImage = IMAGENESnoticias[0];
     titulonoticiasfija1.textContent=TITULOSnoticias[0];
     fechanoticiasfija1.textContent=FECHASnoticias[0];
