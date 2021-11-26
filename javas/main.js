@@ -410,11 +410,14 @@ keyCount  = Object.keys(basepartidos).length;
 inicioproxpartidos();
 }
 }
-var tblBody;
+    var tblBody;
     var tabla  ;
     var body;
-    var color1="beige";
-function inicioproxpartidos() {var peke =0;
+    
+    var color1="rgba(255, 255, 255, 0.529)";
+function inicioproxpartidos() {
+    
+    var peke =0;
     console.log("inicooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo");
         body=document.getElementById("tablaindex1");
       
@@ -457,6 +460,7 @@ function inicioproxpartidos() {var peke =0;
                  peke=peke+1;
                    cotro=1;
                    crearlinea2th(basepartidos[index].titulo,"","");
+                   console.log("esta");
                    crearlinea2color(
            
                     cc.fecha,
@@ -476,7 +480,6 @@ function inicioproxpartidos() {var peke =0;
                    /*console.log("out");*/
                    break;
                 }
-
 
                 if (cotro==1) {
                    /* console.log("out2");*/
@@ -598,13 +601,15 @@ tblBody.appendChild(hilera);
         crearth(posicion,hilera);
     
      // agrega la hilera al final de la tabla (al final del elemento tblbody)
-    tblBody.appendChild(hilera);
+        tblBody.appendChild(hilera);
     
       }
+
       function crearth(dato,hilera ) {
          
         var celda = document.createElement("th");
-        celda.colSpan="3"
+        celda.colSpan="3";
+        celda.style.backgroundColor=color1;
         var textoCelda = document.createTextNode(dato);
         celda.appendChild(textoCelda);
         hilera.appendChild(celda);

@@ -24,14 +24,10 @@ p,h1,h2,h3{
        
     }
     .fondobloque{ 
-        position: absolute;
-        width: 100%;
-        height: 100%;
+      
         background-image: url(../imagenes/fondosfijos/escuela3.jpg);
-        background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.1;
+       
+    opacity: 0.3;
    
 
     }

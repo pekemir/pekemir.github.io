@@ -4,8 +4,8 @@ var numerocontrolador;
 const proximpartidos=document.getElementById('idarticulo1proximospartidos');
 const otros=document.getElementById('idarticulo1proximospartidos2');
 const titulocategoriaseleccionada=document.getElementById('titulocategoriaseleccionada');
-var color1="beige";
-var color2="rgb(219, 219, 194)";
+var color1=" rgba(255, 255, 255, 0.349)";
+var color2=" rgba(255, 255, 255, 0.749)";
 window.onload = function ()
 {
     console.log("holapagnoticia");

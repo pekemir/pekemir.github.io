@@ -4,6 +4,17 @@
 	cursor: pointer;
   
 }
+.restodepagina{
+  background-color:rgba(243, 237, 227, 0.349);}
+.fondobloque{ 
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+  z-index: -100;}
 .boton{
   width: 100%;
    display: block;

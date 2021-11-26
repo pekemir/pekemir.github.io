@@ -3,7 +3,7 @@ p,h1,h2,h3{
 }
 .sectionprincipal{min-width: none;}
 .restodepagina{
-    background-color:rgb(243, 237, 227);
+    
     position: relative;
    min-height: 90vh;
     margin: 10px;
@@ -59,14 +59,9 @@ p,h1,h2,h3{
         color: brown;
     }
     .fondobloque{ 
-        position: absolute;
-        width: 100%;
-        height: 100%;
+        
         background-image: url(../imagenes/fondosfijos/zaragoza.png);
-        background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.1;
+      opacity: 0.2;
     
 
     }
