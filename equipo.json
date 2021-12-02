@@ -1,0 +1,488 @@
+{
+  "1": {
+    "foto": "iniciacion.jpg",
+    "titulo": "Equipo Iniciación",
+    "JUGADORES": [
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      }
+    ]
+  },
+  "2": {
+    "foto": "benjamin.jpg",
+    "titulo": "Equipo Benjamin",
+    "JUGADORES": [
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      }
+    ]
+  },
+  "3": {
+    "foto": "alevin.jpg",
+    "titulo": "Equipo Alevin",
+    "JUGADORES": [
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      }
+    ]
+  },
+  "4": {
+    "foto": "iniciacion.jpg",
+    "titulo": "Equipo Iniciacion",
+    "JUGADORES": [
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      }
+    ]
+  },
+  "5": {
+    "foto": "iniciacion.jpg",
+    "titulo": "Equipo Iniciacion",
+    "JUGADORES": [
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      }
+    ]
+  },
+  "6": {
+    "foto": "iniciacion.jpg",
+    "titulo": "Equipo Iniciacion",
+    "JUGADORES": [
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      }
+    ]
+  },
+  "7": {
+    "foto": "iniciacion.jpg",
+    "titulo": "Equipo Iniciacion",
+    "JUGADORES": [
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      }
+    ]
+  },
+  "8": {
+    "foto": "iniciacion.jpg",
+    "titulo": "Equipo Iniciacion",
+    "JUGADORES": [
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      }
+    ]
+  },
+  "9": {
+    "foto": "iniciacion.jpg",
+    "titulo": "Equipo Iniciacion",
+    "JUGADORES": [
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      },
+      {
+        "DORSAL": "13",
+        "AÑO": "1984",
+        "FOTO": "peke.jpg",
+        "NOMBRE": "aLEJANDRO MIR"
+      }
+    ]
+  }
+}
