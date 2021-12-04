@@ -44,7 +44,9 @@ function next2(){
 }
 
 window.onload= function(){cargarimagenesnoticiasonload();
-    
+    var d=new Date;
+    console.log("date"+ d.getDate());
+    console.log("date"+ d.getMonth());
    
                        }
 window.onresize= function(){cargarimagenesnoticiasonresize();
@@ -173,6 +175,7 @@ function renderizarImagen () {
         const TIEMPO_INTERVALO_MILESIMAS_SEG_NOTICIAS = 5000;
         let posicionActualnoticias = 0;
         let $imagennoticias = document.querySelector('#dp2div1doscarruselimagenimagen');
+        let $imagennoticias2 = document.querySelector('#dp2div1doscarruselimagenimagen2');
         const titulonoticias= document.getElementById('dp2div1doscarruselimagentitulotitulonoticia');
         const fechanoticias=document.getElementById('dp2div1doscarruselpiefechanoticias');
         const titulonoticias2= document.getElementById('dp2div1doscarruselimagentitulotitulonoticia');
@@ -256,10 +259,10 @@ function cargarimagenesnoticiasonload(){
      /* 'url(imagenes/noticias/'+ noticias[cantidaddenoticias-4].imagen+'.jpg)',*/
  ];
  for (let index = 0; index < IMAGENESnoticias.length; index++) {
-    $imagennoticias.style.backgroundImage = IMAGENESnoticias[index];
-     console.log(IMAGENESnoticias[index]);
+    $imagennoticias2.style.backgroundImage = IMAGENESnoticias[index];
+    
  }
- $imagennoticias.style.backgroundImage ='url(imagenes/fondosfijos/noticiasweb.jpg)';
+ 
  
  TITULOSnoticias=[
     ''+noticias[cantidaddenoticias-1].titulo,
@@ -414,7 +417,7 @@ inicioproxpartidos();
     var tabla  ;
     var body;
     
-    var color1="rgba(255, 255, 255, 0.529)";
+    var color1="rgba(255, 255, 255, 0.629)";
 function inicioproxpartidos() {
     
     var peke =0;
@@ -615,4 +618,5 @@ tblBody.appendChild(hilera);
         hilera.appendChild(celda);
             
           }
+       
 

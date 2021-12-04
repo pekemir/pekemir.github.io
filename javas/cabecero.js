@@ -218,6 +218,12 @@ function ponerimagen3(){
 }
 function abrircompeticiones(posicion){
 	location.href='competiciones.html?var1='+posicion;}
+
+	function abrirequipo(posicion){
+		var numeroequipo=posicion;
+		location.href='equipo.html?var1='+numeroequipo;
+	  
+	  }
 	
 
 
