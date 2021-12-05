@@ -50,6 +50,7 @@ p,h1,h2,h3{
 }
 #tablajugadores{width: 90%;
     margin: auto;
+     margin-bottom: 10px;
    }
    #mitblBody td {
        width: 20%;
