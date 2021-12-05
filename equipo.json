@@ -312,7 +312,7 @@
     ]
   },
   "7": {
-    "foto": "iniciacion.jpg",
+    "foto": "senfem.jpg",
     "titulo": "EQUIPO SENIOR FEMENINO",
     "jugadores": [
       {
@@ -384,7 +384,7 @@
     ]
   },
   "8": {
-    "foto": "iniciacion.jpg",
+    "foto": "semasc.jpg",
     "titulo": "SENIOR MASCULINO",
     "jugadores": [
       {
@@ -488,60 +488,6 @@
         "año": "1984",
         "foto": "peke.jpg",
         "nombre": "VEDUARDO FRANCES CORTES"
-      }
-    ]
-  },
-  "9": {
-    "foto": "iniciacion.jpg",
-    "titulo": "equipo iniciacion",
-    "jugadores": [
-      {
-        "dorsal": "13",
-        "año": "1984",
-        "foto": "peke.jpg",
-        "nombre": "alejandro mir"
-      },
-      {
-        "dorsal": "13",
-        "año": "1984",
-        "foto": "peke.jpg",
-        "nombre": "alejandro mir"
-      },
-      {
-        "dorsal": "13",
-        "año": "1984",
-        "foto": "peke.jpg",
-        "nombre": "alejandro mir"
-      },
-      {
-        "dorsal": "13",
-        "año": "1984",
-        "foto": "peke.jpg",
-        "nombre": "alejandro mir"
-      },
-      {
-        "dorsal": "13",
-        "año": "1984",
-        "foto": "peke.jpg",
-        "nombre": "alejandro mir"
-      },
-      {
-        "dorsal": "13",
-        "año": "1984",
-        "foto": "peke.jpg",
-        "nombre": "alejandro mir"
-      },
-      {
-        "dorsal": "13",
-        "año": "1984",
-        "foto": "peke.jpg",
-        "nombre": "alejandro mir"
-      },
-      {
-        "dorsal": "13",
-        "año": "1984",
-        "foto": "peke.jpg",
-        "nombre": "alejandro mir"
       }
     ]
   }
