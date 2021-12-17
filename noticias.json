@@ -72,6 +72,22 @@
 				"noticia4f1",
 				"noticia4f2"
 			]
+		},
+		{
+			"control": 5,
+			"titulo": "Campeonato de Aragon de Hockey Sala",
+			"imagen": "noticia5",
+			"textocorto": "Este Domingo 19 de Diciembre dará comienzo la liga aragonesa de ...",
+			"textolargo": [
+				"Este Domingo 19 de Diciembre dará comienzo la liga aragonesa de Hockey sala, el primer encuentro dara lugar en el CDM Delicias a las 9:00.",
+				"De esta manera se da el pistoletazo inicial a la temporada de Sala para los seniors, esperemos sea beneficiosa para el club tanto en resultados como en sensaciones.",
+				"Os animamos a todos a que os acerqueis al pabellon para animar a vuestro equipo"
+			],
+			"enlace": [],
+			"fecha": "17/12/2021",
+			"imagenes": [
+				"noticia5"
+			]
 		}
 	]
 }
