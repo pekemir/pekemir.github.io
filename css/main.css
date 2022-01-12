@@ -136,8 +136,11 @@ main{
     }
     .section1{
         margin: 0;
-        height: calc(100vh - 76px);
-        background-image:url(../imagenes/sudadera2.jpg); 
+        height: calc(90vh - 76px);
+        background-image:url(../imagenes/sudadera2.jpg);
+        display: flex; 
+        flex-direction: column;
+        justify-content: flex-end;
         }
         article{
             margin:0px 4em 0px 1em;
@@ -166,23 +169,37 @@ main{
         background-color: var(--main-bg-color);
     }
     .article1{
-       top: calc(95% - 210px);
+      /* top: calc(95% - 210px);*/
        min-height: 210px;
        z-index: 100;
+       margin-bottom: 20px;
+       padding-top: 30px;
        
       }
+   
       .articles{
-          padding: 20px 20px 20px 20px;
+          padding: 20px 20px 0px 20px;
          margin:0 2em;
         justify-content: space-between;
         overflow: hidden;
 
       }
+      .colaborador{ align-items: center;
+          padding: 20px 20px 0px 20px;
+        margin:0 2em 20px 2em;
+       max-height: 10vh;
+       height: 10vh;
+        
+      }
+      .colaborador .colaboradores{
+        width: fit-content;
+        height: 100%;
+      }
        /*boton mas menos info*/
        .articleblmasinfo{
-        margin: 0 6%;
+        margin: 0 3%;
         font-size: 2em;
-        color:var(--main-bg-color);
+        
         text-decoration: none;
         display: flex;
         align-items: center;
@@ -192,14 +209,18 @@ main{
     .articulo1masinfoarticle1{
         position: absolute;
         right: 0px;
-        bottom: 10%;
+        bottom: 3%;
        
     }
+    .expandido{
+        display: block;
+        }
      .textoarticulo{
         padding: 10px;
         margin-bottom: 30px;
+        display: none;
     }
-        #textoespandido{display: none;}
+       
     
     .imagencortaarticle{
         height:15vh;
@@ -271,7 +292,7 @@ main{
             }
           .fechanoticia span{color: white;}
       
-      
+     
       
 
 
@@ -284,7 +305,35 @@ main{
         
     }
    
-
+/*formulario de contacto*/
+.tituloformulario{
+    font-weight: bold;
+}
+#fcontacto{
+    padding:1px 5px 5px 20px;
+    
+}
+#fcontacto input,textarea{
+    border: black 1px solid ;
+    padding: 5px;
+}
+#fcontacto .c_error{
+    margin: 3px;
+}
+textarea{
+    width: 80%;
+    height: 120px;;
+}
+.formulario{
+    background-color: white;
+   
+    margin-top: 40px;
+    padding: 1px;
+}
+.formulario .fueraarticulo{
+    padding-bottom: 0;
+}
+#spam{display:none;}
 
 
 
