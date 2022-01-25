@@ -1,0 +1,77 @@
+{
+	"noticias": [
+		{
+			"control": 1,
+			"titulo": "Fin de la primera vuelta",
+			"imagen": "noticia1",
+			"textocorto": "Con la disputa de la 5ª jornada y a falta de disputar el partido aplazado contra...",
+			"textolargo": [
+				"Con la disputa de la 5ª jornada y a falta de disputar el partido aplazado contra el CD Giner de los ríos termina la primera vuelta de la 1ª división masculina de hockey hierba. ",
+				"Después de contar como derrotas los partidos disputados, contando en cada uno de ellos con muchas bajas, esperemos sirva este parón para recuperar jugadores y preparar al equipo física y mentalmente para la segunda vuelta, que seguro será emocionante a la par de dura. El equipo situado como colista deberá mejorar esta posición para conseguir el objetivo de la permanencia marcado a principio de temporada. ",
+				"Mientras ,tanto el equipo Senior como el equipo Juvenil disputaran sus respectivas competiciones en la modalidad de Sala, intentando así hacerse un hueco para disputar las fases sectores para el Campeonato de España de dicha modalidad."
+			],
+			"fecha": "14/11/2021",
+			"imagenes": [
+				"noticia1",
+				"noticia1f1"
+			],
+			"enlace": []
+		},
+		{
+			"control": 2,
+			"titulo": "Segunda Jornada JJEE",
+			"imagen": "noticia2",
+			"textocorto": "Este domingo 21 se disputara en el PDE la segunda jornada de los JJEE de Aragón...",
+			"textolargo": [
+				"Este domingo 21 se disputara en el PDE la segunda jornada de los JJEE de Aragón, los partidos daran comienzo a las 09:15, aunque los nuestros no jugaran hasta las 10:15, donde los conjuntos alevines y de iniciacion disputaran sus encuentros simultaneamente, los primeros contra el Honigvoguel y los segundos frente al Voguel.",
+				"Desde aqui animamos a la gente a que acuda al campo, para poder disfrutar de otra jornada de hockey, y como no a nuestros equipos que poco a poco van cogiendo conceptos y ritmo de partido."
+			],
+			"fecha": "19/11/2021",
+			"imagenes": [
+				"noticia2",
+				"noticia2f1"
+			],
+			"enlace": []
+		},
+		{
+			"control": 3,
+			"titulo": "Resultados fin de semana",
+			"imagen": "noticia3",
+			"textocorto": "Este fin de semana se ha disputado la segunda jornada de los JJEE de Aragón...",
+			"textolargo": [
+				"Este fin de semana se ha disputado la segunda jornada de los JJEE de Aragón, donde nuestros equipos no han podido sumar sus partidos como victorias.",
+				"A las 10:15 daban comienzo los partidos de alevines e iniciacion, en el primer campo los pupilos de Jorge Oteo caian contra el Vogel, un partido apasionante para los nuestros porque aunqe caian el primeros tres cuartos, en el ultimo conseguian anotar el primer gol en esta competicion para ellos y asi llevarse este ultimo cuarto, el resultado final fue de 3 a 1. ",
+				"Al mismo tiempo nuestros alevines entrenados por Antonio Oteo no podian superar al Honigvogel cayendo por 6-0 en un encuetro que seguro ha servido para afianzar conceptos y obtener experiencia en los partidos.",
+				"Animamos a ambos equipos porque, pese a los resultados, estan consiguiendo mejorar notablemente, y cada vez se ven mas destellos de Hockey."
+			],
+			"fecha": "22/11/2021",
+			"imagenes": [
+				"noticia3",
+				"noticia3f1",
+				"noticia3f2"
+			],
+			"enlace": []
+		},
+		{
+			"control": 4,
+			"titulo": "Acuerdo cooperacion con Chocolates Lacasa",
+			"imagen": "noticia4",
+			"textocorto": "Recientemente se ha cerrado un acuerdo de cooperacion con Chocolates...",
+			"textolargo": [
+				"Recientemente se ha cerrado un acuerdo de cooperacion con Chocolates Lacasa, este acuerdo no se podria haber llevado a cabo sin las conversaciones llevadas a cargo de Carla Berned.",
+				"Los valores familiares tanto de Chocolates Lacasa como del club han hecho que este acuerdo fuera posible.",
+				"Proximamente realizaremos un sorteo, con algunos de sus productos y merchandising del club para agradecerles su confianza, ¡estar atentos!",
+				"Os dejamos un enlace de nuestra promo con Chocolates Lacasa"
+			],
+			"enlace": [
+				"https://www.instagram.com/p/CWl8FTeDuIm/"
+			],
+			"fecha": "01/10/2021",
+			"imagenes": [
+				"noticia4",
+				"noticia4f1",
+				"noticia4f2"
+			]
+		}
+	]
+}
