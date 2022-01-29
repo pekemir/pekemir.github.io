@@ -1,5 +1,5 @@
 <?php
- $servername = "localhost";
+ $servername = "https://pekemir.github.io/tablasalduie.sql";
 $database = "tablasalduie";
 $username = "root";
 $password = "";
