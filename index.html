@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/cabecero.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="style.css">
 
@@ -16,10 +17,71 @@
        
         <img class="headerr escudo" src="imagenes/longiredondo.png" alt="escudo salduie78">
         <h1 >HOCKEY SALDUIE 78</h1>
-        <a href="#" class="headerr botonmenu" id="cabecerobotonmenu"><span class="icon-menu1"></span></a>
-       
-        
+        <a href="#" class="headerr botonmenu" id="cabecerobotonmenu"><span class="icon-menu"></span></a>
     </header>
+
+        <div id="divcontenedornav">
+            <nav class="navmenu controlnavmenuu" id="controlnavmenu">
+                <ul id="listamenus">
+                   <li><a href="/" class="navpie01"><span ></span>INICIO</a></li>
+                   <li><a href="sobrenosotros.html" class="navpie01"><span ></span>SALDUIE78</a></li>
+                   <li><a href="noticias.html" class="navpie01"><span ></span>NOTICIAS</a></li>
+                   <li><a href="escuelas.html" class="navpie01"><span ></span>ESCUELA SALDUIE</a></li>
+                   <li><a href="#" class="navpie01" id="cabecerobotoncompeticiones"><span ></span>COMPETICIONES</a></li>
+                   <li><a href="equipos.html" class="navpie01"><span ></span>EQUIPOS</a></li>
+                   <li><a href="instalaciones.html" class="navpie01"><span ></span>DONDE ESTAMOS</a></li>
+                  
+                 </ul>
+                         <ul class="iconosredes">
+                        <li><a href="https://www.facebook.com/salduie78/"target="_blank" class="navpie1"><span class="icon-facebook2"></span></a></li>
+                        <li><a href="https://www.instagram.com/salduie78hockey/?hl=es"target="_blank" class="navpie1"><span class="icon-instagram"></span></a></li>
+                        <li><a href="https://api.whatsapp.com/send?phone=34626993739&text=Hola, Nececito mas informacion!" target="_blank" class="navpie1"><span class="icon-whatsapp"></span></a></li>
+                        <li><a href="mailto:alejandromirbel@hotmail.com?Subject=Informacion%20Salduie78%20web%20" target="_blank"class="navpie1"><span class="icon-mail2"></span></a></li>
+                       </ul>
+                        </nav>
+    </div>
+            <div id="divcontenedornav5">
+                <nav class="navmenu5 controlnavmenuu" id="controlnavmenu5">
+                    <ul id="listamenus5">
+                    <li><a href="#" class="navpie011" id="volver1"><span ></span>VOLVER</a></li>
+                    <li><a href="#" class="navpie011" id="cabecerobotonprox"onclick="abrircompeticiones(0)"><span ></span>PROXIMOS PARTIDOS</a></li>
+                    <li><a href="#" class="navpie011" id="cabeceroboton51"><span ></span>HIERBA</a></li>
+                    <li><a href="#" class="navpie011"id="cabeceroboton52"><span ></span>SALA</a></li>
+                    </ul>
+                            </nav>
+</div>
+            <div id="divcontenedornav51">
+                <nav class="navmenu51 controlnavmenuu" id="controlnavmenu51">
+                    <ul id="listamenus51">
+                        <li><a href="#" class="navpie011"onclick="abrircompeticiones(6)"><span ></span>INICIACION JJEE-DGA 3X3</a></li>
+                        <li><a href="#" class="navpie011"onclick="abrircompeticiones(5)"><span ></span>BENJAMIN JJEE-DGA 5X5</a></li>  
+                        <li><a href="#" class="navpie011"onclick="abrircompeticiones(4)" ><span ></span>ALEVIN JJEE-DGA 9X9</a></li> 
+                        <li><a href="#" class="navpie011"onclick="abrircompeticiones(3)"><span ></span>CADETE CAMPEONATO ARAGON 9X9 </a></li>
+                        <li><a href="#" class="navpie011"onclick="abrircompeticiones(2)"><span ></span>SENIOR FEMENINO</a></li>
+                        <li><a href="#" class="navpie011"onclick="abrircompeticiones(1)" ><span ></span>PRIMERA DIVISION MASCULINA</a></li>
+                    </ul>
+                            </nav>
+        </div>
+        <div id="divcontenedornav52 controlnavmenuu">
+            <nav class="navmenu52" id="controlnavmenu52">
+                <ul id="listamenus52">
+                    
+                <li><a href="#" class="navpie011" onclick="abrircompeticiones(7)"><span ></span>SENIOR MASCULINO LIGA FHCV-FAH</a></li>
+                <li><a href="#" class="navpie011"onclick="abrircompeticiones(8)"><span ></span>SENIOR FEMENINO</a></li>
+                <li><a href="#" class="navpie011"onclick="abrircompeticiones(9)" ><span ></span>CADETE CAMPEONATO ARAGON FAH</a></li>
+                
+                <li><a href="#" class="navpie011"onclick="abrircompeticiones(10)" ><span ></span>ALEVIN SALA JJEE-DGA </a></li>
+                <li><a href="#" class="navpie011"onclick="abrircompeticiones(11)"><span ></span>BENJAMIN SALA JJEE-DGA</a></li>
+               
+                </ul>
+                        </nav>
+    </div>
+
+
+
+
+
+   
     
     <main>
         <section class="section section1">
@@ -33,6 +95,7 @@
            
           
         </section>
+        
         <section class="section section2">
 
             <article class="articlebl articles" id="articuloescuela">
@@ -51,7 +114,7 @@
                </article>
            
         </section>
-        <section class="section section3">
+        <section class="section section3" onclick="abrirpagina('noticias.html')">
             <div class="contenedorhleft fueraarticulo"> 
                 <h2 class="hwhite"> SALDUIE 78 ACTUALIDAD</h2>
                 <h3 class="hred">COMUNICACION</h3></div>
@@ -62,7 +125,7 @@
                 </div>
                <div class="fechanoticia" >
                 
-                 <span class="icon-calendar-o"></span>
+                 <span class="icon-calendar"></span>
                  <p id="noticia1fecha"> 03 jun 2017 </p>
                  
               </div>
@@ -74,7 +137,7 @@
                 </div>
                 <div class="fechanoticia" >
                 
-                <span class="icon-calendar-o"></span>
+                <span class="icon-calendar"></span>
                 <p id="noticia2fecha"> 03 jun 2017 </p>
                 
              </div>
@@ -86,7 +149,7 @@
                 </div>
                 <div class="fechanoticia" >
                 
-                <span class="icon-calendar-o"></span>
+                <span class="icon-calendar"></span>
                 <p id="noticia3fecha"> 03 jun 2017 </p>
                 
              </div>
@@ -117,6 +180,36 @@
                
               </article>
         </section>
+        <section class="section section4">
+            <div class="contenedorhleft fueraarticulo"> 
+                <h2 class="hred"> SALDUIE 78 PARTIDOS</h2></div>
+                
+            <article class="articlebl articles">
+               
+                <div class="boton_mas_bajar">
+                    <button type="button" class="boton botonrojo" onclick="ira()">PROXIMOS PARTIDOS</button>
+                    <a class="hred articleblmasinfo " onclick="mostrarproximospartidos()"><span class="icon-circle-down"></span></a>
+               
+                </div>
+                <div id="contenedorproximospartidos" >
+               
+            </div>
+                <div class="finalpartido"></div>
+
+                <div class="boton_mas_bajar">
+                    <button type="button" class="boton botonrojo">ULTIMOS RESULTADOS</button>
+                    <a class="hred articleblmasinfo " onclick="mostrarresultadospartidos()"><span class="icon-circle-down"></span></a>
+               
+                </div>
+            </div>
+            <div id="contenedorresultadospartidos" >
+           
+        </div>
+            <div class="finalpartido"></div>
+
+            <div class="boton_mas_bajar">
+            </article>
+        </section>
         <footer >
             <section>
             <div class="contenedorhleft fueraarticulo"> 
@@ -124,15 +217,12 @@
               </div>
               <article class="colaborador">
                   <img class="colaboradores" src="imagenes/sponsors/zaragozadeporte.png">
-              </article>
-              <article class="colaborador"> <img class="colaboradores" src="imagenes/sponsors/lacasa.png" alt="">
-              </article>
-              <article class="colaborador">
-                <img class="colaboradores" src="imagenes/sponsors/nawaz2.jpg" alt="">
-            </article>
-            <article class="colaborador">
-                <img class="colaboradores" src="imagenes/sponsors/embou.png" alt="">
-            </article>
+                  <img class="colaboradores" src="imagenes/sponsors/lacasa.png" alt="">
+                  <img class="colaboradores" src="imagenes/sponsors/nawaz2.jpg" alt="">
+                  <img class="colaboradores" src="imagenes/sponsors/embou.png" alt="">
+         
+                </article>
+              
         </section>
         <section>  <article class="articles formulario">
             <div class="contenedorhleft fueraarticulo"> 
@@ -186,10 +276,34 @@
               
 
         </section>
+        <section>
+            <img src="imagenes/sald.jpg" id="imagenfooter" alt="salduie78">
+            <article class="articles articlebl artfoot">
+               
+                <ul>
+                <li><a href="#" ><span class="icon-location2"></span> <a class="text">RIBERA DEL JILOCA, 2 ZARAGOZA, 50009</a> </a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=34626993739&text=Hola, Nececito mas informacion!"  ><span class="icon-mobile"></span><a class="text">+34 626 99 37 39</a>  </a>
+                </li>
+                <li> <a href="mailto:alejandromirbel@hotmail.com?Subject=Informacion%20Salduie78%20web%20" "><span class="icon-mail2"></span> <a class="text">info@salduie78.es</a> </a>
+                </li>
+                <li><a href="https://www.facebook.com/salduie78/" ><span class="icon-facebook2"></span><a class="text">@salduie78</a></a></li>
+                <li><a href="https://www.instagram.com/salduie78hockey/?hl=es" ><span class="icon-instagram"></span><a class="text">@salduie78hockey</a></a></li>
+              
+                </ul>
+                
+
+        </li></ul>
+                
+       
+                
+                         
+            </article>
+        </section>
         </footer>
     </main>
     <script src="https://code.jquery.com/jquery-latest.js"></script>
     <script src="java/main.js"></script>  
+    <script src="java/cabecero.js"></script>
 
 </body>
 </html>

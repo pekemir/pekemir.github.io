@@ -1,139 +1,7 @@
-* {font-family: 'Oswald', sans-serif !important;}
-body{margin: 0;
-    max-width: 100vw;
-   
-    }
-    :root {
-        --main-bg-color: #cf010b;
-        --degradadonoticia: linear-gradient(rgba(255,255,255,0) 60%,rgb(0, 0, 0));
-      }
-      .hueco{height: 20px;}
-      .centrarderecha{
-          display: flex;
-          justify-content: flex-end;
-      }
-      .centarizquierda{
-          display: flex;
-          justify-content: flex-start;
-      }
-      .subgrupo{
-          height: 50%;
-          display: flex;
-          flex-direction: column;
-          justify-content: space-evenly;
-      }
-      .fueraarticulo{padding: 20px;
-        flex-direction: column;font-weight: bold;}
-    .boton{
-        width: fit-content;
-        border: none;
-        font-size: 1em;
-        padding: 15px;
-        margin: 3px 7% 3px 15px;
-    }
-    .botonrojo{background-color: var(--main-bg-color); color: whitesmoke;
 
-    }
-    .botonnegro{background-color: black; color: whitesmoke;
-
-    }
-    h1{ transform: scaleY(1.9);
-        padding: 2px;
-        margin: 0;
-        line-height: 1.1;
-        font-size: 1.5em;
-        letter-spacing: 2px;
-        font-weight: 600;
-        color: white;}
-    .contenedorhleft{
-        display: flex;
-        justify-content: flex-start;
-        margin-left: calc((-100% / 4))
-        
-    }
-    .hright{text-align: end;}
-   .contenedorhright{
-        display: flex;
-        justify-content: flex-end;
-        margin-right: calc((-100% / 4))
-     }
-   
-     h2,h3,h4,h5{ 
-        width: 100%;
-        padding: 2px;
-        margin: 0;
-        line-height: 1.1;
-        font-size: 3em;
-        transform: scalex(0.5);
-        letter-spacing: 3px;
-       }
-           
-        
-    h2{         font-size: 2.5em;
-                font-weight: lighter;
-        }
-    h3,h4{      font-weight: bold;
-    }
-    h4{         font-size: 2em;
-               }
-               
+ main{
     
-   .hwhite{
-       color: whitesmoke;
-   }
-   .hred{color: var(--main-bg-color);}
-   .hblack{color: black;}
-
-header{
-    width: 100%;
-    height: 76px;
-    background-color: black;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    animation: none;
-    z-index: 1000;
-    
-}
-/*animacion header*/
-    #controlheader.headeractivo{
-    position: fixed;
-    animation: animacionheader 500ms ease-in-out both;
-}
-    @keyframes animacionheader {
-  0% {top: -100px;
-    opacity: 0;
-  }
-  100% {top: 0;
-    opacity: 1;
-  }}
-#controlheader{
-        position: relative;
-        
-}
-.headerr{
-        height: 100%;
-        width: 76px;}
-
-       
-    .botonmenu{
-        font-size: 3em;
-        color: whitesmoke;
-        text-decoration: none;
-        display: flex;
-        align-items: center;
-        justify-content: center;}
-
-main{
-    height: 1500vh;
     background-color: black;}
-    section{
-        margin: 10px 0px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
     .section1{
         margin: 0;
         height: calc(90vh - 76px);
@@ -142,16 +10,7 @@ main{
         flex-direction: column;
         justify-content: flex-end;
         }
-        article{
-            margin:0px 4em 0px 1em;
-            position: relative;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-end;
-            /*border: 2px solid black;*/
-            padding-bottom: 10px;
-            border-radius: 10px;
-        }
+        
         .articlenoticia{
             margin: 0 2em;
     justify-content: space-between;
@@ -160,14 +19,7 @@ main{
     margin-bottom: 25px;
         }
         
-    .articlebl{
-        
-        background-color: whitesmoke;
-        
-    }
-    .articlered{
-        background-color: var(--main-bg-color);
-    }
+    
     .article1{
       /* top: calc(95% - 210px);*/
        min-height: 210px;
@@ -177,35 +29,7 @@ main{
        
       }
    
-      .articles{
-          padding: 20px 20px 0px 20px;
-         margin:0 2em;
-        justify-content: space-between;
-        overflow: hidden;
-
-      }
-      .colaborador{ align-items: center;
-          padding: 20px 20px 0px 20px;
-        margin:0 2em 20px 2em;
-       max-height: 10vh;
-       height: 10vh;
-        
-      }
-      .colaborador .colaboradores{
-        width: fit-content;
-        height: 100%;
-      }
-       /*boton mas menos info*/
-       .articleblmasinfo{
-        margin: 0 3%;
-        font-size: 2em;
-        
-        text-decoration: none;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-       
-   }
+     
     .articulo1masinfoarticle1{
         position: absolute;
         right: 0px;
@@ -242,28 +66,8 @@ main{
     }
   
    
-   
-    .boton_mas_bajar{
-        position: relative;
-        display: flex;
-        flex-direction: row;
-        margin: 20px 0 10px 0;
-        justify-content: space-between
-
-    }
-
-
-    .utility-info {
-        position: absolute;
-        bottom: 0px;
-        left: 0;
-        z-index: 20;
-        width:100%;
-        text-align:left
-      }
-      
-      
-      .fechanoticia {
+  
+  .fechanoticia {
         position: absolute;
         bottom: 0px;
         left: 0;
@@ -296,45 +100,48 @@ main{
       
 
 
-    @media screen and (max-width:380px ) {
-        h1{font-size: 1em;}
-    }
-    @media screen and (min-width:480px){
-       
-           
-        
-    }
    
-/*formulario de contacto*/
-.tituloformulario{
-    font-weight: bold;
-}
-#fcontacto{
-    padding:1px 5px 5px 20px;
+.partido{padding: 20px 0;}
+.partido,.finalpartido{border-top: black 3px dotted;}
+.partido h4{
+    text-align: center;
     
 }
-#fcontacto input,textarea{
-    border: black 1px solid ;
-    padding: 5px;
+.escudos{
+    display: flex;margin: 10px 0px;
 }
-#fcontacto .c_error{
-    margin: 3px;
+.partido .local,.visitante{
+    display: flex;
+    flex-direction: column;
 }
-textarea{
-    width: 80%;
-    height: 120px;;
+.partido .equipo{
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+.partido .escudo{width: 30px;
+
 }
-.formulario{
-    background-color: white;
+.escudos h5{
+    font-size: 2em;
+    font-weight: bold;
+    width: 150%;
    
-    margin-top: 40px;
-    padding: 1px;
+   
 }
-.formulario .fueraarticulo{
-    padding-bottom: 0;
+.division{
+    font-weight: bold;
+    width: 150%;
+    position: relative;
+    right: 25%;
+    text-align: center;
+   
 }
-#spam{display:none;}
-
-
-
+.partido h4{
+    font-weight: lighter;
+    width: 150%;
+    position: relative;
+    right: 25%;}
+    #contenedorproximospartidos{display: none;}
    

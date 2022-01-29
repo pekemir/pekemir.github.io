@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/cabecero.css">
+    <link rel="stylesheet" href="css/noticias.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body><div class="js-scrollheader" ></div>
+    <header  id="controlheader">
+
+       
+        <img class="headerr escudo" src="imagenes/longiredondo.png" alt="escudo salduie78">
+        <h1 >HOCKEY SALDUIE 78</h1>
+        <a href="#" class="headerr botonmenu" id="cabecerobotonmenu"><span class="icon-menu"></span></a>
+       
+        
+    </header>
+    
+    <main>
+        
+        <section class="section section3" id="listadonoticias">
+            <div class="contenedorhleft fueraarticulo"> 
+                <h2 class=> SALDUIE78 ACTUALIDAD</h2>
+                <h3 class="hred">NOTICIAS</h3></div>
+                <nav class="barrapaginas">
+                    <ul>
+                        <li><a onclick="primerapag()"><span class="icon-backward"></span></a></li>
+                        <li><a onclick="unamenos()"><span class="icon-previous"></span></a></li>
+                      <li><a onclick="numerodepagina(1)">1</a></li>
+                      <li><a onclick="numerodepagina(2)">2</a></li>
+                      <li><a onclick="numerodepagina(3)">3</a></li>
+                      <li><a onclick="numerodepagina(4)">4</a></li>
+                      <li><a onclick="numerodepagina(15)">5</a></li>
+                      <li><a onclick="unamas()"><span class="icon-next"></span></a></li>
+                      <li><a onclick="ultimapag()"><span class="icon-forward2"></span></a></li>
+                    </ul>
+                  </nav>
+           <article class="articlenoticia" onclick="clicknoticia(0)" >
+               <img id="articulonoticia1"class="imagencortaarticlenoticia"src="" alt="">
+               <div class="titulonoticia" >
+                <p id="noticia1titulo"> 03 jun 2017 </p>
+                </div>
+               <div class="fechanoticia" >
+                
+                 <span class="icon-calendar"></span>
+                 <p id="noticia1fecha"> 03 jun 2017 </p>
+                 
+              </div>
+            </article>
+           <article class="articlenoticia" onclick="clicknoticia(1)">
+            <img id="articulonoticia2"class="imagencortaarticlenoticia"src="" alt="">
+            <div class="titulonoticia" >
+                <p id="noticia2titulo"> 03 jun 2017 </p>
+                </div>
+                <div class="fechanoticia" >
+                
+                <span class="icon-calendar"></span>
+                <p id="noticia2fecha"> 03 jun 2017 </p>
+                
+             </div>
+        </article>
+        <article class="articlenoticia"onclick="clicknoticia(2)" >
+            <img id="articulonoticia3"class="imagencortaarticlenoticia"src="" alt="">
+            <div class="titulonoticia" >
+                <p id="noticia3titulo"> 03 jun 2017 </p>
+                </div>
+                <div class="fechanoticia" >
+                
+                <span class="icon-calendar"></span>
+                <p id="noticia3fecha"> 03 jun 2017 </p>
+                
+             </div>
+        </article>
+        <article class="articlenoticia" onclick="clicknoticia(3)">
+            <img id="articulonoticia4"class="imagencortaarticlenoticia"src="" alt="">
+            <div class="titulonoticia" >
+                <p id="noticia4titulo"> 03 jun 2017 </p>
+                </div>
+                <div class="fechanoticia" >
+                
+                <span class="icon-calendar"></span>
+                <p id="noticia4fecha"> 03 jun 2017 </p>
+                
+             </div>
+        </article>
+        </section>
+        <section class="section section3" id="noticiasuelta">
+            <div class="contenedorhleft fueraarticulo"> 
+                <h2 class=> SALDUIE 78 ACTUALIDAD</h2>
+                <h3 class="hred">NOTICIAS</h3></div>
+                <nav class="barrapaginas">
+                    <ul>
+                        <li><a onclick="volveranoticias()" ><span class="icon-circle-left"></span>    VOLVER A NOTICIAS</a></li>
+                    </ul>
+                </nav>
+                
+           <article class="articlenoticia " >
+               <div class="titulonotician" >
+                <p id="noticiatitulon"> 03 jun 2017 </p>
+                </div>
+               <div class="fechanotician" >
+                
+                <span class="icon-calendar"></span>
+                 <p id="noticiafechan"> 03 jun 2017 </p>
+                 
+              </div>
+              <img id="articulonotician"class="imagencortaarticlenotician"src="imagenes/noticias/noticia1.jpg" alt="">
+             <div class="carruselnoticias">
+                 
+                   <a onclick="retrocederimagen()"><span class="icon-previous"></span></a>
+                   <img id="miniimagen0" class="miniimagen" src="imagenes/noticias/noticia1.jpg" alt="miniimagen1">
+                   
+                   <img id="miniimagen1" class="miniimagen" src="imagenes/noticias/noticia1.jpg" alt="miniimagen1">
+                   <img id="miniimagen2" class="miniimagen" src="imagenes/noticias/noticia1.jpg" alt="miniimagen1">
+                   
+                   <a onclick="avanzarmiimagen()"><span class="icon-next"></span></a>   
+                 
+               
+             </div>
+             
+              <p class="textoarticulo" id="textonoticia">Un heraldo o, más correctamente, un heraldo de armas es un oficial de armas, el rango intermedio entre rey de armas y persevante. El título se aplica en ocasiones, erróneamente, a todos los oficiales deUn heraldo o, más correctamente, un heraldo de armas es un oficial de armas, el rango intermedio entre rey de armas y persevante. El título se aplica en ocasiones, erróneamente, a todos los oficiales de  </p>
+               
+            </article>
+            <nav class="barrapaginas">
+                <ul>
+                    <li><a onclick="volveranoticias()" ><span class="icon-circle-left"></span>    VOLVER A NOTICIAS</a></li>
+                </ul>
+            </nav>
+        </section>
+
+
+
+
+
+
+        <footer >
+            <section>
+            <div class="contenedorhleft fueraarticulo"> 
+                <h2 class="hwhite"> NUESTROS APOYOS</h2>
+              </div>
+              <article class="colaborador">
+                  <img class="colaboradores" src="imagenes/sponsors/zaragozadeporte.png">
+                  <img class="colaboradores" src="imagenes/sponsors/lacasa.png" alt="">
+                  <img class="colaboradores" src="imagenes/sponsors/nawaz2.jpg" alt="">
+                  <img class="colaboradores" src="imagenes/sponsors/embou.png" alt="">
+         
+                </article>
+              
+        </section>
+        <section>  <article class="articles formulario">
+            <div class="contenedorhleft fueraarticulo"> 
+               
+                <h2 class="hblack"> CONTACTANOS</h2>
+              </div>
+            <div id="fcontacto">
+                <!-- bloque confirmacion de envio oculto  -->
+                <div id="c_information" class="hide">
+                    <p></p>
+                </div>
+                <!-- fin bloque confirmacion de envio -->
+               
+                
+                <!-- inicio formulario -->
+                <form id="c_form" name="contact">
+                    <div>
+                        <p>
+                            <input name="nombre" id="c_name" type="text" size="22" tabindex="1" placeholder="Tu nombre... (*)" /></p>
+                        <p>
+                            <input name="email" id="c_mail" type="email" size="22" tabindex="2" placeholder="Tu email... (*)" />     </p>
+                        <p>
+                            <input name="url" id="c_url" type="text" size="22" tabindex="3" placeholder="Tu web..." />     </p>
+                        <p>
+                            <input name="telefono" id="c_telefono" type="number" size="22" tabindex="4" placeholder="Tu teléfono..." /> </p>
+                    </div>
+                    <div>
+                        <p>
+                            <textarea name="mensaje" id="c_msg" cols="50" rows="14" tabindex="5" placeholder="Escribe aquí tu mensaje... (*)" ></textarea>
+                        </p>
+                    </div>
+                    <div id="spam">
+                        <label>Dejar esto en blanco</label>
+                        <input type="text" id="c_spam_textbox1" name="spam_textoblanco" />
+                        <label>No cambiar esto</label>
+                        <input type="text" id="c_spam_textbox2" value="http://" name="spam_webvacia" />
+                    </div>									
+                    <p>
+                        <label>(*) Campos Requeridos</label>
+                        <input name="cenviar" type="button" id="c_enviar" tabindex="6" value="Enviar Mensaje" onclick="cargaSendMail()" />       
+                    </p>
+        
+                    
+                </form>
+                <!-- fin formulario -->
+                
+            </div>
+               
+               
+            </article>
+              
+
+        </section>
+        <section>
+            <img src="imagenes/sald.jpg" id="imagenfooter" alt="salduie78">
+            <article class="articles articlebl artfoot">
+               
+                <ul>
+                <li><a href="#" ><span class="icon-location2"></span> <a class="text">RIBERA DEL JILOCA, 2 ZARAGOZA, 50009</a> </a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=34626993739&text=Hola, Nececito mas informacion!"  ><span class="icon-mobile"></span><a class="text">+34 626 99 37 39</a>  </a>
+                </li>
+                <li> <a href="mailto:alejandromirbel@hotmail.com?Subject=Informacion%20Salduie78%20web%20" "><span class="icon-mail2"></span> <a class="text">info@salduie78.es</a> </a>
+                </li>
+                <li><a href="https://www.facebook.com/salduie78/" ><span class="icon-facebook2"></span><a class="text">@salduie78</a></a></li>
+                <li><a href="https://www.instagram.com/salduie78hockey/?hl=es" ><span class="icon-instagram"></span><a class="text">@salduie78hockey</a></a></li>
+              
+                </ul>
+                
+
+        </li></ul>
+                
+       
+                
+                         
+            </article>
+        </section>
+        </footer>
+    </main>
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script src="java/noticias.js"></script>  
+    <script src="java/cabecero.js"></script>
+
+</body>
+</html>

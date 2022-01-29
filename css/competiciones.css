@@ -1,0 +1,84 @@
+main{
+    max-width: 100%;
+    background-color: white}
+    :root {
+      --main-bg-color: #cf010b;
+      --degradadonoticia: linear-gradient(rgba(255,255,255,0) 60%,rgb(0, 0, 0));
+    }
+    .articlecomp{
+      width: calc(100% - 1em);
+        margin: 0 0.5em;
+justify-content: space-between;
+overflow: hidden;
+padding: 0;
+margin-bottom: 25px;
+    }
+    
+    .section{border: black solid 20px;
+        border-top: none;
+     }
+        .fueraarticulo{padding:0;}
+       .tablaclasificacion{
+         width: 100%;
+         border: black 2px solid;
+         border-bottom: none;
+         border-spacing: 0px;
+       }
+       .ultimalinea{border-bottom: none;}
+      
+       td,th{
+        border-bottom: black 2px solid;}
+       td{
+         text-align:  center;
+       }
+      .centrado{ text-align: left;
+      }
+       td img{
+         height: 2em;
+         display: flex;
+         padding: 2px;
+       }
+       /*PARTIDOSSSSSSSSSSSSSSSSSSSS*/
+
+      .partido{padding: 5px 0;}
+.partido,.finalpartido{border-top: black 3px dotted;}
+.partido h4{
+    text-align: center;
+    
+}
+.escudos{
+    display: flex;margin: 10px 0px;
+}
+.partido .local,.visitante{
+    display: flex;
+    flex-direction: column;
+}
+.partido .equipo{
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+.partido .escudo{width: 30px;
+
+}
+.escudos h5{
+    font-size: 1em;
+    font-weight: bold;
+    width: 150%;
+   
+   
+}
+.division{
+    font-weight: bold;
+    width: 150%;
+    position: relative;
+    right: 25%;
+    text-align: center;
+   
+}
+.partido h4{
+    font-weight: lighter;
+    width: 150%;
+    position: relative;
+    right: 25%;}

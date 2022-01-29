@@ -1,0 +1,735 @@
+{
+  "1": {
+    "titulo": "PRIMERA DIVISION MASCULINA HIERBA",
+    "JORNADAS": [
+      [
+        "JORNADA1",
+        {
+          "fecha": "02/10/2021",
+          "hora": "16:00",
+          "local": "HONIGVÖGEL HH 79",
+          "resultado": "04-feb",
+          "visitante": "HOCKEY SALDUIE 78",
+          "campo": "PARQUE D. EBRO"
+        },
+        {
+          "fecha": "03/10/2021",
+          "hora": "10:00",
+          "local": "CD GINER DE LOS RÍOS",
+          "resultado": "0 - 1",
+          "visitante": "VALENCIA CH",
+          "campo": "BETERO"
+        },
+        {
+          "fecha": "03/10/2021",
+          "hora": "12:00",
+          "local": "CH CARPESA",
+          "resultado": "04-may",
+          "visitante": "UA - SAN VICENTE",
+          "campo": "TARONGERS"
+        }
+      ],
+      [
+        "JORNADA2",
+        {
+          "fecha": "16/10/2021",
+          "hora": "15:00",
+          "local": "CH XALOC",
+          "resultado": "6 - 0",
+          "visitante": "HONIGVÖGEL HH 79",
+          "campo": "TARONGERS"
+        },
+        {
+          "fecha": "16/10/2021",
+          "hora": "16:00",
+          "local": "HOCKEY SALDUIE 78",
+          "resultado": "0 - 4",
+          "visitante": "CH CARPESA",
+          "campo": "PARQUE D. EBRO"
+        },
+        {
+          "fecha": "17/10/2021",
+          "hora": "12:00",
+          "local": "UA - SAN VICENTE",
+          "resultado": "07-abr",
+          "visitante": "VALENCIA CH",
+          "campo": "UNIVERSIDAD DE ALICANTE"
+        }
+      ],
+      [
+        "JORNADA3",
+        {
+          "fecha": "23/10/2021",
+          "hora": "15:45",
+          "local": "UA - SAN VICENTE",
+          "resultado": "6 - 0",
+          "visitante": "HOCKEY SALDUIE 78",
+          "campo": "UNIVERSIDAD DE ALICANTE"
+        },
+        {
+          "fecha": "24/10/2021",
+          "hora": "10:00",
+          "local": "CH CARPESA",
+          "resultado": "0 - 1",
+          "visitante": "CH XALOC",
+          "campo": "TARONGERS"
+        },
+        {
+          "fecha": "24/10/2021",
+          "hora": "14:30",
+          "local": "HONIGVÖGEL HH 79",
+          "resultado": "3 - 0",
+          "visitante": "CD GINER DE LOS RÍOS",
+          "campo": "PARQUE D. EBRO"
+        }
+      ],
+      [
+        "JORNADA4",
+        {
+          "fecha": "06/11/2021",
+          "hora": "15:00",
+          "local": "HOCKEY SALDUIE 78",
+          "resultado": "0 - 3",
+          "visitante": "VALENCIA CH",
+          "campo": "PARQUE D. EBRO"
+        },
+        {
+          "fecha": "07/11/2021",
+          "hora": "13:00",
+          "local": "CH XALOC",
+          "resultado": "-",
+          "visitante": "UA - SAN VICENTE",
+          "campo": "BETERO"
+        },
+        {
+          "fecha": "11/12/2021",
+          "hora": "17:00",
+          "local": "CD GINER DE LOS RÍOS",
+          "resultado": "-",
+          "visitante": "CH CARPESA",
+          "campo": "BETERO"
+        }
+      ],
+      [
+        "JORNADA5",
+        {
+          "fecha": "13/11/2021",
+          "hora": "15:00",
+          "local": "VALENCIA CH",
+          "resultado": "-",
+          "visitante": "HONIGVÖGEL HH 79",
+          "campo": "BETERO"
+        },
+        {
+          "fecha": "14/11/2021",
+          "hora": "12:00",
+          "local": "UA - SAN VICENTE",
+          "resultado": "-",
+          "visitante": "CD GINER DE LOS RÍOS",
+          "campo": "UNIVERSIDAD DE ALICANTE"
+        },
+        {
+          "fecha": "14/11/2021",
+          "hora": "14:00",
+          "local": "HOCKEY SALDUIE 78",
+          "resultado": "-",
+          "visitante": "CH XALOC",
+          "campo": "PARQUE D. EBRO"
+        }
+      ],
+      [
+        "JORNADA6",
+        {
+          "fecha": "16/11/2021",
+          "hora": "21:00",
+          "local": "CH XALOC",
+          "resultado": "-",
+          "visitante": "VALENCIA CH",
+          "campo": "TARONGERS"
+        },
+        {
+          "fecha": "20/11/2021",
+          "hora": "15:00",
+          "local": "CH CARPESA",
+          "resultado": "-",
+          "visitante": "HONIGVÖGEL HH 79",
+          "campo": "TARONGERS"
+        },
+        {
+          "fecha": "27/02/2022",
+          "hora": "0:00",
+          "local": "CD GINER DE LOS RÍOS",
+          "resultado": "-",
+          "visitante": "HOCKEY SALDUIE 78",
+          "campo": "TARONGERS"
+        }
+      ],
+      [
+        "JORNADA7",
+        {
+          "fecha": "27/11/2021",
+          "hora": "15:30",
+          "local": "HONIGVÖGEL HH 79",
+          "resultado": "-",
+          "visitante": "UA - SAN VICENTE",
+          "campo": "PARQUE D. EBRO"
+        },
+        {
+          "fecha": "27/11/2021",
+          "hora": "16:00",
+          "local": "VALENCIA CH",
+          "resultado": "-",
+          "visitante": "CH CARPESA",
+          "campo": "BETERO"
+        },
+        {
+          "fecha": "28/11/2021",
+          "hora": "12:00",
+          "local": "CH XALOC",
+          "resultado": "-",
+          "visitante": "CD GINER DE LOS RÍOS",
+          "campo": "BETERO"
+        }
+      ],
+      [
+        "JORNADA8",
+        {
+          "fecha": "06/03/2022",
+          "hora": "0:00",
+          "local": "UA - SAN VICENTE",
+          "resultado": "-",
+          "visitante": "CH CARPESA",
+          "campo": "UNIVERSIDAD DE ALICANTE"
+        },
+        {
+          "fecha": "06/03/2022",
+          "hora": "0:00",
+          "local": "HOCKEY SALDUIE 78",
+          "resultado": "-",
+          "visitante": "HONIGVÖGEL HH 79",
+          "campo": "POR DETERMINAR"
+        },
+        {
+          "fecha": "06/03/2022",
+          "hora": "0:00",
+          "local": "VALENCIA CH",
+          "resultado": "-",
+          "visitante": "CD GINER DE LOS RÍOS",
+          "campo": "POR DETERMINAR"
+        }
+      ],
+      [
+        "JORNADA9",
+        {
+          "fecha": "13/03/2022",
+          "hora": "0:00",
+          "local": "CD GINER DE LOS RÍOS",
+          "resultado": "-",
+          "visitante": "HONIGVÖGEL HH 79",
+          "campo": "POR DETERMINAR"
+        },
+        {
+          "fecha": "13/03/2022",
+          "hora": "0:00",
+          "local": "CH XALOC",
+          "resultado": "-",
+          "visitante": "CH CARPESA",
+          "campo": "POR DETERMINAR"
+        },
+        {
+          "fecha": "13/03/2022",
+          "hora": "0:00",
+          "local": "HOCKEY SALDUIE 78",
+          "resultado": "-",
+          "visitante": "UA - SAN VICENTE",
+          "campo": "POR DETERMINAR"
+        }
+      ],
+      [
+        "JORNADA10",
+        {
+          "fecha": "27/03/2022",
+          "hora": "0:00",
+          "local": "CH CARPESA",
+          "resultado": "-",
+          "visitante": "CD GINER DE LOS RÍOS",
+          "campo": "POR DETERMINAR"
+        },
+        {
+          "fecha": "27/03/2022",
+          "hora": "0:00",
+          "local": "UA - SAN VICENTE",
+          "resultado": "-",
+          "visitante": "CH XALOC",
+          "campo": "UNIVERSIDAD DE ALICANTE"
+        },
+        {
+          "fecha": "27/03/2022",
+          "hora": "0:00",
+          "local": "VALENCIA CH",
+          "resultado": "-",
+          "visitante": "HOCKEY SALDUIE 78",
+          "campo": "POR DETERMINAR"
+        }
+      ]
+    ],
+    "CLASIFICACION": [
+      {
+        "dfgoles": "DIF",
+        "puntos": "PTS",
+        "escudo": "",
+        "nombreequipo": "",
+        "jugados": "PJ",
+        "ganados": "PG",
+        "empatados": "PE",
+        "perdidos": "PP",
+        "golesf": "GF",
+        "golesc": "GE"
+      },
+      {
+        "dfgoles": "10",
+        "puntos": "9",
+        "escudo": "escudoua.png",
+        "nombreequipo": "UA - SAN VICENTE",
+        "jugados": "3",
+        "ganados": "3",
+        "empatados": "0",
+        "perdidos": "0",
+        "golesf": "18",
+        "golesc": "8"
+      },
+      {
+        "dfgoles": "7",
+        "puntos": "6",
+        "escudo": "escudoxaloc.png",
+        "nombreequipo": "CH XALOC",
+        "jugados": "2",
+        "ganados": "2",
+        "empatados": "0",
+        "perdidos": "0",
+        "golesf": "7",
+        "golesc": "0"
+      },
+      {
+        "dfgoles": "1",
+        "puntos": "6",
+        "escudo": "escudovalencia.png",
+        "nombreequipo": "VALENCIA CH",
+        "jugados": "3",
+        "ganados": "2",
+        "empatados": "0",
+        "perdidos": "1",
+        "golesf": "8",
+        "golesc": "7"
+      },
+      {
+        "dfgoles": "-1",
+        "puntos": "6",
+        "escudo": "escudohonig.png",
+        "nombreequipo": "HONIGVÖGEL HH 79",
+        "jugados": "3",
+        "ganados": "2",
+        "empatados": "0",
+        "perdidos": "1",
+        "golesf": "7",
+        "golesc": "8"
+      },
+      {
+        "dfgoles": "2",
+        "puntos": "3",
+        "escudo": "escudocarpesa.png",
+        "nombreequipo": "CH CARPESA",
+        "jugados": "3",
+        "ganados": "1",
+        "empatados": "0",
+        "perdidos": "2",
+        "golesf": "8",
+        "golesc": "6"
+      },
+      {
+        "dfgoles": "-4",
+        "puntos": "0",
+        "escudo": "escudoginer.png",
+        "nombreequipo": "CD GINER DE LOS RÍOS",
+        "jugados": "2",
+        "ganados": "0",
+        "empatados": "0",
+        "perdidos": "2",
+        "golesf": "0",
+        "golesc": "4"
+      },
+      {
+        "dfgoles": "-15",
+        "puntos": "0",
+        "escudo": "escudosalduie.png",
+        "nombreequipo": "HOCKEY SALDUIE 78",
+        "jugados": "4",
+        "ganados": "0",
+        "empatados": "0",
+        "perdidos": "4",
+        "golesf": "2",
+        "golesc": "17"
+      }
+    ]
+  },
+  "2": {
+    "titulo": "SENIOR FEMENINO HIERBA",
+    "CLASIFICACION": [],
+    "JORNADAS": [
+      [
+        "AMISTOSO",
+        {
+          "fecha": "16/10/2021",
+          "hora": "15:00",
+          "local": "SALDUIE78 FEM",
+          "resultado": "6 - 0",
+          "visitante": "VETERRANOS ARAGON",
+          "campo": "TARONGERS"
+        }
+      ]
+    ]
+  },
+  "3": {
+    "titulo": "CADETE CAMPEONATO ARAGON 9X9 HIERBA",
+    "CLASIFICACION": [
+      {
+        "dfgoles": "0",
+        "puntos": "0",
+        "escudo": "escudohonig.png",
+        "nombreequipo": "HONIGVÖGEL HH 79",
+        "jugados": "0",
+        "ganados": "0",
+        "empatados": "0",
+        "perdidos": "0",
+        "golesf": "0",
+        "golesc": "0"
+      },
+      {
+        "dfgoles": "0",
+        "puntos": "0",
+        "escudo": "escudosalduie.png",
+        "nombreequipo": "HOCKEY SALDUIE 78",
+        "jugados": "0",
+        "ganados": "0",
+        "empatados": "0",
+        "perdidos": "0",
+        "golesf": "0",
+        "golesc": "0"
+      }
+    ],
+    "JORNADAS": [
+      [
+        "AMISTOSO",
+        {
+          "fecha": "16/10/2021",
+          "hora": "15:00",
+          "local": "SALDUIE78 FEM",
+          "resultado": "6 - 0",
+          "visitante": "VETERRANOS ARAGON",
+          "campo": "TARONGERS"
+        }
+      ]
+    ]
+  },
+  "4": {
+    "titulo": "ALEVIN JJEE-DGA 9X9",
+    "CLASIFICACION": [
+      {
+        "dfgoles": "0",
+        "puntos": "0",
+        "escudo": "escudosalduie.png",
+        "nombreequipo": "HOCKEY SALDUIE 78",
+        "jugados": "0",
+        "ganados": "0",
+        "empatados": "0",
+        "perdidos": "0",
+        "golesf": "0",
+        "golesc": "0"
+      },
+      {
+        "dfgoles": "0",
+        "puntos": "0",
+        "escudo": "escudohonig.png",
+        "nombreequipo": "HONIGVÖGEL",
+        "jugados": "0",
+        "ganados": "0",
+        "empatados": "0",
+        "perdidos": "0",
+        "golesf": "0",
+        "golesc": "0"
+      }
+    ],
+    "JORNADAS": [
+      [
+        "JORNADA 1",
+        {
+          "fecha": "07/11/2021",
+          "hora": "10:15",
+          "local": "HONIGVOGEL",
+          "resultado": "-",
+          "visitante": "SALDUIE",
+          "campo": "PDE"
+        }
+      ],
+      [
+        "JORNADA 2",
+        {
+          "fecha": "21/11/2021",
+          "hora": "10:15",
+          "local": "SALDUIE",
+          "resultado": "-",
+          "visitante": "HONIGVOGEL",
+          "campo": "PDE"
+        }
+      ],
+      [
+        "JORNADA 3",
+        {
+          "fecha": "28/11/2021",
+          "hora": "--:--",
+          "local": "HONIGVOGEL",
+          "resultado": "-",
+          "visitante": "SALDUIE",
+          "campo": "PDE"
+        }
+      ]
+    ]
+  },
+  "5": {
+    "titulo": "BENJAMIN JJEE-DGA 5X5",
+    "CLASIFICACION": [
+      {
+        "dfgoles": "0",
+        "puntos": "0",
+        "escudo": "escudohonig.png",
+        "nombreequipo": "HONIGVÖGEL",
+        "jugados": "0",
+        "ganados": "0",
+        "empatados": "0",
+        "perdidos": "0",
+        "golesf": "0",
+        "golesc": "0"
+      },
+      {
+        "dfgoles": "0",
+        "puntos": "0",
+        "escudo": "escudosalduie.png",
+        "nombreequipo": "HOCKEY SALDUIE 78",
+        "jugados": "0",
+        "ganados": "0",
+        "empatados": "0",
+        "perdidos": "0",
+        "golesf": "0",
+        "golesc": "0"
+      },
+      {
+        "dfgoles": "0",
+        "puntos": "0",
+        "escudo": "escudobritis.png",
+        "nombreequipo": "BRITISH SCHOOL",
+        "jugados": "0",
+        "ganados": "0",
+        "empatados": "0",
+        "perdidos": "0",
+        "golesf": "0",
+        "golesc": "0"
+      }
+    ],
+    "JORNADAS": [
+      [
+        "JORNADA 1",
+        {
+          "fecha": "7/11/2021",
+          "hora": "11:15",
+          "local": "HONIGVOGEL",
+          "resultado": "-",
+          "visitante": "SALDUIE",
+          "campo": "PDE"
+        }
+      ],
+      [
+        "JORNADA 2",
+        {
+          "fecha": "21/11/2021",
+          "hora": "11:15",
+          "local": "HONIGVOGEL",
+          "resultado": "-",
+          "visitante": "BRITISH SCHOOL",
+          "campo": "PDE"
+        }
+      ],
+      [
+        "JORNADA 3",
+        {
+          "fecha": "28/11/2021",
+          "hora": "--:--",
+          "local": "SALDUIE",
+          "resultado": "-",
+          "visitante": "BRITISH SCHOOL",
+          "campo": "PDE"
+        }
+      ]
+    ]
+  },
+  "6": {
+    "titulo": "INICIACION JJEE-DGA 3X3",
+    "CLASIFICACION": [
+      {
+        "dfgoles": "0",
+        "puntos": "0",
+        "escudo": "escudohonig.png",
+        "nombreequipo": "VOGEL",
+        "jugados": "0",
+        "ganados": "0",
+        "empatados": "0",
+        "perdidos": "0",
+        "golesf": "0",
+        "golesc": "0"
+      },
+      {
+        "dfgoles": "0",
+        "puntos": "0",
+        "escudo": "escudosalduie.png",
+        "nombreequipo": "HOCKEY SALDUIE 78",
+        "jugados": "0",
+        "ganados": "0",
+        "empatados": "0",
+        "perdidos": "0",
+        "golesf": "0",
+        "golesc": "0"
+      },
+      {
+        "dfgoles": "0",
+        "puntos": "0",
+        "escudo": "escudohonig.png",
+        "nombreequipo": "HONIG",
+        "jugados": "0",
+        "ganados": "0",
+        "empatados": "0",
+        "perdidos": "0",
+        "golesf": "0",
+        "golesc": "0"
+      }
+    ],
+    "JORNADAS": [
+      [
+        "JORNADA 1",
+        {
+          "fecha": "7/11/2021",
+          "hora": "10:15",
+          "local": "HONIG",
+          "resultado": "-",
+          "visitante": "VOGEL",
+          "campo": "PDE"
+        }
+      ],
+      [
+        "JORNADA 2",
+        {
+          "fecha": "21/11/2021",
+          "hora": "10:15",
+          "local": "VOGEL",
+          "resultado": "-",
+          "visitante": "SALDUIE",
+          "campo": "PDE"
+        }
+      ],
+      [
+        "JORNADA 3",
+        {
+          "fecha": "21/11/2021",
+          "hora": "--:--",
+          "local": "SALDUIE",
+          "resultado": "-",
+          "visitante": "HONIG",
+          "campo": "PDE"
+        }
+      ]
+    ]
+  },
+  "7": {
+    "titulo": "SENIOR MASCULINO LIGA FHCV-FAH",
+    "CLASIFICACION": [],
+    "JORNADAS": [
+      [
+        "AMISTOSO",
+        {
+          "fecha": "16/10/2021",
+          "hora": "15:00",
+          "local": "SALDUIE78 FEM",
+          "resultado": "6 - 0",
+          "visitante": "VETERRANOS ARAGON",
+          "campo": "TARONGERS"
+        }
+      ]
+    ]
+  },
+  "8": {
+    "titulo": "SENIOR FEMENINO",
+    "CLASIFICACION": [],
+    "JORNADAS": [
+      [
+        "AMISTOSO",
+        {
+          "fecha": "16/10/2021",
+          "hora": "15:00",
+          "local": "SALDUIE78 FEM",
+          "resultado": "6 - 0",
+          "visitante": "VETERRANOS ARAGON",
+          "campo": "TARONGERS"
+        }
+      ]
+    ]
+  },
+  "9": {
+    "titulo": "CADETE CAMPEONATO DE ARAGON",
+    "CLASIFICACION": [],
+    "JORNADAS": [
+      [
+        "AMISTOSO",
+        {
+          "fecha": "16/10/2021",
+          "hora": "15:00",
+          "local": "SALDUIE78 FEM",
+          "resultado": "6 - 0",
+          "visitante": "VETERRANOS ARAGON",
+          "campo": "TARONGERS"
+        }
+      ]
+    ]
+  },
+  "10": {
+    "titulo": "ALEVIN SALA JJEE-DGA",
+    "CLASIFICACION": [],
+    "JORNADAS": [
+      [
+        "AMISTOSO",
+        {
+          "fecha": "16/10/2021",
+          "hora": "15:00",
+          "local": "SALDUIE78 FEM",
+          "resultado": "6 - 0",
+          "visitante": "VETERRANOS ARAGON",
+          "campo": "TARONGERS"
+        }
+      ]
+    ]
+  },
+  "11": {
+    "titulo": "BENJAMIN SALA JJEE-DGA",
+    "CLASIFICACION": [],
+    "JORNADAS": [
+      [
+        "AMISTOSO",
+        {
+          "fecha": "16/10/2021",
+          "hora": "15:00",
+          "local": "SALDUIE78 FEM",
+          "resultado": "6 - 0",
+          "visitante": "VETERRANOS ARAGON",
+          "campo": "TARONGERS"
+        }
+      ]
+    ]
+  }
+}

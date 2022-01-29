@@ -5,7 +5,7 @@ $username = "root";
 $password = "";
 
 
-$respuesta=$_POST["pagina"];
+$respuesta=$_POST["nombre"];
  //$respuesta=$_POST["nombre"];
    $db = new mysqli($servername, $username, $password, $database);
 
@@ -26,7 +26,7 @@ if($pr2->execute()){
  $pr2->store_result();
  $pr2->bind_result($cantidadnoticias);
  $noticias = array();
-$numero=0;
+
  while($pr2->fetch()){
   
   $noticia = array("total"=>$cantidadnoticias,"respuesta"=>$respuesta);
@@ -40,28 +40,35 @@ $numero=0;
 
 
 //consultanoticias
-$pr = $db->prepare("SELECT id,titulo, noticiacorta, imagenes, fecha FROM noticiasweb WHERE id<=? ORDER BY id DESC LIMIT 4");
-$numeromax=(($respuesta-1)*4);
+$pr = $db->prepare("SELECT id,titulo, noticiaentera, imagenes, fecha FROM noticiasweb WHERE id<=? ORDER BY id DESC LIMIT 4");
+if ($respuesta>0) {
+  $numeromax=(($respuesta-1)*4);
 
   $id=$cantidadnoticias-$numeromax;
- if ($id<4) {$id=4;
-   # code...
- }
-
-
-//$id = $cantidadnoticias;
-
+ if ($id<4) {$id=4; }
+} 
+else {
+  switch ($respuesta) {
+    case 'ultimo':
+      $id=$cantidadnoticias-4;
+      break;
+      case 'primero':
+        $id=4;
+        break;
+    default:
+      $id=4;
+      break;  } }
 //Indicamos los valores pasados por referencia
 $pr->bind_param("i", $id);
 //Ejecutamos la consulta
 if($pr->execute()){
  $pr->store_result();
- $pr->bind_result($id,$titulo,$noticiacorta,$imagenes,$fecha);
+ $pr->bind_result($id,$titulo,$noticiaentera,$imagenes,$fecha);
 
 $numero=0;
  while($pr->fetch()){
   
-  $noticia = array("id"=>$id,"titulo"=>$titulo, "noticiacorta"=>$noticiacorta, "imagenes"=>$imagenes,"fecha"=>$fecha);
+  $noticia = array("id"=>$id,"titulo"=>$titulo, "noticiaentera"=>$noticiaentera, "imagenes"=>$imagenes,"fecha"=>$fecha);
   $noticias['Noticias'][] = $noticia;
   
  }}

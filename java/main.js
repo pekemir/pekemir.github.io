@@ -1,212 +1,4 @@
-/*aparecerobjetos*/
 
-function reveal() {
-  var reveals = document.querySelectorAll(".js-scroll");
-  for (var i = 0; i < reveals.length; i++) {
-    var windowHeight = window.innerHeight;
-    var elementTop = reveals[i].getBoundingClientRect().top;
-    var elementVisible = 100;
-    
-    console.log(elementTop);
-    if (elementTop < windowHeight - elementVisible) {
-      reveals[i].classList.add("active");
-    } else {
-      reveals[i].classList.remove("active");
-    }
-  }
-}
-
-/*aparecerobjetos metodo2*/
-const header=document.getElementById('controlheader')
-const scrollElements = document.querySelectorAll(".js-scrollheader");
-const elementInView = (el, dividend = 1) => {
-  const elementTop = el.getBoundingClientRect().top;
-return (
-    (elementTop +window.innerHeight-100<=
-    (window.innerHeight || document.documentElement.clientHeight) / dividend
-  ))
-};
-
-const elementOutofView = (el) => {
-  const elementTop = el.getBoundingClientRect().top;
-return (
-    elementTop > (window.innerHeight || document.documentElement.clientHeight)||-10
-  );
-};
-
-const displayScrollElement = (element) => {
-  header.classList.add("headeractivo");
-};
-
-const hideScrollElement = (element) => {
-  header.classList.remove("headeractivo");
-};
-
-var control=1;
-const handleScrollAnimation = () => {
-  scrollElements.forEach((el) => {
-    if (el.getBoundingClientRect().top==0) {
-     control=1 
-    }
-   if (elementInView(el, 1.25)&& control==1) {
-      displayScrollElement(el);
-      control=0;
-    } else if (elementOutofView(el)&& control==1) {
-      console.log("RESTOOTRO");
-      hideScrollElement(el)
-    }
-  })
-}
-/*fin aparecer objetos metodo2*/
-window.addEventListener("scroll", () => { 
-  handleScrollAnimation();
-  reveal()
-});
-/*fin aparecer objetos*/
-
-/*formulariocontacto*/
-function cargaSendMail(){
- 
- 
-  $(".c_error").remove();
-
-  var filter= /^[a-zA-Z0-9_\.\-]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$/;
-  var s_email = $('#c_mail').val();
-  var s_name = $('#c_name').val();    
-  var s_msg = $('#c_msg').val();
-  var s_spam_textbox1 = $('#c_spam_textbox1').val();
-  var s_spam_textbox2 = $('#c_spam_textbox2').val();
- 
-  
-  if (filter.test(s_email)){
-  sendMail = "true";
-  
-  $('#c_mail').css("border-color","");   	
-  } else{
-    
-  $('#c_mail').after("<p id='c_error_mail' class='c_error'>Ingrese e-mail valido.</p>");
-  $(".c_error").css("color","Red");
-  $('#c_mail').css("border-color","Red");   
-  sendMail = "false";
-  }
-  if (s_name.length == 0 ){
-  $('#c_name').after( "<p id='c_error_name' class='c_error'>Ingrese su nombre.</p>" );
-  $(".c_error").css("color","Red");
-  $('#c_name').css("border-color","Red");  	
-  var sendMail = "false";
-  } else{
-  $('#c_name').css("border-color","");
-  }	
-  if (s_msg.length == 0 ){
-  $('#c_msg').after( "<p id='c_error_msg' class='c_error'>Ingrese mensaje.</p>" );
-  $(".c_error").css("color","Red");
-  $('#c_msg').css("border-color","Red");
-  var sendMail = "false";
-  } else{
-  $('#c_msg').css("border-color","");
-  }		
-  //Si el primer textbox se deja en blanco
-  if (s_spam_textbox1.length == 0 ){
-      var s_Bot1 = "false";
-  } 
-  //Si el segundo textbox no se modifica
-  if (s_spam_textbox2 == "http://" ){
-      var s_Bot2 = "false";
-  }
-  if (s_Bot1 == "false" && s_Bot2 == "false"){
-      spamBot = "false";
-  }
-  else { spamBot = "true"; }
-
-  
-  
-  if(sendMail == "true" && spamBot == "false" ){
-   
-   var datos = {
-
-          "nombre" : $('#c_name').val(),
-
-          "email" : $('#c_mail').val(),
-           
-          "url" : $('#c_url').val(),
-                        
-          "telefono" : $('#c_telefono').val(),
-
-          "mensaje" : $('#c_msg').val(),
-          
-          "cenviar" : $('#c_enviar').val()
-           
-   };
-
-   $.ajax({
-
-           data:  datos,
-           // hacemos referencia al archivo mail.php
-           url:  'php/mail.php',
-
-           type:  'post',
-
-           beforeSend: function (data) {
-                  console.log(datos);
-                  $("#c_enviar").val("Enviando...");
-                  $("#c_information p").html(data);
-
-           },
-
-           success:  function (data) {
-console.log(data);
-console.log(data.a);
-console.log(data[0].b);
-                  $('form')[0].reset(); 
-                  $("#c_enviar").val("Enviar Mensaje");
-                  $("#c_information p").html(data);
-                  
-                  $("#c_information").css({
-                                          "background-color": "#DFF2BF",
-                                          "color": "#4F8A10",
-                                          
-                  });				
-                  $("#c_information").text( data.a );
-                  $("#c_information").fadeIn('slow');
-                  
-
-           },
-           
-        // Cuando el formulario es enviado, mostramos un mensaje en la vista HTML 
-        // En el archivo enviarcorreo.php devuelvo el valor '1' el cual es procesado con jQuery Ajax 
-        // y significa que el mensaje se envio satisfactoriamente. 
-        done:function (res) {                  
- 
-          if(res.a == "1"){
-                    
-            // Mostramos el mensaje 'Tu Mensaje ha sido enviado Correctamente !' 
-            $("#c_information").html(res.b);                   
-            $("#formulario_contacto").trigger("reset");    
- 
-          }  else {                                       
-            $("#c_information").html(res.b); 
-          }
-                                                      
-        },
- 
-        // Mensaje de error al enviar el formulario 
-        fail:function (res) {                    
-            $("#c_information").html(res.b);
-        }
-   
-   });
-
-  }else{
-    $("#c_information").css({
-      "background-color": "#DFF2BF",
-      "color": "#4F8A10",
-      
-});				
-
-  }
-
-}
-/*fin formulariodecontacto*/
 
 /*php*/
 const $imagennoticiasfija1 = document.getElementById('articulonoticia1');
@@ -232,8 +24,26 @@ var FECHASnoticias;
 var TEXTOnoticias;
 var noticiass=null;
 var noticias= null;
-window.onload= function(){cargarimagenesnoticiasonload();}
-function cargarimagenesnoticiasonload(){
+var partidosprox=null;
+var partidos=null;
+
+
+window.onload= function(){cargarimagenesnoticiasonload();
+
+ 
+}
+function numerodesemana(){
+	var now=new Date(),i=0,f,sem=(new Date(now.getFullYear(), 0,1).getDay()>0)?1:0;
+	while( (f=new Date(now.getFullYear(), 0, ++i)) < now ){
+		if(!f.getDay()){
+			sem++;
+		}
+	}
+	return sem;
+}
+
+
+  function cargarimagenesnoticiasonload(){
   $.ajax({
       url: 'php/noticias.php',
       type: 'POST',
@@ -295,11 +105,233 @@ function cargarimagenesnoticiasonload(){
       }
     });}
   
-               function mostrarmastexto(idtexto) {
-                const mostrartexto=document.getElementById(idtexto);
+             
+
+               var controlprximospartidos=0;
+               function mostrarproximospartidos() {
+                const mostrartexto=document.getElementById('contenedorproximospartidos');
                 if ( mostrartexto.style.display=='block') {
                   mostrartexto.style.display='none';
                 } else {mostrartexto.style.display='block';
-                 }
+                if (controlprximospartidos==0) {
+                  cargarproximospartidos(numerodesemana());
+                 
+                }   }                           }
+
+                var controlresultadospartidos=0;
+                function mostrarresultadospartidos() {
+                 const mostrartexto=document.getElementById('contenedorresultadospartidos');
+                 if ( mostrartexto.style.display=='block') {
+                   mostrartexto.style.display='none';
+                 } else {mostrartexto.style.display='block';
+                 if (controlresultadospartidos==0) {
+                   cargarresultados(numerodesemana());
+                 }   }                           }
+
+           
+              
+
+
+               function crearproximopartido(division,dia,hora,escudolocal,equipolocal,escudovisitante,equipovisitante,ubicacion) {
+                
+                 var partido = document.createElement("div");
+                 partido.classList.add('partido')
+                 var currentDiv = document.getElementById("contenedorproximospartidos");
+                 currentDiv.appendChild(partido);
+
+                 var divisionn=document.createElement("h5");
+                 divisionn.classList.add('division');
+                 divisionn.textContent=division;
+                 partido.appendChild(divisionn);
+
+                 var horaa= document.createElement("h4");
+                 horaa.classList.add('hred');
+                 horaa.textContent=dia;
+                 partido.appendChild(horaa);
+                 var horaa= document.createElement("h4");
+                 horaa.classList.add('hred');
+                 horaa.textContent=hora;
+                 partido.appendChild(horaa);
+
+                 var escudos=document.createElement("div");
+                 escudos.classList.add('escudos');
+                 partido.appendChild(escudos);
+
+                  var equipol=document.createElement("div");
+                 equipol.classList.add('equipo');
+                 escudos.appendChild(equipol)
+
+                 var escudolocall=document.createElement("img");
+                escudolocall.classList.add("escudo");
+                escudolocall.src  = "imagenes/escudos/"+escudolocal;
+                escudolocall.alt="escudo local";
+                 equipol.appendChild(escudolocall);
+
+                 var nombreequipolocal=document.createElement("h5");
+                 nombreequipolocal.classList.add('nombreequipo');
+                 nombreequipolocal.textContent=equipolocal;
+                 equipol.appendChild(nombreequipolocal);
+
+                 var guion=document.createElement("p");
+                 guion.textContent="-";
+                 escudos.appendChild(guion);
+
+                 var equipov=document.createElement("div");
+                 equipov.classList.add('equipo');
+                 escudos.appendChild(equipov)
+
+                 var escudovis=document.createElement("img");
+                escudovis.classList.add("escudo");
+                escudovis.src  = "imagenes/escudos/"+escudovisitante;
+                escudovis.alt="escudo visitante";
+                 equipov.appendChild(escudovis);
+
+                 var nombreequipovis=document.createElement("h5");
+                 nombreequipovis.classList.add('nombreequipo');
+                 nombreequipovis.textContent=equipovisitante;
+                 equipov.appendChild(nombreequipovis);
+
+                 var lugar=document.createElement("h4");
+                 lugar.textContent=ubicacion;
+                 partido.appendChild(lugar);
+                 console.log("creado");
                }
-               
+               function crearpartidoresultado(division,dia,escudolocal,equipolocal,escudovisitante,equipovisitante,ubicacion,gollocal,golvis) {
+                
+                var partido = document.createElement("div");
+                partido.classList.add('partido')
+                var currentDiv = document.getElementById("contenedorresultadospartidos");
+                currentDiv.appendChild(partido);
+
+                var divisionn=document.createElement("h5");
+                divisionn.classList.add('division');
+                divisionn.textContent=division;
+                partido.appendChild(divisionn);
+
+                var horaa= document.createElement("h4");
+                horaa.classList.add('hred');
+                horaa.textContent=dia;
+                partido.appendChild(horaa);
+
+                var escudos=document.createElement("div");
+                escudos.classList.add('escudos');
+                partido.appendChild(escudos);
+
+                 var equipol=document.createElement("div");
+                equipol.classList.add('equipo');
+                escudos.appendChild(equipol)
+
+                var escudolocall=document.createElement("img");
+               escudolocall.classList.add("escudo");
+               escudolocall.src  = "imagenes/escudos/"+escudolocal;
+               escudolocall.alt="escudo local";
+                equipol.appendChild(escudolocall);
+
+                var nombreequipolocal=document.createElement("h5");
+                nombreequipolocal.classList.add('nombreequipo');
+                nombreequipolocal.textContent=equipolocal;
+                equipol.appendChild(nombreequipolocal);
+
+                var goleslocal=document.createElement("h5");
+                goleslocal.textContent=gollocal;
+                equipol.appendChild(goleslocal);
+
+                var guion=document.createElement("p");
+                guion.textContent="-";
+                escudos.appendChild(guion);
+
+                var equipov=document.createElement("div");
+                equipov.classList.add('equipo');
+                escudos.appendChild(equipov)
+
+                var escudovis=document.createElement("img");
+               escudovis.classList.add("escudo");
+               escudovis.src  = "imagenes/escudos/"+escudovisitante;
+               escudovis.alt="escudo visitante";
+                equipov.appendChild(escudovis);
+
+                var nombreequipovis=document.createElement("h5");
+                nombreequipovis.classList.add('nombreequipo');
+                nombreequipovis.textContent=equipovisitante;
+                equipov.appendChild(nombreequipovis);
+
+                var golesvis=document.createElement("h5");
+                golesvis.textContent=golvis;
+                equipov.appendChild(golesvis);
+
+                var lugar=document.createElement("h4");
+                lugar.textContent=ubicacion;
+                partido.appendChild(lugar);
+                console.log("creado");
+              }
+              function cargarproximospartidos(semana){
+                console.log("semana"+semana);
+                controlprximospartidos=1 ;
+                  $.ajax({
+                    url: 'php/partidos.php',
+                    type: 'POST',
+                    data: "nombre="+semana+"&pagina=1",
+                    success: function(data){
+                    console.log(data);
+                    
+                    const partidosprox4= JSON.parse(data);
+                    partidosprox=partidosprox4;
+                    console.log(partidosprox);
+                    for (let a = 0; a < partidosprox.Partidos.length; a++) {
+                     
+                  
+             
+              console.log("inicio");
+                    crearproximopartido(partidosprox.Partidos[a].categoria+" - "+partidosprox.Partidos[a].campeonato,
+                    formatofecha(partidosprox.Partidos[a].dia),
+                    partidosprox.Partidos[a].hora,
+                    partidosprox.Partidos[a].esclocal+".png",
+                    partidosprox.Partidos[a].eqlocal,
+                    partidosprox.Partidos[a].esvis+".png",
+                    partidosprox.Partidos[a].eqvis,
+                    partidosprox.Partidos[a].lugar)
+                    // next(); 
+                    console.log("fin");
+                    }}
+                  }); 
+                }
+                function formatofecha(input){
+                  var datePart = input.match(/\d+/g),
+                  year = datePart[0].substring(0,4), // get only two digits
+                  month = datePart[1], day = datePart[2];
+      
+                  return day+'-'+month+'-'+year;
+      }
+      function cargarresultados(semana) {
+        controlresultadospartidos=1 ;
+        $.ajax({
+          url: 'php/partidosresultados.php',
+          type: 'POST',
+          data: "nombre="+semana+"&pagina=1",
+          success: function(data){
+          console.log(data);
+          
+          const partidos4= JSON.parse(data);
+          partidos=partidos4;
+          console.log(partidos);
+          for (let a = 0; a < partidos.Partidos.length; a++) {
+           
+        
+   
+    console.log("inicio");
+          crearpartidoresultado(partidos.Partidos[a].categoria+" - "+partidos.Partidos[a].campeonato,
+          formatofecha(partidos.Partidos[a].dia),
+         
+          partidos.Partidos[a].esclocal+".png",
+          partidos.Partidos[a].eqlocal,
+          partidos.Partidos[a].esvis+".png",
+          partidos.Partidos[a].eqvis,
+          partidos.Partidos[a].lugar,
+          partidos.Partidos[a].golocal,
+          partidos.Partidos[a].golvis)
+          // next(); 
+          console.log("fin");
+          }}
+        }); 
+      }
+    
