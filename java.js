@@ -15,7 +15,7 @@ function revealheader() {
   let windy = window.scrollY;
   let top2 = window.innerHeight;
   console.log(top2);
-  tope = top2 - 200;
+  tope = top2 - 500;
 
   for (var i = 0; i < reveals.length; i++) {
     if (windy > tope) {
@@ -38,6 +38,7 @@ $('#botonexpandirmenu').click(function () {
   iconosredes.classList.remove('circulo2mas')
    // Al hacer click...
   console.log(window.scrollY + "tope" + tope);
+  $('#botonexpandirmenu').toggleClass('open');/*botonhamburgesa*/
   if (window.scrollY <= tope) {
     idheader.classList.add('desdeinicio');
     fondomenu.classList.add('despuesiniciofondomenu');
