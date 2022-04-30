@@ -1,0 +1,531 @@
+* {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+h1.titulo {
+    font-family: 'Ms Madi', cursive;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+:root {
+    --iconoredes: 60px
+}
+
+body {
+    height: 500vh;
+    max-width: 100%;
+}
+
+header {
+    z-index: 200;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+
+#idheader {
+    animation: hastauno 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#idheader.desdeinicio {
+    animation: hastauno 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#idheader.scrolled {
+    display: block;
+    animation: hastacero 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hastacero {
+    from {
+        top: -58px;
+    }
+
+    to {
+        top: 0px;
+    }
+}
+
+@keyframes hastauno {
+    from {
+        top: 0px;
+    }
+
+    to {
+        top: -58px;
+    }
+
+}
+
+#botonexpandirmenu {
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    position: absolute;
+    top: 55px;
+    left: calc(100% - 50px);
+}
+
+
+.fondomenu {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 80px;
+    z-index: -2;
+    animation: recogermenu 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.despuesiniciofondomenu.fondomenu {
+    animation: recogermenu 1.3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.desplegar.fondomenu {
+    animation: desplegarmenu 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes desplegarmenu {
+    from {
+        left: 100%;
+    }
+
+    to {
+        left: 0%;
+    }
+}
+
+@keyframes recogermenu {
+    from {
+        left: 0%;
+    }
+
+    to {
+        left: 100%;
+    }
+}
+
+#circulo {
+    fill: red;
+    animation: recogerbola 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.despuesiniciofondomenu #circulo {
+    animation: recogerbola 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.desplegar #circulo {
+    animation: desplegarbola 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes desplegarbola {
+    from {
+        r: 5%;
+        cx: 100%;
+        cy: -3%
+    }
+
+    to {
+        r: 50%;
+        cx: 98%;
+        cy: 20%
+    }
+}
+
+@keyframes recogerbola {
+    from {
+        r: 50%;
+        cx: 98%;
+        cy: 20%
+    }
+
+    to {
+        r: 5%;
+        cx: 100%;
+        cy: -3%
+    }
+}
+
+#circulomenu {
+    width: 100%;
+    height: 100%;
+}
+
+#listamenu {
+    padding: 0;
+    max-width: 50%;
+    text-align: end;
+    position: absolute;
+    top: 90px;
+    right: calc(0% + 70px);
+    list-style: none;
+    animation: recogermenulista 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    max-height: 90vh;
+    overflow: scroll;
+}
+
+#listamenu.despuesiniciofondomenu {
+    animation: recogermenulista 1.8s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+#listamenu.desplegar {
+    animation: desplegarmenulista 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+@keyframes desplegarmenulista {
+    from {
+        right: -100%;
+    }
+
+    to {
+        right: calc(0% + 70px);
+    }
+}
+
+@keyframes recogermenulista {
+    from {
+        right: calc(0% + 70px);
+    }
+
+    to {
+        right: -100%;
+    }
+}
+
+
+#listamenu a {
+    z-index: 10;
+    font-size: large;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+
+
+.elementomenuacordeon {
+    height: 0%;
+    overflow: hidden;
+    list-style: none;
+    position: relative;
+    animation: recogersubmenu 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+.elementomenuacordeon.show {
+    animation: desplegarsubmenu 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+#listamenu1 {
+    --dist: 120px
+}
+
+/*para la distancia que ha de desplegarse*/
+#listamenu2 {
+    --dist: 324px
+}
+
+#listamenu3 {
+    --dist: 324px
+}
+
+@keyframes desplegarsubmenu {
+    from {
+        height: 0;
+    }
+
+    to {
+        height: var(--dist);
+    }
+}
+
+@keyframes recogersubmenu {
+    from {
+        height: var(--dist);
+    }
+
+    to {
+        height: 0;
+    }
+}
+
+.submenu {
+    cursor: pointer;
+}
+
+
+
+
+#iconosredes {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: 200;
+    --iconoredes: 60px;
+    animation: recogericono 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+#iconosredes.scrolled.desdeinicio {
+    --iconoredes: 60px;
+    animation: desplegaricono 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+#iconosredes.scrolled.desdeinicio.circulo2mas.circulo2masmas {
+    --iconoredes: 90px;
+    animation: desplegaricono2 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+#iconosredes.scrolled.desdeinicio.circulo2masmas {
+    --iconoredes: 60px;
+    animation: recogericono2 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+#iconosredes.desdeinicio {
+    animation: recogericono 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+@keyframes desplegaricono2 {
+    from {
+        width: 60px;
+        height: 60px;
+    }
+
+    to {
+        width: var(--iconoredes);
+        height: var(--iconoredes);
+    }
+}
+
+@keyframes recogericono2 {
+    from {
+        width: 90px;
+        height: 90px;
+    }
+
+    to {
+        width: var(--iconoredes);
+        height: var(--iconoredes);
+    }
+}
+
+@keyframes desplegaricono {
+    from {
+        width: 0px;
+        height: 0px;
+    }
+
+    to {
+        width: var(--iconoredes);
+        height: var(--iconoredes);
+    }
+}
+
+@keyframes recogericono {
+    from {
+        width: var(--iconoredes);
+        height: var(--iconoredes);
+        ;
+
+    }
+
+    to {
+        width: 0px;
+        height: 0px;
+    }
+}
+
+
+
+#redes {
+    width: 100%;
+    height: 60px;
+
+    position: fixed;
+    bottom: 0px;
+    z-index: 100;
+    animation: desplegarredes2 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+
+}
+
+#redes.scrolled {
+    animation: recogerredes 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    bottom: -100px;
+}
+
+#redes.mostrarredes {
+    width: calc(100% - 90px);
+    animation: desplegarredes 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+#redes.mostrarredes a {
+    color: black;
+}
+
+@keyframes desplegarredes {
+    from {
+        bottom: -100px;
+        width: 100%;
+    }
+
+    to {
+        bottom: 0px;
+        width: calc(100% - 90px);
+    }
+}
+
+@keyframes desplegarredes2 {
+    from {
+        bottom: -100px;
+
+    }
+
+    to {
+        bottom: 0px;
+        width: 100%;
+    }
+}
+
+@keyframes recogerredes {
+    from {
+        bottom: 0px;
+        width: calc(100% - 90px);
+    }
+
+    to {
+        bottom: -100px;
+        width: 100%;
+    }
+}
+
+.scrolled #circuloredes {
+    display: block;
+}
+
+#circulo2 {
+    width: 100%;
+    height: 100%;
+}
+
+
+#redes ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    height: 100%;
+    font-size: 2em;
+    padding: 0px;
+    margin: 0;
+}
+
+#redes a {
+    text-decoration: none;
+    color: black;
+    max-width: 30px;
+}
+
+#section1 h1 {
+    font-size: 3em;
+    padding-left: 60px;
+}
+
+
+
+#section1 {
+    height: 100vh;
+    max-width: 100vw;
+}
+
+#fondo1 {
+    
+    width: 100%;
+    height: 70%;
+    background-image: url(img/sudadera2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#article1 {
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.section {
+    height: 100vh;
+   border-bottom: 3px solid black;
+    max-width: 100vw;
+    display: flex;
+}
+
+.article {
+    width: 100%;
+    max-height: 100%;
+    padding: 60px 0;
+}
