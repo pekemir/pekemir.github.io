@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?tzsaik');
-  src:  url('fonts/icomoon.eot?tzsaik#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?tzsaik') format('truetype'),
-    url('fonts/icomoon.woff?tzsaik') format('woff'),
-    url('fonts/icomoon.svg?tzsaik#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?mjaxg2');
+  src:  url('fonts/icomoon.eot?mjaxg2#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?mjaxg2') format('truetype'),
+    url('fonts/icomoon.woff?mjaxg2') format('woff'),
+    url('fonts/icomoon.svg?mjaxg2#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,18 +25,21 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-whatsapp1:before {
-  content: "\e904";
-}
-.icon-insta:before {
-  content: "\e901";
-}
-.icon-tik:before {
-  content: "\e902";
-}
-.icon-face:before {
-  content: "\e903";
+.icon-longisol:before {
+  content: "\e900";
 }
 .icon-mail:before {
-  content: "\e900";
+  content: "\e901";
+}
+.icon-insta:before {
+  content: "\e902";
+}
+.icon-tik:before {
+  content: "\e903";
+}
+.icon-face:before {
+  content: "\e904";
+}
+.icon-whatsapp1:before {
+  content: "\e905";
 }

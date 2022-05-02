@@ -15,7 +15,7 @@ function revealheader() {
   let windy = window.scrollY;
   let top2 = window.innerHeight;
   console.log(top2);
-  tope = top2 - 500;
+  tope = top2/2;
 
   for (var i = 0; i < reveals.length; i++) {
     if (windy > tope) {
@@ -34,32 +34,29 @@ function revealheader() {
 window.addEventListener("scroll", revealheader);
 
 $('#botonexpandirmenu').click(function () {
-  redes.classList.remove('mostrarredes');
-  iconosredes.classList.remove('circulo2mas')
-   // Al hacer click...
-  console.log(window.scrollY + "tope" + tope);
-  $('#botonexpandirmenu').toggleClass('open');/*botonhamburgesa*/
-  if (window.scrollY <= tope) {
-    idheader.classList.add('desdeinicio');
-    fondomenu.classList.add('despuesiniciofondomenu');
-    listamenu.classList.add('despuesiniciofondomenu');
-    $('#idheader').toggleClass('scrolled');
-    togledesplegar()
-  }
-  else {
-    idheader.classList.add('desdeinicio');
-    fondomenu.classList.add('despuesiniciofondomenu');
-    listamenu.classList.add('despuesiniciofondomenu');
-    togledesplegar()
-  }
+  clickexpanmenu();
 })
 
-//fondomenu.addEventListener("click", modifyText, false);
-function modifyText() {
-  console.log("hola");
-
+function clickexpanmenu() {redes.classList.remove('mostrarredes');
+iconosredes.classList.remove('circulo2mas')
+ // Al hacer click...
+console.log(window.scrollY + "tope" + tope);
+$('#botonexpandirmenu').toggleClass('visible_menu');/*botonhamburgesa*/
+if (window.scrollY <= tope) {
+  idheader.classList.add('desdeinicio');
+  fondomenu.classList.add('despuesiniciofondomenu');
+  listamenu.classList.add('despuesiniciofondomenu');
+  $('#idheader').toggleClass('scrolled');
+  togledesplegar()
 }
-
+else {
+  idheader.classList.add('desdeinicio');
+  fondomenu.classList.add('despuesiniciofondomenu');
+  listamenu.classList.add('despuesiniciofondomenu');
+  togledesplegar()
+}
+  
+}
 
 $('#fondomenu').click(function () {
   redes.classList.remove('mostrarredes');
@@ -78,6 +75,7 @@ $('#fondomenu').click(function () {
   }
 }
 )
+
 $('#iconosredes').click(function () {
   toglerecoger();
   $('#iconosredes').toggleClass('circulo2mas')
@@ -96,11 +94,44 @@ function toglerecoger() {
   quitarshow();
 }
 
-function showmenu(id) {
 
+/*enseñar menus*/
+function showmenu(id) {
+quitarshow2();
   quitarshow(id);
   $(id).toggleClass('show');
+  $(id).removeClass('show2')
 
+}
+function obtenervariable() {
+  const element=document.getElementById('listamenu2');
+  console.log(getComputedStyle(element).getPropertyValue("--dist"));
+ element.style.setProperty("--dist",'300px');
+  console.log(getComputedStyle(element).getPropertyValue("--dist"));
+}
+  
+function showmenu2(id,idpadre) {
+  console.log( document.documentElement.style.getPropertyValue('--dist'));
+  quitarshow2(id);
+  $(id).toggleClass('show2');
+  let idpa=document.getElementById(idpadre);
+  if (idpa.classList.contains ('show2')) {console.log("si lo tiene");
+  }
+  else{idpa.classList.add('show2')};
+    
+  
+  $(idpadre).toggleClass('show2');
+}
+
+function quitarshow2(id) //recoger acordeones
+{
+  var recogeracordeon = document.querySelectorAll(".elementomenuacordeon2");
+  for (var i = 0; i < recogeracordeon.length; i++) {
+    let id1 = "#" + recogeracordeon[i].getAttribute('id');
+    if (id == id1) {
+    } else { recogeracordeon[i].classList.remove("show2");
+   }
+  }
 }
 function quitarshow(id) //recoger acordeones
 {
@@ -108,12 +139,14 @@ function quitarshow(id) //recoger acordeones
   for (var i = 0; i < recogeracordeon.length; i++) {
     let id1 = "#" + recogeracordeon[i].getAttribute('id');
     if (id == id1) {
-    } else { recogeracordeon[i].classList.remove("show"); }
+    } else { recogeracordeon[i].classList.remove("show");
+   }
   }
 }
 
 function ira(id) { //IR A SITIO DE LA MISMA PAGINA id con #
   togledesplegar();
+  $('#botonexpandirmenu').removeClass('visible_menu');
   $('html, body').animate({
     scrollTop: $(id).offset().top - 80
   }, 2000);//2000 es la velocidad
