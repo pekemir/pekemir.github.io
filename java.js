@@ -3,24 +3,25 @@ const redes = document.getElementById('redes')
 const idheader = document.getElementById('idheader');
 const fondomenu = document.getElementById('fondomenu');
 const listamenu = document.getElementById('listamenu');
-const iconosredes = document.getElementById('iconosredes')
+const iconosredes = document.getElementById('iconosredes');
+
 
 function revealheader() {
-  console.log(window.scrollY);
-  console.log("ree");
+ /*console.log(window.scrollY);
+  console.log("ree");*/
   redes.classList.remove('mostrarredes');
   iconosredes.classList.remove('circulo2mas')
   
   var reveals = document.querySelectorAll(".scrollheader");
   let windy = window.scrollY;
   let top2 = window.innerHeight;
-  console.log(top2);
+ /* console.log(top2);*/
   tope = top2/2;
 
   for (var i = 0; i < reveals.length; i++) {
     if (windy > tope) {
-      console.log(window.scrollY);
-      console.log("scrolled");
+     /* console.log(window.scrollY);
+      console.log("scrolled");*/
       reveals[i].classList.add("scrolled");
       reveals[i].classList.add("desdeinicio");
 
@@ -30,6 +31,7 @@ function revealheader() {
       iconosredes.classList.remove('circulo2masmas')
     }
   }
+ 
 }
 window.addEventListener("scroll", revealheader);
 
@@ -157,4 +159,22 @@ function ira(id) { //IR A SITIO DE LA MISMA PAGINA id con #
 $(document).ready(function () {
   $("#aqui_menu").load('index3.html');
   return false;
+})
+
+function expandir(id,numero) {
+  console.log(window.scrollX);
+  $(id).toggleClass('expandir');
+  $('html, body').animate({
+    scrollTop: $(id).offset().top-60
+  }, 1000);
+
+
+
+console.log("scroll");
+}
+$('#opcion11').click(function () {
+ 
+  $('#opcion1').toggleClass('expandir')
+ 
+
 })
