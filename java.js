@@ -158,7 +158,14 @@ function ira(id) { //IR A SITIO DE LA MISMA PAGINA id con #
 }
 
 function timeira(id) {
-  setTimeout(function(){ ira(id) }, 200);
+  
+  setTimeout(function(){  
+       $('#botonexpandirmenu').removeClass('visible_menu');
+    $('html, body').animate({
+      scrollTop: $(id).offset().top - 200
+    }, 1000);//2000 es la velocidad
+   console.log("voy");
+    return false }, 200);
 }
 $(document).ready(function () {
   $("#aqui_menu").load('index3.html');
@@ -166,12 +173,8 @@ $(document).ready(function () {
 })
 
 function expandir(id) { 
-  
- 
-
- id.style.setProperty("--opcion",getComputedStyle(id.children[1]).getPropertyValue("height"));
- 
-  quitarexpandir(id);
+  id.style.setProperty("--opcion",getComputedStyle(id.children[1]).getPropertyValue("height"));
+   quitarexpandir(id);
    $(id).toggleClass('expandir');
  
    $('html, body').animate({
@@ -185,7 +188,7 @@ function quitarexpandir(id) //recoger acordeones
   var recogeracordeon = document.querySelectorAll(".opcion");
   for (var i = 0; i < recogeracordeon.length; i++) {
     let id1 = recogeracordeon[i].getAttribute('id');
-    if (id.getAttribute('id') == id1) {
+       if (id && id.getAttribute('id') == id1) {
       console.log('yes');
     } else { recogeracordeon[i].classList.remove("expandir");
    }
