@@ -574,7 +574,7 @@ header {
 }
 #fondo1{ background-image: url(img/image.webp);}
 
-.articlep{padding: 30px 20px 25px 20px;}
+#articlep{padding: 30px 20px 25px 20px;}
 
 .section {
     flex-direction: column;
@@ -669,3 +669,4 @@ transform: 	rotate(45deg) translate(1px,-8px)
 }
 #articlees2{padding-bottom: 60px;border-bottom: 3px solid black;}
 .opcionn{display: flex;flex-direction: column;align-items: center;}
+#sectiones2 .article{border-bottom:5px black dotted;}
