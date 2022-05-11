@@ -6,13 +6,9 @@
 ul:hover{cursor: pointer;}
 #fondo1{ background-image: url(img/image.webp);}
 #fondoes1{ background-image: url(img/hola.jfif);}
-h1.titulo {
-    font-family: 'Ms Madi', cursive;
-}
-h2.titulo{font-family: 'Ms Madi', cursive;text-align: center;}
-h1 {
-    font-family: 'Oswald', sans-serif;
-}
+
+h1{font-family: 'Ms Madi', cursive;}
+h2,h3{text-align: center;font-family: 'Ms Madi', cursive;}
 
 :root {
     --iconoredes: 60px;
@@ -589,17 +585,21 @@ header {
    max-width: 100vw;
     display: flex;
 }
+.article.foto{height: calc(100vh - 76px); padding: 16px 0 60px 0;
+}
 
 .article {
-    height: calc(100vh - 76px);
+    
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    width: 100%;
+   /* width: 100%;*/
     max-width: 100%;
     max-height: 100%;
-    padding: 16px 0 60px 0;
+    padding: 16px 20px 60px 20px;
 }
+
+.article p{padding: 0px 10px;}
 /*boton menu*/
 #botonexpandirmenu span{
 	width: 80%;
@@ -636,37 +636,36 @@ transform: 	rotate(45deg) translate(1px,-8px)
 /*fin boton menu*/
 .bl{color: white;}
 .separador{width: 100%;height: 20px;fill: blue;}
-.opcion{background-color: aqua;height: 50vh;width: 100%;  animation:recogeropcion 1s;
+.opcion{overflow: hidden;width: 100%; }
+.opcion {
+    
+     animation:recogeropcion 0.5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     animation-timing-function: ease;
-   --opcion:20vh;
+   
 }
-#opcion1{--opcion:50vh;}
-#opcion2{--opcion:20vh}
-.opcion.expandir{
+
+.opcion.expandir {
     animation: desplegaropcion 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     animation-timing-function: ease;
 }
-.opcion.der{background-color: red;}
-.opcion.iz{background-color: rgb(0, 4, 255);}
-
-
 
 @keyframes desplegaropcion {
-    from {    height: 24px; 
+    from {    height: 24px;padding: 0px 10px; 
     }
     to {
-       height: var(--opcion);
+        height:  calc(24px + var(--opcion)) ;padding: 10px 10px;
             }
 }
 @keyframes recogeropcion {
-    from { height:var(--opcion) ;
+    from { height:  calc(24px + var(--opcion)) ;padding: 10px 10px;
     }
     to {
-       height: 24px;
+       height: 24px;padding: 0px 10px;
             }
 }
-#sectiones2{height: auto;min-height: 0;padding-bottom: 60px;}
+#articlees2{padding-bottom: 60px;border-bottom: 3px solid black;}
+.opcionn{display: flex;flex-direction: column;align-items: center;}
