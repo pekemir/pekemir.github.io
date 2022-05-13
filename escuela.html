@@ -11,70 +11,74 @@
     
 </head>
 <body>
-      <header class="scrollheader" id="idheader">
-        <div id="tituloyescudo"><h1 class="bl"> Hockey Salduie 78</h1>
-          <span class="icon-longiredondo"></span>
-       
-         
-        
-        </div>
-        <div id="botonexpandirmenu" >
-          
-            <span></span>
-            <span></span>
-            <span></span>
-         
-         
-        </div>
+  <header class="scrollheader" id="idheader">
+    <div id="tituloyescudo"><h1 class="bl"> Hockey Salduie 78</h1>
+    <svg id="longibarra">
+        <use href="icons.svg#longiredondo"/>
+    </svg> 
+   
+     
     
-        <div id="fondomenu" class="fondomenu">
-          <svg id="circulomenu" class="fondomen">
-            <circle id="circulo" />
-          </svg>
-    
-        </div>
-        <ul id="listamenu">
-          <li>
-            <a href="index.html">inicio</a>
-            
-          </li>
-          <li>
-            <a onclick="showmenu('#listamenu2')">Nosotros</a>
-              <ul id="listamenu2" class="elementomenuacordeon">
-                <li><a onclick="showmenu2('#listamenu21','listamenu2')">Quienes Somos</a>
-                <ul id="listamenu21" class="elementomenuacordeon2">
-                  <li>uno</li>
-                  <li>dos</li>
-                  <li>tres</li>
-                </ul>
-                
-                </li>
-                <li><a onclick="showmenu2('#listamenu22','listamenu2')">nuestrahistoria</a>
-                  <ul id="listamenu22" class="elementomenuacordeon2">
-                    <li>dosuno</li>
-                    <li>dosdos</li>
-                    <li>dostres</li>
-                    <li>dosdos</li>
-                    <li>dostres</li>
-                  </ul>
-                </li>
-                <li><a id="myLink" title="Click to do something" href="#" onclick="ira('#section2')">Que hacemos</a></li>
-              </ul>
-          </li>
-          <li>
-            <a onclick="showmenu('#listamenu3')">Donde estamos</a>
-              <ul id="listamenu3" class="elementomenuacordeon">
-                <li><a id="myLink" title="Click to do something" href="#" onclick="ira('#sectiones2')">Home11</a></li>
-                <li><a id="myLink" title="Click to do something" href="#" onclick="ira('#section3')">Home11</a></li>
-                <li><a id="myLink" title="Click to do something" href="#" onclick="ira('#section3')">Home11</a></li>
-              </ul>
-          </li>
-          
-          <li><a href="">Contact</a></li>
-          <li><a href="#section3">About</a></li>
-        </ul>
-        </header>
+    </div>
+    <div id="botonexpandirmenu" >
+      
+        <span></span>
+        <span></span>
+        <span></span>
+     
+     
+    </div>
 
+    <div id="fondomenu" class="fondomenu">
+      <svg id="circulomenu" class="fondomen">
+        <circle id="circulo" />
+      </svg>
+
+    </div>
+    <ul id="listamenu">
+      <li>
+        <a href="index.html">inicio</a>
+        
+      </li>
+      <li>
+        <a onclick="showmenu('#listamenu2')">Nosotros</a>
+          <ul id="listamenu2" class="elementomenuacordeon">
+            <li><a onclick="showmenu2('#listamenu21','listamenu2')">Quienes Somos</a>
+            <ul id="listamenu21" class="elementomenuacordeon2">
+              <li>uno</li>
+              <li>dos</li>
+              <li>tres</li>
+            </ul>
+            
+            </li>
+            <li><a onclick="showmenu2('#listamenu22','listamenu2')">nuestrahistoria</a>
+              <ul id="listamenu22" class="elementomenuacordeon2">
+                <li>dosuno</li>
+                <li>dosdos</li>
+                <li>dostres</li>
+                <li>dosdos</li>
+                <li>dostres</li>
+              </ul>
+            </li>
+            <li><a id="myLink" title="Click to do something" href="#" onclick="ira('#section2')">Que hacemos</a></li>
+          </ul>
+      </li>
+      <li>
+        <a onclick="showmenu('#listamenu3')">Escuela Salduie 78</a>
+          <ul id="listamenu3" class="elementomenuacordeon">
+            <li><a id="myLink" title="Click to do something" href="escuela.html #escuelasdivsep1" >opcion1</a></li>
+            <li><a id="myLink" title="Click to do something" href="escuela.html #escuelasdivsep2">opcion2</a></li>
+            <li><a id="myLink" title="Click to do something" href="escuela.html #escuelasdivsep3"">opcion3</a></li>
+            <li><a id="myLink" title="Click to do something" href="escuela.html #escuelasdivsep4">opcion4</a></li>
+            <li><a id="myLink" title="Click to do something" href="escuela.html #escuelasdivsep5"">opcion5</a></li>
+            <li><a id="myLink" title="Click to do something" href="escuela.html #escuelasdivsep6"">opcion6</a></li>
+          </ul>
+      </li>
+      
+      <li><a href="">Contact</a></li>
+      <li><a href="#section3">About</a></li>
+    </ul>
+    </header>
 
        <section  id="sectiones1" class="section">
         <article id="articlees1" class="article foto">
@@ -93,9 +97,9 @@
         <section id="sectiones2"class="section">
           <h2 class="titulo ">Nuestra escuela</h2>
         <article class="article" id="articlees2">  
-          <div class="opcion"id="" onclick="timeira('#articlees3titulo1')"><h3>Diviertete, aprende y compiteOP1</h3></div>
-          
-          <div class="opcion" onclick="expandir(this)" id="" >
+         <!-- <div class="opcion"onclick="timeira('#articlees3titulo1')"><h3>Diviertete, aprende y compiteOP1</h3></div> -->
+          <a class="opcion" onclick="timeira('#articlees3titulo1')"><h3>Diviertete, aprende y compiteOP1</h3></a>
+          <div class="opcion" onclick="expandir(this)"  >
             <h3 >¿A quien va dirigido?OP2</h3>
             <div class="opcionn">
               <p >Actualmente tenemos un grupo de iniciacion o escuela, en el que nuestra premisa es divertirnos además de enseñar a los mas jovenes los valores del deporte y del trabajo en equipo, compiten en diferentes ligas y torneos durante gran parte del año.
@@ -105,7 +109,7 @@
            </div>
         
           
-          <div class="opcion"onclick="expandir(this)"id="">
+          <div class="opcion"onclick="expandir(this)">
             <h3>¿Cuando?OP3</h3>
            <div class="opcionn">
              <p >Actualmente tenemos un grupo de iniciacion o escuela, en el que nuestra premisa es divertirnos además de enseñar a los mas jovenes los valores del deporte y del trabajo en equipo, compiten en diferentes ligas y torneos durante gran parte del año.
@@ -114,7 +118,7 @@
             </div>
              </div>
 
-          <div class="opcion" onclick="expandir(this)"id="">
+          <div class="opcion" onclick="expandir(this)">
              <h3>¿Cuando?OP4</h3>
             <div class="opcionn">
               <p >Actualmente tenemos un grupo de iniciacion o escuela, en el que nuestra premisa es divertirnos además de enseñar a los mas jovenes los valores del deporte y del trabajo en equipo, compiten en diferentes ligas y torneos durante gran parte del año.
@@ -122,7 +126,7 @@
              <a class="fuerade" onclick="timeira('#articlees3titulo4')">Mas info</a>
              </div>  </div>
 
-          <div class="opcion"onclick="expandir(this)"id="">
+          <div class="opcion"onclick="expandir(this)">
             <h3>¿Cuando?OP5</h3>
            <div class="opcionn">
              <p >Actualmente tenemos un grupo de iniciacion o escuela, en el que nuestra premisa es divertirnos además de enseñar a los mas jovenes los valores del deporte y del trabajo en equipo, compiten en diferentes ligas y torneos durante gran parte del año.
@@ -130,7 +134,7 @@
             <a class="fuerade" onclick="timeira('#articlees3titulo5')">Mas info</a>
             </div>  </div>
 
-          <div class="opcion" onclick="expandir(this)"id="">
+          <div class="opcion" onclick="expandir(this)">
             <h3>¿Cuando?OP6</h3>
            <div class="opcionn">
              <p >Actualmente tenemos un grupo de iniciacion o escuela, en el que nuestra premisa es divertirnos además de enseñar a los mas jovenes los valores del deporte y del trabajo en equipo, compiten en diferentes ligas y torneos durante gran parte del año.
@@ -139,9 +143,12 @@
             </div>  </div>
          
         </article>
-
-
-        <article class="article" id="articlees3">
+        <div class="image">
+          <img src="img/escuela2.jpg" alt="" ">
+        </div>
+      
+      <div class="divhr" id="escuelasdivsep1"><hr></div>
+        <article class="article" >
          
           <h3 class="titulo" id="articlees3titulo1">Diviertete, aprende y compiteOP1 </h2>
           <p>Si tenéis peques que quieran probar un deporte diferente, divertido y muy completo, no dudéis en venir a conocer el HOCKEY con nosotros.
@@ -150,9 +157,11 @@
             <br>
             Los valores asociados al hockey consiguen que respeto, esfuerzo,constancia, convivencia, innovación y compromiso adquieran una dimensión especial entre sus practicantes y seguidores.
            </p>
-           <img src="img/palobbb.jpg" alt="" height="25%"width="auto">
+          <!--<img src="img/palobbb.jpg" alt="" height="250px"width="300px">--> 
           </article>
-          
+
+          <div class="divhr" id="escuelasdivsep2"><hr></div>
+
            <article class="article" >
           <h3 class="titulo" id="articlees3titulo2"> 
            ¿A quien va dirigido?0P2
@@ -161,8 +170,9 @@
             <br>
             Esta escuela va dirigida principalmente a niños y niñas de entre <b>5 y 12 años</b>
           </p>
-
+         
         </article>
+        <div class="divhr" id="escuelasdivsep3"><hr></div>
         <article class="article" >
           <h3 class="titulo" id="articlees3titulo3"> 
            ¿A quien va dirigido?OP3
@@ -173,6 +183,7 @@
           </p>
 
         </article>
+        <div class="divhr" id="escuelasdivsep4"><hr></div>
         <article class="article" >
           <h3 class="titulo" id="articlees3titulo4"> 
            ¿A quien va dirigido?OP4
@@ -183,6 +194,7 @@
           </p>
 
         </article>
+        <div class="divhr" id="escuelasdivsep5"><hr></div>
         <article class="article" >
           <h3 class="titulo" id="articlees3titulo5"> 
            ¿A quien va dirigido?OP5
@@ -193,6 +205,7 @@
           </p>
 
         </article>
+        <div class="divhr" id="escuelasdivsep6"><hr></div>
         <article class="article" >
           <h3 class="titulo" id="articlees3titulo6"> 
            ¿A quien va dirigido?OP6

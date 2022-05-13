@@ -62,6 +62,7 @@ else {
 
 $('#fondomenu').click(function () {
   redes.classList.remove('mostrarredes');
+  $('#botonexpandirmenu').toggleClass('visible_menu');/*botonhamburgesa*/
   if (window.scrollY <= tope) {
     idheader.classList.add('desdeinicio');
     fondomenu.classList.add('despuesiniciofondomenu');
@@ -155,6 +156,13 @@ function ira(id) { //IR A SITIO DE LA MISMA PAGINA id con #
   }, 1000);//2000 es la velocidad
  console.log("voy");
   return false
+}
+function ira2(id) {
+  setTimeout(function(){ window.location.href=id;},50);
+  console.log("voyyy"+id);
+  window.location.href=id;
+
+  
 }
 
 function timeira(id) {
