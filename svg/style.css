@@ -1,0 +1,121 @@
+*{margin: 0;border: 0;}
+#svg2{width: auto;height: 100vh;position: absolute;left: -100px;
+    animation: example2 3s ;animation-fill-mode: forwards;animation-iteration-count: 1;animation-delay: 3s;z-index: 10;
+}@keyframes example {
+    from {left: -100px;fill: black;}
+    to {left: 0;fill: brown;}
+  }
+
+  #svg3{width: auto;height: 100vh;position: absolute;left: -100px;transform-origin: bottom;
+    animation: example3 2.5s ;animation-fill-mode: forwards;animation-iteration-count: 1;animation-delay: 3s;z-index: 3;
+}@keyframes example2 {
+    from {transform: rotate(0deg);fill: black;}
+    to {transform: rotate(10deg);fill: black;}
+  }
+  @keyframes example3 {
+    from {transform: rotate(0deg);fill: black;}
+    to {transform: rotate(10deg);fill: brown;}
+  }
+
+
+body{background-image: url(bola.png);background-size: cover;background-repeat: no-repeat;height: 200vh;}
+#svg1{position: absolute;right: -25%;
+animation: girar 3s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
+animation-delay: 3s;}
+@keyframes girar {
+    from{transform: rotate(0deg);}
+    to{transform: rotate(180deg);}
+    
+}
+#menuhamburgesa{z-index: 100;
+  top: 0px;display: flex;flex-direction: column;position: fixed;top: 0;}
+.linea{
+  transition: all 3s ease;
+}
+.visiblemenu #sv3{
+  transition: all 3s ease; /* Propiedades a animar | Tiempo | Tipo animación*/
+	
+  transform: rotate(45deg) scaleY(-1)}
+
+  .visiblemenu #sv4{
+    transition: all 3s ease; /* Propiedades a animar | Tiempo | Tipo animación*/
+    
+    transform: rotate(135deg) translate(-5px,6px);
+   }
+   .visiblemenu #sv2{
+    transition: all 3s ease; /* Propiedades a animar | Tiempo | Tipo animación*/
+    
+    transform: rotate(-10deg) translatex(2px) ;
+   }
+   
+     @keyframes opacity {
+      from{opacity: 0;}
+      to{opacity: 1;}
+      
+  }
+  @keyframes noopacity {
+    from{opacity: 1;}
+    to{opacity: 0;}
+    
+}
+#svbola{position: absolute;left: 20px;
+  top: 11px;opacity: 0;
+
+  display: none;
+  animation: noopacity 3s;animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  }
+  .despuesinicio #svbola {display: block;}
+
+  .visiblemenu #svbola{
+    display: block;
+     /* Propiedades a animar | Tiempo | Tipo animación*/
+    animation: opacity 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+   }
+.despuesinicio #svbola {display: block;}
+
+#svbola2{    fill: blanchedalmond;
+  position: absolute;
+  z-index: -10;
+  left: 5px;
+  top: 5px;
+  width: 100vw;
+  height: 100vh;
+  }
+ 
+  #circulo{r:10px;
+    animation-duration: 0s;
+    animation-iteration-count: 1;  animation-name: nobuttonTransition;   animation-fill-mode: forwards;
+  }
+  .despuesinicio #circulo{
+    animation-duration: 3s;
+    animation-iteration-count: 1;  animation-name: nobuttonTransition;   animation-fill-mode: forwards;
+    }
+.visiblemenu #circulo{
+  animation-name: buttonTransition;
+}
+
+  @keyframes buttonTransition {
+    from {
+      r: 5%;
+    }
+    to {
+      r: 100%;
+    }
+  }
+  @keyframes nobuttonTransition {
+    from {
+      r: 100%;
+    }
+    to {
+      r: 5%;
+    }
+  }
+  
+  
+  

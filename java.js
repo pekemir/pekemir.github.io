@@ -1,14 +1,13 @@
 var tope = 0;
-const redes = document.getElementById('redes')
-const idheader = document.getElementById('idheader');
-const fondomenu = document.getElementById('fondomenu');
-const listamenu = document.getElementById('listamenu');
-const iconosredes = document.getElementById('iconosredes');
-
+const redes = document.getElementById('footer-redes')
+const idheader = document.getElementById('header-idheader');
+const fondomenu = document.getElementById('header-fondomenu');
+const listamenu = document.getElementById('header-listamenu');
+const iconosredes = document.getElementById('footer-iconosredes');
+var ancho=1020;
 
 function revealheader() {
- /*console.log(window.scrollY);
-  console.log("ree");*/
+
   redes.classList.remove('mostrarredes');
   iconosredes.classList.remove('circulo2mas')
   
@@ -17,7 +16,7 @@ function revealheader() {
   let top2 = window.innerHeight;
  /* console.log(top2);*/
   tope = top2/2;
-
+  if(window.innerWidth < ancho){
   for (var i = 0; i < reveals.length; i++) {
     if (windy > tope) {
      /* console.log(window.scrollY);
@@ -29,26 +28,27 @@ function revealheader() {
       console.log("no");
       reveals[i].classList.remove("scrolled");
       iconosredes.classList.remove('circulo2masmas')
-    }
+    }}
   }
  
 }
 window.addEventListener("scroll", revealheader);
 
-$('#botonexpandirmenu').click(function () {
+$('#header-botonexpandirmenu').click(function () {
   clickexpanmenu();
 })
 
-function clickexpanmenu() {redes.classList.remove('mostrarredes');
+function clickexpanmenu() {
+  redes.classList.remove('mostrarredes');
 iconosredes.classList.remove('circulo2mas')
  // Al hacer click...
 console.log(window.scrollY + "tope" + tope);
-$('#botonexpandirmenu').toggleClass('visible_menu');/*botonhamburgesa*/
+$('#header-botonexpandirmenu').toggleClass('visible_menu');/*botonhamburgesa*/
 if (window.scrollY <= tope) {
   idheader.classList.add('desdeinicio');
   fondomenu.classList.add('despuesiniciofondomenu');
   listamenu.classList.add('despuesiniciofondomenu');
-  $('#idheader').toggleClass('scrolled');
+  $('#header-idheader').toggleClass('scrolled');
   togledesplegar()
 }
 else {
@@ -60,14 +60,14 @@ else {
   
 }
 
-$('#fondomenu').click(function () {
+$('#header-fondomenu').click(function () {
   redes.classList.remove('mostrarredes');
-  $('#botonexpandirmenu').toggleClass('visible_menu');/*botonhamburgesa*/
+  $('#header-botonexpandirmenu').toggleClass('visible_menu');/*botonhamburgesa*/
   if (window.scrollY <= tope) {
     idheader.classList.add('desdeinicio');
     fondomenu.classList.add('despuesiniciofondomenu');
     listamenu.classList.add('despuesiniciofondomenu');
-    $('#idheader').toggleClass('scrolled');
+    $('#header-idheader').toggleClass('scrolled');
     togledesplegar()
   }
   else {
@@ -79,16 +79,16 @@ $('#fondomenu').click(function () {
 }
 )
 
-$('#iconosredes').click(function () {
+$('#footer-iconosredes').click(function () {
   toglerecoger();
-  $('#iconosredes').toggleClass('circulo2mas')
+  $('#footer-iconosredes').toggleClass('circulo2mas')
   iconosredes.classList.add('circulo2masmas')
-  $('#redes').toggleClass('mostrarredes');
+  $('#footer-redes').toggleClass('mostrarredes');
 
 })
 function togledesplegar() {
-  $('#fondomenu').toggleClass('desplegar');
-  $('#listamenu').toggleClass('desplegar');
+  $('#header-fondomenu').toggleClass('desplegar');
+  $('#header-listamenu').toggleClass('desplegar');
   quitarshow();
 }
 function toglerecoger() {
@@ -150,7 +150,7 @@ function quitarshow(id) //recoger acordeones
 function ira(id) { //IR A SITIO DE LA MISMA PAGINA id con #
 
   toglerecoger();
-  $('#botonexpandirmenu').removeClass('visible_menu');
+  $('#header-botonexpandirmenu').removeClass('visible_menu');
   $('html, body').animate({
     scrollTop: $(id).offset().top - 120
   }, 1000);//2000 es la velocidad
@@ -168,27 +168,32 @@ function ira2(id) {
 function timeira(id) {
   
   setTimeout(function(){  
-       $('#botonexpandirmenu').removeClass('visible_menu');
+       $('#header-botonexpandirmenu').removeClass('visible_menu');
     $('html, body').animate({
       scrollTop: $(id).offset().top - 200
     }, 1000);//2000 es la velocidad
    console.log("voy");
     return false }, 200);
 }
-$(document).ready(function () {
-  $("#aqui_menu").load('index3.html');
-  return false;
-})
+
 
 function expandir(id) { 
-  id.style.setProperty("--opcion",getComputedStyle(id.children[1]).getPropertyValue("height"));
-   quitarexpandir(id);
-   $(id).toggleClass('expandir');
+  if(window.innerHeight < window.innerWidth){
+    console.log("siii");
+    quitarexpandir(id);
+}
  
-   $('html, body').animate({
+  id.style.setProperty("--opcion",getComputedStyle(id.children[1]).getPropertyValue("height"));
+  
+   $(id).toggleClass('expandir');
+   if(window.innerHeight > window.innerWidth){
+     $('html, body').animate({
     scrollTop: $(id).offset().top-80
   }, 1000);
   console.log("expandir");
+}
+ 
+  /**/
 }
 
 function quitarexpandir(id) //recoger acordeones
@@ -197,7 +202,7 @@ function quitarexpandir(id) //recoger acordeones
   for (var i = 0; i < recogeracordeon.length; i++) {
     let id1 = recogeracordeon[i].getAttribute('id');
        if (id && id.getAttribute('id') == id1) {
-      console.log('yes');
+     
     } else { recogeracordeon[i].classList.remove("expandir");
    }
   }

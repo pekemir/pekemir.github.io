@@ -20,38 +20,31 @@ body {
    min-height: 100vh;
  max-width: 100vw;
 }
-
+/*comienzo header*/
 header {
     z-index: 200;
     position: fixed;
     top: 0px;
     width: 100%;
     height: 60px;
-    background-color: black;
-}
-#tituloyescudo{display: flex;    align-items: center;
+    background-color: black;}
+#header-tituloyescudo{display: flex;    align-items: center;
     justify-content: space-around;height: 100%;}
-#tituloyescudo span{color: white;font-size: large;}
-#longibarra{width: 60px;height: 100%;}
-#idheader {
+#header-tituloyescudo span{color: white;font-size: large;}
+#header-longibarra{width: 60px;height: 100%;}
+#header-idheader {
     animation: hastauno 0s;
     animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
-
-#idheader.desdeinicio {
+    animation-fill-mode: forwards;}
+#header-idheader.desdeinicio {
     animation: hastauno 1s;
     animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
-
-#idheader.scrolled {
+    animation-fill-mode: forwards;}
+#header-idheader.scrolled {
     display: block;
     animation: hastacero 1s;
     animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
-
+    animation-fill-mode: forwards;}
 @keyframes hastacero {
     from {
         top: -58px;
@@ -59,9 +52,7 @@ header {
 
     to {
         top: 0px;
-    }
-}
-
+    }}
 @keyframes hastauno {
     from {
         top: 0px;
@@ -69,12 +60,8 @@ header {
 
     to {
         top: -58px;
-    }
-
-}
-
-#botonexpandirmenu {
-
+    }}
+#header-botonexpandirmenu {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -83,10 +70,8 @@ header {
     background-color: white;
     position: absolute;
     top: 55px;
-    left: calc(100% - 50px);
-}
-#botonexpandirmenu:hover{cursor: pointer;}
-
+    left: calc(100% - 50px);}
+#header-botonexpandirmenu:hover{cursor: pointer;}
 .fondomenu {
     width: 100%;
     height: 100vh;
@@ -95,21 +80,17 @@ header {
     z-index: -2;
     animation: recogermenu 0s;
     animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
-
+    animation-fill-mode: forwards;}
 .despuesiniciofondomenu.fondomenu {
     animation: recogermenu 1.3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
-
 .desplegar.fondomenu {
     animation: desplegarmenu 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
-
 @keyframes desplegarmenu {
     from {
         left: 100%;
@@ -119,7 +100,6 @@ header {
         left: 0%;
     }
 }
-
 @keyframes recogermenu {
     from {
         left: 0%;
@@ -129,26 +109,22 @@ header {
         left: 100%;
     }
 }
-
-#circulo {
+#header-circulo {
     fill: red;
     animation: recogerbola 0s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
-
-.despuesiniciofondomenu #circulo {
+.despuesiniciofondomenu #header-circulo {
     animation: recogerbola 1.5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
-
-.desplegar #circulo {
+.desplegar #header-circulo {
     animation: desplegarbola 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
-
 @keyframes desplegarbola {
     from {
         r: 5%;
@@ -162,7 +138,6 @@ header {
         cy: 20%
     }
 }
-
 @keyframes recogerbola {
     from {
         r: 50%;
@@ -176,13 +151,11 @@ header {
         cy: -3%
     }
 }
-
-#circulomenu {
+#header-circulomenu {
     width: 100%;
     height: 100%;
 }
-
-#listamenu {
+#header-listamenu {
     padding: 0;
     max-width: 50%;
     text-align: end;
@@ -196,21 +169,18 @@ header {
     max-height: 90vh;
     overflow: scroll;
 }
-
-#listamenu.despuesiniciofondomenu {
+#header-listamenu.despuesiniciofondomenu {
     animation: recogermenulista 1.8s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     animation-timing-function: ease;
 }
-
-#listamenu.desplegar {
+#header-listamenu.desplegar {
     animation: desplegarmenulista 1.5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     animation-timing-function: ease;
 }
-
 @keyframes desplegarmenulista {
     from {
         right: -100%;
@@ -220,7 +190,6 @@ header {
         right: calc(0% + 70px);
     }
 }
-
 @keyframes recogermenulista {
     from {
         right: calc(0% + 70px);
@@ -230,9 +199,7 @@ header {
         right: -100%;
     }
 }
-
-
-#listamenu a {
+#header-listamenu a {
     z-index: 10;
     font-size: large;
     text-decoration: none;
@@ -240,9 +207,6 @@ header {
     font-weight: bolder;
     font-size: 150%;
 }
-
-
-
 .elementomenuacordeon {
     height: 0%;
     overflow: hidden;
@@ -263,9 +227,9 @@ header {
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     animation-timing-function: ease;
-    
+   
 }
-#listamenu .elementomenuacordeon a{font-size: 100%;}
+#header-listamenu .elementomenuacordeon a{font-size: 100%;}
 .elementomenuacordeon li{min-height: 30px;}
 .elementomenuacordeon.show{
     animation: desplegarsubmenu 1s;
@@ -280,83 +244,95 @@ header {
     animation-timing-function: ease;
 }
 
-
-
 /*para la distancia que ha de desplegarse*/
-#listamenu2 {
+#header-listamenu2 {
     --dist: 90px
 }
-#listamenu2.show2{--dist:auto}
-#listamenu21{ --dist: 90px}
-#listamenu22{ --dist: 150px}
-
-#listamenu3 {
+#header-listamenu2.show2{--dist:auto}
+#header-listamenu21{ --dist: 90px}
+#header-listamenu22{ --dist: 150px}
+#header-listamenu3 {
     --dist: 180px
 }
-#listamenu4 {
-   
+#header-listamenu4 {
     --dist: 90px
 }
-
-#listamenu41 {
+#header-listamenu41 {
     --dist: 90px
 }
-#listamenu42 {
+#header-listamenu42 {
     --dist: 60px
 }
-
 @keyframes desplegarsubmenu {
     from {
         height: 0;
         min-height: 0;
     }
-
     to {
         height: var(--dist);
        min-height: var(--dist);
     }
 }
-
 @keyframes recogersubmenu {
     from {
         height: var(--dist);
-
     }
-
     to {
-        height: 0;
-        
+        height: 0;  
     }
 }
 @keyframes desplegarsubmenu2 {
     from {
-        height: 0;
-       
+        height: 0;  
     }
-
     to {
        height: var(--dist);
     }
 }
-
 @keyframes recogersubmenu2 {
     from {
        height: var(--dist);
     }
-
     to {
         height: 0;
     }
 }
-
 .submenu {
     cursor: pointer;
 }
 
+/*boton menu*/
+#header-botonexpandirmenu span{
+	width: 80%;
+	height: 4px;
+	border-radius: 4px;
+	display: block;
+	position: absolute;
+	background: black;
+	transition: all 1s ease; /* Propiedades a animar | Tiempo | Tipo animación*/
+	transform-origin : 0px 100%;
+    top: 13px;
+}
+#header-botonexpandirmenu span:nth-child(2){
+	top: calc(50% - 2px);
+} 
+#header-botonexpandirmenu span:nth-child(3){
+top: 34px;
+}
+.visible_menu span:nth-child(1){
+transform: 	rotate(45deg) translate(1px,-8px)
+}
+ .visible_menu span:nth-child(2){
+	transform: translateX(100px);
+}
+.visible_menu span:nth-child(3){
+	transform: rotate(318deg) translate(4px,6px);
+}
+/*fin boton menu  fin header*/
 
+/*comienzo footer*/
 
-
-#iconosredes {
+#footer-iconosredes {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -372,7 +348,7 @@ header {
     animation-timing-function: ease;
 }
 
-#iconosredes.scrolled.desdeinicio {
+#footer-iconosredes.scrolled.desdeinicio {
     --iconoredes: 60px;
     animation: desplegaricono 1s;
     animation-iteration-count: 1;
@@ -380,7 +356,7 @@ header {
     animation-timing-function: ease;
 }
 
-#iconosredes.scrolled.desdeinicio.circulo2mas.circulo2masmas {
+#footer-iconosredes.scrolled.desdeinicio.circulo2mas.circulo2masmas {
     --iconoredes: 90px;
     animation: desplegaricono2 1s;
     animation-iteration-count: 1;
@@ -388,7 +364,7 @@ header {
     animation-timing-function: ease;
 }
 
-#iconosredes.scrolled.desdeinicio.circulo2masmas {
+#footer-iconosredes.scrolled.desdeinicio.circulo2masmas {
     --iconoredes: 60px;
     animation: recogericono2 1s;
     animation-iteration-count: 1;
@@ -396,7 +372,7 @@ header {
     animation-timing-function: ease;
 }
 
-#iconosredes.desdeinicio {
+#footer-iconosredes.desdeinicio {
     animation: recogericono 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -453,9 +429,7 @@ header {
     }
 }
 
-
-
-#redes {
+#footer-redes {
     background-color: #ffffff96;
     width: 100%;
     height: 60px;
@@ -470,7 +444,7 @@ header {
 
 }
 
-#redes.scrolled {
+#footer-redes.scrolled {
     animation: recogerredes 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -478,7 +452,7 @@ header {
     bottom: -100px;
 }
 
-#redes.mostrarredes {
+#footer-redes.mostrarredes {
     width: calc(100% - 90px);
     animation: desplegarredes 1s;
     animation-iteration-count: 1;
@@ -486,10 +460,9 @@ header {
     animation-timing-function: ease;
 }
 
-#redes.mostrarredes a {
+#footer-redes.mostrarredes a {
     color: black;
 }
-
 @keyframes desplegarredes {
     from {
         bottom: -100px;
@@ -501,7 +474,6 @@ header {
         width: calc(100% - 90px);
     }
 }
-
 @keyframes desplegarredes2 {
     from {
         bottom: -100px;
@@ -513,7 +485,6 @@ header {
         width: 100%;
     }
 }
-
 @keyframes recogerredes {
     from {
         bottom: 0px;
@@ -525,18 +496,14 @@ header {
         width: 100%;
     }
 }
-
-.scrolled #circuloredes {
+.scrolled #footer-circuloredes {
     display: block;
 }
-
-#circulo2 {
+#footer-circulo2 {
     width: 100%;
     height: 100%;
 }
-
-
-#redes ul {
+#footer-redes ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -546,15 +513,26 @@ header {
     padding: 0px;
     margin: 0;
 }
-
-#redes a {
+#footer-redes a {
     text-decoration: none;
     color: black;
     max-width: 30px;
 }
+/*fin footer*/
+
+.blquedoble{display: flex;}
+#espacioinicio{height: 0px;width: 1px;}
+.section {
+    flex-direction: column;
+    width: 100%;
+   min-height: 100vh;
+   
+   max-width: 100vw;
+    display: flex;
+    overflow: hidden;
+}
 
 .section h1 {
-  
     background-image: url(img/longisol.svg);
     background-repeat: no-repeat;
     background-position:center center;
@@ -572,24 +550,8 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
 }
-#fondo1{ background-image: url(img/image.webp);}
-
-#articlep{padding: 30px 20px 25px 20px;}
-
-.section {
-    flex-direction: column;
-
-    width: 100%;
-   min-height: 100vh;
-    border-bottom: 3px solid black;
-   max-width: 100vw;
-    display: flex;
-}
-.article.foto{height: calc(100vh - 76px); padding: 16px 0 60px 0;
-}
-
 .article {
-    
+    align-items: center;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -598,44 +560,32 @@ header {
     max-height: 100%;
     padding: 16px 20px 16px 20px;
 }
-
+.article.foto{height: calc(100vh - 76px); padding: 16px 0 60px 0;
+}
 .article p{padding: 0px 10px;}
-/*boton menu*/
-#botonexpandirmenu span{
-	width: 80%;
-	height: 4px;
-	border-radius: 4px;
-	display: block;
-	position: absolute;
-	background: black;
-	transition: all 1s ease; /* Propiedades a animar | Tiempo | Tipo animación*/
-	transform-origin : 0px 100%;
-    top: 13px;
-}
- 
-#botonexpandirmenu span:nth-child(2){
-	top: calc(50% - 2px);
-}
- 
-#botonexpandirmenu span:nth-child(3){
-top: 34px;
-}
+
+#index-fondo1{ background-image: url(img/image.webp);}
+#index-fondo2{ background-image: url(img/palobb.jpg);min-height: 75vh;
+    max-height: 100vh;}
+
+#index-articlep{padding: 30px 20px 25px 20px;}
+#index-insta{width: 100%;}
+#blanco{height: 30px;width: 100%;position: relative;top: -50px;background-color: white;}
+#index-article3{padding-bottom: 0px;}
 
 
-.visible_menu span:nth-child(1){
-transform: 	rotate(45deg) translate(1px,-8px)
-}
- 
-.visible_menu span:nth-child(2){
-	transform: translateX(100px);
-}
- 
-.visible_menu span:nth-child(3){
-	transform: rotate(318deg) translate(4px,6px);
-}
-/*fin boton menu*/
+
+
+
+#section2{background-color: antiquewhite;}
+
+
 .bl{color: white;}
-.separador{width: 100%;height: 20px;fill: blue;}
+
+
+
+
+/*escuelas*/
 .opcion{overflow: hidden;width: 100%; }
 .opcion {
     
@@ -645,14 +595,12 @@ transform: 	rotate(45deg) translate(1px,-8px)
     animation-timing-function: ease;
    
 }
-
 .opcion.expandir {
     animation: desplegaropcion 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     animation-timing-function: ease;
 }
-
 @keyframes desplegaropcion {
     from {    height: 24px;padding: 0px 10px; 
     }
@@ -667,25 +615,53 @@ transform: 	rotate(45deg) translate(1px,-8px)
        height: 24px;padding: 0px 10px;
             }
 }
-
 .opcionn{display: flex;flex-direction: column;align-items: center;}
-
-
-
 .divhr{
-    height: 60px;min-width: 390px; display: flex;align-items: center;justify-content: center;
+   
+    border-bottom: 3px solid black;
+    border-top:3px solid black; ;
+    width: 100%;
+    display: block;     
 }
-hr
-{    width: 70%;
-  display:block;
-  border:none;
-  height:100%;
-  background-image:url('img/longisol.svg');
-  background-repeat: no-repeat;background-position: center;
-} 
+
 img{width: 50%;}
 .image{
     width: 100%;
     height: auto;
     text-align: center;
+}
+@media  (min-width:1020px){
+    #index-section1{background-color: white;max-width: 50%;min-width: 50%;}
+    #index-section2{background-color: white;}
+    #section3{background-color: rgb(216, 18, 166);}
+    #section4{background-color: rgb(226, 99, 14);}
+   .bloquedoble{display: flex;max-height: 100vh;}
+   .divhr{background-image: none;}
+   .separadoralto{width: 60px;}
+   #header-idheader{animation: hastacero 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;}
+    @keyframes hastauno {
+        from {
+            top: 0px;
+        }
+    
+        to {
+            top: 0px;
+        }}
+        @keyframes hastacero {
+            from {
+                top: 0px;
+            }
+        
+            to {
+                top: 0px;
+            }}
+    #espacioinicio{height: 58px;width: 1px;}
+    #footer-redes{top: 0px;z-index: 200;background-color:transparent ;}
+    #footer-redes ul{float: right;}
+    #footer-redes li{padding: 5px 10px;}
+    #footer-redes a{color: white;}
+    #header-tituloyescudo{padding-right: 200px;}
+    #index-article1{padding-bottom: 0px;height: calc(100vh - 16px);}
 }
