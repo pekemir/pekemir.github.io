@@ -9,7 +9,7 @@ ul:hover{cursor: pointer;}
 #fondo1{ background-image: url(img/image.webp);}
 #fondoes1{ background-image: url(img/hola.jfif);}
 
-h1{font-family: 'Ms Madi', cursive;}
+h1{font-family: 'Ms Madi', cursive; font-size: 3em;}
 h2,h3{text-align: center;font-family: 'Ms Madi', cursive;margin: 0.8em;}
 
 :root {
@@ -475,6 +475,7 @@ transform: 	rotate(45deg) translate(1px,-8px)
     to {
         bottom: 0px;
         width: calc(100% - 90px);
+        padding-right: 90px;
     }
 }
 @keyframes desplegarredes2 {
@@ -492,6 +493,7 @@ transform: 	rotate(45deg) translate(1px,-8px)
     from {
         bottom: 0px;
         width: calc(100% - 90px);
+        padding-right: 90px;
     }
 
     to {
@@ -536,13 +538,16 @@ transform: 	rotate(45deg) translate(1px,-8px)
 }
 
 .section h1 {
-    background-image: url(img/longisol.svg);
+   /* background-image: url(img/longisol.svg);*/
     background-repeat: no-repeat;
     background-position:center center;
-    font-size: 3em;
-    padding:0px 20px 10px 50px;
-    float: left;
+   
+   
 }
+.tituloizquierda{ padding:0px 20px 10px 50px;
+    float: left;}
+.titulocentrado {text-align: center;margin: 5px 0;}
+.tituloderecha{float: right;padding:0px 50px 10px 20px;}
 
 .fondo {
   /*  margin-bottom: 60px;*/
@@ -565,16 +570,34 @@ transform: 	rotate(45deg) translate(1px,-8px)
 }
 .article.foto{height: calc(100vh - 76px); padding: 16px 0 60px 0;
 }
-.article p{padding: 0px 10px;}
+.index-articlep h2{margin: 0;}
+.index-articlep{ 
+    display: flex;align-items: center;flex-direction: column;   height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center; margin: 0 30px 0 0; }
+    .index-articlep.cambiado{ justify-content: space-evenly;
+           height: 100%;
+        margin: 0;
+        display: flex;
+        align-items: center; margin:0 0 0 30px;}
+    
 
+.article p{padding: 0px 10px;text-align: center;}
+#index-section3{height: 100vh;}
 #index-fondo1{ background-image: url(img/image.webp);}
 #index-fondo2{ background-image: url(img/escuela3.jpg);min-height: 75vh;
     max-height: 100vh;}
+#index-fondo3{background-image: url(img/bola2.jpg);
+        max-height: 100vh;}
 
+    #index-fondofem{background-image: url(img/campo1.png);}
+    .equipos{min-height: 250px;}
 #index-articlep{padding: 30px 20px 25px 20px;}
+
 #index-insta{width: 100%;}
 #blanco{height: 30px;width: 100%;position: relative;top: -50px;background-color: white;}
-#index-article3{padding-bottom: 0px;}
+.article.completo{padding: 16px 0 0 0px;height: 100%;}
 .bloquedoble.top{position: relative;top: -80px;}
 .bloqueseparador{border-top: 3px solid black;width: 100%;height: 3px;}
 
@@ -640,7 +663,7 @@ img{width: 50%;}
     #section3{background-color: rgb(216, 18, 166);}
     #section4{background-color: rgb(226, 99, 14);}
    .bloquedoble{display: flex;max-height: 100vh;}
-   #bloquedoble1{max-height: 120vh;}
+   #bloquedoble2{max-height: none;}
    .divhr{background-image: none;}
    .separadoralto{width: 60px;}
    #header-idheader{animation: hastacero 1s;
