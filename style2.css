@@ -596,7 +596,8 @@ transform: 	rotate(45deg) translate(1px,-8px)
 }
 
 #index-fondo1 {
-    background-image: url(img/image.webp);
+    background-image: url(img/image.webp);min-height:50vh;
+	
 }
 
 #index-fondo2 {
