@@ -124,6 +124,7 @@ function showmenu2(id,idpadre) {
     
   
   $(idpadre).toggleClass('show2');
+  
 }
 
 function quitarshow2(id) //recoger acordeones

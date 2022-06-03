@@ -14,7 +14,7 @@ h2,h3{text-align: center;font-family: 'Ms Madi', cursive;margin: 0.8em;}
 
 :root {
     --iconoredes: 60px;
-    --dist:0px;
+    --dist:0px; --dist2:0px;
     --opcion:0px;
     --altoopcion:calc( 25px + 1em);
 }
@@ -33,7 +33,8 @@ header {
     background-color: black;}
 #header-tituloyescudo{display: flex;    align-items: center;
     justify-content: space-around;height: 100%;}
-#header-tituloyescudo span{color: white;font-size: large;}
+#header-tituloyescudo h1{font-size: 2.5em;}
+    #header-tituloyescudo span{color: white;font-size: large;}
 #header-longibarra{width: 60px;height: 100%;}
 #header-idheader {
     animation: hastauno 0s;
@@ -249,12 +250,16 @@ header {
 
 /*para la distancia que ha de desplegarse*/
 #header-listamenu2 {
-    --dist: 90px
+    --dist: 90px;
 }
-#header-listamenu2.show2{--dist:auto}
-#header-listamenu21{ --dist: 90px}
-#header-listamenu22{ --dist: 150px}
+#header-listamenu2.show2{--dist:calc(var(--dist) + var(--dist2));
+}
+#header-listamenu21{ --dist2: 90px}
+#header-listamenu22{ --dist2: 150px}
 #header-listamenu3 {
+    --dist: 180px
+}
+#header-listamenunosotros {
     --dist: 180px
 }
 #header-listamenu4 {
@@ -550,6 +555,7 @@ transform: 	rotate(45deg) translate(1px,-8px)
 .tituloderecha{float: right;padding:0px 50px 10px 20px;}
 
 .fondo {
+    min-height: 75vh;
   /*  margin-bottom: 60px;*/
     width: 100%;
     height: 100%;
@@ -564,6 +570,7 @@ transform: 	rotate(45deg) translate(1px,-8px)
     justify-content: space-around;
     flex-direction: column;
    /* width: 100%;*/
+    
     max-width: 100%;
     max-height: 100%;
     padding: 16px 20px 16px 20px;
@@ -577,27 +584,74 @@ transform: 	rotate(45deg) translate(1px,-8px)
     display: flex;
     align-items: center; margin: 0 30px 0 0; }
     .index-articlep.cambiado{ justify-content: space-evenly;
-           height: 100%;
+           height: 232px;
         margin: 0;
         display: flex;
         align-items: center; margin:0 0 0 30px;}
     
 
 .article p{padding: 0px 10px;text-align: center;}
-#index-section3{height: 100vh;}
-#index-fondo1{ background-image: url(img/image.webp);}
-#index-fondo2{ background-image: url(img/escuela3.jpg);min-height: 75vh;
-    max-height: 100vh;}
-#index-fondo3{background-image: url(img/bola2.jpg);
-        max-height: 100vh;}
+#index-section3 {
+    min-height: 100vh;
+}
 
-    #index-fondofem{background-image: url(img/campo1.png);}
-    .equipos{min-height: 250px;}
-#index-articlep{padding: 30px 20px 25px 20px;}
+#index-fondo1 {
+    background-image: url(img/image.webp);
+}
 
-#index-insta{width: 100%;}
+#index-fondo2 {
+    background-image: url(img/escuela3.jpg);
+}
+
+#index-fondo3 {
+    background-image: url(img/bola2.jpg);
+    max-height: 100vh;
+    min-height: 58vh;
+}
+
+
+#index-fondofem {
+    background-image: url(img/femenino.jpg);
+}
+
+#index-fondomasc {
+    background-image: url(img/masc.jpg);
+}
+#nosotros-fondo1{background-image: url(img/familia.jpg);min-height: auto;}
+#nosotros-fondo2 {
+    background-image: url(img/piña.jpg);
+    min-height: 50vh;
+}
+#nosotros-fondo3 {
+    background-image: url(img/campo1.jpg);
+    min-height: 50vh;
+}
+#nosotros-section3{min-height: auto;}
+
+#historia-fondo1{background-image: url(img/historia2.jpg);min-height: auto;}
+#historia-fondo2 {
+    background-image: url(img/historia3.jpg);
+    min-height: 44vh;
+}
+#historia-fondo3 {
+    background-image: url(img/historia1.jpg);
+    min-height: 50vh;
+}
+#historia-section3{min-height: auto;}
+.equipos {
+    min-height: 250px;
+}
+
+#index-articlep {
+    padding: 30px 20px 25px 20px;
+}
+
+#index-insta {
+    width: 100%;
+    padding-top: 28px;
+}
 #blanco{height: 30px;width: 100%;position: relative;top: -50px;background-color: white;}
-.article.completo{padding: 16px 0 0 0px;height: 100%;}
+#index-article3{padding: 0px 0 0 0px;height: 100%;}
 .bloquedoble.top{position: relative;top: -80px;}
 .bloqueseparador{border-top: 3px solid black;width: 100%;height: 3px;}
 
@@ -657,12 +711,53 @@ img{width: 50%;}
     height: auto;
     text-align: center;
 }
+.solotitulodiv{width: 100%}
+
+.corto{height:50vh;padding-bottom: 16px;min-height: auto;}
+.sinmargen{margin: 0;}
+.corto .article.foto{height: 100%;padding-bottom: 0;}
+
+.subtitulo{font-size: 2em;}
+#sectioncontactanos{min-height: auto;}
+#contenedorcontactanos{width: auto;margin: 16px 20px 0px 20px;}
+#articlecontactanos p {color: gray;font-size: 1.5em;margin: 5px 0;}
+#articlecontactanos ul{margin-top: 0; list-style: none;padding: 0;}
+#articlecontactanos li{margin: 20px 10px;}
+#articlecontactanos li a{text-decoration: none;}
+#articlecontactanos span{display: flex;color: black;
+    align-items: center;justify-content: center;font-size: 2em;}
+    #articlecontactanos .icon-whatsapp1{color: rgb(12, 243, 70);}
+    #articlecontactanos .icon-face{color: blue;}
+    #articlecontactanos .icon-tik{color: purple;}
+    #articlecontactanos .icon-insta{background-image: linear-gradient(
+        to right,
+        orangered,
+        orange,
+        gold,
+        lightgreen,
+        cyan,
+        dodgerblue,
+        mediumpurple,
+        hotpink,
+        orangered);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent}
+
+    #articlecontactanos span h2{font-size: 1em;margin: 0 10px ;  font-family: 'Oswald', sans-serif;color: black;font-weight: 500;}
+#contactanosredes ul{display: flex;flex-direction: row;font-size: 1.5em;justify-content: space-evenly;}
+#contactanos-fondo{min-height: auto; height: 20vh;background-image: url(img/sald.jpg);background-size: contain;}
+
 @media  (min-width:900px){
+    .article p{padding: 0 70px;}
+    #articlecontactanos{flex-direction: row;    justify-content: space-evenly;}
+    #contactanos-fondo{height: 40vh;width: 50%;}
+    #sectioncontactanos{min-height: auto;}
     #index-section1{background-color: white;max-width: 50%;min-width: 50%;}
     #index-section2{background-color: white;}
     #section3{background-color: rgb(216, 18, 166);}
     #section4{background-color: rgb(226, 99, 14);}
    .bloquedoble{display: flex;max-height: 100vh;}
+   #bloquedoble1{max-height: none;}
    #bloquedoble2{max-height: none;}
    .divhr{background-image: none;}
    .separadoralto{width: 60px;}
@@ -692,4 +787,9 @@ img{width: 50%;}
     #footer-redes a{color: white;}
     #header-tituloyescudo{padding-right: 200px;}
     #index-article1{padding-bottom: 0px;height: 100%;}
+    .equipos{min-height:405px;}
+    .corto{min-height: 500px;}
+    .textodosfilas{display: flex;padding-right: 70px;}
+    #historia-fondo2{height: auto;min-height: auto;}
+    #historia-section2{min-height: auto;}
 }
