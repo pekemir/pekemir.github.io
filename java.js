@@ -11,6 +11,7 @@ var primera=1;
 function revealheader() {
   if (primera==1) {
     insta.style.display='block';
+   
     primera=0;
 
     
