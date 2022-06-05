@@ -4,9 +4,17 @@ const idheader = document.getElementById('header-idheader');
 const fondomenu = document.getElementById('header-fondomenu');
 const listamenu = document.getElementById('header-listamenu');
 const iconosredes = document.getElementById('footer-iconosredes');
+const insta = document.getElementById('index-insta');
 var ancho=1020;
+var primera=1;
 
 function revealheader() {
+  if (primera==1) {
+    insta.style.display='block';
+    primera=0;
+
+    
+  }
 
   redes.classList.remove('mostrarredes');
   iconosredes.classList.remove('circulo2mas')

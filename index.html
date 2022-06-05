@@ -41,18 +41,31 @@
             
           </li>
           <li>
-            <a onclick="showmenu('#header-listamenunosotros')">Nosotros</a>
+            <a onclick="showmenu('#header-listamenunosotros')">El club</a>
             <ul id="header-listamenunosotros" class="elementomenuacordeon">
               <li><a title="Click to do something" href="nosotros.html" >Mas sobre Nosotros</a></li>
               <li><a title="Click to do something" href="historia.html">Nuestra Historia</a></li>
-              <li><a title="Click to do something" href="escuela.html #escuelasdivsep3"">opcion3</a></li>
-              <li><a title="Click to do something" href="escuela.html #escuelasdivsep4">opcion4</a></li>
-              <li><a title="Click to do something" href="escuela.html #escuelasdivsep5"">opcion5</a></li>
-              <li><a title="Click to do something" href="escuela.html #escuelasdivsep6"">opcion6</a></li>
+             
             </ul></li>
          
+         
           <li>
-            <a onclick="showmenu('#header-listamenu2')">Nosotros</a>
+            <a onclick="showmenu('#header-listamenu3')">Escuela Salduie 78</a>
+              <ul id="header-listamenu3" class="elementomenuacordeon">
+                <li><a title="Click to do something" href="escuela.html #escuelasdivsep1" >La escuela</a></li>
+                <li><a title="Click to do something" href="escuela.html #escuelasdivsep2">opcion2</a></li>
+                <li><a title="Click to do something" href="escuela.html #escuelasdivsep3"">opcion3</a></li>
+                <li><a title="Click to do something" href="escuela.html #escuelasdivsep4">opcion4</a></li>
+                <li><a title="Click to do something" href="escuela.html #escuelasdivsep5"">opcion5</a></li>
+                <li><a title="Click to do something" href="escuela.html #escuelasdivsep6"">opcion6</a></li>
+              </ul>
+          </li>
+          
+          <li><a href="">Contact</a></li>
+          <li><a href="#section3">About</a></li>
+       <!--
+<li>
+            <a onclick="showmenu('#header-listamenu2')">Calendario de Competiciones</a>
               <ul id="header-listamenu2" class="elementomenuacordeon">
                 <li><a onclick="showmenu2('#header-listamenu21','listamenu2')">Quienes Somos</a>
                 <ul id="header-listamenu21" class="elementomenuacordeon2">
@@ -74,20 +87,7 @@
                 <li><a title="Click to do something" href="#" onclick="ira('#section2')">Que hacemos</a></li>
               </ul>
           </li>
-          <li>
-            <a onclick="showmenu('#header-listamenu3')">Escuela Salduie 78</a>
-              <ul id="header-listamenu3" class="elementomenuacordeon">
-                <li><a title="Click to do something" href="escuela.html #escuelasdivsep1" >opcion1</a></li>
-                <li><a title="Click to do something" href="escuela.html #escuelasdivsep2">opcion2</a></li>
-                <li><a title="Click to do something" href="escuela.html #escuelasdivsep3"">opcion3</a></li>
-                <li><a title="Click to do something" href="escuela.html #escuelasdivsep4">opcion4</a></li>
-                <li><a title="Click to do something" href="escuela.html #escuelasdivsep5"">opcion5</a></li>
-                <li><a title="Click to do something" href="escuela.html #escuelasdivsep6"">opcion6</a></li>
-              </ul>
-          </li>
-          
-          <li><a href="">Contact</a></li>
-          <li><a href="#section3">About</a></li>
+       -->   
         </ul>
     </header>
     <main>
@@ -140,50 +140,86 @@
       <div class="divhr"><h1 class="titulocentrado ">Nuestra escuela</h1></div>  
         
      <!-- <div class="opcion"onclick="timeira('#articlees3titulo1')"><h3>Diviertete, aprende y compiteOP1</h3></div> -->
-      <a class="opcion" onclick="timeira('#articlees3titulo1')"><h3>Diviertete, aprende y compiteOP1</h3></a>
-     
+     <div class="opcion"id="indexopcion3"  onclick="expandir(this)"  >
+      <h3 >Diviertete, aprende, compite!</h3>
+      <div class="opcionn">
+        <p>Si tenéis peques que quieran probar un deporte diferente, divertido y muy completo, no dudéis en venir a conocer el HOCKEY con nosotros.
+        <br>
+        Los peques se divierten, aprenden, liberan energía, hacen amigos, disfrutan en grupo, aprenden reglas ,normas y lo que es el espíritu de equipo.
+        
+        </p>
+       <img src="img/escuela1.jpg" height="auto" alt=""> 
+       <a class="fuerade" onclick="timeira('#escuelatitulo2')"><b> Mas info</b></a>
+       </div>
+     </div>
      
       <div class="opcion"id="indexopcion2"  onclick="expandir(this)"  >
-        <h3 >¿A quien va dirigido?OP2</h3>
+        <h3 >¿Que hacemos?</h3>
         <div class="opcionn">
-          <p >Actualmente tenemos un grupo de iniciacion o escuela, en el que nuestra premisa es divertirnos además de enseñar a los mas jovenes los valores del deporte y del trabajo en equipo, compiten en diferentes ligas y torneos durante gran parte del año.
-         <img src="img/bola.jpg" width="100px" height="auto" alt="">
-         </p> <a class="fuerade" onclick="timeira('#articlees3titulo2')">Mas info</a>
+          <p >Nuestro objetivo es fomentar la practica deportiva, dar a conocer este deporte y
+             hacer que la iniciacion sea divertida y progresiva dotando a los niñ@s de herramientas para adquirir
+             las tecnicas y conocimientos necesarios para disfrutar de nuestro deporte.
+         </p> 
+         <img src="img/escuela33.jpg" height="auto" alt="">
+         <a class="fuerade" onclick="timeira('#escuelatitulo2')"><b> Mas info</b></a>
          </div>
        </div>
     
-      
-      <div class="opcion" id="indexopcion3" onclick="expandir(this)">
-        <h3>¿Cuando?OP3</h3>
+       <div class="opcion"id="indexopcion3"  onclick="expandir(this)"  >
+        <h3 >¿A quien va dirigido?</h3>
+        <div class="opcionn">
+          <p >Trabajamos con diferentes grupos, formados por niños y niñas de entre <b>5 y 14 años</b>.
+         </p> 
+         <img src="img/escuela2.jpg" height="auto" alt="">
+         <a class="fuerade" onclick="timeira('#escuelatitulo3')"><b> Mas info</b></a>
+         </div>
+       </div>
+
+      <div class="opcion" id="indexopcion4" onclick="expandir(this)">
+        <h3>¿Cuando?</h3>
        <div class="opcionn">
-         <p >Actualmente tenemos un grupo de iniciacion o escuela, en el que nuestra premisa es divertirnos además de enseñar a los mas jovenes los valores del deporte y del trabajo en equipo, compiten en diferentes ligas y torneos durante gran parte del año.
-        </p> <img src="img/bola.jpg" width="100px" height="auto" alt="">
-        <a class="fuerade"  onclick="timeira('#articlees3titulo3')">Mas info</a>
+         <p >Realizamos nuestra actividad los <b>Miércoles y Viernes</b> en horario de <b>18:00 a 19:30</b>.
+        </p> 
+        <img src="img/escuela4.jpg" alt="">
+        <a class="fuerade"  onclick="timeira('#escuelatitulo4')"><b> Mas info</b></a>
         </div>
          </div>
 
-      <div class="opcion"id="indexopcion4"  onclick="expandir(this)">
-         <h3>¿Cuando?OP4</h3>
+      <div class="opcion"id="indexopcion5"  onclick="expandir(this)">
+         <h3>¿Donde?</h3>
         <div class="opcionn">
-          <p >Actualmente tenemos un grupo de iniciacion o escuela, en el que nuestra premisa es divertirnos además de enseñar a los mas jovenes los valores del deporte y del trabajo en equipo, compiten en diferentes ligas y torneos durante gran parte del año.
-         </p> <img src="img/bola.jpg" width="100px" height="auto" alt="">
-         <a class="fuerade" onclick="timeira('#articlees3titulo4')">Mas info</a>
+          <p>Principalmente desarrollamos nuestra actividad de escuela en el <a href="https://www.google.com/search?q=parque+deportivo+ebro&rlz=1C1ONGR_esES947ES947&sxsrf=AOaemvKwsczusu2JdlGNEB-WqgfRKR_3TQ%3A1634875559197&ei=pzhyYei7C4vKgQburaygDQ&ved=0ahUKEwioq9SHkt3zAhULZcAKHe4WC9QQ4dUDCA4&uact=5&oq=parque+deportivo+ebro&gs_lcp=Cgdnd3Mtd2l6EAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAELADEEMyCgguEMgDELADEEMyEAguEMcBEK8BEMgDELADEEMyEAguEMcBEK8BEMgDELADEENKBQg8EgExSgQIQRgAUABYAGCIrwJoAXACeACAAQCIAQCSAQCYAQDIAQzAAQE&sclient=gws-wiz" target="_blank">PARQUE DEPORTIVO EBRO</a>
+            .
+      </p>
+          <img src="img/campo1.jpg" alt="">
+         <a class="fuerade" onclick="timeira('#escuelatitulo5')"><b> Mas info</b></a>
          </div>  </div>
 
-      <div class="opcion" id="indexopcion5" onclick="expandir(this)">
-        <h3>¿Cuando?OP5</h3>
+      <div class="opcion" id="indexopcion6" onclick="expandir(this)">
+        <h3>Ven a conocernos!</h3>
        <div class="opcionn">
-         <p >Actualmente tenemos un grupo de iniciacion o escuela, en el que nuestra premisa es divertirnos además de enseñar a los mas jovenes los valores del deporte y del trabajo en equipo, compiten en diferentes ligas y torneos durante gran parte del año.
-        </p> <img src="img/bola.jpg" width="100px" height="auto" alt="">
-        <a class="fuerade" onclick="timeira('#articlees3titulo5')">Mas info</a>
+         <p >Ven a conocernos y probar una sesion con nosotros sin compromiso, solo trae ropa deportiva y 
+           ganas de pasar un rato entretenido.¡El resto lo ponemos nosotros!</p> 
+        <img src="img/bola.jpg" alt="">
+        <a class="fuerade" onclick="timeira('#articlees3titulo6')"><b> Mas info</b></a>
         </div>  </div>
 
-      <div class="opcion"id="indexopcion6"  onclick="expandir(this)">
-        <h3>¿Cuando?OP6</h3>
+      <div class="opcion"id="indexopcion7"  onclick="expandir(this)">
+        <h3>Apuntate!</h3>
        <div class="opcionn">
-         <p >Actualmente tenemos un grupo de iniciacion o escuela, en el que nuestra premisa es divertirnos además de enseñar a los mas jovenes los valores del deporte y del trabajo en equipo, compiten en diferentes ligas y torneos durante gran parte del año.
-        </p> <img src="img/bola.jpg" width="100px" height="auto" alt="">
-        <a class="fuerade" onclick="timeira('#articlees3titulo6')">Mas info</a>
+         <p>Contacta con nosotros para resolver cualquier duda o ven a conocernos directamente estaremos encantados de antenderte.</p> 
+       <article class="article" id="articlecontactanos">
+        <ul>
+          <li> <a href="https://api.whatsapp.com/send?phone=34626993739&text=Hola, Nececito mas informacion!" target="_blank" >
+            <span class="icon-whatsapp1 iconotexto "> <h2>Whatsapp</h2> </span>
+            <p>   +34 626 99 37 39</p></a> 
+          </li>
+          <li>  <a href="mailto:alejandromirbel@hotmail.com?Subject=Informacion%20Salduie78%20web%20" target="_blank" >
+            <span class="icon-mail iconotexto "> <h2>Email</h2> </span>
+            <p>info@salduie78.es</p></a> 
+          </li>
+          </ul></article>
+        <a class="fuerade" onclick="timeira('#articlees3titulo7')"><b> Mas info</b></a>
         </div>  </div>
        
     </article>

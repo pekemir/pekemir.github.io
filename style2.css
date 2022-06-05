@@ -260,7 +260,7 @@ header {
     --dist: 180px
 }
 #header-listamenunosotros {
-    --dist: 180px
+    --dist: 60px
 }
 #header-listamenu4 {
     --dist: 90px
@@ -597,6 +597,7 @@ transform: 	rotate(45deg) translate(1px,-8px)
 
 #index-fondo1 {
     background-image: url(img/image.webp);
+    min-height: 50vh;
 }
 
 #index-fondo2 {
@@ -604,9 +605,10 @@ transform: 	rotate(45deg) translate(1px,-8px)
 }
 
 #index-fondo3 {
-    background-image: url(img/bola2.jpg);
+    background-image: url(img/stick.jpg);
     max-height: 100vh;
     min-height: 58vh;
+    background-position: 20%;
 }
 
 
@@ -627,15 +629,12 @@ transform: 	rotate(45deg) translate(1px,-8px)
     min-height: 50vh;
 }
 #nosotros-section3{min-height: auto;}
-
+.textodosfilas{display: flex;flex-direction: column-reverse;
+    align-items: center;}
 #historia-fondo1{background-image: url(img/historia2.jpg);min-height: auto;}
-#historia-fondo2 {
-    background-image: url(img/historia3.jpg);
-    min-height: 44vh;
-}
-#historia-fondo3 {
-    background-image: url(img/historia1.jpg);
-    min-height: 50vh;
+#historialongi{width: 100%;height: 100%;max-width: 300px;float: right;margin: 16px;}
+
+#historia-fondo3 {width: 100%;height: 100%;max-width: 350px;float: right;margin: 16px;
 }
 #historia-section3{min-height: auto;}
 .equipos {
@@ -647,14 +646,17 @@ transform: 	rotate(45deg) translate(1px,-8px)
 }
 
 #index-insta {
+    display: none;
     width: 100%;
     padding-top: 28px;
 }
 #blanco{height: 30px;width: 100%;position: relative;top: -50px;background-color: white;}
+#index-article2 p{padding: 0 15px;margin-top: 2px;}
+#index-article2 img{width: 100%;height: auto;}
 #index-article3{padding: 0px 0 0 0px;height: 100%;}
 .bloquedoble.top{position: relative;top: -80px;}
 .bloqueseparador{border-top: 3px solid black;width: 100%;height: 3px;}
-
+.fuerade{margin: 5px;    font-style: italic;}
 
 
 
@@ -706,6 +708,7 @@ transform: 	rotate(45deg) translate(1px,-8px)
 }
 
 img{width: 50%;}
+
 .image{
     width: 100%;
     height: auto;
@@ -747,7 +750,7 @@ img{width: 50%;}
 #contactanosredes ul{display: flex;flex-direction: row;font-size: 1.5em;justify-content: space-evenly;}
 #contactanos-fondo{min-height: auto; height: 20vh;background-image: url(img/sald.jpg);background-size: contain;}
 
-@media  (min-width:900px){
+@media  (min-width:900px),(orientation: landscape){
     .article p{padding: 0 70px;}
     #articlecontactanos{flex-direction: row;    justify-content: space-evenly;}
     #contactanos-fondo{height: 40vh;width: 50%;}
@@ -787,9 +790,16 @@ img{width: 50%;}
     #footer-redes a{color: white;}
     #header-tituloyescudo{padding-right: 200px;}
     #index-article1{padding-bottom: 0px;height: 100%;}
+    #index-fondo3 {
+        background-image: url(img/stick.jpg);
+        max-height: 100vh;
+        min-height: 58vh;
+        background-position: center;
+    }
     .equipos{min-height:405px;}
     .corto{min-height: 500px;}
-    .textodosfilas{display: flex;padding-right: 70px;}
-    #historia-fondo2{height: auto;min-height: auto;}
+    .textodosfilas{padding-right: 70px;display: block;}
+   
     #historia-section2{min-height: auto;}
+    .imgescuela{width: 70%;}
 }
