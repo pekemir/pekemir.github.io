@@ -1,0 +1,805 @@
+* {
+    
+    font-family: 'Oswald', sans-serif;
+   
+}
+#index-article1 *{margin: 0;}
+body{margin: 0;}
+ul:hover{cursor: pointer;}
+#fondo1{ background-image: url(img/image.webp);}
+#fondoes1{ background-image: url(img/hola.jfif);}
+
+h1{font-family: 'Ms Madi', cursive; font-size: 3em;}
+h2,h3{text-align: center;font-family: 'Ms Madi', cursive;margin: 0.8em;}
+
+:root {
+    --iconoredes: 60px;
+    --dist:0px; --dist2:0px;
+    --opcion:0px;
+    --altoopcion:calc( 25px + 1em);
+}
+
+body {
+   min-height: 100vh;
+ max-width: 100vw;
+}
+/*comienzo header*/
+header {
+    z-index: 200;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 60px;
+    background-color: black;}
+#header-tituloyescudo{display: flex;    align-items: center;
+    justify-content: space-around;height: 100%;}
+#header-tituloyescudo h1{font-size: 2.5em;}
+    #header-tituloyescudo span{color: white;font-size: large;}
+#header-longibarra{width: 60px;height: 100%;}
+#header-idheader {
+    animation: hastauno 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;}
+#header-idheader.desdeinicio {
+    animation: hastauno 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;}
+#header-idheader.scrolled {
+    display: block;
+    animation: hastacero 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;}
+@keyframes hastacero {
+    from {
+        top: -58px;
+    }
+
+    to {
+        top: 0px;
+    }}
+@keyframes hastauno {
+    from {
+        top: 0px;
+    }
+
+    to {
+        top: -58px;
+    }}
+#header-botonexpandirmenu {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    top: 55px;
+    left: calc(100% - 50px);}
+#header-botonexpandirmenu:hover{cursor: pointer;}
+.fondomenu {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 80px;
+    z-index: -2;
+    animation: recogermenu 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;}
+.despuesiniciofondomenu.fondomenu {
+    animation: recogermenu 1.3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.desplegar.fondomenu {
+    animation: desplegarmenu 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes desplegarmenu {
+    from {
+        left: 100%;
+    }
+
+    to {
+        left: 0%;
+    }
+}
+@keyframes recogermenu {
+    from {
+        left: 0%;
+    }
+
+    to {
+        left: 100%;
+    }
+}
+#header-circulo {
+    fill: red;
+    animation: recogerbola 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.despuesiniciofondomenu #header-circulo {
+    animation: recogerbola 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.desplegar #header-circulo {
+    animation: desplegarbola 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes desplegarbola {
+    from {
+        r: 5%;
+        cx: 100%;
+        cy: -3%
+    }
+
+    to {
+        r: 50%;
+        cx: 98%;
+        cy: 20%
+    }
+}
+@keyframes recogerbola {
+    from {
+        r: 50%;
+        cx: 98%;
+        cy: 20%
+    }
+
+    to {
+        r: 5%;
+        cx: 100%;
+        cy: -3%
+    }
+}
+#header-circulomenu {
+    width: 100%;
+    height: 100%;
+}
+#header-listamenu {
+    padding: 0;
+    max-width: 50%;
+    text-align: end;
+    position: absolute;
+    top: 90px;
+    right: calc(0% + 70px);
+    list-style: none;
+    animation: recogermenulista 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    max-height: 90vh;
+    overflow: scroll;
+}
+#header-listamenu.despuesiniciofondomenu {
+    animation: recogermenulista 1.8s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+#header-listamenu.desplegar {
+    animation: desplegarmenulista 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+@keyframes desplegarmenulista {
+    from {
+        right: -100%;
+    }
+
+    to {
+        right: calc(0% + 70px);
+    }
+}
+@keyframes recogermenulista {
+    from {
+        right: calc(0% + 70px);
+    }
+
+    to {
+        right: -100%;
+    }
+}
+#header-listamenu a {
+    z-index: 10;
+    font-size: large;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 150%;
+}
+.elementomenuacordeon {
+    height: 0%;
+    overflow: hidden;
+    list-style: none;
+    position: relative;
+    animation: recogersubmenu 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    
+}
+.elementomenuacordeon2 {
+    height: 0%;
+    overflow: hidden;
+    list-style: none;
+    position: relative;
+    animation: recogersubmenu2 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+   
+}
+#header-listamenu .elementomenuacordeon a{font-size: 100%;}
+.elementomenuacordeon li{min-height: 30px;}
+.elementomenuacordeon.show{
+    animation: desplegarsubmenu 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+.elementomenuacordeon2.show2{
+    animation: desplegarsubmenu2 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+/*para la distancia que ha de desplegarse*/
+#header-listamenu2 {
+    --dist: 90px;
+}
+#header-listamenu2.show2{--dist:calc(var(--dist) + var(--dist2));
+}
+#header-listamenu21{ --dist2: 90px}
+#header-listamenu22{ --dist2: 150px}
+#header-listamenu3 {
+    --dist: 180px
+}
+#header-listamenunosotros {
+    --dist: 60px
+}
+#header-listamenu4 {
+    --dist: 90px
+}
+#header-listamenu41 {
+    --dist: 90px
+}
+#header-listamenu42 {
+    --dist: 60px
+}
+@keyframes desplegarsubmenu {
+    from {
+        height: 0;
+        min-height: 0;
+    }
+    to {
+        height: var(--dist);
+       min-height: var(--dist);
+    }
+}
+@keyframes recogersubmenu {
+    from {
+        height: var(--dist);
+    }
+    to {
+        height: 0;  
+    }
+}
+@keyframes desplegarsubmenu2 {
+    from {
+        height: 0;  
+    }
+    to {
+       height: var(--dist);
+    }
+}
+@keyframes recogersubmenu2 {
+    from {
+       height: var(--dist);
+    }
+    to {
+        height: 0;
+    }
+}
+.submenu {
+    cursor: pointer;
+}
+
+/*boton menu*/
+#header-botonexpandirmenu span{
+	width: 80%;
+	height: 4px;
+	border-radius: 4px;
+	display: block;
+	position: absolute;
+	background: black;
+	transition: all 1s ease; /* Propiedades a animar | Tiempo | Tipo animación*/
+	transform-origin : 0px 100%;
+    top: 13px;
+}
+#header-botonexpandirmenu span:nth-child(2){
+	top: calc(50% - 2px);
+} 
+#header-botonexpandirmenu span:nth-child(3){
+top: 34px;
+}
+.visible_menu span:nth-child(1){
+transform: 	rotate(45deg) translate(1px,-8px)
+}
+ .visible_menu span:nth-child(2){
+	transform: translateX(100px);
+}
+.visible_menu span:nth-child(3){
+	transform: rotate(318deg) translate(4px,6px);
+}
+/*fin boton menu  fin header*/
+
+/*comienzo footer*/
+
+#footer-iconosredes {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: 200;
+    --iconoredes: 60px;
+    animation: recogericono 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+#footer-iconosredes.scrolled.desdeinicio {
+    --iconoredes: 60px;
+    animation: desplegaricono 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+#footer-iconosredes.scrolled.desdeinicio.circulo2mas.circulo2masmas {
+    --iconoredes: 90px;
+    animation: desplegaricono2 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+#footer-iconosredes.scrolled.desdeinicio.circulo2masmas {
+    --iconoredes: 60px;
+    animation: recogericono2 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+#footer-iconosredes.desdeinicio {
+    animation: recogericono 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+@keyframes desplegaricono2 {
+    from {
+        width: 60px;
+        height: 60px;
+    }
+
+    to {
+        width: var(--iconoredes);
+        height: var(--iconoredes);
+    }
+}
+
+@keyframes recogericono2 {
+    from {
+        width: 90px;
+        height: 90px;
+    }
+
+    to {
+        width: var(--iconoredes);
+        height: var(--iconoredes);
+    }
+}
+
+@keyframes desplegaricono {
+    from {
+        width: 0px;
+        height: 0px;
+    }
+
+    to {
+        width: var(--iconoredes);
+        height: var(--iconoredes);
+    }
+}
+
+@keyframes recogericono {
+    from {
+        width: var(--iconoredes);
+        height: var(--iconoredes);
+        ;
+
+    }
+
+    to {
+        width: 0px;
+        height: 0px;
+    }
+}
+
+#footer-redes {
+    background-color: #ffffff96;
+    width: 100%;
+    height: 60px;
+
+    position: fixed;
+    bottom: 0px;
+    z-index: 100;
+    animation: desplegarredes2 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+
+}
+
+#footer-redes.scrolled {
+    animation: recogerredes 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    bottom: -100px;
+}
+
+#footer-redes.mostrarredes {
+    width: calc(100% - 90px);
+    animation: desplegarredes 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+#footer-redes.mostrarredes a {
+    color: black;
+}
+@keyframes desplegarredes {
+    from {
+        bottom: -100px;
+        width: 100%;
+    }
+
+    to {
+        bottom: 0px;
+        width: calc(100% - 90px);
+        padding-right: 90px;
+    }
+}
+@keyframes desplegarredes2 {
+    from {
+        bottom: -100px;
+
+    }
+
+    to {
+        bottom: 0px;
+        width: 100%;
+    }
+}
+@keyframes recogerredes {
+    from {
+        bottom: 0px;
+        width: calc(100% - 90px);
+        padding-right: 90px;
+    }
+
+    to {
+        bottom: -100px;
+        width: 100%;
+    }
+}
+.scrolled #footer-circuloredes {
+    display: block;
+}
+#footer-circulo2 {
+    width: 100%;
+    height: 100%;
+}
+#footer-redes ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    height: 100%;
+    font-size: 2em;
+    padding: 0px;
+    margin: 0;
+}
+#footer-redes a {
+    text-decoration: none;
+    color: black;
+    max-width: 30px;
+}
+/*fin footer*/
+
+.blquedoble{display: flex;}
+#espacioinicio{height: 0px;width: 1px;}
+.section {
+    flex-direction: column;
+    width: 100%;
+   min-height: 100vh;
+   
+   max-width: 100vw;
+    display: flex;
+    overflow: hidden;
+}
+
+.section h1 {
+   /* background-image: url(img/longisol.svg);*/
+    background-repeat: no-repeat;
+    background-position:center center;
+   
+   
+}
+.tituloizquierda{ padding:0px 20px 10px 50px;
+    float: left;}
+.titulocentrado {text-align: center;margin: 5px 0;}
+.tituloderecha{float: right;padding:0px 50px 10px 20px;}
+
+.fondo {
+    min-height: 75vh;
+  /*  margin-bottom: 60px;*/
+    width: 100%;
+    height: 100%;
+  /* min-height: 50vw;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.article {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+   /* width: 100%;*/
+    
+    max-width: 100%;
+    max-height: 100%;
+    padding: 16px 20px 16px 20px;
+}
+.article.foto{height: calc(100vh - 76px); padding: 16px 0 60px 0;
+}
+.index-articlep h2{margin: 0;}
+.index-articlep{ 
+    display: flex;align-items: center;flex-direction: column;   height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center; margin: 0 30px 0 0; }
+    .index-articlep.cambiado{ justify-content: space-evenly;
+           height: 232px;
+        margin: 0;
+        display: flex;
+        align-items: center; margin:0 0 0 30px;}
+    
+
+.article p{padding: 0px 10px;text-align: center;}
+#index-section3 {
+    min-height: 100vh;
+}
+
+#index-fondo1 {
+    background-image: url(img/image.webp);
+    min-height: 50vh;
+}
+
+#index-fondo2 {
+    background-image: url(img/escuela3.jpg);
+}
+
+#index-fondo3 {
+    background-image: url(img/stick.jpg);
+    max-height: 100vh;
+    min-height: 58vh;
+    background-position: 20%;
+}
+
+
+#index-fondofem {
+    background-image: url(img/femenino.jpg);
+}
+
+#index-fondomasc {
+    background-image: url(img/masc.jpg);
+}
+#nosotros-fondo1{background-image: url(img/familia.jpg);min-height: auto;}
+#nosotros-fondo2 {
+    background-image: url(img/piña.jpg);
+    min-height: 50vh;
+}
+#nosotros-fondo3 {
+    background-image: url(img/campo1.jpg);
+    min-height: 50vh;
+}
+#nosotros-section3{min-height: auto;}
+.textodosfilas{display: flex;flex-direction: column-reverse;
+    align-items: center;}
+#historia-fondo1{background-image: url(img/historia2.jpg);min-height: auto;}
+#historialongi{width: 100%;height: 100%;max-width: 300px;float: right;margin: 16px;}
+
+#historia-fondo3 {width: 100%;height: 100%;max-width: 350px;float: right;margin: 16px;
+}
+#historia-section3{min-height: auto;}
+.equipos {
+    min-height: 250px;
+}
+
+#index-articlep {
+    padding: 30px 20px 25px 20px;
+}
+
+#index-insta {
+    display: none;
+    width: 100%;
+    padding-top: 28px;
+}
+#blanco{height: 30px;width: 100%;position: relative;top: -50px;background-color: white;}
+#index-article2 p{padding: 0 15px;margin-top: 2px;}
+#index-article2 img{width: 100%;height: auto;}
+#index-article3{padding: 0px 0 0 0px;height: 100%;}
+.bloquedoble.top{position: relative;top: -80px;}
+.bloqueseparador{border-top: 3px solid black;width: 100%;height: 3px;}
+.fuerade{margin: 5px;    font-style: italic;}
+
+
+
+#section2{background-color: antiquewhite;}
+
+
+.bl{color: white;}
+
+
+
+
+/*escuelas*/
+.opcion{overflow: hidden;width: 100%; }
+.opcion {
+    
+     animation:recogeropcion 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+   
+}
+.opcion.expandir {
+    animation: desplegaropcion 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+@keyframes desplegaropcion {
+    from {  height:  var(--altoopcion) ;padding: 0px 10px; 
+    }
+    to {
+        height:  calc(var(--altoopcion) + var(--opcion)); padding: 10px 10px;
+            }
+}
+@keyframes recogeropcion {
+    from { height:  calc(var(--altoopcion) + var(--opcion)); ;padding: 10px 10px;
+    }
+    to {
+       height: var(--altoopcion);padding: 0px 10px;
+            }
+}
+.opcionn{display: flex;flex-direction: column;align-items: center;}
+.divhr{
+   
+    border-bottom: 3px solid black;
+    border-top:3px solid black; ;
+    width: 100%;
+    display: block;     
+}
+
+img{width: 50%;}
+
+.image{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.solotitulodiv{width: 100%}
+
+.corto{height:50vh;padding-bottom: 16px;min-height: auto;}
+.sinmargen{margin: 0;}
+.corto .article.foto{height: 100%;padding-bottom: 0;}
+
+.subtitulo{font-size: 2em;}
+#sectioncontactanos{min-height: auto;}
+#contenedorcontactanos{width: auto;margin: 16px 20px 0px 20px;}
+#articlecontactanos p {color: gray;font-size: 1.5em;margin: 5px 0;}
+#articlecontactanos ul{margin-top: 0; list-style: none;padding: 0;}
+#articlecontactanos li{margin: 20px 10px;}
+#articlecontactanos li a{text-decoration: none;}
+#articlecontactanos span{display: flex;color: black;
+    align-items: center;justify-content: center;font-size: 2em;}
+    #articlecontactanos .icon-whatsapp1{color: rgb(12, 243, 70);}
+    #articlecontactanos .icon-face{color: blue;}
+    #articlecontactanos .icon-tik{color: purple;}
+    #articlecontactanos .icon-insta{background-image: linear-gradient(
+        to right,
+        orangered,
+        orange,
+        gold,
+        lightgreen,
+        cyan,
+        dodgerblue,
+        mediumpurple,
+        hotpink,
+        orangered);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent}
+
+    #articlecontactanos span h2{font-size: 1em;margin: 0 10px ;  font-family: 'Oswald', sans-serif;color: black;font-weight: 500;}
+#contactanosredes ul{display: flex;flex-direction: row;font-size: 1.5em;justify-content: space-evenly;}
+#contactanos-fondo{min-height: auto; height: 20vh;background-image: url(img/sald.jpg);background-size: contain;}
+
+@media  (min-width:900px),(orientation: landscape){
+    .article p{padding: 0 70px;}
+    #articlecontactanos{flex-direction: row;    justify-content: space-evenly;}
+    #contactanos-fondo{height: 40vh;width: 50%;}
+    #sectioncontactanos{min-height: auto;}
+    #index-section1{background-color: white;max-width: 50%;min-width: 50%;}
+    #index-section2{background-color: white;}
+    #section3{background-color: rgb(216, 18, 166);}
+    #section4{background-color: rgb(226, 99, 14);}
+   .bloquedoble{display: flex;max-height: 100vh;}
+   #bloquedoble1{max-height: none;}
+   #bloquedoble2{max-height: none;}
+   .divhr{background-image: none;}
+   .separadoralto{width: 60px;}
+   #header-idheader{animation: hastacero 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;}
+    @keyframes hastauno {
+        from {
+            top: 0px;
+        }
+    
+        to {
+            top: 0px;
+        }}
+        @keyframes hastacero {
+            from {
+                top: 0px;
+            }
+        
+            to {
+                top: 0px;
+            }}
+    #espacioinicio{height: 58px;width: 1px;}
+    #footer-redes{top: 0px;z-index: 200;background-color:transparent ;}
+    #footer-redes ul{float: right;}
+    #footer-redes li{padding: 5px 10px;}
+    #footer-redes a{color: white;}
+    #header-tituloyescudo{padding-right: 200px;}
+    #index-article1{padding-bottom: 0px;height: 100%;}
+    #index-fondo3 {
+        background-image: url(img/stick.jpg);
+        max-height: 100vh;
+        min-height: 58vh;
+        background-position: center;
+    }
+    .equipos{min-height:405px;}
+    .corto{min-height: 500px;}
+    .textodosfilas{padding-right: 70px;display: block;}
+   
+    #historia-section2{min-height: auto;}
+    .imgescuela{width: 70%;}
+}
