@@ -9,13 +9,7 @@ var ancho=1020;
 var primera=1;
 
 function revealheader() {
-  if (primera==1) {
-    insta.style.display='block';
-   
-    primera=0;
-
-    
-  }
+  
 
   redes.classList.remove('mostrarredes');
   iconosredes.classList.remove('circulo2mas')

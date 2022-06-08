@@ -8,7 +8,7 @@ body{margin: 0;}
 ul:hover{cursor: pointer;}
 #fondo1{ background-image: url(img/image.webp);}
 #fondoes1{ background-image: url(img/hola.jfif);}
-
+main .sinpading{padding: 0;}
 h1{font-family: 'Ms Madi', cursive; font-size: 3em;}
 h2,h3{text-align: center;font-family: 'Ms Madi', cursive;margin: 0.8em;}
 
@@ -565,6 +565,7 @@ transform: 	rotate(45deg) translate(1px,-8px)
     background-size: cover;
 }
 .article {
+    height: 100%;
     align-items: center;
     display: flex;
     justify-content: space-around;
@@ -629,6 +630,11 @@ transform: 	rotate(45deg) translate(1px,-8px)
     min-height: 50vh;
 }
 #nosotros-section3{min-height: auto;}
+#escuela-fondo1 {
+    background-image: url(img/campo1.jpg);
+    min-height: auto;
+}
+
 .textodosfilas{display: flex;flex-direction: column-reverse;
     align-items: center;}
 #historia-fondo1{background-image: url(img/historia2.jpg);min-height: auto;}
@@ -646,7 +652,7 @@ transform: 	rotate(45deg) translate(1px,-8px)
 }
 
 #index-insta {
-    display: none;
+   
     width: 100%;
     padding-top: 28px;
 }
@@ -660,7 +666,6 @@ transform: 	rotate(45deg) translate(1px,-8px)
 
 
 
-#section2{background-color: antiquewhite;}
 
 
 .bl{color: white;}
@@ -669,6 +674,9 @@ transform: 	rotate(45deg) translate(1px,-8px)
 
 
 /*escuelas*/
+#escuela-article2 ul{list-style: none;padding: 0px;margin: 0;}
+#escuela-article2 li{padding: 10px 0px;}
+
 .opcion{overflow: hidden;width: 100%; }
 .opcion {
     
@@ -755,8 +763,8 @@ img{width: 50%;}
     #articlecontactanos{flex-direction: row;    justify-content: space-evenly;}
     #contactanos-fondo{height: 40vh;width: 50%;}
     #sectioncontactanos{min-height: auto;}
-    #index-section1{background-color: white;max-width: 50%;min-width: 50%;}
-    #index-section2{background-color: white;}
+    .section.seccionmitad{max-width: 50%;min-width: 50%;min-height: calc(100vh - 60px);}
+    #index-section2{}
     #section3{background-color: rgb(216, 18, 166);}
     #section4{background-color: rgb(226, 99, 14);}
    .bloquedoble{display: flex;max-height: 100vh;}
