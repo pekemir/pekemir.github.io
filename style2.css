@@ -6,6 +6,8 @@
 #index-article1 *{margin: 0;}
 body{margin: 0;}
 ul:hover{cursor: pointer;}
+a:hover{cursor: pointer;}
+#index-section2 h3:hover{cursor: pointer;}
 #fondo1{ background-image: url(img/image.webp);}
 #fondoes1{ background-image: url(img/hola.jfif);}
 main .sinpading{padding: 0;}
@@ -262,7 +264,7 @@ header {
 #header-listamenunosotros {
     --dist: 60px
 }
-#header-listamenu4 {
+#header-listamenuequipos {
     --dist: 90px
 }
 #header-listamenu41 {
@@ -634,6 +636,10 @@ transform: 	rotate(45deg) translate(1px,-8px)
     background-image: url(img/campo1.jpg);
     min-height: auto;
 }
+#equipos-fondo1 {
+    background-image: url(img/campo1.jpg);
+    min-height: auto;
+}
 
 .textodosfilas{display: flex;flex-direction: column-reverse;
     align-items: center;}
@@ -658,12 +664,14 @@ transform: 	rotate(45deg) translate(1px,-8px)
 }
 #blanco{height: 30px;width: 100%;position: relative;top: -50px;background-color: white;}
 #index-article2 p{padding: 0 15px;margin-top: 2px;}
+#index-article2{justify-content: space-between;}
 #index-article2 img{width: 100%;height: auto;}
+#index-section4 .article{height: auto;justify-content: flex-start}
 #index-article3{padding: 0px 0 0 0px;height: 100%;}
 .bloquedoble.top{position: relative;top: -80px;}
 .bloqueseparador{border-top: 3px solid black;width: 100%;height: 3px;}
-.fuerade{margin: 5px;    font-style: italic;}
-
+.fuerade{margin-top: 10px;    font-style: italic;}
+#escuela-section2{min-height: auto;}
 
 
 
@@ -674,9 +682,11 @@ transform: 	rotate(45deg) translate(1px,-8px)
 
 
 /*escuelas*/
-#escuela-article2 ul{list-style: none;padding: 0px;margin: 0;}
+#escuela-article2 ul{list-style: none;padding: 0px;margin: 0;height: 80%;display: flex;
+    flex-direction: column;
+    justify-content: space-around;}
 #escuela-article2 li{padding: 10px 0px;}
-
+#escuela-section3 img{width: 100%;}
 .opcion{overflow: hidden;width: 100%; }
 .opcion {
     
@@ -757,14 +767,16 @@ img{width: 50%;}
     #articlecontactanos span h2{font-size: 1em;margin: 0 10px ;  font-family: 'Oswald', sans-serif;color: black;font-weight: 500;}
 #contactanosredes ul{display: flex;flex-direction: row;font-size: 1.5em;justify-content: space-evenly;}
 #contactanos-fondo{min-height: auto; height: 20vh;background-image: url(img/sald.jpg);background-size: contain;}
-
+#equipos-section2 article{padding-top: 70px;padding-bottom:0 ;}
+#equipos-section1{padding-bottom: 0;min-height: auto;}
+#equipos-article1{padding-bottom: 0;}
 @media  (min-width:900px),(orientation: landscape){
     .article p{padding: 0 70px;}
     #articlecontactanos{flex-direction: row;    justify-content: space-evenly;}
     #contactanos-fondo{height: 40vh;width: 50%;}
     #sectioncontactanos{min-height: auto;}
     .section.seccionmitad{max-width: 50%;min-width: 50%;min-height: calc(100vh - 60px);}
-    #index-section2{}
+   
     #section3{background-color: rgb(216, 18, 166);}
     #section4{background-color: rgb(226, 99, 14);}
    .bloquedoble{display: flex;max-height: 100vh;}
@@ -804,10 +816,17 @@ img{width: 50%;}
         min-height: 58vh;
         background-position: center;
     }
-    .equipos{min-height:405px;}
+    .equipos{height:405px;}
     .corto{min-height: 500px;}
     .textodosfilas{padding-right: 70px;display: block;}
    
     #historia-section2{min-height: auto;}
     .imgescuela{width: 70%;}
+    #escuela-section2 h2{margin: 0;}
+    #escuela-article1{padding-bottom: 0px;}
+    #escuela-section3 img ,#equipos-section2 img{width: 100%;height: auto;margin: 10px 0;}
+    #escuela-section3 .opcionn, #equipos-section2 .opcionn{flex-direction: row;justify-content: space-between;}
+    #escuela-section3 .opcionn.opiz ,#equipos-section2 .opcionn.opiz{flex-direction: row-reverse;}
+    #escuela-section3 p, #equipos-section2 p{padding: 0;}
+    .mitad{width: 50%;padding: 0 70px;}
 }

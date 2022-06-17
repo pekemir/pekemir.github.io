@@ -49,9 +49,18 @@
             </ul></li>
          
             <li><a href="escuela.html">Escuela Salduie 78</a></li>
-          
-          <li><a href="">Contact</a></li>
-          <li><a href="#section3">About</a></li>
+
+          <li>
+            <a onclick="showmenu('#header-listamenuequipos')">Equipos</a>
+            <ul id="header-listamenuequipos" class="elementomenuacordeon">
+              <li><a title="Click to do something" href="equipos.html #equipos-seniormasc" >Senior Masculino</a></li>
+              <li><a title="Click to do something" href="equipos.html #equipos-seniorfem">Senior Femenino</a></li>
+              <li><a title="Click to do something" href="equipos.html #equipos-escuela">Categorias Inferiores</a></li>
+             
+            </ul></li>
+          <li><a href="#" onclick="ira('#sectioncontactanos')">Contacto</a></li>
+
+        
        <!--
          
           <li>
@@ -150,7 +159,7 @@
         
         </p>
        <img src="img/escuela1.jpg" height="auto" alt=""> 
-       <a class="fuerade" onclick="timeira('#escuelatitulo2')"><b> Mas info</b></a>
+       <a class="fuerade" onclick="window.location.href = 'escuela.html#escuela-uno';"><b> Mas info</b></a>
        </div>
      </div>
      
@@ -162,7 +171,7 @@
              las tecnicas y conocimientos necesarios para disfrutar de nuestro deporte.
          </p> 
          <img src="img/escuela33.jpg" height="auto" alt="">
-         <a class="fuerade" onclick="timeira('#escuelatitulo2')"><b> Mas info</b></a>
+         <a class="fuerade" onclick="window.location.href = 'escuela.html#escuela-dos';"><b> Mas info</b></a>
          </div>
        </div>
     
@@ -172,7 +181,7 @@
           <p >Trabajamos con diferentes grupos, formados por niños y niñas de entre <b>5 y 14 años</b>.
          </p> 
          <img src="img/escuela2.jpg" height="auto" alt="">
-         <a class="fuerade" onclick="timeira('#escuelatitulo3')"><b> Mas info</b></a>
+         <a class="fuerade" onclick="window.location.href = 'escuela.html#escuela-tres';"><b> Mas info</b></a>
          </div>
        </div>
 
@@ -182,7 +191,7 @@
          <p >Realizamos nuestra actividad los <b>Miércoles y Viernes</b> en horario de <b>18:00 a 19:30</b>.
         </p> 
         <img src="img/escuela4.jpg" alt="">
-        <a class="fuerade"  onclick="timeira('#escuelatitulo4')"><b> Mas info</b></a>
+        <a class="fuerade" onclick="window.location.href = 'escuela.html#escuela-cuatro';"><b> Mas info</b></a>
         </div>
          </div>
 
@@ -193,8 +202,9 @@
             .
       </p>
           <img src="img/campo1.jpg" alt="">
-         <a class="fuerade" onclick="timeira('#escuelatitulo5')"><b> Mas info</b></a>
-         </div>  </div>
+          <a class="fuerade" onclick="window.location.href = 'escuela.html#escuela-cinco';"><b> Mas info</b></a>
+         </div> 
+         </div>
 
       <div class="opcion" id="indexopcion6" onclick="expandir(this)">
         <h3>Ven a conocernos!</h3>
@@ -202,7 +212,7 @@
          <p >Ven a conocernos y probar una sesion con nosotros sin compromiso, solo trae ropa deportiva y 
            ganas de pasar un rato entretenido.¡El resto lo ponemos nosotros!</p> 
         <img src="img/bola.jpg" alt="">
-        <a class="fuerade" onclick="timeira('#articlees3titulo6')"><b> Mas info</b></a>
+        <a class="fuerade" onclick="window.location.href = 'escuela.html#escuela-seis';"><b> Mas info</b></a>
         </div>  </div>
 
       <div class="opcion"id="indexopcion7"  onclick="expandir(this)">
@@ -220,7 +230,7 @@
             <p>info@salduie78.es</p></a> 
           </li>
           </ul></article>
-        <a class="fuerade" onclick="timeira('#articlees3titulo7')"><b> Mas info</b></a>
+          <a class="fuerade" onclick="window.location.href = 'escuela.html#escuela-siete';"><b> Mas info</b></a>
         </div>  </div>
        
     </article>
@@ -228,9 +238,11 @@
     </div>
   
 </section>
+
+
    <div class="separadoralto"></div>
     <section class="section titulocentrado " id="index-section4"> <!-- SECCION 4 NUESTROS EQUIPOS-->
-      <article  class="article">
+      <article onclick="window.location.href = 'equipos.html#equipos-seniorfem';"class="article">
         <div class="divhr"><h2 class="titulocentrado" >Salduie Femenino</h2>
           <p class="">Si quieres practicar un deporte emocionante y divertido, ¡preguntanos! No importa tu edad ni condicion fisica, lo importante es empezar.
            </p> 
@@ -239,7 +251,7 @@
          <div id="index-fondofem" class="fondo equipos">
          </article>
         
-         <article  class="article">
+         <article onclick="window.location.href = 'equipos.html#equipos-seniormasc';" class="article">
           <div class="divhr"><h2 class="titulocentrado" >Salduie Masculino</h2>
             <p class="">Si quieres practicar un deporte emocionante y divertido, ¡preguntanos! No importa tu edad ni condicion fisica, lo importante es empezar.
              </p> 
@@ -248,7 +260,7 @@
            <div id="index-fondomasc" class="fondo equipos">
            </article>
           
-
+          
           </section>
     </div>  
       

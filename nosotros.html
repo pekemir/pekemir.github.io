@@ -11,74 +11,95 @@
     <link rel="stylesheet" href="style2.css">
 </head>
 <body>
-    <header class="scrollheader" id="header-idheader">
-        <div id="header-tituloyescudo"><h1 class="bl"> Hockey Salduie 78</h1>
-        <svg id="header-longibarra">
-            <use href="img/icons.svg#longiredondo"/>
-        </svg> 
-       
-         
+  <header class="scrollheader" id="header-idheader">
+    <div id="header-tituloyescudo"><h1 class="bl"> Hockey Salduie 78</h1>
+    <svg id="header-longibarra">
+        <use href="img/icons.svg#longiredondo"/>
+    </svg> 
+   
+     
+    
+    </div>
+    <div id="header-botonexpandirmenu" >
+      
+        <span></span>
+        <span></span>
+        <span></span>
+     
+     
+    </div>
+
+    <div id="header-fondomenu" class="fondomenu">
+      <svg id="header-circulomenu" class="fondomen">
+        <circle id="header-circulo" />
+      </svg>
+
+    </div>
+    <ul id="header-listamenu">
+      <li>
+        <a href="index.html">inicio</a>
         
-        </div>
-        <div id="header-botonexpandirmenu" >
-          
-            <span></span>
-            <span></span>
-            <span></span>
+      </li>
+      <li>
+        <a onclick="showmenu('#header-listamenunosotros')">El club</a>
+        <ul id="header-listamenunosotros" class="elementomenuacordeon">
+          <li><a title="Click to do something" href="nosotros.html" >Mas sobre Nosotros</a></li>
+          <li><a title="Click to do something" href="historia.html">Nuestra Historia</a></li>
          
+        </ul></li>
+     
+        <li><a href="escuela.html">Escuela Salduie 78</a></li>
+
+      <li>
+        <a onclick="showmenu('#header-listamenuequipos')">Equipos</a>
+        <ul id="header-listamenuequipos" class="elementomenuacordeon">
+          <li><a title="Click to do something" href="equipos.html #equipos-seniormasc" >Senior Masculino</a></li>
+          <li><a title="Click to do something" href="equipos.html #equipos-seniorfem">Senior Femenino</a></li>
+          <li><a title="Click to do something" href="equipos.html #equipos-escuela">Categorias Inferiores</a></li>
          
-        </div>
+        </ul></li>
+      <li><a href="#" onclick="ira('#sectioncontactanos')">Contacto</a></li>
+
     
-        <div id="header-fondomenu" class="fondomenu">
-          <svg id="header-circulomenu" class="fondomen">
-            <circle id="header-circulo" />
-          </svg>
-    
-        </div>
-        <ul id="header-listamenu">
-          <li>
-            <a href="index.html">inicio</a>
+   <!--
+     
+      <li>
+        <a onclick="showmenu('#header-listamenu3')">Escuela Salduie 78</a>
+          <ul id="header-listamenu3" class="elementomenuacordeon">
+            <li><a title="Click to do something" href="escuela.html #escuelasdivsep1" >La escuela</a></li>
+            <li><a title="Click to do something" href="escuela.html #escuelasdivsep2">opcion2</a></li>
+            <li><a title="Click to do something" href="escuela.html #escuelasdivsep3"">opcion3</a></li>
+            <li><a title="Click to do something" href="escuela.html #escuelasdivsep4">opcion4</a></li>
+            <li><a title="Click to do something" href="escuela.html #escuelasdivsep5"">opcion5</a></li>
+            <li><a title="Click to do something" href="escuela.html #escuelasdivsep6"">opcion6</a></li>
+          </ul>
+      </li>
+<li>
+        <a onclick="showmenu('#header-listamenu2')">Calendario de Competiciones</a>
+          <ul id="header-listamenu2" class="elementomenuacordeon">
+            <li><a onclick="showmenu2('#header-listamenu21','listamenu2')">Quienes Somos</a>
+            <ul id="header-listamenu21" class="elementomenuacordeon2">
+              <li>uno</li>
+              <li>dos</li>
+              <li>tres</li>
+            </ul>
             
-          </li>
-          <li>
-            <a onclick="showmenu('#header-listamenu2')">Nosotros</a>
-              <ul id="header-listamenu2" class="elementomenuacordeon">
-                <li><a onclick="showmenu2('#header-listamenu21','listamenu2')">Quienes Somos</a>
-                <ul id="header-listamenu21" class="elementomenuacordeon2">
-                  <li>uno</li>
-                  <li>dos</li>
-                  <li>tres</li>
-                </ul>
-                
-                </li>
-                <li><a onclick="showmenu2('#header-listamenu22','listamenu2')">nuestrahistoria</a>
-                  <ul id="header-listamenu22" class="elementomenuacordeon2">
-                    <li>dosuno</li>
-                    <li>dosdos</li>
-                    <li>dostres</li>
-                    <li>dosdos</li>
-                    <li>dostres</li>
-                  </ul>
-                </li>
-                <li><a title="Click to do something" href="#" onclick="ira('#section2')">Que hacemos</a></li>
+            </li>
+            <li><a onclick="showmenu2('#header-listamenu22','listamenu2')">nuestrahistoria</a>
+              <ul id="header-listamenu22" class="elementomenuacordeon2">
+                <li>dosuno</li>
+                <li>dosdos</li>
+                <li>dostres</li>
+                <li>dosdos</li>
+                <li>dostres</li>
               </ul>
-          </li>
-          <li>
-            <a onclick="showmenu('#header-listamenu3')">Escuela Salduie 78</a>
-              <ul id="header-listamenu3" class="elementomenuacordeon">
-                <li><a title="Click to do something" href="escuela.html #escuelasdivsep1" >opcion1</a></li>
-                <li><a title="Click to do something" href="escuela.html #escuelasdivsep2">opcion2</a></li>
-                <li><a title="Click to do something" href="escuela.html #escuelasdivsep3"">opcion3</a></li>
-                <li><a title="Click to do something" href="escuela.html #escuelasdivsep4">opcion4</a></li>
-                <li><a title="Click to do something" href="escuela.html #escuelasdivsep5"">opcion5</a></li>
-                <li><a title="Click to do something" href="escuela.html #escuelasdivsep6"">opcion6</a></li>
-              </ul>
-          </li>
-          
-          <li><a href="">Contact</a></li>
-          <li><a href="#section3">About</a></li>
-        </ul>
-    </header>
+            </li>
+            <li><a title="Click to do something" href="#" onclick="ira('#section2')">Que hacemos</a></li>
+          </ul>
+      </li>
+   -->   
+    </ul>
+</header>
     <main>
 <div id="espacioinicio"></div>
 
