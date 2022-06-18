@@ -163,7 +163,7 @@ header {
 }
 #header-listamenu {
     padding: 0;
-    max-width: 50%;
+    max-width: 60%;
     text-align: end;
     position: absolute;
     top: 90px;
@@ -211,7 +211,7 @@ header {
     text-decoration: none;
     color: black;
     font-weight: bolder;
-    font-size: 150%;
+    font-size: 200%;
 }
 .elementomenuacordeon {
     height: 0%;
@@ -235,7 +235,7 @@ header {
     animation-timing-function: ease;
    
 }
-#header-listamenu .elementomenuacordeon a{font-size: 100%;}
+#header-listamenu .elementomenuacordeon a{font-size: 150%;}
 .elementomenuacordeon li{min-height: 30px;}
 .elementomenuacordeon.show{
     animation: desplegarsubmenu 1s;
@@ -262,10 +262,10 @@ header {
     --dist: 180px
 }
 #header-listamenunosotros {
-    --dist: 60px
+    --dist: 72px
 }
 #header-listamenuequipos {
-    --dist: 90px
+    --dist: 108px
 }
 #header-listamenu41 {
     --dist: 90px
@@ -626,6 +626,7 @@ transform: 	rotate(45deg) translate(1px,-8px)
 #nosotros-fondo2 {
     background-image: url(img/pina.jpg);
     min-height: 50vh;
+    background-position: top;
 }
 #nosotros-fondo3 {
     background-image: url(img/campo1.jpg);
@@ -633,11 +634,11 @@ transform: 	rotate(45deg) translate(1px,-8px)
 }
 #nosotros-section3{min-height: auto;}
 #escuela-fondo1 {
-    background-image: url(img/campo1.jpg);
+    background-image: url(img/salto.jpeg);
     min-height: auto;
 }
 #equipos-fondo1 {
-    background-image: url(img/campo1.jpg);
+    background-image: url(img/palos.jpg);
     min-height: auto;
 }
 
@@ -770,6 +771,7 @@ img{width: 50%;}
 #equipos-section2 article{padding-top: 70px;padding-bottom:0 ;}
 #equipos-section1, #nosotros-section2{padding-bottom: 0;min-height: auto;}
 #equipos-article1{padding-bottom: 0;}
+#equipos-section2 img{max-height: 200px;width: auto;}
 @media  (min-width:900px),(orientation: landscape){
     .article p{padding: 0 70px;}
     #articlecontactanos{flex-direction: row;    justify-content: space-evenly;}
@@ -824,7 +826,7 @@ img{width: 50%;}
     .imgescuela{width: 70%;}
     #escuela-section2 h2{margin: 0;}
     #escuela-article1{padding-bottom: 0px;}
-    #escuela-section3 img ,#equipos-section2 img{width: 100%;height: auto;margin: 10px 0;}
+    #escuela-section3 img ,#equipos-section2 img{width: 100%;height: auto;margin: 10px 0;max-height:none;}
     #escuela-section3 .opcionn, #equipos-section2 .opcionn{flex-direction: row;justify-content: space-between;}
     #escuela-section3 .opcionn.opiz ,#equipos-section2 .opcionn.opiz{flex-direction: row-reverse;}
     #escuela-section3 p, #equipos-section2 p{padding: 0;}
