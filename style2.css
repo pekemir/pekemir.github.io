@@ -624,7 +624,7 @@ transform: 	rotate(45deg) translate(1px,-8px)
 }
 #nosotros-fondo1{background-image: url(img/familia.jpg);min-height: auto;}
 #nosotros-fondo2 {
-    background-image: url(img/piña.jpg);
+    background-image: url(img/pina.jpg);
     min-height: 50vh;
 }
 #nosotros-fondo3 {
@@ -768,7 +768,7 @@ img{width: 50%;}
 #contactanosredes ul{display: flex;flex-direction: row;font-size: 1.5em;justify-content: space-evenly;}
 #contactanos-fondo{min-height: auto; height: 20vh;background-image: url(img/sald.jpg);background-size: contain;}
 #equipos-section2 article{padding-top: 70px;padding-bottom:0 ;}
-#equipos-section1{padding-bottom: 0;min-height: auto;}
+#equipos-section1, #nosotros-section2{padding-bottom: 0;min-height: auto;}
 #equipos-article1{padding-bottom: 0;}
 @media  (min-width:900px),(orientation: landscape){
     .article p{padding: 0 70px;}
