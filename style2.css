@@ -162,6 +162,7 @@ header {
     height: 100%;
 }
 #header-listamenu {
+    
     padding: 0;
     max-width: 60%;
     text-align: end;
@@ -173,7 +174,7 @@ header {
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     max-height: 90vh;
-    overflow: scroll;
+    
 }
 #header-listamenu.despuesiniciofondomenu {
     animation: recogermenulista 1.8s;
@@ -810,6 +811,7 @@ img{width: 50%;}
     #footer-redes ul{float: right;}
     #footer-redes li{padding: 5px 10px;}
     #footer-redes a{color: white;}
+    #footer-iconosredes{display: none;}
     #header-tituloyescudo{padding-right: 200px;}
     #index-article1{padding-bottom: 0px;height: 100%;}
     #index-fondo3 {
